@@ -1,0 +1,7 @@
+#Sun Sep 10 19:50:28 ICT 2017
+base.0=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b285c049380f7fab3e297918729b230d2006b50b
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1917180b80bb0f29e3c3cb9942d83b6dbb1b7c68\\classes.dex
+base.1=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_1917180b80bb0f29e3c3cb9942d83b6dbb1b7c68
+file.0=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b285c049380f7fab3e297918729b230d2006b50b\\classes.dex

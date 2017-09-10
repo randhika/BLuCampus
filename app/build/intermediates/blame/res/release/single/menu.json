@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\menu\\main_menu.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\menu\\navigation_menu.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\menu\\icon.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\menu\\icon.xml"
+    }
+]

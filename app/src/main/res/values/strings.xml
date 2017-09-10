@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">BLuCampus</string>
+    <string name="title_activity_splash_screen">splash_screen</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_reset_password">ResetPassword</string>
+    <string name="title_activity_main_feed">MainFeed</string>
+    <string name="info">Info</string>
+    <string name="workshop">Workshop</string>
+    <string name="seminar">Seminar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="faculty">
+        <item>BAAK</item>
+        <item>FTI</item>
+        <item>FT</item>
+        <item>FISIP</item>
+        <item>FIKOM</item>
+        <item>FE</item>
+    </string-array>
+</resources>

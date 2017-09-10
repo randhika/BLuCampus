@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TRAVELOKA COLOR 1BA0E1 ; primary dark 303F9F;primary 3F51B5-->
+    <color name="colorPrimary">#00AEF0</color>
+    <color name="colorPrimaryDark">#00AEF0</color>
+    <color name="colorAccent">#FF4081</color>
+</resources>

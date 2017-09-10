@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/swipeRefreshHome"
+    tools:context=".Fragment.HomeFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewRegister"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Belum ada event yang anda ikuti saat ini.."
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#fff"
+        android:id="@+id/single_empty"
+        android:background="@color/colorPrimary"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:textStyle="bold"/>
+</android.support.v4.widget.SwipeRefreshLayout>
