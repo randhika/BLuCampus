@@ -18,6 +18,8 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Toast;
 
+import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
+import com.mikepenz.materialdrawer.model.ToggleDrawerItem;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
@@ -64,7 +66,7 @@ public class MainFeed extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         //getSupportActionBar().setLogo(R.drawable.splashfix);
-        getSupportActionBar().setTitle("Main Feed");
+        getSupportActionBar().setTitle("BLu Feed");
 
         mViewPager=(ViewPager)findViewById(R.id.vp_tabs);
         mViewPager.setAdapter(new MyAdapter(getSupportFragmentManager(), this));
@@ -182,11 +184,6 @@ public class MainFeed extends AppCompatActivity {
                         SharedPreferences.Editor editor = preferences.edit();
                         editor.clear();
                         editor.commit();
-//                        Intent i = getBaseContext().getPackageManager()
-//                                .getLaunchIntentForPackage( getBaseContext().getPackageName() );
-//                        i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                        startActivity(i);
-//                        finish();
 
                         Intent i=new Intent(MainFeed.this,splash_screen.class);
                         i.setAction(Intent.ACTION_MAIN);
@@ -197,8 +194,6 @@ public class MainFeed extends AppCompatActivity {
                         catch (java.lang.Exception ignore) {}
                         System.exit(0);
 
-//                        doRestart(MainFeed.this);
-                        //doRestart2();
                         Toast.makeText(getApplicationContext(),"Anda Berhasil Logout",Toast.LENGTH_LONG).show();
                     default:
                         Log.d("Test","Default");
@@ -210,11 +205,6 @@ public class MainFeed extends AppCompatActivity {
 
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        getMenuInflater().inflate(R.menu.main_menu,menu);
-//        return true;
-//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -248,53 +238,6 @@ public class MainFeed extends AppCompatActivity {
         }, 2000);
     }
 
-    public static void doRestart(Context c) {
-        try {
-            //check if the context is given
-            if (c != null) {
-                //fetch the packagemanager so we can get the default launch activity
-                // (you can replace this intent with any other activity if you want
-                PackageManager pm = c.getPackageManager();
-                //check if we got the PackageManager
-                if (pm != null) {
-                    //create the intent with the default start activity for your application
-                    Intent mStartActivity = pm.getLaunchIntentForPackage(
-                            c.getPackageName()
-                    );
-                    if (mStartActivity != null) {
-                        mStartActivity.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                        //create a pending intent so the application is restarted after System.exit(0) was called.
-                        // We use an AlarmManager to call this intent in 100ms
-                        int mPendingIntentId = 223344;
-                        PendingIntent mPendingIntent = PendingIntent
-                                .getActivity(c, mPendingIntentId, mStartActivity,
-                                        PendingIntent.FLAG_CANCEL_CURRENT);
-                        AlarmManager mgr = (AlarmManager) c.getSystemService(Context.ALARM_SERVICE);
-                        mgr.set(AlarmManager.RTC, System.currentTimeMillis(), mPendingIntent);
-                        //kill the application
-                        System.exit(0);
-                    } else {
-                        Log.e("TEST 1", "Was not able to restart application, mStartActivity null");
-                    }
-                } else {
-                    Log.e("TEST 2", "Was not able to restart application, PM null");
-                }
-            } else {
-                Log.e("TEST 3", "Was not able to restart application, Context null");
-            }
-        } catch (Exception ex) {
-            Log.e("TEST 4", "Was not able to restart application");
-        }
-    }
 
-    private void doRestart2(){
-        Intent mStartActivity = new Intent(MainFeed.this, splash_screen.class);
-        int mPendingIntentId = 123456;
-        PendingIntent mPendingIntent = PendingIntent.getActivity(MainFeed.this, mPendingIntentId, mStartActivity,
-                PendingIntent.FLAG_CANCEL_CURRENT);
-        AlarmManager mgr = (AlarmManager) MainFeed.this.getSystemService(Context.ALARM_SERVICE);
-        mgr.set(AlarmManager.RTC, System.currentTimeMillis() + 100, mPendingIntent);
-        System.exit(0);
-    }
 
 }
