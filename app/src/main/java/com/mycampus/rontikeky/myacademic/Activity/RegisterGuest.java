@@ -73,14 +73,6 @@ public class RegisterGuest extends AppCompatActivity {
         result = (TextView)findViewById(R.id.result);
         scrollView = (ScrollView)findViewById(R.id.scrollGuest);
 
-
-//        final Calendar calendar = Calendar.getInstance();
-//        year_x = calendar.get(Calendar.YEAR);
-//        month_x = calendar.get(Calendar.MONTH);
-//        day_x = calendar.get(Calendar.DAY_OF_MONTH);
-//
-//        showDialogOnClick();
-
         pDialog = new ProgressDialog(RegisterGuest.this);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
@@ -161,35 +153,6 @@ public class RegisterGuest extends AppCompatActivity {
             }
         });
     }
-
-//    public void showDialogOnClick(){
-//        txtDate = (EditText)findViewById(R.id.txtDate);
-//
-//        txtDate.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                showDialog(DIALOG_ID);
-//            }
-//        });
-//    }
-//
-//    @Override
-//    protected Dialog onCreateDialog(int id) {
-//        if (id == DIALOG_ID){
-//            return new DatePickerDialog(this, dpickerdialog, year_x,month_x,day_x);
-//        }
-//        return null;
-//    }
-//
-//    private DatePickerDialog.OnDateSetListener dpickerdialog = new DatePickerDialog.OnDateSetListener() {
-//        @Override
-//        public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-//            year_x = year;
-//            month_x = month+1;
-//            day_x = dayOfMonth;
-//            txtDate.setText(year_x+"-"+month_x+"-"+day_x);
-//        }
-//    };
 
     private boolean checkConnection(){
         ConnectivityManager cm = (ConnectivityManager)getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
