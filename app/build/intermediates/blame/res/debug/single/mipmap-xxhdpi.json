@@ -1,13 +1,5 @@
 [
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_bl.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_bl.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_campus.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_campus.png"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }

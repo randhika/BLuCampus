@@ -4,10 +4,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +19,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
@@ -35,13 +38,19 @@ public class MainFeedDrawer extends AppCompatActivity
     String faculty_key = "faculty";
     String fromDate_key = "fromDate";
     String toDate_key = "toDate";
+    String nama_key = "nama";
+    String email_key = "email";
     String token;
     String faculty;
     String fromDateS;
     String toDateS;
+    String nama_feed;
+    String email_feed;
+
+    TextView tvNameHeader, tvEmailHeader;
 
     Fragment fragment;
-
+    boolean doubleBackToExitPressedOnce = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,6 +61,14 @@ public class MainFeedDrawer extends AppCompatActivity
         getSupportActionBar().setTitle("BLu Feed");
 
 
+
+        sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
+        token = sharedPreferences.getString(token_key, "");
+        nama_feed = sharedPreferences.getString(nama_key,"");
+        email_feed = sharedPreferences.getString(email_key,"");
+
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -59,6 +76,15 @@ public class MainFeedDrawer extends AppCompatActivity
         toggle.syncState();
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        View view = navigationView.getHeaderView(0);
+        tvNameHeader = (TextView)view.findViewById(R.id.nameHeader);
+        tvEmailHeader = (TextView)view.findViewById(R.id.emailHeader);
+
+        Log.d("PROFILE : ",nama_feed + " : " + email_feed);
+
+        tvNameHeader.setText(nama_feed);
+        tvEmailHeader.setText(email_feed);
+
         navigationView.setNavigationItemSelectedListener(this);
 
         FragmentManager fragmentManager = getSupportFragmentManager();
@@ -68,12 +94,28 @@ public class MainFeedDrawer extends AppCompatActivity
 
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
+        if (doubleBackToExitPressedOnce) {
+            SharedPreferences preferences3 = getSharedPreferences(token_key, Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor3 = preferences3.edit();
+            editor3.remove(fromDate_key);
+            editor3.remove(toDate_key);
+            editor3.commit();
+            moveTaskToBack(true);
+            finish();
+
+            android.os.Process.killProcess(android.os.Process.myPid());
         }
+
+        this.doubleBackToExitPressedOnce = true;
+        Toast.makeText(this, "Please click BACK again to exit", Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
     }
 
 //    @Override

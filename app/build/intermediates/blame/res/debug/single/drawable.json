@@ -48,10 +48,6 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_launcher_bl.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\drawable\\ic_launcher_bl.png"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
@@ -194,10 +190,6 @@
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\iconmycampus.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\drawable\\iconmycampus.png"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",

@@ -228,10 +228,11 @@ public class transition extends AppCompatActivity {
                     Log.d("FAILURE 2 : ", t.toString());
                     if (!checkConnection()) {
                         Toast.makeText(getApplicationContext(),"Tidak ada koneksi Internet",Toast.LENGTH_SHORT).show();
-                        askLoadAgainEvent();
+                        //askLoadAgainEvent();
                     }
                 }catch (Exception e){
-                    Toast.makeText(getApplicationContext(),"Tidak ada koneksi Internet 2",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(),"Silahkan Buka Ulang Aplikasi.",Toast.LENGTH_SHORT).show();
+                    System.exit(0);
                 }
             }
         });
@@ -257,6 +258,7 @@ public class transition extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         // continue with delete
                         getProfile();
+                        getHottestEvent();
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
