@@ -86,5 +86,9 @@
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event_available_24dp.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_event_available_24dp.png"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png"
     }
 ]

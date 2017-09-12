@@ -52,6 +52,10 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_phone_iphone_24dp.png"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_whatshot_black_24dp.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_whatshot_black_24dp.png"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_event_available_24dp.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_event_available_24dp.png"
     },

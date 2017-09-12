@@ -21,6 +21,7 @@ import android.widget.Toast;
 
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragment;
+import com.mycampus.rontikeky.myacademic.Fragment.HomeFragmentV2;
 import com.mycampus.rontikeky.myacademic.Fragment.SeminarFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.WorkshopFragment;
 import com.mycampus.rontikeky.myacademic.R;
@@ -62,7 +63,7 @@ public class MainFeedDrawer extends AppCompatActivity
 
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
-                .replace(R.id.frame_container, new HomeFragment()).commit();
+                .replace(R.id.frame_container, new HomeFragmentV2()).commit();
     }
 
     @Override
@@ -151,6 +152,12 @@ public class MainFeedDrawer extends AppCompatActivity
             System.exit(0);
 
             Toast.makeText(getApplicationContext(),"Anda Berhasil Logout",Toast.LENGTH_LONG).show();
+        }else if (id == R.id.nav_profile){
+            Intent intent = new Intent(MainFeedDrawer.this,EditProfil.class);
+            startActivity(intent);
+        }else if (id == R.id.nav_registered_event){
+            Intent intent = new Intent(MainFeedDrawer.this,RegisteredEventActivity.class);
+            startActivity(intent);
         }
 
         if (fragment != null) {
@@ -170,6 +177,6 @@ public class MainFeedDrawer extends AppCompatActivity
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(faculty_key, faculty);
         editor.commit();
-        fragment = new HomeFragment();
+        fragment = new HomeFragmentV2();
     }
 }

@@ -24,6 +24,10 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_face_black_24dp.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\ic_face_black_24dp.png"
     },

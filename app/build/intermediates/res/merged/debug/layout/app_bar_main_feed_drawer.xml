@@ -17,9 +17,8 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            app:contentInsetStart="72dp"
-            app:navigationContentDescription="@string/abc_action_bar_up_description"
-            app:navigationIcon="@drawable/ic_share_black_24dp">
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
             <ImageView
                 android:id="@+id/toolbar_logo"
                 android:layout_width="wrap_content"
@@ -29,6 +28,7 @@
                 android:adjustViewBounds="true"
                 android:src="@drawable/mycampus"
                 />
+
         </android.support.v7.widget.Toolbar>
 
     </android.support.design.widget.AppBarLayout>

@@ -33,7 +33,6 @@ import com.mycampus.rontikeky.myacademic.Response.LoginResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
 import com.mycampus.rontikeky.myacademic.RestApi.CheckConnection;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGenerator;
-import com.google.gson.Gson;
 
 import retrofit2.Call;
 import retrofit2.Callback;

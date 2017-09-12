@@ -76,6 +76,10 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_share_black_24dp.png"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_whatshot_black_24dp.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_whatshot_black_24dp.png"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_check_24dp.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_check_24dp.png"
     },

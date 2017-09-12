@@ -200,6 +200,10 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_homev2.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\fragment_homev2.xml"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
@@ -282,6 +286,10 @@
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_feeds.xml",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\activity_feeds.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abs_layout_transition.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\abs_layout_transition.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",

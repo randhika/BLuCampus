@@ -131,8 +131,8 @@
                 />
 
             <EditText
-                android:drawableStart="@drawable/ic_home_black_24dp"
-                android:drawableLeft="@drawable/ic_home_black_24dp"
+                android:drawableStart="@drawable/ic_home_black_2_24dp"
+                android:drawableLeft="@drawable/ic_home_black_2_24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -200,7 +200,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_height="wrap_content"
-                android:background="@color/colorPrimaryDark"
+                android:background="@drawable/button"
                 android:text="Simpan"
                 android:drawableLeft="@drawable/ic_check_24dp"
                 android:pointerIcon="hand"

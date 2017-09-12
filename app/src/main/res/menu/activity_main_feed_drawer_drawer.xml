@@ -35,7 +35,7 @@
 
         <item
             android:id="@+id/nav_seminar"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_event_available_black_24dp"
             android:title="Seminar" />
 
         <item
@@ -48,6 +48,14 @@
     </group>
 
     <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_account_circle_24dp1"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_registered_event"
+            android:icon="@drawable/ic_receipt_24dp"
+            android:title="Event Terdaftar" />
         <item
         android:id="@+id/nav_about"
         android:icon="@drawable/ic_info_outline_black_24dp"
