@@ -1,8 +1,11 @@
 package com.mycampus.rontikeky.myacademic.Activity;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.FloatingActionButton;
@@ -19,6 +22,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,6 +52,8 @@ public class MainFeedDrawer extends AppCompatActivity
     String email_feed;
 
     TextView tvNameHeader, tvEmailHeader;
+    ImageView ivDisplayHeader;
+
 
     Fragment fragment;
     boolean doubleBackToExitPressedOnce = false;
@@ -79,6 +85,10 @@ public class MainFeedDrawer extends AppCompatActivity
         View view = navigationView.getHeaderView(0);
         tvNameHeader = (TextView)view.findViewById(R.id.nameHeader);
         tvEmailHeader = (TextView)view.findViewById(R.id.emailHeader);
+        ivDisplayHeader = (ImageView)view.findViewById(R.id.imageHeader);
+
+
+        navigationView.setCheckedItem(R.id.nav_info);
 
         Log.d("PROFILE : ",nama_feed + " : " + email_feed);
 
@@ -90,6 +100,37 @@ public class MainFeedDrawer extends AppCompatActivity
         FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.frame_container, new HomeFragmentV2()).commit();
+
+
+        ivDisplayHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent pickPhoto = new Intent(Intent.ACTION_PICK,
+                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
+                startActivityForResult(pickPhoto , 1);//one can be replaced with any action code
+            }
+        });
+
+    }
+
+
+    protected void onActivityResult(int requestCode, int resultCode, Intent imageReturnedIntent) {
+        super.onActivityResult(requestCode, resultCode, imageReturnedIntent);
+        switch(requestCode) {
+            case 0:
+                if(resultCode == RESULT_OK){
+                    Uri selectedImage = imageReturnedIntent.getData();
+                    ivDisplayHeader.setImageURI(selectedImage);
+                }
+
+                break;
+            case 1:
+                if(resultCode == RESULT_OK){
+                    Uri selectedImage = imageReturnedIntent.getData();
+                    ivDisplayHeader.setImageURI(selectedImage);
+                }
+                break;
+        }
     }
 
     @Override

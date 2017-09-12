@@ -13,7 +13,7 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageHeader"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:scaleType="centerCrop"

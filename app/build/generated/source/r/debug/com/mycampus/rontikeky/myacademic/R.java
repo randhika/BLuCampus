@@ -3862,6 +3862,7 @@ containing a value of this type.
         public static final int userprofilebg=0x7f020096;
     }
     public static final class id {
+        public static final int about=0x7f0e0149;
         public static final int account_header_drawer=0x7f0e00f7;
         public static final int account_header_drawer_background=0x7f0e00f6;
         public static final int account_header_drawer_current=0x7f0e00fb;
@@ -3872,6 +3873,7 @@ containing a value of this type.
         public static final int account_header_drawer_small_third=0x7f0e00fa;
         public static final int account_header_drawer_text_section=0x7f0e00fc;
         public static final int account_header_drawer_text_switcher=0x7f0e00fd;
+        public static final int accountuser=0x7f0e0146;
         public static final int action0=0x7f0e010f;
         public static final int action_bar=0x7f0e0071;
         public static final int action_bar_activity_content=0x7f0e0000;
@@ -3889,7 +3891,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f0e006e;
         public static final int action_mode_bar_stub=0x7f0e006d;
         public static final int action_mode_close_button=0x7f0e0050;
-        public static final int action_settings=0x7f0e0148;
+        public static final int action_settings=0x7f0e014d;
         public static final int action_text=0x7f0e010e;
         public static final int actions=0x7f0e011c;
         public static final int activity_chooser_view_content=0x7f0e0051;
@@ -3904,6 +3906,7 @@ containing a value of this type.
         public static final int basic=0x7f0e0018;
         public static final int beginning=0x7f0e0042;
         public static final int biaya=0x7f0e00c4;
+        public static final int blufeed=0x7f0e013d;
         public static final int bottom=0x7f0e0031;
         public static final int btnCancel=0x7f0e00c9;
         public static final int btnChange=0x7f0e0085;
@@ -3983,7 +3986,8 @@ containing a value of this type.
         public static final int id_workshop=0x7f0e0134;
         public static final int ifRoom=0x7f0e0046;
         public static final int image=0x7f0e0053;
-        public static final int imageView=0x7f0e0109;
+        public static final int imageHeader=0x7f0e0109;
+        public static final int imageView=0x7f0e0139;
         public static final int imageView2=0x7f0e0081;
         public static final int imageView4=0x7f0e00f4;
         public static final int imgGuest=0x7f0e0091;
@@ -4014,7 +4018,8 @@ containing a value of this type.
         public static final int line3=0x7f0e0120;
         public static final int listMode=0x7f0e001b;
         public static final int list_item=0x7f0e0055;
-        public static final int masked=0x7f0e013b;
+        public static final int logout=0x7f0e014b;
+        public static final int masked=0x7f0e013c;
         public static final int media_actions=0x7f0e0112;
         public static final int middle=0x7f0e0043;
         public static final int mini=0x7f0e0041;
@@ -4024,21 +4029,21 @@ containing a value of this type.
         public static final int nama=0x7f0e00ca;
         public static final int name=0x7f0e0102;
         public static final int nameHeader=0x7f0e010a;
-        public static final int nav_about=0x7f0e0146;
-        public static final int nav_account=0x7f0e0149;
-        public static final int nav_baak=0x7f0e013d;
-        public static final int nav_fe=0x7f0e0140;
-        public static final int nav_fikom=0x7f0e0141;
-        public static final int nav_ft=0x7f0e013f;
-        public static final int nav_fti=0x7f0e013e;
-        public static final int nav_info=0x7f0e013c;
-        public static final int nav_logout=0x7f0e0147;
-        public static final int nav_profile=0x7f0e0144;
-        public static final int nav_registered_event=0x7f0e0145;
-        public static final int nav_seminar=0x7f0e0142;
-        public static final int nav_setting=0x7f0e014a;
+        public static final int nav_about=0x7f0e014a;
+        public static final int nav_account=0x7f0e014e;
+        public static final int nav_baak=0x7f0e013f;
+        public static final int nav_fe=0x7f0e0142;
+        public static final int nav_fikom=0x7f0e0143;
+        public static final int nav_ft=0x7f0e0141;
+        public static final int nav_fti=0x7f0e0140;
+        public static final int nav_info=0x7f0e013e;
+        public static final int nav_logout=0x7f0e014c;
+        public static final int nav_profile=0x7f0e0147;
+        public static final int nav_registered_event=0x7f0e0148;
+        public static final int nav_seminar=0x7f0e0144;
+        public static final int nav_setting=0x7f0e014f;
         public static final int nav_view=0x7f0e00ac;
-        public static final int nav_workshop=0x7f0e0143;
+        public static final int nav_workshop=0x7f0e0145;
         public static final int navigation_header_container=0x7f0e00de;
         public static final int never=0x7f0e0047;
         public static final int none=0x7f0e001a;
@@ -4166,7 +4171,7 @@ containing a value of this type.
         public static final int transition_current_scene=0x7f0e000d;
         public static final int transition_layout_save=0x7f0e000e;
         public static final int transition_scene_layoutid_cache=0x7f0e000f;
-        public static final int tv_tab=0x7f0e0139;
+        public static final int tv_tab=0x7f0e013a;
         public static final int txtAlamat=0x7f0e0099;
         public static final int txtDate=0x7f0e009a;
         public static final int txtEmail=0x7f0e0096;
@@ -4186,7 +4191,7 @@ containing a value of this type.
         public static final int viewGuest=0x7f0e0092;
         public static final int viewStudent=0x7f0e0090;
         public static final int view_offset_helper=0x7f0e0011;
-        public static final int visible=0x7f0e013a;
+        public static final int visible=0x7f0e013b;
         public static final int vp_tabs=0x7f0e00d3;
         public static final int webview=0x7f0e0093;
         public static final int welcome=0x7f0e00cc;

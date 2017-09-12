@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context=".Activity.transition">
+
+
+    <android.support.v7.widget.CardView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        app:cardElevation="7dp"
+        app:cardCornerRadius="10dp"
+        app:cardPreventCornerOverlap="false">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:paddingTop="5dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/welcome"
+                    android:text="User"
+                    android:textAlignment="center"
+                    android:textSize="22dp"
+                    android:paddingTop="5dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:scaleType="center"
+                    android:id="@+id/imgHot"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Belum ada Event Terbaru"
+                    android:textColor="#000"
+                    android:textSize="24dp"
+                    android:typeface="serif"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:id="@+id/titleHot"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Coming soon!"
+                    android:padding="5dp"
+                    android:textColor="#000"
+                    android:textSize="14dp"
+                    android:typeface="serif"
+                    android:id="@+id/dateHot"/>
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:padding="10dp"
+                    android:paddingLeft="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button"
+                    android:text="Lewati"
+                    android:textColor="#fff"
+                    android:typeface="serif"
+                    android:onClick="btnLogin"
+                    android:nestedScrollingEnabled="false"
+                    android:id="@+id/skip"
+                    android:layout_marginBottom="30dp"
+                    />
+                <ProgressBar
+                    android:id="@+id/progressBar1"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

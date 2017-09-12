@@ -225,7 +225,7 @@ public class SeminarFragment extends Fragment{
                                 response.body().data.get(i).tempatAcara,response.body().data.get(i).biayaAcara,response.body().data.get(i).contactPersonAcara,
                                 response.body().data.get(i).jumlahPeserta,response.body().data.get(i).tanggalAcara,response.body().data.get(i).jamAcara,
                                 response.body().data.get(i).slug,response.body().data.get(i).fotoAcara,response.body().data.get(i).jumlahPesertaSisa,
-                                response.body().data.get(i).daftar);
+                                response.body().data.get(i).daftar,response.body().data.get(i).statusAcara,response.body().data.get(i).batasAkhirDaftar);
                         seminarList.add(seminarResponse);
                        i++;
                     }

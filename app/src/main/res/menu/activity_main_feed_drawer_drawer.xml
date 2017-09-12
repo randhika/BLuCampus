@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single" android:id="@+id/blufeed">
         <item
             android:id="@+id/nav_info"
             android:icon="@drawable/ic_home_black_24dp"
@@ -9,27 +9,27 @@
 
         <item
             android:id="@+id/nav_baak"
-            android:title="BAAK"
+            android:title="  BAAK"
             android:icon="@android:color/transparent"
             android:visible="false" />
         <item
             android:id="@+id/nav_fti"
-            android:title="FTI"
+            android:title="  FTI"
             android:icon="@android:color/transparent"
             android:visible="false"/>
         <item
             android:id="@+id/nav_ft"
-            android:title="FT"
+            android:title="  FT"
             android:icon="@android:color/transparent"
             android:visible="false" />
         <item
             android:id="@+id/nav_fe"
-            android:title="FE"
+            android:title="  FE"
             android:icon="@android:color/transparent"
             android:visible="false" />
         <item
             android:id="@+id/nav_fikom"
-            android:title="FIKOM"
+            android:title="  FIKOM"
             android:icon="@android:color/transparent"
             android:visible="false" />
 
@@ -47,7 +47,7 @@
 
     </group>
 
-    <group android:checkableBehavior="single">
+    <group android:checkableBehavior="single" android:id="@+id/accountuser">
         <item
             android:id="@+id/nav_profile"
             android:icon="@drawable/ic_account_circle_24dp1"
@@ -56,10 +56,17 @@
             android:id="@+id/nav_registered_event"
             android:icon="@drawable/ic_receipt_24dp"
             android:title="Event Terdaftar" />
+
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/about">
         <item
-        android:id="@+id/nav_about"
-        android:icon="@drawable/ic_info_outline_black_24dp"
-        android:title="About" />
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="About" />
+    </group>
+
+    <group android:checkableBehavior="single" android:id="@+id/logout">
         <item
             android:id="@+id/nav_logout"
             android:icon="@drawable/logout"

@@ -122,7 +122,7 @@ public class WorkshopFragment extends Fragment{
         adapter = new WorkshopAdapter(workshopList,getActivity().getApplicationContext());
         mRecyclerView.setAdapter(adapter);
 
-        loadWorkshop();
+
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
@@ -132,6 +132,7 @@ public class WorkshopFragment extends Fragment{
             }
         });
 
+        loadWorkshop();
 
         return rootView;
     }
@@ -218,7 +219,7 @@ public class WorkshopFragment extends Fragment{
                                 response.body().data.get(i).tempatAcara,response.body().data.get(i).biayaAcara,response.body().data.get(i).contactPersonAcara,
                                 response.body().data.get(i).jumlahPeserta,response.body().data.get(i).tanggalAcara,response.body().data.get(i).jamAcara,
                                 response.body().data.get(i).slug,response.body().data.get(i).fotoAcara,response.body().data.get(i).jumlahPesertaSisa,
-                                response.body().data.get(i).daftar);
+                                response.body().data.get(i).daftar,response.body().data.get(i).statusAcara,response.body().data.get(i).batasAkhirDaftar);
                         workshopList.add(workshopResponse);
 
                         Log.d("WORKSHOP SLUG " + i, String.valueOf(response.body().data.get(i).slug));

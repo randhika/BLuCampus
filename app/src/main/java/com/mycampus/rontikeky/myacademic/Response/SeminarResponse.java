@@ -92,8 +92,14 @@ public class SeminarResponse {
         @SerializedName("daftar")
         @Expose
         public String daftar;
+        @SerializedName("status_acara")
+        @Expose
+        public String statusAcara;
+        @SerializedName("batas_akhir_daftar")
+        @Expose
+        public String batasAkhirDaftar;
 
-        public Datum(Integer id, String judulAcara, String isiAcara, String tempatAcara, Integer biayaAcara, String contactPersonAcara, Integer jumlahPeserta, String tanggalAcara, String jamAcara, String slug, String fotoAcara, Integer jumlahPesertaSisa, String daftar) {
+        public Datum(Integer id, String judulAcara, String isiAcara, String tempatAcara, Integer biayaAcara, String contactPersonAcara, Integer jumlahPeserta, String tanggalAcara, String jamAcara, String slug, String fotoAcara, Integer jumlahPesertaSisa, String daftar,String statusAcara, String batasAkhirDaftar) {
             this.id = id;
             this.judulAcara = judulAcara;
             this.isiAcara = isiAcara;
@@ -105,11 +111,10 @@ public class SeminarResponse {
             this.jamAcara = jamAcara;
             this.slug = slug;
             this.fotoAcara = fotoAcara;
-            this.idUser = idUser;
-            this.idTag = idTag;
-            this.slugUrlApi = slugUrlApi;
             this.jumlahPesertaSisa = jumlahPesertaSisa;
             this.daftar = daftar;
+            this.batasAkhirDaftar = batasAkhirDaftar;
+            this.statusAcara = statusAcara;
         }
     }
 
