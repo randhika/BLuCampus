@@ -6,32 +6,23 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505186138875"
+    timestamp="1505190594005"
     token="6272308717383510503"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="3142" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="227" />
+        duration="0" />
     <task
         name="verifier"
-        duration="61" />
+        duration="0" />
 
-    <artifact
-        location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
     <artifact
         location="E:\NUMPANG\MyAcademic\app\build\outputs\apk\app-debug.apk"
         type="SPLIT_MAIN" />
@@ -79,17 +70,32 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1505186138875"
+        timestamp="1505188322222"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1505190172748"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
-        <artifact
-            location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1505190307381"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\NUMPANG\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1505190594005"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\NUMPANG\MyAcademic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />

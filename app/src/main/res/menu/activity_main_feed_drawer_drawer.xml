@@ -3,71 +3,60 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_posts"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Posts" />
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Info" />
 
         <item
-            android:id="@+id/nav_class"
-            android:title="Class"
-            android:visible="false"
-            android:menuCategory="secondary"/>
-        <item
-            android:id="@+id/nav_dept"
-            android:title="Department"
+            android:id="@+id/nav_baak"
+            android:title="BAAK"
+            android:icon="@android:color/transparent"
             android:visible="false" />
         <item
-            android:id="@+id/nav_batch"
-            android:title="Batch"
+            android:id="@+id/nav_fti"
+            android:title="FTI"
+            android:icon="@android:color/transparent"
+            android:visible="false"/>
+        <item
+            android:id="@+id/nav_ft"
+            android:title="FT"
+            android:icon="@android:color/transparent"
             android:visible="false" />
         <item
-            android:id="@+id/nav_campus"
-            android:title="Campus"
+            android:id="@+id/nav_fe"
+            android:title="FE"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_fikom"
+            android:title="FIKOM"
+            android:icon="@android:color/transparent"
             android:visible="false" />
 
-
         <item
-            android:id="@+id/nav_walls"
+            android:id="@+id/nav_seminar"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Walls" />
+            android:title="Seminar" />
 
         <item
-            android:id="@+id/nav_wall_news"
-            android:title="News"
-            android:visible="false" />
-        <item
-            android:id="@+id/nav_wall_events"
-            android:title="Events"
-            android:visible="false" />
-        <item
-            android:id="@+id/nav_wall_fun"
-            android:title="Fun"
-            android:visible="false" />
-        <item
-            android:id="@+id/nav_wall_hadith"
-            android:title="Hadith"
-            android:visible="false" />
-        <item
-            android:id="@+id/nav_wall_Poetry"
-            android:title="Poetry"
-            android:visible="false" />
+            android:id="@+id/nav_workshop"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Workshop" />
+
 
 
     </group>
 
-    <item
-        android:id="@+id/nav_com"
-        android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_about"
+        android:icon="@drawable/ic_info_outline_black_24dp"
+        android:title="About" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="Logout" />
+    </group>
+
 
 </menu>

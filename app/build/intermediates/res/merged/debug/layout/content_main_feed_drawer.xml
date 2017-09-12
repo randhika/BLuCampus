@@ -8,4 +8,10 @@
     tools:context="com.mycampus.rontikeky.myacademic.Activity.MainFeedDrawer"
     tools:showIn="@layout/app_bar_main_feed_drawer">
 
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
 </android.support.constraint.ConstraintLayout>

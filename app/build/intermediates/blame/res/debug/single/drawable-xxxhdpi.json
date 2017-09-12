@@ -12,12 +12,12 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_outline_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_info_outline_black_24dp.png"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\student.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\drawable-xxxhdpi\\student.png"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_info_outline_black_24dp.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_info_outline_black_24dp.png"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_search_black_24dp.png",
