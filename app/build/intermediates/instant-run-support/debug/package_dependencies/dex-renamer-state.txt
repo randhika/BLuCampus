@@ -1,4 +1,4 @@
-#Mon Sep 11 15:35:37 ICT 2017
+#Mon Sep 11 18:32:12 ICT 2017
 file.9=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gifdecoder-4.0.0_0eaeee5ce8d0716ca30c712ca0305480cc2affbc\\classes.dex
 base.10=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-26.0.0-alpha1_6b7bdd64075f27ac794055998accebfc57200291
 file.8=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_90bac6d714f3ad9642f38a8a5c40e511a7499b33\\classes.dex

@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_feed.xml",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\activity_main_feed.xml"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_feed.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\activity_main_feed.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -128,6 +128,10 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\activity_workshop_detial.xml"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main_feed_drawer.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\content_main_feed_drawer.xml"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
@@ -166,6 +170,10 @@
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_feed_drawer.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\activity_main_feed_drawer.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_header.xml",
@@ -256,6 +264,10 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_header_main_feed_drawer.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\nav_header_main_feed_drawer.xml"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
@@ -338,6 +350,10 @@
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_item_section.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main_feed_drawer.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\layout\\app_bar_main_feed_drawer.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",

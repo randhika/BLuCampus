@@ -86,7 +86,11 @@
             android:name=".Activity.ChooseFaculty"
             android:screenOrientation="portrait" />
         <activity android:name=".Activity.FullScreenImageActivity" />
-        <activity android:name=".Activity.AboutActivity"></activity>
+        <activity android:name=".Activity.AboutActivity" />
+        <activity
+            android:name=".Activity.MainFeedDrawer"
+            android:label="@string/title_activity_main_feed_drawer"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -19,29 +19,29 @@
 
     <!-- Base application theme. -->
     <!--<style name="AppTheme" parent="AlertDialog.AppCompat.Light">-->
-        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
-        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
-        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-        <!--<item name="colorAccent">@color/colorAccent</item>-->
-        <!--<item name="windowActionBar">true</item>-->
-        <!--<item name="windowNoTitle">true</item>-->
-        <!--&lt;!&ndash;<item name="colorPrimary">@color/colorPrimary</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/colorPrimaryDark</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="colorAccent">@color/colorAccent</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="android:icon">@drawable/logo</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="icon">@drawable/logo</item>&ndash;&gt;-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--<item name="windowActionBar">true</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--&lt;!&ndash;<item name="colorPrimary">@color/colorPrimary</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="colorPrimaryDark">@color/colorPrimaryDark</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="colorAccent">@color/colorAccent</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="android:icon">@drawable/logo</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="icon">@drawable/logo</item>&ndash;&gt;-->
     <!--</style>-->
 
     <!--<style name="AppTheme.NoActionBar">-->
-        <!--<item name="windowActionBar">true</item>-->
-        <!--<item name="windowNoTitle">true</item>-->
-        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
-        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
-        <!--<item name="colorAccent">@color/colorAccent</item>-->
-        <!--&lt;!&ndash;<item name="windowActionBar">true</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="windowNoTitle">true</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="android:windowDrawsSystemBarBackgrounds">true</item>&ndash;&gt;-->
-        <!--&lt;!&ndash;<item name="android:statusBarColor">@android:color/transparent</item>&ndash;&gt;-->
+    <!--<item name="windowActionBar">true</item>-->
+    <!--<item name="windowNoTitle">true</item>-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--&lt;!&ndash;<item name="windowActionBar">true</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="windowNoTitle">true</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="android:windowDrawsSystemBarBackgrounds">true</item>&ndash;&gt;-->
+    <!--&lt;!&ndash;<item name="android:statusBarColor">@android:color/transparent</item>&ndash;&gt;-->
     <!--</style>-->
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />

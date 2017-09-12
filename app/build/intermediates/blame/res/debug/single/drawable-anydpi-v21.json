@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml",

@@ -89,7 +89,7 @@ public class transition extends AppCompatActivity {
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(transition.this,MainFeed.class);
+                Intent i = new Intent(transition.this,MainFeedDrawer.class);
                 startActivity(i);
                 finish();
             }

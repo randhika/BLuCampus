@@ -12,12 +12,12 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_https_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png",
