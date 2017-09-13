@@ -213,8 +213,9 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
             String subjam = jam.substring(6,11);
 
             String tgl = model.tanggalAcara;
+            String tglBatas = model.batasAkhirDaftar.substring(0,10);
 
-            SimpleDateFormat tm = new SimpleDateFormat("kk:mm");
+            SimpleDateFormat tm = new SimpleDateFormat("HH:mm");
             SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
             SimpleDateFormat vd = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -222,12 +223,42 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
             String formattedDate = df.format(c.getTime());
             String formmatedDate2 = vd.format(df.parse(tgl));
 
-            Log.d("DATE",formmatedDate2);
+            Log.d("DATE",tglBatas);
 
             Date jamFormmated = tm.parse(subjam);
             Date timeFormated = tm.parse(formattedTime);
+
             Date tanggalFormatted = df.parse(tgl);
+            Date tanggalFormattedBatas = df.parse(tglBatas);
             Date dateFormmated = df.parse(formattedDate);
+
+            //BATAS JAM
+            String currentTime = new SimpleDateFormat("HH:mm").format(new Date());
+            String timeToCompare = model.batasAkhirDaftar.substring(10,16);
+            Log.d("BATAS",timeToCompare);
+            //boolean x = currentTime.equals(timeToCompare);
+
+            Date jamFor = tm.parse(currentTime);
+            Date jamFor2 = tm.parse(timeToCompare);
+
+
+
+            if (dateFormmated.compareTo(tanggalFormattedBatas) > 0){
+                Log.d("WAKTU 1 : ","TANGGAL EVENT TELAH BERAKHIR");
+                viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
+                viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
+                viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
+            }else{
+                if (jamFor.compareTo(jamFor2) > 0){
+                    Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                    viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
+                    viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
+                    viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
+                }else{
+                    Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                }
+                Log.d("WAKTU 2 : ","TANGGAL EVENT BELUM BERAKHIR");
+            }
 
             if (dateFormmated.compareTo(tanggalFormatted) > 0){
                 Log.d("WAKTU 4 : ","TANGGAL EVENT TELAH BERAKHIR");
@@ -236,9 +267,7 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
                 viewHolder.getTerdaftar_text().setText("Sudah Berakhir");
                 viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
                 viewHolder.getCardView().setVisibility(View.GONE);
-                //viewHolder.getCardView().setVisibility(View.GONE);
-//                list.remove(position);
-//                notifyItemRemoved(position);
+
             }else{
 //                if (timeFormated.compareTo(jamFormmated) > 0){
 //                    Log.d("WAKTU 4 : ","WAKTU EVENT TELAH BERAKHIR");

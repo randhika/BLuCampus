@@ -194,7 +194,7 @@ public class WorkshopDetail extends AppCompatActivity {
             public void onResponse(Call<DetailSeminarResponse> call, Response<DetailSeminarResponse> response) {
                 try {
 
-                    int kursi_tersisa = Integer.parseInt(response.body().getJumlahPeserta()) - response.body().getJumlahPesertaSisa();
+                    int kursi_tersisa = response.body().getJumlahPeserta() - response.body().getJumlahPesertaSisa();
                     if (response.body().getJumlahPesertaSisa() == 0){
                         available.setText("Sudah Penuh");
                         available.setTextColor(Color.parseColor("#FF0000"));
@@ -203,7 +203,7 @@ public class WorkshopDetail extends AppCompatActivity {
                         available.setTextColor(Color.parseColor("#000000"));
                     }
 
-                    String s = String.format("%,d", Integer.parseInt(response.body().getBiayaAcara()));
+                    String s = String.format("%,d", response.body().getBiayaAcara());
 
                     String udata= response.body().getContactPersonAcara();
                     SpannableString content = new SpannableString(udata);
@@ -257,10 +257,11 @@ public class WorkshopDetail extends AppCompatActivity {
 
                     String jam = response.body().getJamAcara();
                     String subjam = jam.substring(6,11);
+                    String tglBatas = response.body().batasAkhirDaftar.substring(0,10);
 
                     String tgl = response.body().tanggalAcara;
 
-                    SimpleDateFormat tm = new SimpleDateFormat("kk:mm");
+                    SimpleDateFormat tm = new SimpleDateFormat("HH:mm");
                     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
                     SimpleDateFormat vd = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -268,12 +269,44 @@ public class WorkshopDetail extends AppCompatActivity {
                     String formattedDate = df.format(c.getTime());
                     String formmatedDate2 = vd.format(df.parse(tgl));
 
-                    Log.d("DATE",formmatedDate2);
+                    Log.d("DATE",subjam);
 
                     Date jamFormmated = tm.parse(subjam);
-                    Date timeFormated = tm.parse(formattedTime);
+
                     Date tanggalFormatted = df.parse(tgl);
+                    Date tanggalFormattedBatas = df.parse(tglBatas);
                     Date dateFormmated = df.parse(formattedDate);
+
+                    //BATAS JAM
+                    String currentTime = new SimpleDateFormat("HH:mm").format(new Date());
+                    String timeToCompare = response.body().batasAkhirDaftar.substring(10,16);
+                    Log.d("BATAS",timeToCompare);
+
+                    Date jamFor = tm.parse(currentTime);
+                    Date jamFor2 = tm.parse(timeToCompare);
+
+                    if (dateFormmated.compareTo(tanggalFormattedBatas) > 0){
+                        Log.d("WAKTU AU : ","TANGGAL EVENT TELAH BERAKHIR");
+                        btnDaftar.setText("Pendaftaran sudah ditutup..");
+                        btnCancel.setText("Pendaftaran sudah ditutup..");
+                        btnDaftar.setEnabled(false);
+                        btnCancel.setEnabled(false);
+                        btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                        btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                    }else{
+                        if (jamFor.compareTo(jamFor2) > 0){
+                            Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                            btnDaftar.setText("Pendaftaran sudah ditutup..");
+                            btnCancel.setText("Pendaftaran sudah ditutup..");
+                            btnDaftar.setEnabled(false);
+                            btnCancel.setEnabled(false);
+                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                        }else{
+                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        }
+                        Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
+                    }
 
                     if (dateFormmated.compareTo(tanggalFormatted) > 0){
                         Log.d("WAKTU 4 : ","TANGGAL EVENT TELAH BERAKHIR");
@@ -283,6 +316,19 @@ public class WorkshopDetail extends AppCompatActivity {
                         btnCancel.setEnabled(false);
                         btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
                         btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                    }else{
+                        if (jamFor.compareTo(jamFormmated) > 0){
+                            Log.d("WAKTU x : ","Event Telah Berakhir..");
+                            btnDaftar.setText("Pendaftaran sudah ditutup..");
+                            btnCancel.setText("Pendaftaran sudah ditutup..");
+                            btnDaftar.setEnabled(false);
+                            btnCancel.setEnabled(false);
+                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                        }else{
+                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        }
+                        Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
                     }
 
                     tanggalValid.setText(formmatedDate2);

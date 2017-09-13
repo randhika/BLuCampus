@@ -23,7 +23,7 @@ public class WorkshopResponse {
     public Integer lastPage;
     @SerializedName("next_page_url")
     @Expose
-    public String nextPageUrl;
+    public Object nextPageUrl;
     @SerializedName("path")
     @Expose
     public String path;
@@ -77,27 +77,24 @@ public class WorkshopResponse {
         @SerializedName("foto_acara")
         @Expose
         public String fotoAcara;
-        @SerializedName("id_user")
-        @Expose
-        public String idUser;
-        @SerializedName("id_tag")
-        @Expose
-        public String idTag;
-        @SerializedName("slug_url_api")
-        @Expose
-        public String slugUrlApi;
-        @SerializedName("jumlah_peserta_sisa")
-        @Expose
-        public Integer jumlahPesertaSisa;
-        @SerializedName("daftar")
-        @Expose
-        public String daftar;
         @SerializedName("status_acara")
         @Expose
         public String statusAcara;
         @SerializedName("batas_akhir_daftar")
         @Expose
         public String batasAkhirDaftar;
+        @SerializedName("id_user")
+        @Expose
+        public Integer idUser;
+        @SerializedName("id_tag")
+        @Expose
+        public Integer idTag;
+        @SerializedName("jumlah_peserta_sisa")
+        @Expose
+        public Integer jumlahPesertaSisa;
+        @SerializedName("daftar")
+        @Expose
+        public String daftar;
 
         public Datum(Integer id, String judulAcara, String isiAcara, String tempatAcara, Integer biayaAcara, String contactPersonAcara, Integer jumlahPeserta, String tanggalAcara, String jamAcara, String slug, String fotoAcara, Integer jumlahPesertaSisa, String daftar,String statusAcara, String batasAkhirDaftar) {
             this.id = id;
@@ -134,7 +131,7 @@ public class WorkshopResponse {
         return lastPage;
     }
 
-    public String getNextPageUrl() {
+    public Object getNextPageUrl() {
         return nextPageUrl;
     }
 

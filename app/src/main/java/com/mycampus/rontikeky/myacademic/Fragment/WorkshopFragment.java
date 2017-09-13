@@ -176,6 +176,7 @@ public class WorkshopFragment extends Fragment{
 
     private void loadWorkshop(){
         workshopList.clear();
+        Log.d("Test",token);
         AcademicClient client1= ServiceGeneratorAuth.createService(AcademicClient.class, token);
         //Fetch list of Workshop
         Call<WorkshopResponse> call1 = client1.getWorkshop();
@@ -187,33 +188,7 @@ public class WorkshopFragment extends Fragment{
                     pDialog.dismiss();
                     Log.d("WORKSHOP JUDUL", response.body().data.get(0).judulAcara);
                     int i = 0;
-                    judul = new String[response.body().data.size()];
-                    isi = new String[response.body().data.size()];
-                    id = new int[response.body().data.size()];
-                    image = new String[response.body().data.size()];
-                    tanggal = new String[response.body().data.size()];
-                    jam = new String[response.body().data.size()];
-                    slug = new String[response.body().data.size()];
-                    tempat = new String[response.body().data.size()];
-                    contact_person = new String[response.body().data.size()];
-                    daftar = new String[response.body().data.size()];
-                    jumlah_peserta = new int[response.body().data.size()];
-                    jumlah_perserta_tersisa = new int[response.body().data.size()];
-                    biaya_acara = new int[response.body().data.size()];
                     while (i < response.body().data.size()) {
-                        id[i] = response.body().data.get(i).id;
-                        judul[i] = response.body().data.get(i).judulAcara;
-                        isi[i] = response.body().data.get(i).isiAcara;
-                        image[i] = response.body().data.get(i).fotoAcara;
-                        slug[i] = response.body().data.get(i).slug;
-                        tanggal[i] = response.body().data.get(i).tanggalAcara;
-                        jam[i] = response.body().data.get(i).jamAcara;
-                        tempat[i] = response.body().data.get(i).tempatAcara;
-                        contact_person[i] = response.body().data.get(i).contactPersonAcara;
-                        daftar[i] = response.body().data.get(i).daftar;
-                        jumlah_peserta[i] = response.body().data.get(i).jumlahPeserta;
-                        jumlah_perserta_tersisa[i] = response.body().data.get(i).jumlahPesertaSisa;
-                        biaya_acara[i] = response.body().data.get(i).biayaAcara;
 
                         WorkshopResponse.Datum workshopResponse = new WorkshopResponse.Datum(response.body().data.get(i).id,response.body().data.get(i).judulAcara,response.body().data.get(i).isiAcara,
                                 response.body().data.get(i).tempatAcara,response.body().data.get(i).biayaAcara,response.body().data.get(i).contactPersonAcara,

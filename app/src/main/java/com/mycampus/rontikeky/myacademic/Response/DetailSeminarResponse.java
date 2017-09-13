@@ -21,13 +21,13 @@ public class DetailSeminarResponse {
     public String tempatAcara;
     @SerializedName("biaya_acara")
     @Expose
-    public String biayaAcara;
+    public Integer biayaAcara;
     @SerializedName("contact_person_acara")
     @Expose
     public String contactPersonAcara;
     @SerializedName("jumlah_peserta")
     @Expose
-    public String jumlahPeserta;
+    public Integer jumlahPeserta;
     @SerializedName("tanggal_acara")
     @Expose
     public String tanggalAcara;
@@ -40,18 +40,25 @@ public class DetailSeminarResponse {
     @SerializedName("foto_acara")
     @Expose
     public String fotoAcara;
+    @SerializedName("status_acara")
+    @Expose
+    public String statusAcara;
+    @SerializedName("batas_akhir_daftar")
+    @Expose
+    public String batasAkhirDaftar;
     @SerializedName("id_user")
     @Expose
-    public String idUser;
+    public Integer idUser;
     @SerializedName("id_tag")
     @Expose
-    public String idTag;
+    public Integer idTag;
     @SerializedName("jumlah_peserta_sisa")
     @Expose
     public Integer jumlahPesertaSisa;
     @SerializedName("daftar")
     @Expose
     public String daftar;
+
 
     public Integer getId() {
         return id;
@@ -63,6 +70,22 @@ public class DetailSeminarResponse {
 
     public String getIsiAcara() {
         return isiAcara;
+    }
+
+    public String getTempatAcara() {
+        return tempatAcara;
+    }
+
+    public Integer getBiayaAcara() {
+        return biayaAcara;
+    }
+
+    public String getContactPersonAcara() {
+        return contactPersonAcara;
+    }
+
+    public Integer getJumlahPeserta() {
+        return jumlahPeserta;
     }
 
     public String getTanggalAcara() {
@@ -81,28 +104,20 @@ public class DetailSeminarResponse {
         return fotoAcara;
     }
 
-    public String getIdUser() {
+    public String getStatusAcara() {
+        return statusAcara;
+    }
+
+    public String getBatasAkhirDaftar() {
+        return batasAkhirDaftar;
+    }
+
+    public Integer getIdUser() {
         return idUser;
     }
 
-    public String getIdTag() {
+    public Integer getIdTag() {
         return idTag;
-    }
-
-    public String getTempatAcara() {
-        return tempatAcara;
-    }
-
-    public String getBiayaAcara() {
-        return biayaAcara;
-    }
-
-    public String getContactPersonAcara() {
-        return contactPersonAcara;
-    }
-
-    public String getJumlahPeserta() {
-        return jumlahPeserta;
     }
 
     public Integer getJumlahPesertaSisa() {

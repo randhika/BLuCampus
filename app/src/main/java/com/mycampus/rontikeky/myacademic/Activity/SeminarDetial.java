@@ -24,12 +24,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.gson.Gson;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.DaftarAcaraResponse;
 import com.mycampus.rontikeky.myacademic.Response.DetailSeminarResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth;
-import com.google.gson.Gson;
 
 import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
@@ -126,7 +126,7 @@ public class SeminarDetial extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(),"Event telah ditambahkan ke kalendar anda",Toast.LENGTH_SHORT).show();
                                 showDialog();
                             }
-                            Log.d("TRY", new Gson().toJson(response));
+
                         } catch (Exception e) {
                             Log.d("TRY 2", e.toString());
                         }
@@ -163,7 +163,7 @@ public class SeminarDetial extends AppCompatActivity {
                                 btnDaftar.setVisibility(View.VISIBLE);
                                 showDialogCancel();
                             }
-                            Log.d("TRY", new Gson().toJson(response));
+
                         } catch (Exception e) {
                             Log.d("TRY 2", e.toString());
                         }
@@ -183,16 +183,6 @@ public class SeminarDetial extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         finish();
         return true;
-    }
-
-    private void createAlarm(String message, int hour, int minutes){
-        Intent intent = new Intent(AlarmClock.ACTION_SET_ALARM)
-                .putExtra(AlarmClock.EXTRA_MESSAGE,message)
-                .putExtra(AlarmClock.EXTRA_HOUR,hour)
-                .putExtra(AlarmClock.EXTRA_MINUTES,minutes);
-        if (intent.resolveActivity(getPackageManager()) != null){
-            startActivity(intent);
-        }
     }
 
 
@@ -260,6 +250,7 @@ public class SeminarDetial extends AppCompatActivity {
     }
 
     private void loadSeminar(){
+
         final AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
 
         Call<DetailSeminarResponse> call = client.getSemanarDetail(extrasSlug);
@@ -267,9 +258,12 @@ public class SeminarDetial extends AppCompatActivity {
         call.enqueue(new Callback<DetailSeminarResponse>() {
             @Override
             public void onResponse(Call<DetailSeminarResponse> call, Response<DetailSeminarResponse> response) {
+
                 try {
 
-                    int kursi_tersisa = Integer.parseInt(response.body().getJumlahPeserta()) - response.body().getJumlahPesertaSisa();
+                    Log.d("JUMLAH",new Gson().toJson(response));
+
+                    int kursi_tersisa = response.body().getJumlahPeserta() - response.body().getJumlahPesertaSisa();
                     if (response.body().getJumlahPesertaSisa() == 0){
                         available.setText("Sudah Penuh");
                         available.setTextColor(Color.parseColor("#FF0000"));
@@ -278,14 +272,13 @@ public class SeminarDetial extends AppCompatActivity {
                         available.setTextColor(Color.parseColor("#000000"));
                     }
 
-                    String s = String.format("%,d", Integer.parseInt(response.body().getBiayaAcara()));
+                    String s = String.format("%,d", response.body().getBiayaAcara());
 
                     String udata= response.body().getContactPersonAcara();
                     SpannableString content = new SpannableString(udata);
                     content.setSpan(new UnderlineSpan(), 0, udata.length(), 0);//where first 0 shows the starting and udata.length() shows the ending span.if you want to span only part of it than you can change these values like 5,8 then it will underline part of it.
                     contact_person.setText(content);
 
-                    Log.d("RESPONSE : ", new Gson().toJson(response));
                     Glide.with(getApplicationContext()).load(response.body().getFotoAcara()).into(imgSeminar);
                     judul.setText(response.body().getJudulAcara());
                     isi.setText(response.body().getIsiAcara());
@@ -335,10 +328,11 @@ public class SeminarDetial extends AppCompatActivity {
 
                     String jam = response.body().getJamAcara();
                     String subjam = jam.substring(6,11);
+                    String tglBatas = response.body().batasAkhirDaftar.substring(0,10);
 
                     String tgl = response.body().tanggalAcara;
 
-                    SimpleDateFormat tm = new SimpleDateFormat("kk:mm");
+                    SimpleDateFormat tm = new SimpleDateFormat("HH:mm");
                     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd");
                     SimpleDateFormat vd = new SimpleDateFormat("dd-MM-yyyy");
 
@@ -346,12 +340,46 @@ public class SeminarDetial extends AppCompatActivity {
                     String formattedDate = df.format(c.getTime());
                     String formmatedDate2 = vd.format(df.parse(tgl));
 
-                    Log.d("DATE",formmatedDate2);
+                    Log.d("DATE",subjam);
 
                     Date jamFormmated = tm.parse(subjam);
-                    Date timeFormated = tm.parse(formattedTime);
+
                     Date tanggalFormatted = df.parse(tgl);
+                    Date tanggalFormattedBatas = df.parse(tglBatas);
                     Date dateFormmated = df.parse(formattedDate);
+
+                    //BATAS JAM
+                    String currentTime = new SimpleDateFormat("HH:mm").format(new Date());
+                    String timeToCompare = response.body().batasAkhirDaftar.substring(10,16);
+                    Log.d("BATAS",timeToCompare);
+
+                    Date jamFor = tm.parse(currentTime);
+                    Date jamFor2 = tm.parse(timeToCompare);
+
+                    if (dateFormmated.compareTo(tanggalFormattedBatas) > 0){
+                        Log.d("WAKTU AU : ","TANGGAL EVENT TELAH BERAKHIR");
+                        btnDaftar.setText("Pendaftaran sudah ditutup..");
+                        btnCancel.setText("Pendaftaran sudah ditutup..");
+                        btnDaftar.setEnabled(false);
+                        btnCancel.setEnabled(false);
+                        btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                        btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                    }else{
+                        if (jamFor.compareTo(jamFor2) > 0){
+                            Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                            btnDaftar.setText("Pendaftaran sudah ditutup..");
+                            btnCancel.setText("Pendaftaran sudah ditutup..");
+                            btnDaftar.setEnabled(false);
+                            btnCancel.setEnabled(false);
+                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                        }else{
+                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        }
+                        Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
+                    }
+
+
 
                     if (dateFormmated.compareTo(tanggalFormatted) > 0){
                         Log.d("WAKTU 4 : ","TANGGAL EVENT TELAH BERAKHIR");
@@ -361,6 +389,19 @@ public class SeminarDetial extends AppCompatActivity {
                         btnCancel.setEnabled(false);
                         btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
                         btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                    }else{
+                        if (jamFor.compareTo(jamFormmated) > 0){
+                            Log.d("WAKTU x : ","Event Telah Berakhir..");
+                            btnDaftar.setText("Pendaftaran sudah ditutup..");
+                            btnCancel.setText("Pendaftaran sudah ditutup..");
+                            btnDaftar.setEnabled(false);
+                            btnCancel.setEnabled(false);
+                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                        }else{
+                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        }
+                        Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
                     }
 
                     tanggal_valid.setText(formmatedDate2);
