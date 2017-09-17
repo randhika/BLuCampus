@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "365788183352",
+    "firebase_url": "https://blucampus-8677a.firebaseio.com",
+    "project_id": "blucampus-8677a",
+    "storage_bucket": "blucampus-8677a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365788183352:android:0664ab7a38162bc5",
+        "android_client_info": {
+          "package_name": "com.mycampus.rontikeky.myacademic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "365788183352-v34ma4uem0i16nbq87oroimc01ho7k96.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycampus.rontikeky.myacademic",
+            "certificate_hash": "72207235c398a563ae35aa74af5211ed5709e6f8"
+          }
+        },
+        {
+          "client_id": "365788183352-75r32em0b76utccbjlrd86l05f7qt9tn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX8S0jKImCueudvKMAmxeCTvKKc5vzeNk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "365788183352-75r32em0b76utccbjlrd86l05f7qt9tn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
