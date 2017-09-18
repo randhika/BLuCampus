@@ -4,14 +4,6 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\enter.xml",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\animator\\exit.xml"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\exit.xml"
     }

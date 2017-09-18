@@ -4,36 +4,24 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_https_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_https_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_https_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_https_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_face_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\drawable-xhdpi\\ic_face_black_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_info_outline_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_info_outline_black_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_share_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp.png",
@@ -52,112 +40,24 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_receipt_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_settings_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_place_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_place_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear_all_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_all_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_settings_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_back_black_24dp_white.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_2_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_https_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_https_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_person_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_receipt_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_receipt_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_search_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_check_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_check_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_place_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_place_24dp.png"
-    },
-    {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_email_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_settings_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_info_outline_black_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_info_outline_black_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_black_24dp_white.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_check_24dp.png",
@@ -168,6 +68,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_search_black_24dp.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_home_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_home_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear_all_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_all_24dp.png"
     },
@@ -176,19 +80,19 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_email_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_person_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_phone_iphone_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_person_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_person_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_share_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_share_black_24dp.png"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event_available_24dp.png",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_event_available_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_clear_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_clear_24dp.png"
     }
 ]

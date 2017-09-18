@@ -1,4 +1,4 @@
-#Sun Sep 17 22:41:34 ICT 2017
-base.0=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+#Mon Sep 18 19:29:23 ICT 2017
+base.0=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
-file.0=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
+file.0=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex

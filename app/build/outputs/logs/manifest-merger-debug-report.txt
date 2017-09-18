@@ -266,7 +266,7 @@ MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users
 MERGED from [com.mikepenz.iconics:library:1.0.0] C:\Users\Anggit\.android\build-cache\9f7cd46bb05919a06b711cbba3ab9d0f4656991d\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.makeramen:roundedimageview:2.2.1] C:\Users\Anggit\.android\build-cache\a796643acdb9829c561251389705bc0d4f4857d0\output\AndroidManifest.xml:7:5-43
 MERGED from [com.codesgood:justifiedtextview:1.0.2] C:\Users\Anggit\.android\build-cache\b07b229543eed71acb8a58b1278322b4e6703966\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Anggit\.android\build-cache\d9408610742b72ce5bddea52b7fb54bba447292e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.0] C:\Users\Anggit\.android\build-cache\f3a1c12f480c0f0f1f7c777d40735479a9920a6a\output\AndroidManifest.xml:18:5-42
 MERGED from [jp.wasabeef:recyclerview-animators:1.2.2] C:\Users\Anggit\.android\build-cache\fd90ddec42acf0942273118db5edbedbf93eb7dc\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anggit\.android\build-cache\5c95462ca3bb8f5845e30a85531d6d7e02d3f7a1\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Anggit\.android\build-cache\eee435ed9172530a3a712d16aecae3cbb746b637\output\AndroidManifest.xml:7:5-9:41
