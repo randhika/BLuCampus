@@ -261,8 +261,6 @@ public class SeminarDetial extends AppCompatActivity {
 
                 try {
 
-                    Log.d("JUMLAH",new Gson().toJson(response));
-
                     int kursi_tersisa = response.body().getJumlahPeserta() - response.body().getJumlahPesertaSisa();
                     if (response.body().getJumlahPesertaSisa() == 0){
                         available.setText("Sudah Penuh");

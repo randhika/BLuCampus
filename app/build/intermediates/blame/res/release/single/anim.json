@@ -8,6 +8,10 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\anim\\sample_animation.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\src\\main\\res\\anim\\sample_animation.xml"
+    },
+    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },

@@ -24,12 +24,42 @@
             android:visible="false" />
         <item
             android:id="@+id/nav_fe"
-            android:title="  FE"
+            android:title="  FEB"
             android:icon="@android:color/transparent"
             android:visible="false" />
         <item
             android:id="@+id/nav_fikom"
             android:title="  FIKOM"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_fisip"
+            android:title="  FISIP"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_karir"
+            android:title="  Karir"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_executive"
+            android:title="  Kelas Karyawan"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_pascasarjana"
+            android:title="  Pascasarjana"
+            android:icon="@android:color/transparent"
+            android:visible="false" />
+
+        <item
+            android:id="@+id/nav_kemahasiswaan"
+            android:title="  Kemahasiswaan"
             android:icon="@android:color/transparent"
             android:visible="false" />
 
@@ -60,6 +90,10 @@
     </group>
 
     <group android:checkableBehavior="single" android:id="@+id/about">
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_email_24dp_black"
+            android:title="Kontak BLuCampus" />
         <item
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_info_outline_black_24dp"

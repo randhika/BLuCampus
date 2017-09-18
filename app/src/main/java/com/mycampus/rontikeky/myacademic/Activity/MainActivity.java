@@ -20,6 +20,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -85,6 +87,7 @@ public class MainActivity extends AppCompatActivity {
         showPassword.setTypeface(custom_font);
 
         pDialog = new ProgressDialog(MainActivity.this);
+
 
         sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
 

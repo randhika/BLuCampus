@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:2:1-96:12
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:2:1-108:12
 	package
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml
@@ -15,10 +15,16 @@ ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:2:1-96:12
 		INJECTED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:21:5-67
 	android:name
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:20:5-79
 	android:name
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CALL_PHONE
@@ -38,7 +44,7 @@ ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:10:5-72
 	android:name
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:10:22-69
 application
-ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:12:5-94:19
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:12:5-106:19
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\0f5dfbc4abb68ef89d086e99e7a8b214b2751b93\output\AndroidManifest.xml:26:5-20
@@ -47,6 +53,14 @@ MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\User
 MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\0367bfc76ded5b6c5f7bf04185e87ff2c20d3d93\output\AndroidManifest.xml:26:5-20
 MERGED from [com.codesgood:justifiedtextview:1.0.2] C:\Users\Anggit\.android\build-cache\b07b229543eed71acb8a58b1278322b4e6703966\output\AndroidManifest.xml:12:5-13:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anggit\.android\build-cache\5c95462ca3bb8f5845e30a85531d6d7e02d3f7a1\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\Anggit\.android\build-cache\928996dcbf321952e825144a4a46686e0126e0e1\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Anggit\.android\build-cache\76626e08fdb49b3869be0d614ea59035f969c972\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\AndroidManifest.xml:20:5-24:19
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\e3dc729efff955e77f4ee97856d0c97906cf5b1e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d6f6287492db02f52327971a298af810950cca9a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\2b2489c8644914a3857412493e35694388c17174\output\AndroidManifest.xml:29:5-20
@@ -208,13 +222,37 @@ ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:89:9-60
 	android:name
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:89:19-57
 activity#com.mycampus.rontikeky.myacademic.Activity.MainFeedDrawer
-ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:90:9-93:68
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:90:9-93:59
 	android:label
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:92:13-68
 	android:theme
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:93:13-56
 	android:name
 		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:91:13-52
+activity#com.mycampus.rontikeky.myacademic.Activity.ContactActivity
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:94:9-71
+	android:name
+		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:94:19-59
+service#com.mycampus.rontikeky.myacademic.Service.MyFirebaseMessagingService
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:96:9-100:19
+	android:name
+		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:96:18-68
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:97:13-99:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:98:17-77
+	android:name
+		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:98:25-75
+service#com.mycampus.rontikeky.myacademic.Service.FirebaseIDService
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:101:9-105:19
+	android:name
+		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:101:18-59
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:102:13-104:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:103:17-79
+	android:name
+		ADDED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml:103:25-77
 uses-sdk
 INJECTED from E:\NUMPANG\MyAcademic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:20:5-44
@@ -232,6 +270,14 @@ MERGED from [com.android.support:multidex:1.0.1] C:\Users\Anggit\.android\build-
 MERGED from [jp.wasabeef:recyclerview-animators:1.2.2] C:\Users\Anggit\.android\build-cache\fd90ddec42acf0942273118db5edbedbf93eb7dc\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Anggit\.android\build-cache\5c95462ca3bb8f5845e30a85531d6d7e02d3f7a1\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.chrisbanes.photoview:library:1.2.4] C:\Users\Anggit\.android\build-cache\eee435ed9172530a3a712d16aecae3cbb746b637\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.2.0] C:\Users\Anggit\.android\build-cache\928996dcbf321952e825144a4a46686e0126e0e1\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] C:\Users\Anggit\.android\build-cache\76626e08fdb49b3869be0d614ea59035f969c972\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\e3dc729efff955e77f4ee97856d0c97906cf5b1e\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d6f6287492db02f52327971a298af810950cca9a\output\AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\2b2489c8644914a3857412493e35694388c17174\output\AndroidManifest.xml:21:5-23:60
@@ -264,3 +310,101 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Anggit\.
 		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:24:9-38
 	android:name
 		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:23:9-47
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:37:11-82
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.2.0] C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\AndroidManifest.xml:25:13-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.0] C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\AndroidManifest.xml:22:13-58

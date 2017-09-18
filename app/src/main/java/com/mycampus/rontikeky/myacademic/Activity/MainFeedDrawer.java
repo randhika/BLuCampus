@@ -64,7 +64,7 @@ public class MainFeedDrawer extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        getSupportActionBar().setTitle("BLu Feed");
+        getSupportActionBar().setTitle("BLuFeed");
 
 
 
@@ -144,7 +144,7 @@ public class MainFeedDrawer extends AppCompatActivity
             moveTaskToBack(true);
             finish();
 
-            android.os.Process.killProcess(android.os.Process.myPid());
+            //android.os.Process.killProcess(android.os.Process.myPid());
         }
 
         this.doubleBackToExitPressedOnce = true;
@@ -200,6 +200,11 @@ public class MainFeedDrawer extends AppCompatActivity
             m.findItem(R.id.nav_ft).setVisible(b);
             m.findItem(R.id.nav_fe).setVisible(b);
             m.findItem(R.id.nav_fikom).setVisible(b);
+            m.findItem(R.id.nav_fisip).setVisible(b);
+            m.findItem(R.id.nav_karir).setVisible(b);
+            m.findItem(R.id.nav_executive).setVisible(b);
+            m.findItem(R.id.nav_kemahasiswaan).setVisible(b);
+            m.findItem(R.id.nav_pascasarjana).setVisible(b);
             return true;
         } else if (id == R.id.nav_seminar) {
             fragment = new SeminarFragment();
@@ -215,6 +220,20 @@ public class MainFeedDrawer extends AppCompatActivity
             prefEditor("FE");
         }else if (id == R.id.nav_fikom) {
             prefEditor("FIKOM");
+        }else if (id == R.id.nav_fisip) {
+            prefEditor("FISIP");
+        }else if (id == R.id.nav_pascasarjana) {
+            prefEditor("Pascasarjana");
+            Log.d("Test","Pascasarjana");
+        }else if (id == R.id.nav_karir) {
+            prefEditor("Karir");
+            Log.d("Test","Karir");
+        }else if (id == R.id.nav_kemahasiswaan) {
+            prefEditor("Kemahasiswaan");
+            Log.d("Test","Kemahasiswaan");
+        }else if (id == R.id.nav_executive) {
+            prefEditor("Executive");
+            Log.d("Test","Executive");
         }else if (id == R.id.nav_about) {
             Intent intent = new Intent(MainFeedDrawer.this, AboutActivity.class);
             startActivity(intent);
@@ -241,6 +260,9 @@ public class MainFeedDrawer extends AppCompatActivity
         }else if (id == R.id.nav_registered_event){
             Intent intent = new Intent(MainFeedDrawer.this,RegisteredEventActivity.class);
             startActivity(intent);
+        }else if(id == R.id.nav_contactus){
+            Intent i = new Intent(MainFeedDrawer.this,ContactActivity.class);
+            startActivity(i);
         }
 
         if (fragment != null) {

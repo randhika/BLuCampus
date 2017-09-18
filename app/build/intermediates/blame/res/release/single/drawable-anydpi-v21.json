@@ -20,12 +20,12 @@
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
     },
     {
-        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\ic_email_24dp.xml",
-        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_email_24dp.xml"
-    },
-    {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml",
         "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml"
+    },
+    {
+        "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\ic_email_24dp.xml",
+        "source": "E:\\NUMPANG\\MyAcademic\\app\\build\\generated\\res\\pngs\\release\\drawable-anydpi-v21\\ic_email_24dp.xml"
     },
     {
         "merged": "E:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\drawable-anydpi-v21\\ic_account_circle_24dp.xml",

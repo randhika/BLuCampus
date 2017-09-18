@@ -1,4 +1,4 @@
-#Tue Sep 12 21:07:52 ICT 2017
+#Mon Sep 18 14:14:29 ICT 2017
 base.0=E\:\\NUMPANG\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b285c049380f7fab3e297918729b230d2006b50b
 renamed.1=classes.dex
 renamed.0=classes2.dex

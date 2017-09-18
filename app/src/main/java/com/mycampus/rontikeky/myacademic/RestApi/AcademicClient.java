@@ -85,6 +85,18 @@ public interface AcademicClient {
     @GET("info/tag/fisip/cari")
     Call<InfoResponse> getFISIP(@Query("tanggal_info") String date);
 
+    @GET("info/tag/karir/cari")
+    Call<InfoResponse> getKarir(@Query("tanggal_info") String date);
+
+    @GET("info/tag/kemahasiswaan/cari")
+    Call<InfoResponse> getKemahasiswaan(@Query("tanggal_info") String date);
+
+    @GET("info/tag/pascasarjana/cari")
+    Call<InfoResponse> getPascarjana(@Query("tanggal_info") String date);
+
+    @GET("info/tag/{faculty}/cari")
+    Call<InfoResponse> getInfoFaculty(@Path("faculty") String faculty);
+
     @GET("acara/hotnews")
     Call<HottestEventResponse> getHotEvent();
 

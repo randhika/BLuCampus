@@ -2,6 +2,11 @@ package com.mycampus.rontikeky.myacademic.RestApi;
 
 import android.content.Context;
 
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.mycampus.rontikeky.myacademic.Response.ProfileEditMahasiswaResponse;
+import com.mycampus.rontikeky.myacademic.Response.ProfileResponseEdit;
+
 import java.io.IOException;
 
 import okhttp3.Cache;
@@ -26,6 +31,7 @@ public class ServiceGeneratorAuth3 {
 
         int cacheSize = 10 * 1024 * 1024;
         Cache cache = new Cache(context.getCacheDir(),cacheSize);
+
 
 
         OkHttpClient.Builder httpClient =

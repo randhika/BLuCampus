@@ -86,6 +86,7 @@ public class HomeFragmentV2 extends Fragment{
     String fromDateS;
     String toDateS;
     String date;
+    String facultyString;
     public int current_page;
 
     //Filter
@@ -158,73 +159,14 @@ public class HomeFragmentV2 extends Fragment{
         mAdapter = new CustomAdapter(infoResponses,getActivity().getApplicationContext());
         mRecyclerView.setAdapter(mAdapter);
 
-        if (faculty.equalsIgnoreCase("BAAK")){
-            Log.d("FILTER 1","LOAD BAAK");
-            infoText.setText("Informasi BAAK");
-            loadInfoBaak();
-        } else if(faculty.equalsIgnoreCase("FTI")){
-            Log.d("FILTER 2","LOAD FTI");
-            infoText.setText("Informasi FTI");
-            loadInfoFti();
-        }else if (faculty.equalsIgnoreCase("FT")){
-            Log.d("FILTER 2","LOAD FT");
-            infoText.setText("Informasi FT");
-            loadInfoFt();
-        }else if (faculty.equalsIgnoreCase("FE")){
-            Log.d("FILTER 2","LOAD FE");
-            infoText.setText("Informasi FE");
-            loadInfoFe();
-        }else if (faculty.equalsIgnoreCase("FIKOM")){
-            Log.d("FILTER 2","LOAD FIKOM");
-            infoText.setText("Informasi FIKOM");
-            loadInfoFikom();
-        }else if (faculty.equalsIgnoreCase("FISIP")){
-            Log.d("FILTER 2","LOAD FISIP");
-            infoText.setText("Informasi FISIP");
-            loadInfoFisip();
-        } else {
-            Log.d("FILTER 2", "LOAD BAAK");
-            infoText.setText("Informasi BAAK");
-            loadInfoBaak();
-        }
 
-
-
+        checkFaculty();
 
         swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
                 infoResponses.clear();
-                if (faculty.equalsIgnoreCase("BAAK")){
-                    Log.d("FILTER 1","LOAD BAAK");
-                    infoText.setText("Informasi BAAK");
-                    loadInfoBaak();
-                }
-                else if(faculty.equalsIgnoreCase("FTI")){
-                    Log.d("FILTER 2","LOAD FTI");
-                    infoText.setText("Informasi FTI");
-                    loadInfoFti();
-                }else if (faculty.equalsIgnoreCase("FT")){
-                    Log.d("FILTER 2","LOAD FT");
-                    infoText.setText("Informasi FT");
-                    loadInfoFt();
-                }else if (faculty.equalsIgnoreCase("FE")){
-                    Log.d("FILTER 2","LOAD FE");
-                    infoText.setText("Informasi FE");
-                    loadInfoFe();
-                }else if (faculty.equalsIgnoreCase("FIKOM")){
-                    Log.d("FILTER 2","LOAD FIKOM");
-                    infoText.setText("Informasi FIKOM");
-                    loadInfoFikom();
-                }else if (faculty.equalsIgnoreCase("FISIP")){
-                    Log.d("FILTER 2","LOAD FISIP");
-                    infoText.setText("Informasi FISIP");
-                    loadInfoFisip();
-                } else {
-                    Log.d("FILTER 2", "LOAD BAAK");
-                    infoText.setText("Informasi BAAK");
-                    loadInfoBaak();
-                }
+                checkFaculty();
                 swipeRefreshLayout.setRefreshing(false);
             }
         });
@@ -249,6 +191,7 @@ public class HomeFragmentV2 extends Fragment{
             public void onClick(View v) {
                 if (views == true){
                     views = false;
+                    search.setText("");
                     search.setVisibility(View.GONE);
                 }else{
                     search.setVisibility(View.VISIBLE);
@@ -322,7 +265,7 @@ public class HomeFragmentV2 extends Fragment{
     }
 
 
-    private void loadInfoBaak(){
+    private void loadInfoFaculty(String faculty){
         infoResponses.clear();
         pDialog.setCancelable(false);
         pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
@@ -330,334 +273,7 @@ public class HomeFragmentV2 extends Fragment{
         pDialog.show();
         AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
         //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getInfo(date);
-
-        call1.enqueue(new Callback<InfoResponse>() {
-            @Override
-            public void onResponse(Call<InfoResponse> call, Response<InfoResponse> response) {
-                pDialog.dismiss();
-                try {
-                    int i = 0;
-                    judul_info = new String[response.body().data.size()];
-                    isi_info = new String[response.body().data.size()];
-                    tanggal_info = new String[response.body().data.size()];
-                    slug_info = new String[response.body().data.size()];
-                    foto_info = new String[response.body().data.size()];
-
-
-                    while (i < response.body().data.size()) {
-                        judul_info[i] = response.body().data.get(i).judulInfo;
-                        isi_info[i] = response.body().data.get(i).isiInfo;
-                        tanggal_info[i] = response.body().data.get(i).tanggalInfo;
-                        slug_info[i] = response.body().data.get(i).slugUrlInfo;
-                        foto_info[i] = response.body().data.get(i).fotoInfo;
-
-                        InfoResponse.Datum infoResponse = new InfoResponse.Datum(response.body().data.get(i).judulInfo,response.body().data.get(i).isiInfoDepan,
-                                response.body().data.get(i).tanggalInfo,response.body().data.get(i).slugUrlInfo,response.body().data.get(i).fotoInfo,response.body().data.get(i).getIsiInfo());
-                        infoResponses.add(infoResponse);
-                        i++;
-                    }
-
-                    mAdapter.notifyDataSetChanged();
-
-                    if (response.raw().cacheResponse() != null) {
-                        // true: response was served from cache
-                        Log.d("CACHE","ADA");
-                    }else{
-                        Log.d("CACHE 2","ADA");
-                    }
-
-                    if (response.raw().networkResponse() != null) {
-                        // true: response was served from network/server
-                        Log.d("CACHE 3","ADA");
-                    }else{
-                        Log.d("CACHE 4","ADA");
-                    }
-
-                    checkItem();
-
-                } catch (Exception e) {
-                    Log.d("INFO 2 : ", e.toString());
-                }
-            }
-
-            @Override
-            public void onFailure(Call<InfoResponse> call, Throwable t) {
-                pDialog.dismiss();
-                askLoadAgain();
-                Log.d("INFO 3 : ", t.toString());
-            }
-        });
-    }
-
-    private void loadInfoFti(){
-        infoResponses.clear();
-        pDialog.setCancelable(false);
-        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        pDialog.show();
-        AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
-        //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getFTI(date);
-
-        call1.enqueue(new Callback<InfoResponse>() {
-            @Override
-            public void onResponse(Call<InfoResponse> call, Response<InfoResponse> response) {
-                pDialog.dismiss();
-                try {
-                    int i = 0;
-                    judul_info = new String[response.body().data.size()];
-                    isi_info = new String[response.body().data.size()];
-                    tanggal_info = new String[response.body().data.size()];
-                    slug_info = new String[response.body().data.size()];
-                    foto_info = new String[response.body().data.size()];
-                    while (i < response.body().data.size()) {
-                        judul_info[i] = response.body().data.get(i).judulInfo;
-                        isi_info[i] = response.body().data.get(i).isiInfo;
-                        tanggal_info[i] = response.body().data.get(i).tanggalInfo;
-                        slug_info[i] = response.body().data.get(i).slugUrlInfo;
-                        foto_info[i] = response.body().data.get(i).fotoInfo;
-                        InfoResponse.Datum infoResponse = new InfoResponse.Datum(response.body().data.get(i).judulInfo,response.body().data.get(i).isiInfoDepan,
-                                response.body().data.get(i).tanggalInfo,response.body().data.get(i).slugUrlInfo,response.body().data.get(i).fotoInfo,response.body().data.get(i).getIsiInfo());
-                        infoResponses.add(infoResponse);
-
-                        i++;
-                    }
-
-                    mAdapter.notifyDataSetChanged();
-
-                    if (response.raw().cacheResponse() != null) {
-                        // true: response was served from cache
-                        Log.d("CACHE 5","ADA");
-                    }else{
-                        Log.d("CACHE 6","ADA");
-                    }
-
-                    if (response.raw().networkResponse() != null) {
-                        // true: response was served from network/server
-                        Log.d("CACHE 7","ADA");
-                    }else{
-                        Log.d("CACHE 8","ADA");
-                    }
-                    checkItem();
-                } catch (Exception e) {
-                    Log.d("INFO 2 : ", e.toString());
-                }
-            }
-
-            @Override
-            public void onFailure(Call<InfoResponse> call, Throwable t) {
-                pDialog.dismiss();
-                askLoadAgain();
-                Log.d("INFO 3 : ", t.toString());
-            }
-        });
-    }
-
-    private void loadInfoFt(){
-        infoResponses.clear();
-        pDialog.setCancelable(false);
-        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        pDialog.show();
-        AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
-        //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getFT(date);
-
-        call1.enqueue(new Callback<InfoResponse>() {
-            @Override
-            public void onResponse(Call<InfoResponse> call, Response<InfoResponse> response) {
-                pDialog.dismiss();
-                try {
-                    int i = 0;
-                    judul_info = new String[response.body().data.size()];
-                    isi_info = new String[response.body().data.size()];
-                    tanggal_info = new String[response.body().data.size()];
-                    slug_info = new String[response.body().data.size()];
-                    foto_info = new String[response.body().data.size()];
-                    while (i < response.body().data.size()) {
-                        judul_info[i] = response.body().data.get(i).judulInfo;
-                        isi_info[i] = response.body().data.get(i).isiInfo;
-                        tanggal_info[i] = response.body().data.get(i).tanggalInfo;
-                        slug_info[i] = response.body().data.get(i).slugUrlInfo;
-                        foto_info[i] = response.body().data.get(i).fotoInfo;
-                        Log.d("xxx",response.body().data.get(i).isiInfoDepan);
-                        InfoResponse.Datum infoResponse = new InfoResponse.Datum(response.body().data.get(i).judulInfo,response.body().data.get(i).isiInfoDepan,
-                                response.body().data.get(i).tanggalInfo,response.body().data.get(i).slugUrlInfo,response.body().data.get(i).fotoInfo,response.body().data.get(i).getIsiInfo());
-                        infoResponses.add(infoResponse);
-                        i++;
-                    }
-
-                    mAdapter.notifyDataSetChanged();
-
-                    ;                   if (response.raw().cacheResponse() != null) {
-                        // true: response was served from cache
-                        Log.d("CACHE 9","ADA");
-                    }else{
-                        Log.d("CACHE 10","ADA");
-                    }
-
-                    if (response.raw().networkResponse() != null) {
-                        // true: response was served from network/server
-                        Log.d("CACHE 11","ADA");
-                    }else{
-                        Log.d("CACHE 12","ADA");
-                    }
-
-                    checkItem();
-                } catch (Exception e) {
-                    Log.d("INFO 2 : ", e.toString());
-                }
-            }
-
-            @Override
-            public void onFailure(Call<InfoResponse> call, Throwable t) {
-                pDialog.dismiss();
-                askLoadAgain();
-                Log.d("INFO 3 : ", t.toString());
-            }
-        });
-    }
-
-    private void loadInfoFe(){
-        infoResponses.clear();
-        pDialog.setCancelable(false);
-        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        pDialog.show();
-        AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
-        //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getFE(date);
-
-        call1.enqueue(new Callback<InfoResponse>() {
-            @Override
-            public void onResponse(Call<InfoResponse> call, Response<InfoResponse> response) {
-                pDialog.dismiss();
-                try {
-                    int i = 0;
-                    judul_info = new String[response.body().data.size()];
-                    isi_info = new String[response.body().data.size()];
-                    tanggal_info = new String[response.body().data.size()];
-                    slug_info = new String[response.body().data.size()];
-                    foto_info = new String[response.body().data.size()];
-                    while (i < response.body().data.size()) {
-                        judul_info[i] = response.body().data.get(i).judulInfo;
-                        isi_info[i] = response.body().data.get(i).isiInfo;
-                        tanggal_info[i] = response.body().data.get(i).tanggalInfo;
-                        slug_info[i] = response.body().data.get(i).slugUrlInfo;
-                        foto_info[i] = response.body().data.get(i).fotoInfo;
-                        Log.d("xxx",response.body().data.get(i).isiInfoDepan);
-                        InfoResponse.Datum infoResponse = new InfoResponse.Datum(response.body().data.get(i).judulInfo,response.body().data.get(i).isiInfoDepan,
-                                response.body().data.get(i).tanggalInfo,response.body().data.get(i).slugUrlInfo,response.body().data.get(i).fotoInfo,response.body().data.get(i).getIsiInfo());
-                        infoResponses.add(infoResponse);
-                        i++;
-                    }
-
-                    mAdapter.notifyDataSetChanged();
-
-                    ;                   if (response.raw().cacheResponse() != null) {
-                        // true: response was served from cache
-                        Log.d("CACHE 9","ADA");
-                    }else{
-                        Log.d("CACHE 10","ADA");
-                    }
-
-                    if (response.raw().networkResponse() != null) {
-                        // true: response was served from network/server
-                        Log.d("CACHE 11","ADA");
-                    }else{
-                        Log.d("CACHE 12","ADA");
-                    }
-                } catch (Exception e) {
-                    Log.d("INFO 2 : ", e.toString());
-                }
-
-                checkItem();
-            }
-
-            @Override
-            public void onFailure(Call<InfoResponse> call, Throwable t) {
-                pDialog.dismiss();
-                askLoadAgain();
-                Log.d("INFO 3 : ", t.toString());
-            }
-        });
-    }
-
-    private void loadInfoFisip(){
-        infoResponses.clear();
-        pDialog.setCancelable(false);
-        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        pDialog.show();
-        AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
-        //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getFISIP(date);
-
-        call1.enqueue(new Callback<InfoResponse>() {
-            @Override
-            public void onResponse(Call<InfoResponse> call, Response<InfoResponse> response) {
-                pDialog.dismiss();
-                try {
-                    int i = 0;
-                    judul_info = new String[response.body().data.size()];
-                    isi_info = new String[response.body().data.size()];
-                    tanggal_info = new String[response.body().data.size()];
-                    slug_info = new String[response.body().data.size()];
-                    foto_info = new String[response.body().data.size()];
-                    while (i < response.body().data.size()) {
-                        judul_info[i] = response.body().data.get(i).judulInfo;
-                        isi_info[i] = response.body().data.get(i).isiInfo;
-                        tanggal_info[i] = response.body().data.get(i).tanggalInfo;
-                        slug_info[i] = response.body().data.get(i).slugUrlInfo;
-                        foto_info[i] = response.body().data.get(i).fotoInfo;
-                        Log.d("xxx",response.body().data.get(i).isiInfoDepan);
-                        InfoResponse.Datum infoResponse = new InfoResponse.Datum(response.body().data.get(i).judulInfo,response.body().data.get(i).isiInfoDepan,
-                                response.body().data.get(i).tanggalInfo,response.body().data.get(i).slugUrlInfo,response.body().data.get(i).fotoInfo,response.body().data.get(i).getIsiInfo());
-                        infoResponses.add(infoResponse);
-                        i++;
-                    }
-
-                    mAdapter.notifyDataSetChanged();
-
-                    ;                   if (response.raw().cacheResponse() != null) {
-                        // true: response was served from cache
-                        Log.d("CACHE 9","ADA");
-                    }else{
-                        Log.d("CACHE 10","ADA");
-                    }
-
-                    if (response.raw().networkResponse() != null) {
-                        // true: response was served from network/server
-                        Log.d("CACHE 11","ADA");
-                    }else{
-                        Log.d("CACHE 12","ADA");
-                    }
-
-                    checkItem();
-                } catch (Exception e) {
-                    Log.d("INFO 2 : ", e.toString());
-                }
-            }
-
-            @Override
-            public void onFailure(Call<InfoResponse> call, Throwable t) {
-                pDialog.dismiss();
-                askLoadAgain();
-                Log.d("INFO 3 : ", t.toString());
-            }
-        });
-    }
-
-    private void loadInfoFikom(){
-        infoResponses.clear();
-        pDialog.setCancelable(false);
-        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-        pDialog.show();
-        AcademicClient client1= ServiceGeneratorAuth3.createService(AcademicClient.class, token,getActivity().getApplicationContext());
-        //Fetch list of Seminar
-        Call<InfoResponse> call1 = client1.getFIKOM(date);
+        Call<InfoResponse> call1 = client1.getInfoFaculty(faculty);
 
         call1.enqueue(new Callback<InfoResponse>() {
             @Override
@@ -726,7 +342,7 @@ public class HomeFragmentV2 extends Fragment{
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int which) {
                         // continue with delete
-                        loadInfoBaak();
+                        loadInfoFaculty("baak");
                     }
                 })
                 .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
@@ -760,5 +376,69 @@ public class HomeFragmentV2 extends Fragment{
             Log.d("AHAY 3", String.valueOf(mAdapter.getItemCount()));
             cvEmpty.setVisibility(View.GONE);
         }
+    }
+
+    private void checkFaculty(){
+
+        facultyString = "baak";
+
+        if (faculty.equalsIgnoreCase("BAAK")){
+            Log.d("FILTER 1","LOAD BAAK");
+            infoText.setText("Informasi BAAK");
+            //loadInfoBaak();
+            facultyString = "baak";
+        } else if(faculty.equalsIgnoreCase("FTI")){
+            Log.d("FILTER 2","LOAD FTI");
+            infoText.setText("Informasi FTI");
+            //loadInfoFti();
+            facultyString = "fti";
+        }else if (faculty.equalsIgnoreCase("FT")){
+            Log.d("FILTER 2","LOAD FT");
+            infoText.setText("Informasi FT");
+            //loadInfoFt();
+            facultyString = "ft";
+        }else if (faculty.equalsIgnoreCase("FE")){
+            Log.d("FILTER 2","LOAD FE");
+            infoText.setText("Informasi FEB");
+            //loadInfoFe();
+            facultyString = "fe";
+        }else if (faculty.equalsIgnoreCase("FIKOM")){
+            Log.d("FILTER 2","LOAD FIKOM");
+            infoText.setText("Informasi FIKOM");
+            //loadInfoFikom();
+            facultyString = "fikom";
+        }else if (faculty.equalsIgnoreCase("FISIP")){
+            Log.d("FILTER 2","LOAD FISIP");
+            infoText.setText("Informasi FISIP");
+            //loadInfoFisip();
+            facultyString = "fisip";
+        } else if (faculty.equalsIgnoreCase("Pascasarjana")){
+            Log.d("FILTER 2","LOAD Pascasarjana");
+            infoText.setText("Informasi Pascasarjana");
+            //loadInfoPascasarjana();
+            facultyString = "pascasarjana";
+        } else if (faculty.equalsIgnoreCase("Karir")){
+            Log.d("FILTER 2","LOAD FISIP");
+            infoText.setText("Informasi Karir");
+            //loadInfoKarir();
+            facultyString = "karir";
+        }else if (faculty.equalsIgnoreCase("Kemahasiswaan")){
+            Log.d("FILTER 2","LOAD Kemahasiswaan");
+            infoText.setText("Informasi Kemahasiswaan");
+            //loadInfoKemahasiswaan();
+            facultyString = "kemahasiswaan";
+        }else if (faculty.equalsIgnoreCase("Executive")){
+            Log.d("FILTER 2","LOAD Executive");
+            infoText.setText("Informasi Kelas Karyawan");
+            //loadInfoKemahasiswaan();
+            facultyString = "executive";
+        }else {
+            Log.d("FILTER 2", "LOAD BAAK");
+            infoText.setText("Informasi BAAK");
+            facultyString = "baak";
+            //loadInfoBaak();
+        }
+
+        loadInfoFaculty(facultyString);
     }
 }

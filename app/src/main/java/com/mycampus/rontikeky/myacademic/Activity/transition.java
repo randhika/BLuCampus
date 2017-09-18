@@ -129,6 +129,7 @@ public class transition extends AppCompatActivity {
                     nama_feed = response.body().getNama();
                     email_feed = response.body().getEmail();
 
+
                     if (!sharedPreferences.contains(nama_key) && !sharedPreferences.contains(email_key)) {
                         SharedPreferences.Editor editor = sharedPreferences.edit();
                         editor.putString(nama_key, nama_feed);
@@ -188,6 +189,7 @@ public class transition extends AppCompatActivity {
                         String formattedTime = tm.format(c.getTime());
                         String formattedDate = df.format(c.getTime());
                         String formmatedDate2 = vd.format(df.parse(tgl));
+
 
                         txtWaktu.setText(formmatedDate2 + ", " + response.body().data.get(0).jamAcara);
 
