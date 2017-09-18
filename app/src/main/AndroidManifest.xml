@@ -91,18 +91,20 @@
             android:name=".Activity.MainFeedDrawer"
             android:label="@string/title_activity_main_feed_drawer"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".Activity.ContactActivity"></activity>
+        <activity android:name=".Activity.ContactActivity" />
 
         <service android:name=".Service.MyFirebaseMessagingService">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
         <service android:name=".Service.FirebaseIDService">
             <intent-filter>
-                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
+
+        <activity android:name=".Activity.StreamRadioActivity"></activity>
     </application>
 
 </manifest>

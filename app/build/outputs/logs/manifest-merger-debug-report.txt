@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:2:1-108:12
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:2:1-110:12
 	package
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
@@ -44,7 +44,7 @@ ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:10:5-72
 	android:name
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:10:22-69
 application
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:12:5-106:19
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:12:5-108:19
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\0f5dfbc4abb68ef89d086e99e7a8b214b2751b93\output\AndroidManifest.xml:26:5-20
@@ -230,7 +230,7 @@ ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:90:9-93:59
 	android:name
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:91:13-52
 activity#com.mycampus.rontikeky.myacademic.Activity.ContactActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:94:9-71
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:94:9-62
 	android:name
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:94:19-59
 service#com.mycampus.rontikeky.myacademic.Service.MyFirebaseMessagingService
@@ -240,7 +240,7 @@ ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:96:9-100:19
 intent-filter#com.google.firebase.MESSAGING_EVENT
 ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:97:13-99:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:98:17-77
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:98:17-78
 	android:name
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:98:25-75
 service#com.mycampus.rontikeky.myacademic.Service.FirebaseIDService
@@ -250,9 +250,13 @@ ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:101:9-105:19
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
 ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:102:13-104:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:103:17-79
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:103:17-80
 	android:name
 		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:103:25-77
+activity#com.mycampus.rontikeky.myacademic.Activity.StreamRadioActivity
+ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:107:9-75
+	android:name
+		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:107:19-63
 uses-sdk
 INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:20:5-44
