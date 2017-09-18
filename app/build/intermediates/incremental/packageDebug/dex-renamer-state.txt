@@ -1,4 +1,4 @@
-#Mon Sep 18 19:17:57 ICT 2017
+#Mon Sep 18 19:44:02 ICT 2017
 base.0=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1256315d5b9866637da37c1913afa68e27cf79e6
 renamed.1=classes.dex
 renamed.0=classes2.dex

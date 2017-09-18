@@ -2,13 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="E:\APK\MyAcademic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\2e3bd89d5eaf17b9038a99e769243c9da5684fd6\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5751e22e0555d05fa7a6629b1239848004b6a291\classes.dex" />
+        sha1="21bb89120d84fa29afeb0f9c0ebf415bc3b45a7e">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_96093654f8cb1a0071ebf56b92d9e8e0a8222c2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_f88113fb28ee484b7f2ef6e5997be00c7de1e64c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\64a21ce39dd665340a3a633d8e3a52d4380db752\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dd7676ac12aa6653718b7ea33d93ce9d6915d526">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_433f06f4fb155b9823c17e1288bca6194b56c9ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\f1462b0729e0ab11b8639630ffe828cf5d719497\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_ea20b17240e46d24355f4a2f82a418687854be17.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\gifdecoder\4.0.0\47c487cc4e64e6ab127a517669ca9a7b49f8c61d\gifdecoder-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47c487cc4e64e6ab127a517669ca9a7b49f8c61d">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\gifdecoder-4.0.0_0eaeee5ce8d0716ca30c712ca0305480cc2affbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\f26d00edee0dc09b568c649e59fe917709c6b973\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="363f626ad5686283250cdb6073ae1bba5cb07a87">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_c05be3c1891629b9f3f749cbc7f4b1d794514b4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\b07b229543eed71acb8a58b1278322b4e6703966\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="518f39cfab4e69273a0e296dbea34d5e9e07bf65">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_5d8e4ea1c5d1f49d6b4db42dc9a4c4bd2e1e9b37.jar" />
     </item>
     <item
         is-multidex="true"
@@ -20,13 +74,319 @@
         <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1256315d5b9866637da37c1913afa68e27cf79e6\classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\910738a0391d1c1ba9508cf31c51417e5d0dbe43\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_218206f7e169fdb17a03700a3101e98361b70f5d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\2b2489c8644914a3857412493e35694388c17174\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_df3586625f4544bd807d0870be0fbb07160cfa0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\5c95462ca3bb8f5845e30a85531d6d7e02d3f7a1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_b154798b95f767517b93b2151639c85a76e983d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.1\feab46062803513d6a8307c74b0084265855de1a\logging-interceptor-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="feab46062803513d6a8307c74b0084265855de1a">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\logging-interceptor-3.8.1_fd44f60301c9fff375e4440ec867e8398693c532.jar" />
+    </item>
+    <item
         is-multidex="true"
-        jar="C:\Users\Anggit\.android\build-cache\f3a1c12f480c0f0f1f7c777d40735479a9920a6a\output\jars\classes.jar"
+        jar="E:\APK\MyAcademic\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5751e22e0555d05fa7a6629b1239848004b6a291\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\0367bfc76ded5b6c5f7bf04185e87ff2c20d3d93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_66965ac0a2602940c21477ff74623fa84f301695.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\okio-1.13.0_2f9375e9723ef58c815c33ca05f9e4ecf4431395.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\eee435ed9172530a3a712d16aecae3cbb746b637\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="98b5309c8d368a7c83ca5f90e0c905044c195edd">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_a7a7a02ff38b8274b01ca5690abb358461455b9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\e78f56291011610d50b93444f674d172eac940ae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_90bac6d714f3ad9642f38a8a5c40e511a7499b33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dc4c18602ecffb3e69cda6cdc51ba4feac0f97d7">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_d793fa8b89283294100ec7c20a0ca4404b593c19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\fd90ddec42acf0942273118db5edbedbf93eb7dc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="19fca4378b6bf4dcb8a606d87d4f4da8286297ef">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_7b0f7ef783a6bb40d515c6535610ed9d99e271e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\f3a1c12f480c0f0f1f7c777d40735479a9920a6a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
         sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
-        <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2109edb86bc2415c5cf4a2e7c56f8caf87325e0f\classes.dex" />
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_2109edb86bc2415c5cf4a2e7c56f8caf87325e0f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_ae8bb0f155f09b39d5660b79cf1be0c8f695a859.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="794e4ee4dd15254ed3ca7202a7ac7afefbb7e3f5">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_28944ccf5d199d41c3c8bd9fac83c12de2fd2263.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\61e92c2d541202412fa9506afe2394a7dcfecedc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_4b62fbe7b6c022f011e0095b0fc8b918084bb8de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.1\4d060ca3190df0eda4dc13415532a12e15ca5f11\okhttp-3.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4d060ca3190df0eda4dc13415532a12e15ca5f11">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\okhttp-3.8.1_f46625f090c3f8102a84bc03d75c15c317bad21e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\retrofit-2.1.0_f8196e4a46246b91a03625549c92b182ce42f366.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\a796643acdb9829c561251389705bc0d4f4857d0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="814fc0c3ec69a944add398217d90077301501a74">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_01a08a06a051ff0c9c5e281c6a544dc36a5064bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\8859231d525ab09c74df6fe8d9c12f223b18bbb2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_b5df6cb5522c64ec1625bd483ec55e6505f20f4e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4838df6db988160b107e954e02a745370df543b6">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_8a42fdaf282b753c46182d456c6c9406303f2e3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\76626e08fdb49b3869be0d614ea59035f969c972\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="593fbaec1c3e100480a2bd72457b64b7dde6ac2d">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_2ec7cf13a97c83c1e5bd3d11dba98ab088d0ecdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\a6e25b7778ddba2161b2172de67e2276fe3f97ee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_379db85bd2acbb893300327c93c86681e8563ce8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\d6f6287492db02f52327971a298af810950cca9a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_a600be5e93bb4f1e3e987541815715d1c9db8b38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fb15fd9774b5c51dcb39d8e6fa1b6f06bcd1cd34">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_62125bfe07f74fa813553ca4e277bc8d31864bd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\9f7cd46bb05919a06b711cbba3ab9d0f4656991d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8d43993b8e07bdedefc353b15ab9f4cfe655b924">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_fbae74ecf4c49f559c1a2698fad809fb7a275d38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_dce0f5dc4ec87302d879250c45fe5f3f72f02917.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\converter-gson-2.1.0_35b3f780f6730c5069f8671e0eb0036896489049.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\org.jsoup\jsoup\1.10.3\b842f960942503cf1abbcc8c173a7f2c19d43726\jsoup-1.10.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b842f960942503cf1abbcc8c173a7f2c19d43726">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\jsoup-1.10.3_00ff083397b653b1375b9cb29b420f6512e4022d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\disklrucache\4.0.0\d88059003509074dd59fa226c822724bcf5ec0ca\disklrucache-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d88059003509074dd59fa226c822724bcf5ec0ca">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\disklrucache-4.0.0_8297d22eeec2ddc178648c5e2d4033678643e7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\0f5dfbc4abb68ef89d086e99e7a8b214b2751b93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_dbb28166673732e2f53ec194e65c5361928236e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.android\build-cache\e3dc729efff955e77f4ee97856d0c97906cf5b1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_6d9900ea2927b9cce36dce5e3975f467e456c1ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\4.0.0\dff931af436f0a2815d0109ab2258bbce2d6275d\glide-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dff931af436f0a2815d0109ab2258bbce2d6275d">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\glide-4.0.0_8aa5ca951c39514a192b748b3a1a59f7a47da165.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\annotations\4.0.0\f80192e6fd828d41c7da6f3552b0bef5d89cb26e\annotations-4.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f80192e6fd828d41c7da6f3552b0bef5d89cb26e">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\annotations-4.0.0_ae40b1cc03ab1ea067503b40f16e63bef7158563.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\gson-2.7_b475b9442e822da59f7c51355f22d1355bd4cf57.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6b7bdd64075f27ac794055998accebfc57200291.jar" />
     </item>
 
 </items>
