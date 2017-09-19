@@ -26,6 +26,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragmentV2;
@@ -36,20 +37,11 @@ import com.mycampus.rontikeky.myacademic.R;
 public class MainFeedDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    SharedPreferences sharedPreferences;
-    String token_key = "token";
-    String mypref = "MYPREFRENCES";
-    String faculty_key = "faculty";
-    String fromDate_key = "fromDate";
-    String toDate_key = "toDate";
-    String nama_key = "nama";
-    String email_key = "email";
     String token;
-    String faculty;
-    String fromDateS;
-    String toDateS;
     String nama_feed;
     String email_feed;
+
+    PrefHandler prefHandler;
 
     TextView tvNameHeader, tvEmailHeader;
     ImageView ivDisplayHeader;
@@ -67,13 +59,10 @@ public class MainFeedDrawer extends AppCompatActivity
         getSupportActionBar().setTitle("BLuFeed");
 
 
-
-        sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-        token = sharedPreferences.getString(token_key, "");
-        nama_feed = sharedPreferences.getString(nama_key,"");
-        email_feed = sharedPreferences.getString(email_key,"");
-
-
+        prefHandler = new PrefHandler(this);
+        token = prefHandler.getTOKEN_KEY();
+        nama_feed = prefHandler.getNAME_KEY();
+        email_feed = prefHandler.getEMAIL_KEY();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -113,7 +102,7 @@ public class MainFeedDrawer extends AppCompatActivity
 
     }
 
-
+    //Hasil Select Image dari gallery dan foto(Not Fix Yet)
     protected void onActivityResult(int requestCode, int resultCode, Intent imageReturnedIntent) {
         super.onActivityResult(requestCode, resultCode, imageReturnedIntent);
         switch(requestCode) {
@@ -136,11 +125,13 @@ public class MainFeedDrawer extends AppCompatActivity
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-            SharedPreferences preferences3 = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-            SharedPreferences.Editor editor3 = preferences3.edit();
-            editor3.remove(fromDate_key);
-            editor3.remove(toDate_key);
-            editor3.commit();
+//            SharedPreferences preferences3 = getSharedPreferences(token_key, Context.MODE_PRIVATE);
+//            SharedPreferences.Editor editor3 = preferences3.edit();
+//            editor3.remove(fromDate_key);
+//            editor3.remove(toDate_key);
+//            editor3.commit();
+            prefHandler.clearFROM_DATE_KEY();
+            prefHandler.clearTO_DATE_KEY();
             moveTaskToBack(true);
             finish();
 
@@ -183,6 +174,8 @@ public class MainFeedDrawer extends AppCompatActivity
 
 
 
+
+    //Mengatur Navigation Drawer Berdasarkan ID MENU MAIN_DRAWER_MENU
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
@@ -242,10 +235,8 @@ public class MainFeedDrawer extends AppCompatActivity
             startActivity(intent);
         }else if (id == R.id.nav_logout) {
 
-            SharedPreferences preferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-            SharedPreferences.Editor editor = preferences.edit();
-            editor.clear();
-            editor.commit();
+
+            prefHandler.setLogout();
 
             Intent i=new Intent(MainFeedDrawer.this,splash_screen.class);
             i.setAction(Intent.ACTION_MAIN);
@@ -257,6 +248,7 @@ public class MainFeedDrawer extends AppCompatActivity
             System.exit(0);
 
             Toast.makeText(getApplicationContext(),"Anda Berhasil Logout",Toast.LENGTH_LONG).show();
+
         }else if (id == R.id.nav_profile){
             Intent intent = new Intent(MainFeedDrawer.this,EditProfil.class);
             startActivity(intent);
@@ -280,11 +272,11 @@ public class MainFeedDrawer extends AppCompatActivity
         return true;
     }
 
+    //menyimpan fakultas ke dalam SharedPref, digunakan untuk memanggil info fakultas berdasarkan nilai fakultas yang disimpan
     private void prefEditor(String faculty){
-        sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-        SharedPreferences.Editor editor = sharedPreferences.edit();
-        editor.putString(faculty_key, faculty);
-        editor.commit();
+
+        prefHandler.setFACULTY_KEY(faculty);
+
         fragment = new HomeFragmentV2();
     }
 }

@@ -6,17 +6,16 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 
 public class splash_screen extends AppCompatActivity {
     //Set waktu lama splashscreen
     private static int splashInterval = 2000;
-    SharedPreferences sharedPreferences;
-    String token_key = "token";
-    String mypref = "MYPREFRENCES";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +26,11 @@ public class splash_screen extends AppCompatActivity {
 
         setContentView(R.layout.splash_screen);
 
-        sharedPreferences = getSharedPreferences(mypref, Context.MODE_PRIVATE);
+        //Instansiasi Class PrefHandler
+        final PrefHandler prefHandler = new PrefHandler(this);
 
+
+        //Memberi Delay pada Activity selama @splashInterval
         new Handler().postDelayed(new Runnable() {
 
 
@@ -36,9 +38,9 @@ public class splash_screen extends AppCompatActivity {
             public void run() {
                 // TODO Auto-generated method stub
 
-                sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-                if (sharedPreferences.contains(token_key)){
 
+                //Cek jika token tersimpan didalam sharedpref, maka akan didirect ke class transtition, else ke kelas MainActivity
+                if (prefHandler.isToken_Key_Exist()){
                     Intent intent = new Intent(splash_screen.this, transition.class);
                     startActivity(intent);
                 }else{

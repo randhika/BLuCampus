@@ -31,7 +31,7 @@ public class StreamRadioActivity extends AppCompatActivity {
         getSupportActionBar().hide();
 
         btnPlay = (ImageView)findViewById(R.id.btnPlay);
-        btnStop = (ImageView)findViewById(R.id.btnStop);
+        btnStop = (ImageView) findViewById(R.id.btnStopNormal);
 
         pDialog = new ProgressDialog(StreamRadioActivity.this);
 

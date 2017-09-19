@@ -3954,7 +3954,7 @@ containing a value of this type.
         public static final int btnReset=0x7f0e00e1;
         public static final int btnSelesai=0x7f0e0090;
         public static final int btnSimpan=0x7f0e00a2;
-        public static final int btnStop=0x7f0e00d4;
+        public static final int btnStopNormal=0x7f0e00d4;
         public static final int btn_filter_info=0x7f0e00ef;
         public static final int buttonPanel=0x7f0e005a;
         public static final int cancel_action=0x7f0e011b;

@@ -23,6 +23,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
@@ -58,6 +59,8 @@ public class transition extends AppCompatActivity {
     String nama_feed;
     String email_feed;
 
+    PrefHandler prefHandler;
+
     ProgressBar progressBar;
 
     boolean isConnected;
@@ -78,11 +81,8 @@ public class transition extends AppCompatActivity {
 
         btnSkip.setVisibility(View.GONE);
 
-        sharedPreferences2 = getSharedPreferences(mypref, Context.MODE_PRIVATE);
-        sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-        token = sharedPreferences.getString(token_key, "");
-
-
+        prefHandler = new PrefHandler(this);
+        token = prefHandler.getTOKEN_KEY();
 
         btnSkip.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -130,19 +130,10 @@ public class transition extends AppCompatActivity {
                     email_feed = response.body().getEmail();
 
 
-                    if (!sharedPreferences.contains(nama_key) && !sharedPreferences.contains(email_key)) {
-                        SharedPreferences.Editor editor = sharedPreferences.edit();
-                        editor.putString(nama_key, nama_feed);
-                        editor.putString(email_key, response.body().getEmail());
-                        editor.commit();
-                        SharedPreferences.Editor editor2 = sharedPreferences2.edit();
-                        editor2.putString(email_key, response.body().getEmail());
-                        editor2.commit();
+                    prefHandler.setNAME_KEY(nama_feed);
+                    prefHandler.setEMAIL_KEY(email_feed);
 
-                        Log.d("RESPONSE", response.body().getEmail());
-                    } else {
-                        Log.d("RESPONSE 2", "NOT SHARED");
-                    }
+
                 } catch (Exception e) {
                     Log.d("EXCEPTION PROFILE", e.toString());
                 }

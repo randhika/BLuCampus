@@ -29,6 +29,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.LoginRequest;
 import com.mycampus.rontikeky.myacademic.Response.LoginResponse;
@@ -54,6 +55,8 @@ public class MainActivity extends AppCompatActivity {
     String token_key = "token";
     String mypref = "MYPREFRENCES";
 
+    PrefHandler prefHandler;
+
     boolean isConnected,valid,doubleBackToExitPressedOnce = false;
 
     @Override
@@ -65,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
 
+        //Inisialisasi
         txtUsername = (EditText)findViewById(R.id.txtUsername);
         txtPassword = (EditText)findViewById(R.id.txtPassword);
         error       = (TextView)findViewById(R.id.failed_login);
@@ -75,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         checkConnection = new CheckConnection(getApplicationContext());
 
 
-        //Setting Custom Fonts
+        //Setting Custom Fonts dengan Typeface
         Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/droid/DroidSerif.ttf");
         //Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
         txtForgotPassword.setTypeface(custom_font);
@@ -86,12 +90,18 @@ public class MainActivity extends AppCompatActivity {
         error.setTypeface(custom_font);
         showPassword.setTypeface(custom_font);
 
+
+        //Instansiasi Progress Dialog
         pDialog = new ProgressDialog(MainActivity.this);
 
 
+        //Instansisasi SharedPref class PrefHandler
         sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
+        prefHandler = new PrefHandler(this);
 
-        if (sharedPreferences.contains(token_key)){
+
+        //Mengecek apakah token tersimpan kedalam SharedPref
+        if (prefHandler.isToken_Key_Exist()){
             Intent homeIntent = new Intent(Intent.ACTION_MAIN);
             homeIntent.addCategory( Intent.CATEGORY_HOME );
             homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -101,6 +111,8 @@ public class MainActivity extends AppCompatActivity {
             Log.d("TOKEN 2","TIDAK ADA");
         }
 
+
+        //Menampilkan ShowPassword saat button Show diklik
         showPassword.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
@@ -114,12 +126,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //Melakukan Login
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 error.setText("");
                 error.setVisibility(View.GONE);
 
+                //Jika Valid maka tampilkan Progress Dialog dan lakukan proses Login, else TextView error mucul
                 if (validation()) {
                     pDialog.setCancelable(false);
                     pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
@@ -150,31 +164,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        //SOOOO DEPRESSED WITH THIS
-//        ActionBar actionBar = getSupportActionBar();
-//        actionBar.setLogo(R.drawable.image);
-//        actionBar.setTitle("       ");
-//        actionBar.setDisplayUseLogoEnabled(true);
-//        actionBar.setDisplayShowHomeEnabled(true);
-//        ActionBar actionBar = getSupportActionBar();
-//        actionBar.setDisplayOptions(actionBar.getDisplayOptions()
-//                | ActionBar.DISPLAY_SHOW_CUSTOM);
-//        ImageView imageView = new ImageView(actionBar.getThemedContext());
-//        imageView.setScaleType(ImageView.ScaleType.CENTER);
-//        imageView.setImageResource(R.drawable.icon);
-//        ActionBar.LayoutParams layoutParams = new ActionBar.LayoutParams(
-//                ActionBar.LayoutParams.WRAP_CONTENT,
-//                ActionBar.LayoutParams.WRAP_CONTENT, Gravity.RIGHT
-//                | Gravity.CENTER_VERTICAL);
-//        layoutParams.rightMargin = 40;
-//        imageView.setLayoutParams(layoutParams);
-//        actionBar.setCustomView(imageView);
 
-        ///BERHASIL, TINGGAL LOGO AJA YG GAK ADA
 
+
+        //Instansiasi ActionBar untuk mengatur icon pada bagian atas
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayShowCustomEnabled(true);
 
+        //Membuat Custom Layout pada Action Bar
         LayoutInflater inflator = (LayoutInflater) this .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         View v = inflator.inflate(R.layout.logo_actionbar, null);
         actionBar.setCustomView(v);
@@ -182,6 +179,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    //Proses Login dengan Retrofit (proses mengirim data ke Server beserta responsenya), Jika Data Valid maka akan didirect ke Trantition.class
     private void doLogin(){
         AcademicClient client = ServiceGenerator.createService(AcademicClient.class);
 
@@ -195,7 +193,6 @@ public class MainActivity extends AppCompatActivity {
                 pDialog.dismiss();
 
                 try {
-                    //Log.d("RESPONSE", new Gson().toJson(response));
                     if (response.isSuccessful()){
                         Log.d("VALIDITY LOGIN 1", "BERHASIL");
                         if (response.body().getStatus().toString().equalsIgnoreCase("false")){
@@ -211,9 +208,10 @@ public class MainActivity extends AppCompatActivity {
                                 error.setText(token_key);
                                 Log.d("TOKEN 1", "ADA");
                             }else{
-                                SharedPreferences.Editor editor = sharedPreferences.edit();
-                                editor.putString(token_key, response.body().getToken());
-                                editor.commit();
+
+                                //Simapn Token ke SharedPref
+                                prefHandler.setTOKEN_KEY(response.body().getToken());
+
                                 Toast.makeText(getApplicationContext(), "Berhasil Login!", Toast.LENGTH_LONG).show();
                                 Intent intent = new Intent(MainActivity.this, transition.class);
                                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK |
@@ -237,6 +235,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
+            //Jika Response Gagal
             @Override
             public void onFailure(Call<LoginResponse> call, Throwable t) {
                 pDialog.dismiss();
@@ -250,7 +249,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-
+    //Mengecek Koneksi internet
     private boolean checkConnection(){
         ConnectivityManager cm = (ConnectivityManager)getApplicationContext().getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
@@ -258,6 +257,8 @@ public class MainActivity extends AppCompatActivity {
         return isConnected;
     }
 
+
+    //Lakukan Validasi pada EditText
     private boolean validation(){
 
         valid = true;
@@ -275,6 +276,8 @@ public class MainActivity extends AppCompatActivity {
         return valid;
     }
 
+
+    //Ketika Back Button diClik
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
@@ -296,8 +299,4 @@ public class MainActivity extends AppCompatActivity {
         }, 2000);
     }
 
-//    @Override protected void attachBaseContext(Context base) {
-//        super.attachBaseContext(MainActivity.this);
-//        MultiDex.install(this);
-//    }
 }

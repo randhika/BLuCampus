@@ -1230,7 +1230,7 @@ int id btnPlaylist 0x7f0e00d0
 int id btnReset 0x7f0e00e1
 int id btnSelesai 0x7f0e0090
 int id btnSimpan 0x7f0e00a2
-int id btnStop 0x7f0e00d4
+int id btnStopNormal 0x7f0e00d4
 int id btn_filter_info 0x7f0e00ef
 int id buttonPanel 0x7f0e005a
 int id cancel_action 0x7f0e011b

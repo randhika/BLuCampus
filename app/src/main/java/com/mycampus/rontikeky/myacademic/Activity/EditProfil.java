@@ -23,6 +23,7 @@ import android.widget.Toast;
 
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
 import com.mycampus.rontikeky.myacademic.Response.EditProfileResponse;
@@ -57,6 +58,8 @@ public class EditProfil extends AppCompatActivity {
     String nama_feed;
     String email_feed;
 
+    PrefHandler prefHandler;
+
     int year_x,month_x,day_x;
     static final int DIALOG_ID = 0;
 
@@ -85,8 +88,8 @@ public class EditProfil extends AppCompatActivity {
         email.setFocusable(false);
         email.setClickable(false);
 
-        sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
-        token = sharedPreferences.getString(token_key, "");
+        prefHandler = new PrefHandler(this);
+        token = prefHandler.getTOKEN_KEY();
 
         pDialog = new ProgressDialog(EditProfil.this);
 
@@ -222,9 +225,8 @@ public class EditProfil extends AppCompatActivity {
                         result.setVisibility(View.VISIBLE);
                         result.setBackgroundColor(Color.parseColor("#00ff00"));
                         result.setText(response.body().getMessage());
-                        SharedPreferences.Editor editor = sharedPreferences.edit();
-                        editor.putString(nama_key, nama.getText().toString());
-                        editor.commit();
+
+                        prefHandler.setNAME_KEY(nama.getText().toString());
                     }else{
                         Log.d("DEBUG PROFILE 2",response.body().getMessage());
                     }
