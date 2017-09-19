@@ -122,6 +122,8 @@
             </intent-filter>
         </service>
 
+        <activity android:name="com.mycampus.rontikeky.myacademic.Activity.StreamRadioActivity" />
+
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true" >

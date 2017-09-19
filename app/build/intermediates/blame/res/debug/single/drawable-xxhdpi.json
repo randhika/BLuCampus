@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\play.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\play.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_person_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_24dp.png"
     },
@@ -40,6 +44,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_place_24dp.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\radiobudiluhur.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\radiobudiluhur.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png"
     },
@@ -74,6 +82,10 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\stop_normal.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\stop_normal.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_phone_iphone_24dp.png",

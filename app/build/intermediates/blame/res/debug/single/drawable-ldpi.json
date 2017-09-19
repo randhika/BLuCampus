@@ -8,6 +8,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_https_24dp.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_wifi_tethering_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_wifi_tethering_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\ic_clear_all_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_clear_all_24dp.png"
     },

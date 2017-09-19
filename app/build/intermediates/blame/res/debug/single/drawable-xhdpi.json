@@ -4,6 +4,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_wifi_tethering_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_wifi_tethering_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_account_circle_24dp1.png"
     },
@@ -46,6 +50,10 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_whatshot_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_wifi_tethering_black_24dp_white.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_wifi_tethering_black_24dp_white.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_settings_24dp.png",

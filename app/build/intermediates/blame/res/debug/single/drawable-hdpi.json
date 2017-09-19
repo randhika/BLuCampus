@@ -56,6 +56,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_share_black_24dp_white.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_wifi_tethering_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_wifi_tethering_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp_white.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_arrow_back_black_24dp_white.png"
     },

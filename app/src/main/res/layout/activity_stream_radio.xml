@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/colorAccent">
+    android:layout_height="wrap_content"
+    android:background="#fff">
 
     <!-- Player Header -->
     <LinearLayout
@@ -17,15 +17,18 @@
         <!-- Song Title -->
         <TextView
             android:id="@+id/songTitle"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:textColor="#fff"
-            android:textSize="16dp"
             android:paddingLeft="10dp"
-            android:textStyle="bold"
+            android:paddingTop="10dp"
             android:text="Radio Budi Luhur"
-            android:layout_marginTop="10dp"/>
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_wifi_tethering_black_24dp_white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
 
         <!-- Playlist button -->
         <ImageButton
@@ -47,7 +50,8 @@
         android:layout_below="@id/player_header_bg">
         <ImageView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_share_black_24dp"/>
+            android:layout_marginTop="20dp"
+            android:src="@drawable/radiobudiluhur"/>
     </LinearLayout>
 
     <!-- Player Footer -->
@@ -68,41 +72,21 @@
             android:background="@color/colorPrimary"
             android:paddingLeft="10dp"
             android:paddingRight="10dp">
-            <!-- Previous Button -->
-            <ImageButton
-                android:id="@+id/btnPrevious"
-                android:src="@drawable/ic_arrow_drop_down_black_24dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"/>
-            <!-- Backward Button -->
-            <ImageButton
-                android:id="@+id/btnBackward"
-                android:src="@drawable/ic_arrow_back_black_24dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"/>
-            <!-- Play Button -->
+
+
             <ImageButton
                 android:id="@+id/btnPlay"
-                android:src="@drawable/ic_account_circle_24dp1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"/>
-            <!-- Forward Button -->
+                android:src="@drawable/play"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/play"/>
             <ImageButton
-                android:id="@+id/btnForward"
-                android:src="@drawable/ic_event_available_black_24dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"/>
-            <!-- Next Button -->
-            <ImageButton
-                android:id="@+id/btnNext"
-                android:src="@drawable/ic_check_24dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@null"/>
+                android:id="@+id/btnStop"
+                android:src="@drawable/stop_normal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/stop_normal"
+                android:visibility="gone"/>
         </LinearLayout>
     </LinearLayout>
 

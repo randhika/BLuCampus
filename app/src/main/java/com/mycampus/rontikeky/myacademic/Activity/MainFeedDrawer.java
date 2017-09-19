@@ -210,6 +210,9 @@ public class MainFeedDrawer extends AppCompatActivity
             fragment = new SeminarFragment();
         } else if (id == R.id.nav_workshop) {
             fragment = new WorkshopFragment();
+        }else if (id == R.id.nav_radio) {
+            Intent radioIntent = new Intent(this,StreamRadioActivity.class);
+            startActivity(radioIntent);
         } else if (id == R.id.nav_baak) {
             prefEditor("BAAK");
         } else if (id == R.id.nav_fti) {

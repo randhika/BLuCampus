@@ -1,25 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:onClick="songPicked"
-    android:orientation="vertical"
-    android:padding="5dp" >
+    android:background="#fff">
 
-    <TextView
-        android:id="@+id/song_title"
+    <!-- Player Header -->
+    <LinearLayout
+        android:id="@+id/player_header_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <!-- Song Title -->
+        <TextView
+            android:id="@+id/songTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="Radio Budi Luhur"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:drawableLeft="@drawable/ic_wifi_tethering_black_24dp_white"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <!-- Playlist button -->
+        <ImageButton
+            android:id="@+id/btnPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@color/colorPrimary"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <!-- Song Thumbnail Image -->
+    <LinearLayout
+        android:id="@+id/songThumbnail"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textColor="#FFFFFF99"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_below="@id/player_header_bg">
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/radiobudiluhur"/>
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/song_artist"
+    <!-- Player Footer -->
+    <LinearLayout
+        android:id="@+id/player_footer_bg"
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#FFFFFF99"
-        android:textSize="18sp" />
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:gravity="center">
 
-</LinearLayout>
+        <!-- Player Buttons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp">
+
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:src="@drawable/play"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/play"/>
+            <ImageButton
+                android:id="@+id/btnStop"
+                android:src="@drawable/stop_normal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/stop_normal"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Progress Bar/Seek bar -->
+
+
+</RelativeLayout>

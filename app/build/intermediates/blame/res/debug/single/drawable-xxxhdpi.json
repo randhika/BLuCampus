@@ -104,6 +104,10 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_event_available_24dp.png"
     },
     {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_wifi_tethering_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_wifi_tethering_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_home_black_24dp.png"
     }
