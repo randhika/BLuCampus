@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\enter.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\src\\main\\res\\animator\\enter.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\enter.xml",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\src\\main\\res\\animator\\exit.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",

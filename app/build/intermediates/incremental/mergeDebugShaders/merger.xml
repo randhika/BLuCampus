@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\APK\MyAcademic\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\APK\MyAcademic\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\BluCampus\BLuCampus\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\BluCampus\BLuCampus\app\src\debug\shaders"/></dataSet></merger>

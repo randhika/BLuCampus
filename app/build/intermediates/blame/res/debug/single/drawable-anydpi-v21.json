@@ -12,16 +12,112 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_receipt_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_receipt_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_drop_down_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp1.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp1.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_wifi_tethering_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_wifi_tethering_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_receipt_24dp.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_receipt_24dp.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_wifi_tethering_black_24dp.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_wifi_tethering_black_24dp.xml"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
@@ -40,40 +136,60 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp1.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Refaldi\\.android\\build-cache\\44f801d3c86d39d6c86a27c40f0cb097ec3e87bc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_https_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_https_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_24dp.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_whatshot_black_24dp.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_whatshot_black_24dp.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_phone_iphone_24dp.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\Refaldi\\.android\\build-cache\\44f801d3c86d39d6c86a27c40f0cb097ec3e87bc\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp_white.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_place_24dp.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_event_available_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_event_available_24dp.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_info_outline_black_24dp.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp.xml"
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_whatshot_black_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_whatshot_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_settings_24dp.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_account_circle_24dp.xml",
@@ -82,21 +198,5 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_arrow_back_black_24dp.xml"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_clear_all_24dp.xml"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_person_24dp.xml"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_check_24dp.xml"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_home_black_24dp.xml"
     }
 ]

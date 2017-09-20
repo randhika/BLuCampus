@@ -1,7 +1,4 @@
-#Tue Sep 19 17:01:13 ICT 2017
-base.0=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1256315d5b9866637da37c1913afa68e27cf79e6
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5751e22e0555d05fa7a6629b1239848004b6a291\\classes.dex
-base.1=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5751e22e0555d05fa7a6629b1239848004b6a291
-file.0=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_1256315d5b9866637da37c1913afa68e27cf79e6\\classes.dex
+#Wed Sep 20 21:08:02 ICT 2017
+base.0=C\:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

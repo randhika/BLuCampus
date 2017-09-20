@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_wifi_tethering_black_24dp_white.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_wifi_tethering_black_24dp_white.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_wifi_tethering_black_24dp_white.xml",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_wifi_tethering_black_24dp_white.xml"
+    },
+    {
+        "merged": "C:\\BluCampus\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_home_black_2_24dp.xml",
+        "source": "C:\\BluCampus\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi-v21\\ic_home_black_2_24dp.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v21\\ic_home_black_2_24dp.xml",

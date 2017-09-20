@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="justifiedtextview-1.0.2">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/b07b229543eed71acb8a58b1278322b4e6703966/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/b07b229543eed71acb8a58b1278322b4e6703966/output/res" />
+      <root url="file://$USER_HOME$/.android/build-cache/ad022a400b9848ccd48fd2e6ed4af8041df83b61/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/ad022a400b9848ccd48fd2e6ed4af8041df83b61/output/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
