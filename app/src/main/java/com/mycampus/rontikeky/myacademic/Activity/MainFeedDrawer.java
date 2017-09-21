@@ -1,18 +1,23 @@
 package com.mycampus.rontikeky.myacademic.Activity;
 
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
+import android.provider.MediaStore;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -22,6 +27,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +39,9 @@ import com.mycampus.rontikeky.myacademic.Fragment.HomeFragmentV2;
 import com.mycampus.rontikeky.myacademic.Fragment.SeminarFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.WorkshopFragment;
 import com.mycampus.rontikeky.myacademic.R;
+import com.mycampus.rontikeky.myacademic.Util.ImageFilePath;
+
+import java.io.IOException;
 
 public class MainFeedDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -94,32 +103,59 @@ public class MainFeedDrawer extends AppCompatActivity
         ivDisplayHeader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent pickPhoto = new Intent(Intent.ACTION_PICK,
-                        android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-                startActivityForResult(pickPhoto , 1);//one can be replaced with any action code
+//                Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+//                photoPickerIntent.setType("image/*");
+//                startActivityForResult(photoPickerIntent, 0);
+                loadPhoto(ivDisplayHeader,50,50);
             }
         });
 
     }
 
     //Hasil Select Image dari gallery dan foto(Not Fix Yet)
-    protected void onActivityResult(int requestCode, int resultCode, Intent imageReturnedIntent) {
-        super.onActivityResult(requestCode, resultCode, imageReturnedIntent);
-        switch(requestCode) {
-            case 0:
-                if(resultCode == RESULT_OK){
-                    Uri selectedImage = imageReturnedIntent.getData();
-                    ivDisplayHeader.setImageURI(selectedImage);
-                }
+//    @Override
+//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        super.onActivityResult(requestCode, resultCode, data);
+//        if(resultCode == Activity.RESULT_OK)
+//            switch (requestCode){
+//                case 0:
+//                    Uri selectedImage = data.getData();
+//                    try {
+//                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
+//                        String pathImage = ImageFilePath.getPath(this,data.getData());
+//                        Log.d("xxx",pathImage);
+//                        ivDisplayHeader.setImageBitmap(bitmap);
+//                    } catch (IOException e) {
+//                        Log.i("TAG", "Some exception " + e);
+//                    }
+//                    break;
+//        }
+//    }
 
-                break;
-            case 1:
-                if(resultCode == RESULT_OK){
-                    Uri selectedImage = imageReturnedIntent.getData();
-                    ivDisplayHeader.setImageURI(selectedImage);
-                }
-                break;
-        }
+    private void loadPhoto(ImageView imageView, int width, int height) {
+
+        ImageView tempImageView = imageView;
+
+
+        AlertDialog.Builder imageDialog = new AlertDialog.Builder(this);
+        LayoutInflater inflater = (LayoutInflater) this.getSystemService(LAYOUT_INFLATER_SERVICE);
+
+        View layout = inflater.inflate(R.layout.custom_fullimage_dialog,
+                (ViewGroup) findViewById(R.id.layout_root));
+        ImageView image = (ImageView) layout.findViewById(R.id.fullimage);
+        image.setImageDrawable(tempImageView.getDrawable());
+        imageDialog.setView(layout);
+        imageDialog.setPositiveButton("Ok", new DialogInterface.OnClickListener(){
+
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+
+        });
+
+
+        imageDialog.create();
+        imageDialog.show();
     }
 
     @Override

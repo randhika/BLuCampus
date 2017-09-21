@@ -2,44 +2,35 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="22"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505815970189"
+    timestamp="1505958515789"
     token="7530584250519476414"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="8870" />
+        duration="1171" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="452" />
     <task
         name="instant-run-transform"
-        duration="132" />
+        duration="35" />
     <task
         name="verifier"
-        duration="345" />
+        duration="3" />
 
     <artifact
-        location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="E:\APK\MyAcademic\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
+        location="E:\APK\MyAcademic\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
-        timestamp="1505811814859"
+        timestamp="1505956413293"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
         <artifact
             location="E:\APK\MyAcademic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
@@ -53,7 +44,13 @@
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
+            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
@@ -73,16 +70,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1505814870620"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1505958250378"
+        verifier="CLASS_ADDED" >
         <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1505815244029"
-        verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
@@ -90,22 +82,27 @@
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
             location="E:\APK\MyAcademic\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="COLD"
-        timestamp="1505815970189"
-        verifier="COLD_SWAP_REQUESTED" >
+        build-mode="HOT_WARM"
+        timestamp="1505958463619"
+        verifier="COMPATIBLE" >
         <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
+            location="E:\APK\MyAcademic\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1505958515789"
+        verifier="COMPATIBLE" >
         <artifact
-            location="E:\APK\MyAcademic\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
+            location="E:\APK\MyAcademic\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
