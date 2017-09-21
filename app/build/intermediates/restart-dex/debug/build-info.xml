@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1505958515789"
+    timestamp="1505996891111"
     token="7530584250519476414"
     verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="1171" />
+        duration="1474" />
     <task
         name="instant-run-dex"
-        duration="452" />
+        duration="1110" />
     <task
         name="instant-run-transform"
-        duration="35" />
+        duration="149" />
     <task
         name="verifier"
-        duration="3" />
+        duration="37" />
 
     <artifact
         location="E:\APK\MyAcademic\app\build\intermediates\reload-dex\debug\classes.dex"
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1505956413293"
+        timestamp="1505993919788"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\APK\MyAcademic\app\build\outputs\apk\app-debug.apk"
@@ -70,17 +70,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1505958250378"
+        timestamp="1505996794630"
         verifier="CLASS_ADDED" >
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-            type="SPLIT" />
         <artifact
             location="E:\APK\MyAcademic\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
@@ -90,15 +81,7 @@
     </build>
     <build
         build-mode="HOT_WARM"
-        timestamp="1505958463619"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="E:\APK\MyAcademic\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
-            type="RESOURCES" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1505958515789"
+        timestamp="1505996891111"
         verifier="COMPATIBLE" >
         <artifact
             location="E:\APK\MyAcademic\app\build\intermediates\reload-dex\debug\classes.dex"

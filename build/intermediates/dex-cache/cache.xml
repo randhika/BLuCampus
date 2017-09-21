@@ -101,6 +101,15 @@
         <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\debug\classes_b154798b95f767517b93b2151639c85a76e983d3.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.5.2_3bf00eb62570ca7cb87befcba2916d41187652e4\classes.dex" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\logging-interceptor\3.8.1\feab46062803513d6a8307c74b0084265855de1a\logging-interceptor-3.8.1.jar"
         jumboMode="false"

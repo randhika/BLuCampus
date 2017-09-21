@@ -249,13 +249,15 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
                 viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
                 viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
             }else{
-                if (jamFor.compareTo(jamFor2) > 0){
-                    Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
-                    viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
-                    viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
-                    viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
-                }else{
-                    Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                if (dateFormmated.compareTo(tanggalFormattedBatas) == 0){
+                    if (jamFor.compareTo(jamFor2) > 0){
+                        Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                        viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
+                        viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
+                        viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
+                    }else{
+                        Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                    }
                 }
                 Log.d("WAKTU 2 : ","TANGGAL EVENT BELUM BERAKHIR");
             }
@@ -304,7 +306,7 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
             viewHolder.getTempat_view().setText(model.tempatAcara);
             viewHolder.getJam_view2().setText(", "+model.jamAcara);
             viewHolder.getBiaya_view().setText("Rp." + s);
-            Glide.with(context).load(model.fotoAcara).into(viewHolder.imageUrl);
+            Glide.with(context).load(model.fotoAcara).placeholder(R.drawable.nopicture).into(viewHolder.imageUrl);
             //viewHolder.getDaftar_view().setText(daftar_acara[position]);
 
             // Here you apply the animation when the view is bound

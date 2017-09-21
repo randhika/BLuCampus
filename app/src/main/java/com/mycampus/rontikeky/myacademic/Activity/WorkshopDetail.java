@@ -102,76 +102,14 @@ public class WorkshopDetail extends AppCompatActivity {
         btnDaftar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pDialog.setCancelable(false);
-                pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-                pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                pDialog.show();
-
-                AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
-
-                Call<DaftarAcaraResponse> call1 = client1.doRegisterEvent(extrasSlug);
-
-                call1.enqueue(new Callback<DaftarAcaraResponse>() {
-                    @Override
-                    public void onResponse(Call<DaftarAcaraResponse> call, Response<DaftarAcaraResponse> response) {
-                        try {
-                            pDialog.dismiss();
-                            if (response.isSuccessful()) {
-                                btnCancel.setVisibility(View.VISIBLE);
-                                btnDaftar.setVisibility(View.GONE);
-                                addEvent2(judul.getText().toString(),isi.getText().toString(),tempat.getText().toString(),tanggal.getText().toString(),jam.getText().toString());
-                                Toast.makeText(getApplicationContext(),"Event telah ditambahkan ke kalendar anda",Toast.LENGTH_SHORT).show();
-                                showDialog();
-                            }
-                            Log.d("TRY", new Gson().toJson(response));
-                        } catch (Exception e) {
-                            Log.d("TRY 2", e.toString());
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<DaftarAcaraResponse> call, Throwable t) {
-                        pDialog.dismiss();
-                        Log.d("TRY 3", t.toString());
-                    }
-                });
+                registrationEvent();
             }
         });
 
         btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                pDialog.setCancelable(false);
-                pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
-                pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-                pDialog.show();
-
-                AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
-
-                Call<DaftarAcaraResponse> call1 = client1.doCancelEvent(extrasSlug);
-
-                call1.enqueue(new Callback<DaftarAcaraResponse>() {
-                    @Override
-                    public void onResponse(Call<DaftarAcaraResponse> call, Response<DaftarAcaraResponse> response) {
-                        try {
-                            pDialog.dismiss();
-                            if (response.isSuccessful()) {
-                                btnCancel.setVisibility(View.GONE);
-                                btnDaftar.setVisibility(View.VISIBLE);
-                                showDialogCancel();
-                            }
-                            Log.d("TRY", new Gson().toJson(response));
-                        } catch (Exception e) {
-                            Log.d("TRY 2", e.toString());
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<DaftarAcaraResponse> call, Throwable t) {
-                        pDialog.dismiss();
-                        Log.d("TRY 3", t.toString());
-                    }
-                });
+                showDialogConfirmationCancel();
             }
         });
     }
@@ -182,6 +120,76 @@ public class WorkshopDetail extends AppCompatActivity {
     public boolean onSupportNavigateUp() {
         finish();
         return true;
+    }
+
+    private void registrationEvent(){
+        pDialog.setCancelable(false);
+        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
+        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        pDialog.show();
+
+        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+
+        Call<DaftarAcaraResponse> call1 = client1.doRegisterEvent(extrasSlug);
+
+        call1.enqueue(new Callback<DaftarAcaraResponse>() {
+            @Override
+            public void onResponse(Call<DaftarAcaraResponse> call, Response<DaftarAcaraResponse> response) {
+                try {
+                    pDialog.dismiss();
+                    if (response.isSuccessful()) {
+                        btnCancel.setVisibility(View.VISIBLE);
+                        btnDaftar.setVisibility(View.GONE);
+                        addEvent2(judul.getText().toString(),isi.getText().toString(),tempat.getText().toString(),tanggal.getText().toString(),jam.getText().toString());
+                        Toast.makeText(getApplicationContext(),"Event telah ditambahkan ke kalendar anda",Toast.LENGTH_SHORT).show();
+                        showDialog();
+                    }
+                    Log.d("TRY", new Gson().toJson(response));
+                } catch (Exception e) {
+                    Log.d("TRY 2", e.toString());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<DaftarAcaraResponse> call, Throwable t) {
+                pDialog.dismiss();
+                Log.d("TRY 3", t.toString());
+            }
+        });
+    }
+
+    private void cancelEventParticipation(){
+        pDialog.setCancelable(false);
+        pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
+        pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        pDialog.show();
+
+        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+
+        Call<DaftarAcaraResponse> call1 = client1.doCancelEvent(extrasSlug);
+
+        call1.enqueue(new Callback<DaftarAcaraResponse>() {
+            @Override
+            public void onResponse(Call<DaftarAcaraResponse> call, Response<DaftarAcaraResponse> response) {
+                try {
+                    pDialog.dismiss();
+                    if (response.isSuccessful()) {
+                        btnCancel.setVisibility(View.GONE);
+                        btnDaftar.setVisibility(View.VISIBLE);
+                        showDialogCancel();
+                    }
+                    Log.d("TRY", new Gson().toJson(response));
+                } catch (Exception e) {
+                    Log.d("TRY 2", e.toString());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<DaftarAcaraResponse> call, Throwable t) {
+                pDialog.dismiss();
+                Log.d("TRY 3", t.toString());
+            }
+        });
     }
 
     private void loadWorkshop(){
@@ -294,16 +302,18 @@ public class WorkshopDetail extends AppCompatActivity {
                         btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
                         btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
                     }else{
-                        if (jamFor.compareTo(jamFor2) > 0){
-                            Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
-                            btnDaftar.setText("Pendaftaran sudah ditutup..");
-                            btnCancel.setText("Pendaftaran sudah ditutup..");
-                            btnDaftar.setEnabled(false);
-                            btnCancel.setEnabled(false);
-                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
-                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
-                        }else{
-                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        if (dateFormmated.compareTo(tanggalFormattedBatas) == 0){
+                            if (jamFor.compareTo(jamFor2) > 0){
+                                Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                                btnDaftar.setText("Pendaftaran sudah ditutup..");
+                                btnCancel.setText("Pendaftaran sudah ditutup..");
+                                btnDaftar.setEnabled(false);
+                                btnCancel.setEnabled(false);
+                                btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                                btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                            }else{
+                                Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                            }
                         }
                         Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
                     }
@@ -317,16 +327,18 @@ public class WorkshopDetail extends AppCompatActivity {
                         btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
                         btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
                     }else{
-                        if (jamFor.compareTo(jamFormmated) > 0){
-                            Log.d("WAKTU x : ","Event Telah Berakhir..");
-                            btnDaftar.setText("Pendaftaran sudah ditutup..");
-                            btnCancel.setText("Pendaftaran sudah ditutup..");
-                            btnDaftar.setEnabled(false);
-                            btnCancel.setEnabled(false);
-                            btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
-                            btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
-                        }else{
-                            Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                        if (dateFormmated.compareTo(tanggalFormattedBatas) == 0){
+                            if (jamFor.compareTo(jamFor2) > 0){
+                                Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                                btnDaftar.setText("Pendaftaran sudah ditutup..");
+                                btnCancel.setText("Pendaftaran sudah ditutup..");
+                                btnDaftar.setEnabled(false);
+                                btnCancel.setEnabled(false);
+                                btnDaftar.setBackgroundColor(Color.parseColor("#ff0000"));
+                                btnCancel.setBackgroundColor(Color.parseColor("#ff0000"));
+                            }else{
+                                Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                            }
                         }
                         Log.d("WAKTU AH : ","TANGGAL EVENT BELUM BERAKHIR");
                     }
@@ -384,6 +396,31 @@ public class WorkshopDetail extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int which) {
                         // continue with delete
                         loadWorkshop();
+                    }
+                })
+                .show();
+    }
+
+    private void showDialogConfirmationCancel(){
+        AlertDialog.Builder builder;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder = new AlertDialog.Builder(WorkshopDetail.this, android.R.style.Theme_Material_Dialog_Alert);
+        } else {
+            builder = new AlertDialog.Builder(WorkshopDetail.this);
+        }
+        builder.setTitle("Pesan..")
+                .setMessage("Anda yakin ingin membatalkan partisipasi dalam event ini?")
+                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // continue with delete
+                        cancelEventParticipation();
+                        loadWorkshop();
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
                     }
                 })
                 .show();

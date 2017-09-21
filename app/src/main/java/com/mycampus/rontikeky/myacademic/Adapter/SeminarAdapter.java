@@ -271,14 +271,17 @@ public class SeminarAdapter extends RecyclerView.Adapter<SeminarAdapter.ViewHold
                 viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
                 viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
             }else{
-                if (jamFor.compareTo(jamFor2) > 0){
-                    Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
-                    viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
-                    viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
-                    viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
-                }else{
-                    Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                if (dateFormmated.compareTo(tanggalFormattedBatas) == 0){
+                    if (jamFor.compareTo(jamFor2) > 0){
+                        Log.d("WAKTU x : ","TANGGAL EVENT TELAH BERAKHIR");
+                        viewHolder.getTerdaftar_text().setVisibility(View.VISIBLE);
+                        viewHolder.getTerdaftar_text().setText("Pendaftaran ditutup");
+                        viewHolder.getTerdaftar_text().setBackgroundColor(Color.parseColor("#FF0000"));
+                    }else{
+                        Log.d("WAKTU y : ","TANGGAL EVENT BELUM BERAKHIR");
+                    }
                 }
+
                 Log.d("WAKTU 2 : ","TANGGAL EVENT BELUM BERAKHIR");
             }
 
@@ -329,7 +332,7 @@ public class SeminarAdapter extends RecyclerView.Adapter<SeminarAdapter.ViewHold
             viewHolder.getBiaya_view().setText("Rp." + s);
             viewHolder.getDaftar_view().setText(model.daftar);
             viewHolder.getTanggal_valid().setText(formmatedDate2);
-            Glide.with(context).load(model.fotoAcara).into(viewHolder.imageUrl);
+            Glide.with(context).load(model.fotoAcara).placeholder(R.drawable.nopicture).into(viewHolder.imageUrl);
 
             // Here you apply the animation when the view is bound
             setAnimation(viewHolder.itemView, position);

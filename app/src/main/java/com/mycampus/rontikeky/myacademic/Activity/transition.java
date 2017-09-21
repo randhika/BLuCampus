@@ -167,7 +167,8 @@ public class transition extends AppCompatActivity {
                     if (response.body().data.size() != 0){
                         txtJudul.setText(response.body().data.get(0).judulAcara);
 
-                        Glide.with(getApplicationContext()).load(response.body().data.get(0).fotoAcara).into(imgHot);
+                        //Glide.with(getApplicationContext()).load(response.body().data.get(0).fotoAcara).into(imgHot);
+                        Glide.with(getApplicationContext()).load(response.body().data.get(0).fotoAcara).placeholder(R.drawable.nopicture).into(imgHot);
 
                         Calendar c = Calendar.getInstance();
 
