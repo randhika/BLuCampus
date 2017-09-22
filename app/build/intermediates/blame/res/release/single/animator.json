@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\animator\\enter.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\release\\animator\\exit.xml",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\exit.xml"
+    }
+]

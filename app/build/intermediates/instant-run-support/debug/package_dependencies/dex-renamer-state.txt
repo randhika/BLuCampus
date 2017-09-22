@@ -1,4 +1,4 @@
-#Thu Sep 21 18:29:21 ICT 2017
+#Fri Sep 22 08:16:27 ICT 2017
 file.9=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_f88113fb28ee484b7f2ef6e5997be00c7de1e64c\\classes.dex
 base.10=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d793fa8b89283294100ec7c20a0ca4404b593c19
 file.8=E\:\\APK\\MyAcademic\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a600be5e93bb4f1e3e987541815715d1c9db8b38\\classes.dex

@@ -30,6 +30,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Anggit\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.5.2\ecf534dba3a8446ce84cbb797d314763be212a68\glide-3.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ecf534dba3a8446ce84cbb797d314763be212a68">
+        <dex dex="E:\APK\MyAcademic\app\build\intermediates\pre-dexed\release\glide-3.5.2_3bf00eb62570ca7cb87befcba2916d41187652e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Anggit\.android\build-cache\f1462b0729e0ab11b8639630ffe828cf5d719497\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -70,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="974eab30fb0227eaca25962a245c10788c87fb92">
+        sha1="669739fd3330722d9de402f0a79f7a861fd265fe">
         <dex dex="E:\APK\MyAcademic\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1256315d5b9866637da37c1913afa68e27cf79e6\classes.dex" />
     </item>
     <item

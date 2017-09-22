@@ -73,10 +73,10 @@
             android:icon="@drawable/ic_menu_gallery"
             android:title="Workshop" />
 
-        <item
-            android:id="@+id/nav_radio"
-            android:icon="@drawable/ic_wifi_tethering_black_24dp"
-            android:title="Radio Budi Luhur" />
+        <!--<item-->
+            <!--android:id="@+id/nav_radio"-->
+            <!--android:icon="@drawable/ic_wifi_tethering_black_24dp"-->
+            <!--android:title="Radio Budi Luhur" />-->
 
 
     </group>
