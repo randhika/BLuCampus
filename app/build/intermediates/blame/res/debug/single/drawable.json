@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_vector_test.xml"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_mask.xml",

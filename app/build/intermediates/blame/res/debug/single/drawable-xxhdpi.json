@@ -12,12 +12,12 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png",

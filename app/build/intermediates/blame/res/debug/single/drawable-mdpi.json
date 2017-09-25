@@ -16,20 +16,20 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_whatshot_black_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_face_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-mdpi\\ic_face_black_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_clear_all_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_clear_all_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png"
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_face_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-mdpi\\ic_face_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_home_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_check_24dp.png",
