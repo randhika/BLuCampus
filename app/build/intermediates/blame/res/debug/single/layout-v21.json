@@ -4,6 +4,10 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Itcan\\.android\\build-cache\\48862f309562275cc8e6d8edf63a7746dc362454\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -12,8 +16,24 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
     },
     {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Itcan\\.android\\build-cache\\48862f309562275cc8e6d8edf63a7746dc362454\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Itcan\\.android\\build-cache\\48862f309562275cc8e6d8edf63a7746dc362454\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Itcan\\.android\\build-cache\\48862f309562275cc8e6d8edf63a7746dc362454\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_main.xml",
+        "source": "D:\\BluCampusGithub\\BluCampus\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",

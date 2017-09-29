@@ -2,5 +2,9 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "D:\\BluCampusGithub\\BluCampus\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     }
 ]

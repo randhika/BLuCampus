@@ -4,6 +4,14 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
     },
     {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\enter.xml",
+        "source": "D:\\BluCampusGithub\\BluCampus\\app\\src\\main\\res\\animator\\enter.xml"
+    },
+    {
+        "merged": "D:\\BluCampusGithub\\BluCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
+        "source": "D:\\BluCampusGithub\\BluCampus\\app\\src\\main\\res\\animator\\exit.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\exit.xml"
     }

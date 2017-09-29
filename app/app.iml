@@ -95,6 +95,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/restart-dex" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/rs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shaders" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
@@ -148,5 +149,6 @@
     <orderEntry type="library" exported="" name="disklrucache-4.0.0" level="project" />
     <orderEntry type="library" exported="" name="library-2.9.8" level="project" />
     <orderEntry type="library" exported="" name="firebase-analytics-9.2.0" level="project" />
+    <orderEntry type="library" exported="" name="android-android-26" level="project" />
   </component>
 </module>
