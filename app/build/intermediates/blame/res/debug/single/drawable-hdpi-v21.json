@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_email_24dp_black.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_email_24dp_black.xml"
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_phone_iphone_24dp_white.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_phone_iphone_24dp_white.xml"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_phone_iphone_24dp_white.xml",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_phone_iphone_24dp_white.xml"
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v21\\ic_email_24dp_black.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi-v21\\ic_email_24dp_black.xml"
     }
 ]

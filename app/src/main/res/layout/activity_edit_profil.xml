@@ -39,6 +39,12 @@
                 android:layout_height="3dp"
                 android:background="#c0c0c0"/>
 
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:id="@+id/ivProfile"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

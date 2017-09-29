@@ -1,41 +1,57 @@
 package com.mycampus.rontikeky.myacademic.Activity;
 
+import android.app.Activity;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Base64;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
+import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
+import com.mycampus.rontikeky.myacademic.Response.ChangeDisplayProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.EditProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileEditMahasiswaResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponseEdit;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
+import com.mycampus.rontikeky.myacademic.RestApi.ServiceGenerator;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth;
 import com.google.gson.Gson;
+import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
+import com.mycampus.rontikeky.myacademic.Util.ImageFilePath;
 
 import org.json.JSONObject;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.IOException;
 import java.util.Calendar;
 
 import retrofit2.Call;
@@ -46,6 +62,7 @@ public class EditProfil extends AppCompatActivity {
     EditText username, alamat, lahir, nama, email, password, txtTelp,nim;
     TextView result;
     Button simpan;
+    ImageView ivProfile;
     ScrollView scrollView;
 
     SharedPreferences sharedPreferences, sharedPreferences2;
@@ -79,6 +96,8 @@ public class EditProfil extends AppCompatActivity {
         password = (EditText)findViewById(R.id.txtPassword);
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         result = (TextView)findViewById(R.id.result);
+        nim = (EditText)findViewById(R.id.txtNIM);
+        ivProfile = (ImageView)findViewById(R.id.ivProfile);
         simpan = (Button)findViewById(R.id.btnSimpan);
 
         scrollView = (ScrollView)findViewById(R.id.profileScrollView);
@@ -98,49 +117,18 @@ public class EditProfil extends AppCompatActivity {
         pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         pDialog.show();
 
-        AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class,token);
-        Call<ProfileResponse> call = client.getProfile();
-        call.enqueue(new Callback<ProfileResponse>() {
+        getProfile();
+
+        ivProfile.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onResponse(Call<ProfileResponse> call, Response<ProfileResponse> response) {
-                try{
-                    pDialog.dismiss();
-                    Log.d("RESPONSE : ", new Gson().toJson(response.body()));
-                    username.setText(response.body().getUsername());
-                    alamat.setText(response.body().getAlamat());
-                    nama.setText(response.body().getNama());
-                    lahir.setText(response.body().getTanggalLahir());
-                    email.setText(response.body().getEmail());
-                    txtTelp.setText(response.body().getTelepon());
-
-                    String jsonObject = new Gson().toJson(response.body());
-
-
-                    Gson gson = new Gson();
-
-                    ProfileResponseEdit mhs = gson.fromJson(jsonObject, ProfileResponseEdit.class);
-
-
-                    if (response.body().mahasiswa != null){
-                        nim = (EditText)findViewById(R.id.txtNIM);
-                        nim.setVisibility(View.VISIBLE);
-                        nim.setText(mhs.mahasiswa.nim);
-                        nim.setEnabled(false);
-                    }else{
-                        nim = (EditText)findViewById(R.id.txtNIM);
-                        nim.setVisibility(View.GONE);
-                    }
-                }catch (Exception e){
-                    Log.d("CATCH : ",e.toString());
-                }
-            }
-
-            @Override
-            public void onFailure(Call<ProfileResponse> call, Throwable t) {
-                pDialog.dismiss();
-                Log.d("Failure", t.toString());
+            public void onClick(View view) {
+                Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
+                photoPickerIntent.setType("image/*");
+                startActivityForResult(photoPickerIntent, 0);
             }
         });
+
+
 
         final Calendar calendar = Calendar.getInstance();
         year_x = calendar.get(Calendar.YEAR);
@@ -202,6 +190,159 @@ public class EditProfil extends AppCompatActivity {
             lahir.setText(year_x+"-"+month_x+"-"+day_x);
         }
     };
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if(resultCode == Activity.RESULT_OK)
+            switch (requestCode){
+                case 0:
+                    Uri selectedImage = data.getData();
+                    try {
+                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
+                        String pathImage = ImageFilePath.getPath(this,data.getData());
+                        Log.d("xxx",pathImage);
+                        Log.d("xxxxx",getStringImage(bitmap));
+                        sendImageToServer(getStringImage(bitmap));
+                        //ivProfile.setImageBitmap(bitmap);
+                    } catch (IOException e) {
+                        Log.i("TAG", "Some exception " + e);
+                    }
+                    break;
+        }
+    }
+
+    private void sendImageToServer(String base64Image){
+        AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class,token);
+        ChangeProfileDisplayRequest changeProfileDisplayRequest = new ChangeProfileDisplayRequest(base64Image);
+        Call<ChangeDisplayProfileResponse> call = client.doChangeFoto(changeProfileDisplayRequest);
+
+        call.enqueue(new Callback<ChangeDisplayProfileResponse>() {
+            @Override
+            public void onResponse(Call<ChangeDisplayProfileResponse> call, Response<ChangeDisplayProfileResponse> response) {
+                Log.d("IMAGE",new GsonBuilder().setPrettyPrinting().create().toJson(response.body()));
+            }
+
+            @Override
+            public void onFailure(Call<ChangeDisplayProfileResponse> call, Throwable t) {
+
+            }
+        });
+
+    }
+
+    public String getStringImage(Bitmap bmp) {
+        ByteArrayOutputStream baos = new ByteArrayOutputStream();
+        scaleDown(bmp,200,true);
+        bmp.compress(Bitmap.CompressFormat.JPEG, 50, baos);
+        byte[] imageBytes = baos.toByteArray();
+        String encodedImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);
+        Log.d("Image", "getStringImage: "+encodedImage.trim());
+        return encodedImage;
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        getProfile();
+    }
+
+    private void getProfile(){
+        AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class,token);
+        Call<ProfileResponse> call = client.getProfile();
+        call.enqueue(new Callback<ProfileResponse>() {
+            @Override
+            public void onResponse(Call<ProfileResponse> call, Response<ProfileResponse> response) {
+                try{
+                    pDialog.dismiss();
+                    Log.d("RESPONSE : ", new Gson().toJson(response.body()));
+                    username.setText(response.body().getUsername());
+                    alamat.setText(response.body().getAlamat());
+                    nama.setText(response.body().getNama());
+                    lahir.setText(response.body().getTanggalLahir());
+                    email.setText(response.body().getEmail());
+                    txtTelp.setText(response.body().getTelepon());
+                    deleteCache(EditProfil.this);
+                    Log.d("FOTO",response.body().getFoto());
+                    Glide.with(EditProfil.this).load(response.body().getFoto()).error(R.drawable.nopicture)
+                            .fitCenter().diskCacheStrategy(DiskCacheStrategy.NONE)
+                            .skipMemoryCache(true).into(ivProfile);
+
+                    if (response.body().getNi().isEmpty()){
+                        nim.setVisibility(View.GONE);
+                    }else{
+                        nim.setVisibility(View.VISIBLE);
+                        nim.setEnabled(false);
+                        nim.setText(response.body().getNi());
+                    }
+
+//                    String jsonObject = new Gson().toJson(response.body());
+//
+//
+//                    Gson gson = new Gson();
+//
+//                    ProfileResponseEdit mhs = gson.fromJson(jsonObject, ProfileResponseEdit.class);
+//
+//
+//                    if (response.body().mahasiswa != null){
+//                        nim = (EditText)findViewById(R.id.txtNIM);
+//                        nim.setVisibility(View.VISIBLE);
+//                        nim.setText(mhs.mahasiswa.nim);
+//                        nim.setEnabled(false);
+//                    }else{
+//                        nim = (EditText)findViewById(R.id.txtNIM);
+//                        nim.setVisibility(View.GONE);
+//                    }
+                }catch (Exception e){
+                    Log.d("CATCH : ",e.toString());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<ProfileResponse> call, Throwable t) {
+                pDialog.dismiss();
+                Log.d("Failure", t.toString());
+            }
+        });
+    }
+
+
+    public static void deleteCache(Context context) {
+        try {
+            File dir = context.getCacheDir();
+            deleteDir(dir);
+        } catch (Exception e) {}
+    }
+
+    public static boolean deleteDir(File dir) {
+        if (dir != null && dir.isDirectory()) {
+            String[] children = dir.list();
+            for (int i = 0; i < children.length; i++) {
+                boolean success = deleteDir(new File(dir, children[i]));
+                if (!success) {
+                    return false;
+                }
+            }
+            return dir.delete();
+        } else if(dir!= null && dir.isFile()) {
+            return dir.delete();
+        } else {
+            return false;
+        }
+    }
+
+    public static Bitmap scaleDown(Bitmap realImage, float maxImageSize,
+                                   boolean filter) {
+        float ratio = Math.min(
+                (float) maxImageSize / realImage.getWidth(),
+                (float) maxImageSize / realImage.getHeight());
+        int width = Math.round((float) ratio * realImage.getWidth());
+        int height = Math.round((float) ratio * realImage.getHeight());
+
+        Bitmap newBitmap = Bitmap.createScaledBitmap(realImage, width,
+                height, filter);
+        return newBitmap;
+    }
 
     private void doEditProfile(){
         pDialog.setCancelable(false);

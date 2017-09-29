@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "outputFile": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -88,7 +88,7 @@
                     "endOffset": 772
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -109,7 +109,7 @@
                     "endOffset": 1072
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

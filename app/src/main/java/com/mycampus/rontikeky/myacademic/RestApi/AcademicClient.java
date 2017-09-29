@@ -1,11 +1,14 @@
 package com.mycampus.rontikeky.myacademic.RestApi;
 
 import com.mycampus.rontikeky.myacademic.Request.ChangePasswordRequest;
+import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
 import com.mycampus.rontikeky.myacademic.Request.LoginRequest;
 import com.mycampus.rontikeky.myacademic.Request.ResetPasswordRequest;
 import com.mycampus.rontikeky.myacademic.Request.SignupGuestRequest;
 import com.mycampus.rontikeky.myacademic.Request.SignupUserRequest;
+import com.mycampus.rontikeky.myacademic.Response.AndroidUpdateResponse;
+import com.mycampus.rontikeky.myacademic.Response.ChangeDisplayProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.ChangePasswordResponse;
 import com.mycampus.rontikeky.myacademic.Response.DaftarAcaraResponse;
 import com.mycampus.rontikeky.myacademic.Response.DetailSeminarResponse;
@@ -26,6 +29,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.GET;
+import retrofit2.http.Headers;
 import retrofit2.http.PATCH;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
@@ -37,13 +41,16 @@ import retrofit2.http.Query;
 public interface AcademicClient {
     //FTI ; FT ; FISIP ; FE ; FIKOM ; BAAK
 
+    @Headers("Accept: Application/json")
     @POST("signup")
     Call<SignupUserResponse> dosignup(@Body SignupUserRequest signupUserRequest);
 
+    @Headers("Accept: Application/json")
     @POST("signup")
     Call<SignupGuestResponse> dosignupGuest(@Body SignupGuestRequest signupGuestRequest);
 
-    @POST("signin")
+    @Headers("Accept: Application/json")
+    @POST("auth/signin")
     Call<LoginResponse> doLogin(@Body LoginRequest loginRequest);
 
     @POST("forget")
@@ -112,10 +119,15 @@ public interface AcademicClient {
     @PATCH("profile/password")
     Call<ChangePasswordResponse> doChangePassword(@Body ChangePasswordRequest changePasswordRequest);
 
+    @PATCH("profile/foto")
+    Call<ChangeDisplayProfileResponse> doChangeFoto(@Body ChangeProfileDisplayRequest changeProfileDisplayRequest);
+
     @POST("acara/{slug}/daftar")
     Call<DaftarAcaraResponse> doRegisterEvent(@Path("slug") String slug);
 
     @DELETE("acara/{slug}/daftar")
     Call<DaftarAcaraResponse> doCancelEvent(@Path("slug") String slug);
 
+    @GET("android")
+    Call<AndroidUpdateResponse> getAndroidVersion();
 }

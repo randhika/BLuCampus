@@ -1,54 +1,58 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:2:1-111:12
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:2:1-112:12
 	package
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:3:5-48
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:21:5-67
 MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [com.google.firebase:firebase-analytics:9.2.0] C:\Users\Anggit\.android\build-cache\6f3a16d0c06f3f6d8ee583d9fab094a9266d25d5\output\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] C:\Users\Anggit\.android\build-cache\1a6a22a4b4772eb746413f9944ccb2c941a06e27\output\AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:9.2.0] C:\Users\Anggit\.android\build-cache\b0236f21a2cd981ef784d8cafe29a6f078a506e1\output\AndroidManifest.xml:20:5-79
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:6:22-76
 uses-permission#android.permission.CALL_PHONE
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:7:5-69
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:7:5-69
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:7:22-66
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:7:22-66
 uses-permission#com.android.alarm.permission.SET_ALARM
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:8:5-78
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:8:5-78
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:8:22-75
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:8:22-75
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:9:5-73
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:9:5-73
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:9:22-70
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:9:22-70
 uses-permission#android.permission.READ_CALENDAR
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:10:5-72
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:10:5-72
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:10:22-69
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:10:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:11:22-77
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:11:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:13:5-109:19
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:14:5-110:19
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\0f5dfbc4abb68ef89d086e99e7a8b214b2751b93\output\AndroidManifest.xml:26:5-20
@@ -72,197 +76,197 @@ MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\Anggit\
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\a6e25b7778ddba2161b2172de67e2276fe3f97ee\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\8859231d525ab09c74df6fe8d9c12f223b18bbb2\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:18:9-41
 	android:supportsRtl
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:19:9-35
 	android:allowBackup
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:17:9-43
 	android:theme
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:19:9-40
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:20:9-40
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:14:9-68
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:15:9-68
 activity#com.mycampus.rontikeky.myacademic.Activity.MainActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:20:9-22:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:21:9-23:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:22:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:23:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:21:13-50
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:22:13-50
 activity#com.mycampus.rontikeky.myacademic.Activity.splash_screen
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:23:9-34:20
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:24:9-35:20
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:27:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:28:13-49
 	android:label
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:25:13-38
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:26:13-38
 	android:noHistory
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:26:13-37
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:27:13-37
 	android:theme
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:28:13-48
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:29:13-48
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:24:13-51
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:25:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:29:13-33:29
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:30:17-69
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:30:25-66
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.mycampus.rontikeky.myacademic.Activity.transition
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:35:9-38:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:36:9-39:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:38:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:39:13-49
 	android:noHistory
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:37:13-37
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:36:13-48
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:37:13-48
 activity#com.mycampus.rontikeky.myacademic.Activity.RegisterUser
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:39:9-42:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:40:9-43:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:43:13-49
 	android:noHistory
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:41:13-37
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:42:13-37
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:40:13-50
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:41:13-50
 activity#com.mycampus.rontikeky.myacademic.Activity.ResetPassword
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:43:9-45:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:44:9-46:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:46:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:44:13-51
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:45:13-51
 activity#com.mycampus.rontikeky.myacademic.Activity.ChooseRegister
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:46:9-49:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:47:9-50:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:50:13-49
 	android:noHistory
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:48:13-37
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:47:13-52
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:48:13-52
 activity#com.mycampus.rontikeky.myacademic.Activity.RegisterGuest
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:50:9-53:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:51:9-54:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:53:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:54:13-49
 	android:noHistory
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:52:13-37
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:53:13-37
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:51:13-51
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:52:13-51
 activity#com.mycampus.rontikeky.myacademic.Activity.MainFeed
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:54:9-58:59
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:55:9-59:59
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:57:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:58:13-49
 	android:label
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:56:13-61
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:57:13-61
 	android:theme
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:58:13-56
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:59:13-56
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:55:13-46
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:56:13-46
 activity#com.mycampus.rontikeky.myacademic.Activity.EditProfil
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:59:9-61:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:60:9-62:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:62:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:60:13-48
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:61:13-48
 activity#com.mycampus.rontikeky.myacademic.Activity.SuccessRegister
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:62:9-64:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:63:9-65:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:64:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:65:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:63:13-53
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:64:13-53
 activity#com.mycampus.rontikeky.myacademic.Activity.SeminarDetial
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:65:9-73:20
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:66:9-74:20
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:67:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:68:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:66:13-51
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:67:13-51
 intent-filter#android.intent.action.SET_ALARM+android.intent.category.DEFAULT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:69:13-73:29
 action#android.intent.action.SET_ALARM
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:69:17-74
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:70:17-74
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:69:25-71
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:70:25-71
 category#android.intent.category.DEFAULT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:71:17-76
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:72:17-76
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:71:27-73
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:72:27-73
 activity#com.mycampus.rontikeky.myacademic.Activity.WorkshopDetail
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:74:9-76:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:75:9-77:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:76:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:77:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:75:13-52
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:76:13-52
 activity#com.mycampus.rontikeky.myacademic.Activity.InfoDetail
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:77:9-79:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:78:9-80:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:79:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:80:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:78:13-48
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:79:13-48
 activity#com.mycampus.rontikeky.myacademic.Activity.ChangePassword
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:80:9-82:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:81:9-83:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:82:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:83:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:81:13-52
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:82:13-52
 activity#com.mycampus.rontikeky.myacademic.Activity.RegisteredEventActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:83:9-85:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:84:9-86:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:85:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:86:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:84:13-61
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:85:13-61
 activity#com.mycampus.rontikeky.myacademic.Activity.ChooseFaculty
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:86:9-88:52
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:87:9-89:52
 	android:screenOrientation
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:88:13-49
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:89:13-49
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:87:13-51
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:88:13-51
 activity#com.mycampus.rontikeky.myacademic.Activity.FullScreenImageActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:89:9-70
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:90:9-70
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:89:19-67
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:90:19-67
 activity#com.mycampus.rontikeky.myacademic.Activity.AboutActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:90:9-60
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:91:9-60
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:90:19-57
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:91:19-57
 activity#com.mycampus.rontikeky.myacademic.Activity.MainFeedDrawer
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:91:9-94:59
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:92:9-95:59
 	android:label
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:93:13-68
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:94:13-68
 	android:theme
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:94:13-56
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:95:13-56
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:92:13-52
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:93:13-52
 activity#com.mycampus.rontikeky.myacademic.Activity.ContactActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:95:9-62
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:96:9-62
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:95:19-59
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:96:19-59
 service#com.mycampus.rontikeky.myacademic.Service.MyFirebaseMessagingService
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:97:9-101:19
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:98:9-102:19
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:97:18-68
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:98:18-68
 intent-filter#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:98:13-100:29
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:99:13-101:29
 action#com.google.firebase.MESSAGING_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:99:17-78
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:100:17-78
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:99:25-75
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:100:25-75
 service#com.mycampus.rontikeky.myacademic.Service.FirebaseIDService
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:102:9-106:19
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:103:9-107:19
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:102:18-59
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:103:18-59
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:103:13-105:29
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:104:13-106:29
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:104:17-80
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:105:17-80
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:104:25-77
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:105:25-77
 activity#com.mycampus.rontikeky.myacademic.Activity.StreamRadioActivity
-ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:108:9-75
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:109:9-75
 	android:name
-		ADDED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml:108:19-63
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:109:19-63
 uses-sdk
-INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\910738a0391d1c1ba9508cf31c51417e5d0dbe43\output\AndroidManifest.xml:20:5-44
@@ -295,11 +299,11 @@ MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\Anggit\.
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
-		INJECTED from E:\APK\MyAcademic\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
+		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:25:5-27:41

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 352
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1512,7 +1512,7 @@
                     "endOffset": 6833
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1531,7 +1531,7 @@
                     "endOffset": 6880
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1550,7 +1550,7 @@
                     "endOffset": 6931
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\colors.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\colors.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -9492,7 +9492,7 @@
                     "endOffset": 69445
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -9511,7 +9511,7 @@
                     "endOffset": 69501
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -10347,7 +10347,7 @@
                     "endOffset": 72268
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -11259,7 +11259,7 @@
                     "endOffset": 75673
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -11278,7 +11278,7 @@
                     "endOffset": 75732
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\dimens.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -11601,7 +11601,7 @@
                     "endOffset": 76849
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -11620,7 +11620,7 @@
                     "endOffset": 76939
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -11639,7 +11639,7 @@
                     "endOffset": 77027
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -11658,7 +11658,7 @@
                     "endOffset": 77111
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -11677,7 +11677,7 @@
                     "endOffset": 77197
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -11696,7 +11696,7 @@
                     "endOffset": 77291
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\drawables.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\drawables.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -12874,7 +12874,7 @@
                     "endOffset": 81230
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -12893,7 +12893,7 @@
                     "endOffset": 81277
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 1,
                         "startColumn": 4,
@@ -12969,7 +12969,7 @@
                     "endOffset": 81670
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -13007,7 +13007,7 @@
                     "endOffset": 82033
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -13121,7 +13121,7 @@
                     "endOffset": 82402
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -13140,7 +13140,7 @@
                     "endOffset": 82484
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -13159,7 +13159,7 @@
                     "endOffset": 82588
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -13178,7 +13178,7 @@
                     "endOffset": 82691
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -13197,7 +13197,7 @@
                     "endOffset": 82811
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -13216,7 +13216,7 @@
                     "endOffset": 82910
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -13235,7 +13235,7 @@
                     "endOffset": 82980
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -13254,7 +13254,7 @@
                     "endOffset": 83018
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -13866,7 +13866,7 @@
                     "endOffset": 86226
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
@@ -13885,7 +13885,7 @@
                     "endOffset": 86300
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -13904,7 +13904,7 @@
                     "endOffset": 86338
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -14037,7 +14037,7 @@
                     "endOffset": 87250
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -14075,7 +14075,7 @@
                     "endOffset": 87383
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -14094,7 +14094,7 @@
                     "endOffset": 87458
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -14113,7 +14113,7 @@
                     "endOffset": 87530
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -14132,7 +14132,7 @@
                     "endOffset": 87601
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -14151,7 +14151,7 @@
                     "endOffset": 87647
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\strings.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -14268,7 +14268,7 @@
                     "endOffset": 88709
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -14288,7 +14288,7 @@
                     "endOffset": 88799
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -14308,7 +14308,7 @@
                     "endOffset": 89113
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -14328,7 +14328,7 @@
                     "endOffset": 89193
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -18132,7 +18132,7 @@
                     "endOffset": 173199
                 },
                 "from": {
-                    "file": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\values\\styles.xml",
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,

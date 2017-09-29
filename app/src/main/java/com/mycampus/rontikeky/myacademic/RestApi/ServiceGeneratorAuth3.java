@@ -27,7 +27,8 @@ public class ServiceGeneratorAuth3 {
             Class<S> serviceClass, final String authToken, Context context) {
 
         //private static final String BASE_URL = "http://anggitprayogo.com/public/api/";
-        final String BASE_URL = "https://mycampus.rontikeky.com/api/";
+        //final String BASE_URL = "https://mycampus.rontikeky.com/api/";
+        final String BASE_URL = "https://testingmycampus.rontikeky.com/api/";
 
         int cacheSize = 10 * 1024 * 1024;
         Cache cache = new Cache(context.getCacheDir(),cacheSize);
