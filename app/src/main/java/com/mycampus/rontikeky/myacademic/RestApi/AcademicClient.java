@@ -41,15 +41,15 @@ import retrofit2.http.Query;
 public interface AcademicClient {
     //FTI ; FT ; FISIP ; FE ; FIKOM ; BAAK
 
-    @Headers("Accept: Application/json")
-    @POST("signup")
+    @Headers("Accept: application/json")
+    @POST("auth/signup")
     Call<SignupUserResponse> dosignup(@Body SignupUserRequest signupUserRequest);
 
-    @Headers("Accept: Application/json")
-    @POST("signup")
+    @Headers("Accept: application/json")
+    @POST("auth/signup")
     Call<SignupGuestResponse> dosignupGuest(@Body SignupGuestRequest signupGuestRequest);
 
-    @Headers("Accept: Application/json")
+    @Headers("Accept: application/json")
     @POST("auth/signin")
     Call<LoginResponse> doLogin(@Body LoginRequest loginRequest);
 

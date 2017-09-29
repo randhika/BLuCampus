@@ -1,4 +1,4 @@
-#Fri Sep 29 14:26:56 ICT 2017
+#Fri Sep 29 19:15:38 ICT 2017
 base.0=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
 renamed.0=classes.dex
 file.0=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

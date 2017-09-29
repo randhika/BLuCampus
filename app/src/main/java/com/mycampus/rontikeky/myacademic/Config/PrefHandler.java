@@ -23,6 +23,7 @@ public class PrefHandler {
     public final String FACULTY_KEY = "faculty";
     public final String FROM_DATE_KEY = "fromDate";
     public final String TO_DATE_KEY = "toDate";
+    public final String IMAGE_PROFILE_KEY = "imageprofile";
 
 
     public PrefHandler(Context context) {
@@ -106,6 +107,15 @@ public class PrefHandler {
     public void clearTO_DATE_KEY(){
         editor.remove(TO_DATE_KEY);
         editor.commit();
+    }
+
+    public void setIMAGE_PROFILE_KEY(String URL_PROFIL_IMAGE){
+        editor.putString(IMAGE_PROFILE_KEY,URL_PROFIL_IMAGE);
+        editor.commit();
+    }
+
+    public String getIMAGE_PROFILE_KEY(){
+        return sharedPreferences.getString(IMAGE_PROFILE_KEY,"");
     }
 
     public void setLogout(){

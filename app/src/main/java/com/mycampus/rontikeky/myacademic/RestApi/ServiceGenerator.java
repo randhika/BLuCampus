@@ -43,4 +43,9 @@ public class ServiceGenerator {
 
         return retrofit.create(serviceClass);
     }
+
+    public static Retrofit retrofit() {
+        OkHttpClient client = httpClient.build();
+        return builder.client(client).build();
+    }
 }

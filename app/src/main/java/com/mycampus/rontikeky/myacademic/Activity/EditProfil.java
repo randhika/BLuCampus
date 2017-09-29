@@ -45,6 +45,7 @@ import com.mycampus.rontikeky.myacademic.RestApi.ServiceGenerator;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth;
 import com.google.gson.Gson;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
+import com.mycampus.rontikeky.myacademic.Util.CircleTransformation;
 import com.mycampus.rontikeky.myacademic.Util.ImageFilePath;
 
 import org.json.JSONObject;
@@ -233,8 +234,10 @@ public class EditProfil extends AppCompatActivity {
 
     public String getStringImage(Bitmap bmp) {
         ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        scaleDown(bmp,200,true);
-        bmp.compress(Bitmap.CompressFormat.JPEG, 50, baos);
+
+        //scaleDown(bmp,200,true);
+        Bitmap bitmap = Bitmap.createScaledBitmap(bmp, 200, 200, false);
+        bitmap.compress(Bitmap.CompressFormat.JPEG, 50, baos);
         byte[] imageBytes = baos.toByteArray();
         String encodedImage = Base64.encodeToString(imageBytes, Base64.DEFAULT);
         Log.d("Image", "getStringImage: "+encodedImage.trim());
@@ -262,11 +265,14 @@ public class EditProfil extends AppCompatActivity {
                     lahir.setText(response.body().getTanggalLahir());
                     email.setText(response.body().getEmail());
                     txtTelp.setText(response.body().getTelepon());
+
+                    prefHandler.setIMAGE_PROFILE_KEY(response.body().getFoto());
+
                     deleteCache(EditProfil.this);
                     Log.d("FOTO",response.body().getFoto());
-                    Glide.with(EditProfil.this).load(response.body().getFoto()).error(R.drawable.nopicture)
-                            .fitCenter().diskCacheStrategy(DiskCacheStrategy.NONE)
-                            .skipMemoryCache(true).into(ivProfile);
+                    Glide.with(EditProfil.this).load(response.body().getFoto())
+                            .centerCrop().error(R.drawable.nopicture).placeholder(R.drawable.nopicture).transform(new CircleTransformation(EditProfil.this))
+                            .skipMemoryCache(true).diskCacheStrategy(DiskCacheStrategy.NONE).into(ivProfile);
 
                     if (response.body().getNi().isEmpty()){
                         nim.setVisibility(View.GONE);

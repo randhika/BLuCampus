@@ -16,18 +16,15 @@ public class SignupUserResponse {
     @SerializedName("email")
     @Expose
     public String email;
-    @SerializedName("tanggal_lahir")
-    @Expose
-    public String tanggalLahir;
-    @SerializedName("jenis_kelamin")
-    @Expose
-    public String jenisKelamin;
-    @SerializedName("alamat")
-    @Expose
-    public String alamat;
     @SerializedName("telepon")
     @Expose
     public String telepon;
+    @SerializedName("ni")
+    @Expose
+    public String ni;
+    @SerializedName("id_status")
+    @Expose
+    public Integer idStatus;
     @SerializedName("updated_at")
     @Expose
     public String updatedAt;
@@ -73,16 +70,12 @@ public class SignupUserResponse {
         return username;
     }
 
-    public String getTanggalLahir() {
-        return tanggalLahir;
+    public String getNi() {
+        return ni;
     }
 
-    public String getJenisKelamin() {
-        return jenisKelamin;
-    }
-
-    public String getAlamat() {
-        return alamat;
+    public Integer getIdStatus() {
+        return idStatus;
     }
 
     public String getTelepon() {

@@ -22,16 +22,17 @@ public class SignupUserRequest {
     @SerializedName("telepon")
     @Expose
     public String telepon;
-    @SerializedName("nim")
+    @SerializedName("ni")
     @Expose
-    public String nim;
+    public String ni;
 
-    public SignupUserRequest(String username, String nama, String email, String password, String telepon, String nim) {
+
+    public SignupUserRequest(String username, String nama, String email, String password, String telepon, String ni) {
         this.username = username;
         this.nama = nama;
         this.email = email;
         this.password = password;
         this.telepon = telepon;
-        this.nim = nim;
+        this.ni = ni;
     }
 }

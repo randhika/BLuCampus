@@ -4047,7 +4047,7 @@ containing a value of this type.
         public static final int isi_info=0x7f0e00fe;
         public static final int isi_workshop=0x7f0e0146;
         public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int ivProfile=0x7f0e0099;
+        public static final int ivProfile=0x7f0e009a;
         public static final int jamDetail=0x7f0e00c4;
         public static final int jam_acara=0x7f0e013b;
         public static final int judul=0x7f0e0137;
@@ -4122,7 +4122,7 @@ containing a value of this type.
         public static final int recyclerViewSeminar=0x7f0e00fa;
         public static final int recyclerViewWorkshop=0x7f0e00fc;
         public static final int repeat=0x7f0e004d;
-        public static final int result=0x7f0e009a;
+        public static final int result=0x7f0e0099;
         public static final int resultChange=0x7f0e0088;
         public static final int resultReset=0x7f0e00e3;
         public static final int right=0x7f0e0038;

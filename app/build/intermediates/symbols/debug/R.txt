@@ -1323,7 +1323,7 @@ int id isi_html_acara 0x7f0e0101
 int id isi_info 0x7f0e00fe
 int id isi_workshop 0x7f0e0146
 int id item_touch_helper_previous_elevation 0x7f0e0005
-int id ivProfile 0x7f0e0099
+int id ivProfile 0x7f0e009a
 int id jamDetail 0x7f0e00c4
 int id jam_acara 0x7f0e013b
 int id judul 0x7f0e0137
@@ -1398,7 +1398,7 @@ int id recyclerViewRegister 0x7f0e00bc
 int id recyclerViewSeminar 0x7f0e00fa
 int id recyclerViewWorkshop 0x7f0e00fc
 int id repeat 0x7f0e004d
-int id result 0x7f0e009a
+int id result 0x7f0e0099
 int id resultChange 0x7f0e0088
 int id resultReset 0x7f0e00e3
 int id right 0x7f0e0038

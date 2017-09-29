@@ -126,6 +126,8 @@ public class transition extends AppCompatActivity {
 
                     txtNama.setText(response.body().getNama());
 
+                    prefHandler.setIMAGE_PROFILE_KEY(response.body().getFoto());
+
                     nama_feed = response.body().getNama();
                     email_feed = response.body().getEmail();
 

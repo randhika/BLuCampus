@@ -32,6 +32,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragment;
@@ -39,6 +41,7 @@ import com.mycampus.rontikeky.myacademic.Fragment.HomeFragmentV2;
 import com.mycampus.rontikeky.myacademic.Fragment.SeminarFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.WorkshopFragment;
 import com.mycampus.rontikeky.myacademic.R;
+import com.mycampus.rontikeky.myacademic.Util.CircleTransformation;
 import com.mycampus.rontikeky.myacademic.Util.ImageFilePath;
 
 import java.io.IOException;
@@ -90,6 +93,10 @@ public class MainFeedDrawer extends AppCompatActivity
 
         Log.d("PROFILE : ",nama_feed + " : " + email_feed);
 
+        Glide.with(MainFeedDrawer.this).load(prefHandler.getIMAGE_PROFILE_KEY())
+                .centerCrop().error(R.drawable.nopicture).placeholder(R.drawable.nopicture).transform(new CircleTransformation(MainFeedDrawer.this))
+                .skipMemoryCache(true).diskCacheStrategy(DiskCacheStrategy.NONE).into(ivDisplayHeader);
+
         tvNameHeader.setText(nama_feed);
         tvEmailHeader.setText(email_feed);
 
@@ -131,6 +138,15 @@ public class MainFeedDrawer extends AppCompatActivity
 //                    break;
 //        }
 //    }
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        Glide.with(MainFeedDrawer.this).load(prefHandler.getIMAGE_PROFILE_KEY())
+                .centerCrop().error(R.drawable.nopicture).placeholder(R.drawable.nopicture).transform(new CircleTransformation(MainFeedDrawer.this))
+                .skipMemoryCache(true).diskCacheStrategy(DiskCacheStrategy.NONE).into(ivDisplayHeader);
+    }
 
     private void loadPhoto(ImageView imageView, int width, int height) {
 
