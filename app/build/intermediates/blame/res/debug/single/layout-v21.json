@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_main.xml",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout-v21\\notification_action.xml"
     },
@@ -10,6 +18,18 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\activity_main.xml",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\layout-v21\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",

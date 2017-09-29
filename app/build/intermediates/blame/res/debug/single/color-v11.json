@@ -6,5 +6,13 @@
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\Kaisha\\.android\\build-cache\\7aa6e415f5adef63eb6e9e4a9ba2e7a2cf706f1e\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

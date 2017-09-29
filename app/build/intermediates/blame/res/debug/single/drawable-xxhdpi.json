@@ -8,20 +8,32 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png"
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\share_button2.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\share_button2.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp1.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_event_available_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_face_black_24dp.png",
@@ -32,16 +44,8 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\mycampus.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_https_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_https_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_black_24dp_white.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_black_24dp_white.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_place_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_place_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\radiobudiluhur.png",
@@ -56,6 +60,142 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_phone_iphone_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_phone_iphone_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_place_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_place_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\radiobudiluhur.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\radiobudiluhur.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_wifi_tethering_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_wifi_tethering_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\stop_normal.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\stop_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\mycampuslash.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\mycampuslash.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_whatshot_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\share_button2.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\share_button2.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\stop_normal.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\stop_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\edittext.png",
+        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_black_24dp_white.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_black_24dp_white.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_all_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\edittext.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_https_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_https_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\mycampus.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\mycampus.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png"
+    },
+    {
+        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_place_24dp.png",
+        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_place_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\play.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\filter.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\filter.png"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp_white.png"
     },
@@ -68,28 +208,28 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\mycampuslash.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_check_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_check_24dp.png"
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_face_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\ic_face_black_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_account_circle_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\stop_normal.png",
-        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\stop_normal.png"
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_person_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_person_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_phone_iphone_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_phone_iphone_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_email_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_email_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_info_outline_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_settings_24dp.png",
@@ -100,24 +240,12 @@
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
     },
     {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\share_button2.png",
-        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\share_button2.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\edittext.png",
-        "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\drawable-xxhdpi\\edittext.png"
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_https_24dp.png",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_https_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png",
         "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png"
-    },
-    {
-        "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png",
-        "source": "E:\\APK\\MyAcademic\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_share_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_clear_24dp.png",

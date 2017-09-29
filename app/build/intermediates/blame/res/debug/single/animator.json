@@ -4,7 +4,15 @@
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\enter.xml"
     },
     {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\animator\\exit.xml"
+    },
+    {
         "merged": "E:\\APK\\MyAcademic\\app\\build\\intermediates\\res\\merged\\debug\\animator\\exit.xml",
         "source": "E:\\APK\\MyAcademic\\app\\src\\main\\res\\animator\\exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\animator\\enter.xml",
+        "source": "C:\\Users\\Kaisha\\AndroidStudioProjects\\BLuCampus\\app\\src\\main\\res\\animator\\enter.xml"
     }
 ]
