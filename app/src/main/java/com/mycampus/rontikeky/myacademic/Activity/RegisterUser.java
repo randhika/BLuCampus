@@ -242,61 +242,6 @@ public class RegisterUser extends AppCompatActivity {
         txtNIM.setError(null);
         txtName.setError(null);
 
-//        if (txtUsername.getText().toString().trim().isEmpty() || txtName.getText().toString().isEmpty() || txtNIM.getText().toString().trim().isEmpty() || txtPassword.getText().toString().trim().isEmpty() || txtEmail.getText().toString().trim().isEmpty()){
-//            Log.d("VALIDITY 1", "TIDAK BOLEH ADA FIELD KOSONG");
-//            result.setVisibility(View.VISIBLE);
-//            result.setText("Tidak ada Boleh Ada Field Yang Kosong");
-//            scrollView.smoothScrollTo(0, 0);
-//            valid = false;
-//        }else{
-//            Log.d("VALIDITY 2", "ISI");
-//            if (txtUsername.getText().toString().trim().length() < 8 || txtPassword.getText().toString().trim().length() < 8){
-//                Log.d("VALIDITY 5", "ISI");
-//                result.setVisibility(View.VISIBLE);
-//                result.setText("Username dan Password minamal 8 karakter");
-//                scrollView.smoothScrollTo(0, 0);
-//                valid = false;
-//            }else{
-//                if (isEmailValid(txtEmail.getText().toString())){
-//                    Log.d("VALIDITY 3", "VALID");
-//                    if (txtNIM.getText().toString().trim().length() != 10){
-//                        Log.d("VALIDITY 6", "TIDAK VALID");
-//                        result.setVisibility(View.VISIBLE);
-//                        result.setText("Panjang NIM harus 10");
-//                        scrollView.smoothScrollTo(0, 0);
-//                        valid = false;
-//                    }else{
-//                        if (txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
-//
-//                            if (txtTelp.getText().toString().trim().length() >= 10 && txtTelp.getText().toString().length() <=15){
-//                                Log.d("VALIDITY 7", "Berhasil");
-//                                result.setVisibility(View.VISIBLE);
-//
-//                            }else{
-//                                Log.d("VALIDITY 20", "ISI");
-//                                result.setVisibility(View.VISIBLE);
-//                                result.setText("Telp minimal 10 dan maximal 15 karakter");
-//                                scrollView.smoothScrollTo(0, 0);
-//                                valid = false;
-//                            }
-//                        }else{
-//                            Log.d("VALIDITY 12", "Password Harus Sesuai dengan Konfirmasi password");
-//                            result.setVisibility(View.VISIBLE);
-//                            result.setText("Password Harus Sesuai dengan Konfirmasi password");
-//                            scrollView.smoothScrollTo(0, 0);
-//                            valid = false;
-//                        }
-//                    }
-//                }else{
-//                    result.setVisibility(View.VISIBLE);
-//                    //result.setText("Format Email Student Tidak Valid (xxxx@student.budiluhur.ac.id");
-//                    result.setText("Format Email Tidak Valid");
-//                    scrollView.smoothScrollTo(0,0);
-//                    Log.d("VALIDITY 4", "TIDAK VALID");
-//                    valid = false;
-//                }
-//            }
-//        }
 
         if (txtUsername.getText().toString().trim().isEmpty() || txtName.getText().toString().isEmpty() || txtNIM.getText().toString().trim().isEmpty() || txtPassword.getText().toString().trim().isEmpty() || txtEmail.getText().toString().trim().isEmpty()){
             Log.d("VALIDITY 1", "TIDAK BOLEH ADA FIELD KOSONG");

@@ -76,6 +76,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:id="@+id/btnBack"
         android:background="@drawable/button"
         android:text="Kembali"
         android:textColor="#fff"

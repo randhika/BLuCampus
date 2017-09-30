@@ -16,15 +16,6 @@ public class SignupGuestResponse {
     @SerializedName("email")
     @Expose
     public String email;
-    @SerializedName("tanggal_lahir")
-    @Expose
-    public String tanggalLahir;
-    @SerializedName("jenis_kelamin")
-    @Expose
-    public String jenisKelamin;
-    @SerializedName("alamat")
-    @Expose
-    public String alamat;
     @SerializedName("telepon")
     @Expose
     public String telepon;
@@ -59,16 +50,8 @@ public class SignupGuestResponse {
         return email;
     }
 
-    public String getTanggalLahir() {
-        return tanggalLahir;
-    }
-
-    public String getJenisKelamin() {
-        return jenisKelamin;
-    }
-
-    public String getAlamat() {
-        return alamat;
+    public String getTelepon() {
+        return telepon;
     }
 
     public String getUpdatedAt() {
@@ -89,9 +72,5 @@ public class SignupGuestResponse {
 
     public String getMessage() {
         return message;
-    }
-
-    public String getTelepon() {
-        return telepon;
     }
 }

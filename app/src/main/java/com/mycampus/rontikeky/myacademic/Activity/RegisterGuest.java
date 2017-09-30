@@ -25,7 +25,9 @@ import android.widget.Toast;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.SignupGuestRequest;
 import com.mycampus.rontikeky.myacademic.Response.SignupGuestResponse;
+import com.mycampus.rontikeky.myacademic.ResponseError.RegisterUserErrorResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
+import com.mycampus.rontikeky.myacademic.RestApi.ErrorRegisterUtil;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGenerator;
 import com.google.gson.Gson;
 
@@ -125,14 +127,30 @@ public class RegisterGuest extends AppCompatActivity {
             @Override
             public void onResponse(Call<SignupGuestResponse> call, Response<SignupGuestResponse> response) {
                 pDialog.dismiss();
-                Toast.makeText(getApplicationContext(),"Berhasil Mendaftar!",Toast.LENGTH_SHORT).show();
-                Log.d("RESPONSE ALL", response.raw().message());
-                Log.d("RESPONSE EMAIL",response.body().getEmail());
-                Log.d("RESPONSE ID", String.valueOf(response.body().getId()));
-                Intent intent = new Intent(RegisterGuest.this, SuccessRegister.class);
-                intent.putExtra("nama",response.body().getNama());
-                intent.putExtra("email",response.body().getEmail());
-                startActivity(intent);
+                if(response.isSuccessful()){
+                    Toast.makeText(getApplicationContext(),"Berhasil Mendaftar!",Toast.LENGTH_SHORT).show();
+                    Log.d("RESPONSE ALL", response.raw().message());
+                    Log.d("RESPONSE EMAIL",response.body().getEmail());
+                    Log.d("RESPONSE ID", String.valueOf(response.body().getId()));
+                    Intent intent = new Intent(RegisterGuest.this, SuccessRegister.class);
+                    intent.putExtra("nama",response.body().getNama());
+                    intent.putExtra("email",response.body().getEmail());
+                    startActivity(intent);
+                }else{
+                    RegisterUserErrorResponse errorResponse = ErrorRegisterUtil.parseError(response);
+                    if (errorResponse.getEmail() != null){
+                        result.setVisibility(View.VISIBLE);
+                        scrollView.smoothScrollTo(0,0);
+                        txtEmail.setError("Email sudah digunakan");
+                        result.append("*Email sudah digunakan\n");
+                    }
+                    if (errorResponse.getUsername() != null){
+                        result.setVisibility(View.VISIBLE);
+                        scrollView.smoothScrollTo(0,0);
+                        txtUsername.setError("Username sudah digunakan");
+                        result.append("*Username sudah digunakan\n");
+                    }
+                }
             }
 
             @Override
@@ -172,52 +190,63 @@ public class RegisterGuest extends AppCompatActivity {
 
         valid = true;
 
-        if (txtUsername.getText().toString().trim().isEmpty() || txtName.getText().toString().isEmpty() || txtPassword.getText().toString().trim().isEmpty() || txtEmail.getText().toString().trim().isEmpty() || txtTelp.getText().toString().isEmpty()){
+        txtPassword.setError(null);
+        txtUsername.setError(null);
+        txtTelp.setError(null);
+        txtKonfirmasiPassword.setError(null);
+        txtEmail.setError(null);
+        txtName.setError(null);
+
+
+        if (txtUsername.getText().toString().trim().isEmpty() || txtName.getText().toString().isEmpty() ||  txtPassword.getText().toString().trim().isEmpty() || txtEmail.getText().toString().trim().isEmpty()){
             Log.d("VALIDITY 1", "TIDAK BOLEH ADA FIELD KOSONG");
             result.setVisibility(View.VISIBLE);
-            result.setText("Tidak ada Boleh Ada Field Yang Kosong");
+            result.append("*Tidak ada Boleh Ada Field Yang Kosong\n");
             scrollView.smoothScrollTo(0, 0);
             valid = false;
-        }else{
-            Log.d("VALIDITY 2", "ISI");
-            if (txtUsername.getText().toString().trim().length() < 8 || txtPassword.getText().toString().trim().length() < 8){
-                Log.d("VALIDITY 5", "ISI");
-                result.setVisibility(View.VISIBLE);
-                result.setText("Username dan Password minimal 8 karakter");
-                scrollView.smoothScrollTo(0, 0);
-                valid = false;
-            }else{
-                if (isEmailValid(txtEmail.getText().toString())){
-                    if (txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
-
-                            if (txtTelp.getText().toString().trim().length() >= 10 && txtTelp.getText().toString().length() <=15){
-                                Log.d("VALIDITY 7", "Berhasil");
-                                result.setVisibility(View.VISIBLE);
-
-                            }else{
-                                Log.d("VALIDITY 20", "ISI");
-                                result.setVisibility(View.VISIBLE);
-                                result.setText("Telp minimal 10 dan maximal 15 karakter");
-                                scrollView.smoothScrollTo(0, 0);
-                                valid = false;
-                            }
-
-                    }else{
-                        Log.d("VALIDITY 12", "Password Harus Sesuai dengan Konfirmasi password");
-                        result.setVisibility(View.VISIBLE);
-                        result.setText("Password Harus Sesuai dengan Konfirmasi password");
-                        scrollView.smoothScrollTo(0, 0);
-                        valid = false;
-                    }
-                }else{
-                    result.setVisibility(View.VISIBLE);
-                    result.setText("Format Email Tidak Valid");
-                    Log.d("VALIDITY 4", "TIDAK VALID");
-                    scrollView.smoothScrollTo(0, 0);
-                    valid = false;
-                }
-            }
         }
+
+        if (txtUsername.getText().toString().trim().length() < 6){
+            Log.d("VALIDITY 5", "ISI");
+            result.setVisibility(View.VISIBLE);
+            result.append("Username minimal 6 karakter\n");
+            txtUsername.setError("Username minimal 6 karakter");
+            scrollView.smoothScrollTo(0, 0);
+            valid = false;
+        }
+
+        if (txtPassword.getText().toString().trim().length() < 8){
+            result.setVisibility(View.VISIBLE);
+            result.append("Password minimal 8 karakter\n");
+            txtPassword.setError("Password minimal 8 karakter");
+            scrollView.smoothScrollTo(0, 0);
+            valid = false;
+        }
+
+        if (!isEmailValid(txtEmail.getText().toString())){
+            result.setVisibility(View.VISIBLE);
+            result.append("*Format Email Salah\n");
+            txtEmail.setError("Format Email Salah");
+            scrollView.smoothScrollTo(0, 0);
+            valid = false;
+        }
+
+        if (!txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
+            result.setVisibility(View.VISIBLE);
+            result.append("*Konfirmasi password tidak sesuai dengan password\n");
+            txtKonfirmasiPassword.setError("Konfirmasi password tidak sesuai dengan password");
+            scrollView.smoothScrollTo(0, 0);
+            valid = false;
+        }
+
+        if (txtTelp.getText().toString().trim().length() < 10 || txtTelp.getText().toString().length() >15){
+            result.setVisibility(View.VISIBLE);
+            result.append("*Telepon harus 10-15 panjang karakter\n");
+            txtTelp.setError("Telepon harus 10-15 panjang karakter");
+            scrollView.smoothScrollTo(0, 0);
+            valid = false;
+        }
+
         return valid;
     }
 
