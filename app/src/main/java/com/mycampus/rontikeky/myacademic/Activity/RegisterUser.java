@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -44,7 +45,7 @@ public class RegisterUser extends AppCompatActivity {
 
 
     EditText txtDate,txtNIM, txtUsername, txtName, txtEmail, txtPassword,txtKonfirmasiPassword, txtAlamat, txtTelp;
-    TextView test,result;
+    TextView test,result,viewRegister;
     RadioGroup radioGender;
     RadioButton radioGenderItem;
     Button btnRegister;
@@ -70,13 +71,27 @@ public class RegisterUser extends AppCompatActivity {
         //radioGender = (RadioGroup)findViewById(R.id.radioGender);
         txtEmail = (EditText)findViewById(R.id.txtEmail);
         txtPassword = (EditText)findViewById(R.id.txtPassword);
-        txtKonfirmasiPassword = (EditText)findViewById(R.id.txtKonfirmasiPassword);
+        //txtKonfirmasiPassword = (EditText)findViewById(R.id.txtKonfirmasiPassword);
         //txtAlamat = (EditText)findViewById(R.id.txtAddress);
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         btnRegister = (Button)findViewById(R.id.btnDaftar);
         scrollView = (ScrollView)findViewById(R.id.scrollViewuser);
-        test = (TextView)findViewById(R.id.test);
+        viewRegister = (TextView)findViewById(R.id.viewRegister);
+        //test = (TextView)findViewById(R.id.test);
         result = (TextView)findViewById(R.id.result);
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        txtNIM.setTypeface(custom_font);
+        txtTelp.setTypeface(custom_font);
+        txtUsername.setTypeface(custom_font);
+        txtName.setTypeface(custom_font);
+        txtEmail.setTypeface(custom_font);
+        txtPassword.setTypeface(custom_font);
+        btnRegister.setTypeface(custom_font);
+        viewRegister.setTypeface(custom_font);
+        result.setTypeface(custom_font);
+
+
 
 //        final Calendar calendar = Calendar.getInstance();
 //        year_x = calendar.get(Calendar.YEAR);
@@ -105,35 +120,6 @@ public class RegisterUser extends AppCompatActivity {
         });
     }
 
-//    public void showDialogOnClick(){
-//        txtDate = (EditText)findViewById(R.id.txtDate);
-//
-//        txtDate.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                showDialog(DIALOG_ID);
-//            }
-//        });
-//    }
-//
-//    @Override
-//    protected Dialog onCreateDialog(int id) {
-//        if (id == DIALOG_ID){
-//            //return new DatePickerDialog(this, dpickerdialog, year_x,month_x,day_x);
-//            return new DatePickerDialog(this, dpickerdialog, 2000,month_x,day_x);
-//        }
-//        return null;
-//    }
-//
-//    private DatePickerDialog.OnDateSetListener dpickerdialog = new DatePickerDialog.OnDateSetListener() {
-//        @Override
-//        public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
-//            year_x = year;
-//            month_x = month+1;
-//            day_x = dayOfMonth;
-//            txtDate.setText(year_x+"-"+month_x+"-"+day_x);
-//        }
-//    };
 
 
     private void doRegisterUser(){
@@ -237,7 +223,7 @@ public class RegisterUser extends AppCompatActivity {
         txtPassword.setError(null);
         txtUsername.setError(null);
         txtTelp.setError(null);
-        txtKonfirmasiPassword.setError(null);
+        //txtKonfirmasiPassword.setError(null);
         txtEmail.setError(null);
         txtNIM.setError(null);
         txtName.setError(null);
@@ -276,13 +262,13 @@ public class RegisterUser extends AppCompatActivity {
             valid = false;
         }
 
-        if (!txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
-            result.setVisibility(View.VISIBLE);
-            result.append("*Konfirmasi password tidak sesuai dengan password\n");
-            txtKonfirmasiPassword.setError("Konfirmasi password tidak sesuai dengan password");
-            scrollView.smoothScrollTo(0, 0);
-            valid = false;
-        }
+//        if (!txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
+//            result.setVisibility(View.VISIBLE);
+//            result.append("*Konfirmasi password tidak sesuai dengan password\n");
+//            txtKonfirmasiPassword.setError("Konfirmasi password tidak sesuai dengan password");
+//            scrollView.smoothScrollTo(0, 0);
+//            valid = false;
+//        }
 
         if (txtTelp.getText().toString().trim().length() < 10 || txtTelp.getText().toString().length() >15){
             result.setVisibility(View.VISIBLE);

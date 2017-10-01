@@ -71,7 +71,6 @@ public class RegisterGuest extends AppCompatActivity {
         //txtAlamat = (EditText)findViewById(R.id.txtAlamat);
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         btnRegister = (Button)findViewById(R.id.btnDaftar);
-        test = (TextView)findViewById(R.id.test);
         result = (TextView)findViewById(R.id.result);
         scrollView = (ScrollView)findViewById(R.id.scrollGuest);
 

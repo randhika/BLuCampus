@@ -10905,15 +10905,7 @@
                     "endOffset": 154206
                 },
                 "from": {
-                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 772,
-                        "endLine": 21,
-                        "endColumn": 12,
-                        "endOffset": 1054
-                    }
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -10921,9 +10913,30 @@
                     "startLine": 2187,
                     "startColumn": 4,
                     "startOffset": 154211,
-                    "endLine": 2190,
+                    "endLine": 2195,
                     "endColumn": 12,
-                    "endOffset": 154412
+                    "endOffset": 154651
+                },
+                "from": {
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1062,
+                        "endLine": 31,
+                        "endColumn": 12,
+                        "endOffset": 1510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2196,
+                    "startColumn": 4,
+                    "startOffset": 154656,
+                    "endLine": 2199,
+                    "endColumn": 12,
+                    "endOffset": 154857
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10931,12 +10944,12 @@
             },
             {
                 "to": {
-                    "startLine": 2191,
+                    "startLine": 2200,
                     "startColumn": 4,
-                    "startOffset": 154417,
-                    "endLine": 2194,
+                    "startOffset": 154862,
+                    "endLine": 2203,
                     "endColumn": 12,
-                    "endOffset": 154624
+                    "endOffset": 155069
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10944,12 +10957,12 @@
             },
             {
                 "to": {
-                    "startLine": 2195,
+                    "startLine": 2204,
                     "startColumn": 4,
-                    "startOffset": 154629,
-                    "endLine": 2215,
+                    "startOffset": 155074,
+                    "endLine": 2224,
                     "endColumn": 12,
-                    "endOffset": 156014
+                    "endOffset": 156459
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10957,12 +10970,12 @@
             },
             {
                 "to": {
-                    "startLine": 2216,
+                    "startLine": 2225,
                     "startColumn": 4,
-                    "startOffset": 156019,
-                    "endLine": 2236,
+                    "startOffset": 156464,
+                    "endLine": 2245,
                     "endColumn": 12,
-                    "endOffset": 157377
+                    "endOffset": 157822
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10970,12 +10983,12 @@
             },
             {
                 "to": {
-                    "startLine": 2237,
+                    "startLine": 2246,
                     "startColumn": 4,
-                    "startOffset": 157382,
-                    "endLine": 2261,
+                    "startOffset": 157827,
+                    "endLine": 2270,
                     "endColumn": 12,
-                    "endOffset": 158847
+                    "endOffset": 159292
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10983,12 +10996,12 @@
             },
             {
                 "to": {
-                    "startLine": 2262,
+                    "startLine": 2271,
                     "startColumn": 4,
-                    "startOffset": 158852,
-                    "endLine": 2263,
+                    "startOffset": 159297,
+                    "endLine": 2272,
                     "endColumn": 12,
-                    "endOffset": 158940
+                    "endOffset": 159385
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -10996,12 +11009,12 @@
             },
             {
                 "to": {
-                    "startLine": 2264,
+                    "startLine": 2273,
                     "startColumn": 4,
-                    "startOffset": 158945,
-                    "endLine": 2265,
+                    "startOffset": 159390,
+                    "endLine": 2274,
                     "endColumn": 12,
-                    "endOffset": 159045
+                    "endOffset": 159490
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11009,12 +11022,12 @@
             },
             {
                 "to": {
-                    "startLine": 2266,
+                    "startLine": 2275,
                     "startColumn": 4,
-                    "startOffset": 159050,
-                    "endLine": 2267,
+                    "startOffset": 159495,
+                    "endLine": 2276,
                     "endColumn": 12,
-                    "endOffset": 159174
+                    "endOffset": 159619
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11022,12 +11035,12 @@
             },
             {
                 "to": {
-                    "startLine": 2268,
+                    "startLine": 2277,
                     "startColumn": 4,
-                    "startOffset": 159179,
-                    "endLine": 2269,
+                    "startOffset": 159624,
+                    "endLine": 2278,
                     "endColumn": 12,
-                    "endOffset": 159259
+                    "endOffset": 159704
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11035,12 +11048,12 @@
             },
             {
                 "to": {
-                    "startLine": 2270,
+                    "startLine": 2279,
                     "startColumn": 4,
-                    "startOffset": 159264,
-                    "endLine": 2273,
+                    "startOffset": 159709,
+                    "endLine": 2282,
                     "endColumn": 12,
-                    "endOffset": 159447
+                    "endOffset": 159892
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11048,12 +11061,12 @@
             },
             {
                 "to": {
-                    "startLine": 2274,
+                    "startLine": 2283,
                     "startColumn": 4,
-                    "startOffset": 159452,
-                    "endLine": 2275,
+                    "startOffset": 159897,
+                    "endLine": 2284,
                     "endColumn": 12,
-                    "endOffset": 159566
+                    "endOffset": 160011
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11061,12 +11074,12 @@
             },
             {
                 "to": {
-                    "startLine": 2276,
+                    "startLine": 2285,
                     "startColumn": 4,
-                    "startOffset": 159571,
-                    "endLine": 2277,
+                    "startOffset": 160016,
+                    "endLine": 2286,
                     "endColumn": 12,
-                    "endOffset": 159663
+                    "endOffset": 160108
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11074,12 +11087,12 @@
             },
             {
                 "to": {
-                    "startLine": 2278,
+                    "startLine": 2287,
                     "startColumn": 4,
-                    "startOffset": 159668,
-                    "endLine": 2281,
+                    "startOffset": 160113,
+                    "endLine": 2290,
                     "endColumn": 12,
-                    "endOffset": 159863
+                    "endOffset": 160308
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11087,38 +11100,12 @@
             },
             {
                 "to": {
-                    "startLine": 2282,
+                    "startLine": 2291,
                     "startColumn": 4,
-                    "startOffset": 159868,
-                    "endLine": 2283,
-                    "endColumn": 12,
-                    "endOffset": 159994
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2284,
-                    "startColumn": 4,
-                    "startOffset": 159999,
-                    "endLine": 2285,
-                    "endColumn": 12,
-                    "endOffset": 160115
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2286,
-                    "startColumn": 4,
-                    "startOffset": 160120,
+                    "startOffset": 160313,
                     "endLine": 2292,
                     "endColumn": 12,
-                    "endOffset": 160426
+                    "endOffset": 160439
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11128,10 +11115,10 @@
                 "to": {
                     "startLine": 2293,
                     "startColumn": 4,
-                    "startOffset": 160431,
+                    "startOffset": 160444,
                     "endLine": 2294,
                     "endColumn": 12,
-                    "endOffset": 160571
+                    "endOffset": 160560
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11141,10 +11128,10 @@
                 "to": {
                     "startLine": 2295,
                     "startColumn": 4,
-                    "startOffset": 160576,
-                    "endLine": 2296,
+                    "startOffset": 160565,
+                    "endLine": 2301,
                     "endColumn": 12,
-                    "endOffset": 160706
+                    "endOffset": 160871
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11152,12 +11139,12 @@
             },
             {
                 "to": {
-                    "startLine": 2297,
+                    "startLine": 2302,
                     "startColumn": 4,
-                    "startOffset": 160711,
-                    "endLine": 2298,
+                    "startOffset": 160876,
+                    "endLine": 2303,
                     "endColumn": 12,
-                    "endOffset": 160817
+                    "endOffset": 161016
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11165,12 +11152,12 @@
             },
             {
                 "to": {
-                    "startLine": 2299,
+                    "startLine": 2304,
                     "startColumn": 4,
-                    "startOffset": 160822,
-                    "endLine": 2300,
+                    "startOffset": 161021,
+                    "endLine": 2305,
                     "endColumn": 12,
-                    "endOffset": 160916
+                    "endOffset": 161151
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
@@ -11178,12 +11165,38 @@
             },
             {
                 "to": {
-                    "startLine": 2301,
+                    "startLine": 2306,
                     "startColumn": 4,
-                    "startOffset": 160921,
-                    "endLine": 2342,
+                    "startOffset": 161156,
+                    "endLine": 2307,
                     "endColumn": 12,
-                    "endOffset": 164040
+                    "endOffset": 161262
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2308,
+                    "startColumn": 4,
+                    "startOffset": 161267,
+                    "endLine": 2309,
+                    "endColumn": 12,
+                    "endOffset": 161361
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2310,
+                    "startColumn": 4,
+                    "startOffset": 161366,
+                    "endLine": 2351,
+                    "endColumn": 12,
+                    "endOffset": 164485
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11191,12 +11204,12 @@
             },
             {
                 "to": {
-                    "startLine": 2343,
+                    "startLine": 2352,
                     "startColumn": 4,
-                    "startOffset": 164045,
-                    "endLine": 2385,
+                    "startOffset": 164490,
+                    "endLine": 2394,
                     "endColumn": 12,
-                    "endOffset": 167307
+                    "endOffset": 167752
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11204,11 +11217,11 @@
             },
             {
                 "to": {
-                    "startLine": 2386,
+                    "startLine": 2395,
                     "startColumn": 4,
-                    "startOffset": 167312,
+                    "startOffset": 167757,
                     "endColumn": 61,
-                    "endOffset": 167369
+                    "endOffset": 167814
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11216,25 +11229,12 @@
             },
             {
                 "to": {
-                    "startLine": 2387,
+                    "startLine": 2396,
                     "startColumn": 4,
-                    "startOffset": 167374,
-                    "endLine": 2396,
-                    "endColumn": 12,
-                    "endOffset": 167947
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2397,
-                    "startColumn": 4,
-                    "startOffset": 167952,
+                    "startOffset": 167819,
                     "endLine": 2405,
                     "endColumn": 12,
-                    "endOffset": 168531
+                    "endOffset": 168392
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11244,48 +11244,22 @@
                 "to": {
                     "startLine": 2406,
                     "startColumn": 4,
-                    "startOffset": 168536,
+                    "startOffset": 168397,
+                    "endLine": 2414,
+                    "endColumn": 12,
+                    "endOffset": 168976
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2415,
+                    "startColumn": 4,
+                    "startOffset": 168981,
                     "endColumn": 85,
-                    "endOffset": 168617
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2407,
-                    "startColumn": 4,
-                    "startOffset": 168622,
-                    "endLine": 2408,
-                    "endColumn": 12,
-                    "endOffset": 168730
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2409,
-                    "startColumn": 4,
-                    "startOffset": 168735,
-                    "endLine": 2412,
-                    "endColumn": 12,
-                    "endOffset": 168959
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2413,
-                    "startColumn": 4,
-                    "startOffset": 168964,
-                    "endLine": 2415,
-                    "endColumn": 12,
-                    "endOffset": 169119
+                    "endOffset": 169062
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11295,10 +11269,10 @@
                 "to": {
                     "startLine": 2416,
                     "startColumn": 4,
-                    "startOffset": 169124,
-                    "endLine": 2418,
+                    "startOffset": 169067,
+                    "endLine": 2417,
                     "endColumn": 12,
-                    "endOffset": 169271
+                    "endOffset": 169175
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11306,12 +11280,12 @@
             },
             {
                 "to": {
-                    "startLine": 2419,
+                    "startLine": 2418,
                     "startColumn": 4,
-                    "startOffset": 169276,
+                    "startOffset": 169180,
                     "endLine": 2421,
                     "endColumn": 12,
-                    "endOffset": 169442
+                    "endOffset": 169404
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11321,10 +11295,10 @@
                 "to": {
                     "startLine": 2422,
                     "startColumn": 4,
-                    "startOffset": 169447,
+                    "startOffset": 169409,
                     "endLine": 2424,
                     "endColumn": 12,
-                    "endOffset": 169609
+                    "endOffset": 169564
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11334,10 +11308,10 @@
                 "to": {
                     "startLine": 2425,
                     "startColumn": 4,
-                    "startOffset": 169614,
-                    "endLine": 2428,
+                    "startOffset": 169569,
+                    "endLine": 2427,
                     "endColumn": 12,
-                    "endOffset": 169852
+                    "endOffset": 169716
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11345,12 +11319,12 @@
             },
             {
                 "to": {
-                    "startLine": 2429,
+                    "startLine": 2428,
                     "startColumn": 4,
-                    "startOffset": 169857,
-                    "endLine": 2431,
+                    "startOffset": 169721,
+                    "endLine": 2430,
                     "endColumn": 12,
-                    "endOffset": 170022
+                    "endOffset": 169887
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11358,12 +11332,12 @@
             },
             {
                 "to": {
-                    "startLine": 2432,
+                    "startLine": 2431,
                     "startColumn": 4,
-                    "startOffset": 170027,
-                    "endLine": 2434,
+                    "startOffset": 169892,
+                    "endLine": 2433,
                     "endColumn": 12,
-                    "endOffset": 170195
+                    "endOffset": 170054
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11371,12 +11345,12 @@
             },
             {
                 "to": {
-                    "startLine": 2435,
+                    "startLine": 2434,
                     "startColumn": 4,
-                    "startOffset": 170200,
+                    "startOffset": 170059,
                     "endLine": 2437,
                     "endColumn": 12,
-                    "endOffset": 170366
+                    "endOffset": 170297
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11386,8 +11360,21 @@
                 "to": {
                     "startLine": 2438,
                     "startColumn": 4,
-                    "startOffset": 170371,
-                    "endLine": 2441,
+                    "startOffset": 170302,
+                    "endLine": 2440,
+                    "endColumn": 12,
+                    "endOffset": 170467
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2441,
+                    "startColumn": 4,
+                    "startOffset": 170472,
+                    "endLine": 2443,
                     "endColumn": 12,
                     "endOffset": 170640
                 },
@@ -11397,12 +11384,12 @@
             },
             {
                 "to": {
-                    "startLine": 2442,
+                    "startLine": 2444,
                     "startColumn": 4,
                     "startOffset": 170645,
-                    "endLine": 2444,
+                    "endLine": 2446,
                     "endColumn": 12,
-                    "endOffset": 170839
+                    "endOffset": 170811
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11410,12 +11397,12 @@
             },
             {
                 "to": {
-                    "startLine": 2445,
+                    "startLine": 2447,
                     "startColumn": 4,
-                    "startOffset": 170844,
-                    "endLine": 2448,
+                    "startOffset": 170816,
+                    "endLine": 2450,
                     "endColumn": 12,
-                    "endOffset": 171044
+                    "endOffset": 171085
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11423,12 +11410,12 @@
             },
             {
                 "to": {
-                    "startLine": 2449,
+                    "startLine": 2451,
                     "startColumn": 4,
-                    "startOffset": 171049,
-                    "endLine": 2452,
+                    "startOffset": 171090,
+                    "endLine": 2453,
                     "endColumn": 12,
-                    "endOffset": 171374
+                    "endOffset": 171284
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11436,24 +11423,12 @@
             },
             {
                 "to": {
-                    "startLine": 2453,
+                    "startLine": 2454,
                     "startColumn": 4,
-                    "startOffset": 171379,
-                    "endLine": 2456,
+                    "startOffset": 171289,
+                    "endLine": 2457,
                     "endColumn": 12,
-                    "endOffset": 171561
-                },
-                "from": {
-                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2457,
-                    "startColumn": 4,
-                    "startOffset": 171566,
-                    "endColumn": 83,
-                    "endOffset": 171645
+                    "endOffset": 171489
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11463,45 +11438,10 @@
                 "to": {
                     "startLine": 2458,
                     "startColumn": 4,
-                    "startOffset": 171650,
-                    "endColumn": 95,
-                    "endOffset": 171741
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2459,
-                    "startColumn": 4,
-                    "startOffset": 171746,
-                    "endColumn": 95,
-                    "endOffset": 171837
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2460,
-                    "startColumn": 4,
-                    "startOffset": 171842,
-                    "endColumn": 97,
-                    "endOffset": 171935
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2461,
-                    "startColumn": 4,
-                    "startOffset": 171940,
-                    "endColumn": 99,
-                    "endOffset": 172035
+                    "startOffset": 171494,
+                    "endLine": 2461,
+                    "endColumn": 12,
+                    "endOffset": 171819
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11511,57 +11451,22 @@
                 "to": {
                     "startLine": 2462,
                     "startColumn": 4,
-                    "startOffset": 172040,
-                    "endColumn": 101,
-                    "endOffset": 172137
+                    "startOffset": 171824,
+                    "endLine": 2465,
+                    "endColumn": 12,
+                    "endOffset": 172006
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2463,
-                    "startColumn": 4,
-                    "startOffset": 172142,
-                    "endColumn": 101,
-                    "endOffset": 172239
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2464,
-                    "startColumn": 4,
-                    "startOffset": 172244,
-                    "endColumn": 101,
-                    "endOffset": 172341
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2465,
-                    "startColumn": 4,
-                    "startOffset": 172346,
-                    "endColumn": 101,
-                    "endOffset": 172443
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                    "file": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2466,
                     "startColumn": 4,
-                    "startOffset": 172448,
-                    "endColumn": 101,
-                    "endOffset": 172545
+                    "startOffset": 172011,
+                    "endColumn": 83,
+                    "endOffset": 172090
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11571,9 +11476,9 @@
                 "to": {
                     "startLine": 2467,
                     "startColumn": 4,
-                    "startOffset": 172550,
-                    "endColumn": 99,
-                    "endOffset": 172645
+                    "startOffset": 172095,
+                    "endColumn": 95,
+                    "endOffset": 172186
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11583,9 +11488,9 @@
                 "to": {
                     "startLine": 2468,
                     "startColumn": 4,
-                    "startOffset": 172650,
+                    "startOffset": 172191,
                     "endColumn": 95,
-                    "endOffset": 172741
+                    "endOffset": 172282
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11595,9 +11500,9 @@
                 "to": {
                     "startLine": 2469,
                     "startColumn": 4,
-                    "startOffset": 172746,
-                    "endColumn": 111,
-                    "endOffset": 172853
+                    "startOffset": 172287,
+                    "endColumn": 97,
+                    "endOffset": 172380
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11607,9 +11512,9 @@
                 "to": {
                     "startLine": 2470,
                     "startColumn": 4,
-                    "startOffset": 172858,
-                    "endColumn": 128,
-                    "endOffset": 172982
+                    "startOffset": 172385,
+                    "endColumn": 99,
+                    "endOffset": 172480
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11619,9 +11524,9 @@
                 "to": {
                     "startLine": 2471,
                     "startColumn": 4,
-                    "startOffset": 172987,
-                    "endColumn": 122,
-                    "endOffset": 173105
+                    "startOffset": 172485,
+                    "endColumn": 101,
+                    "endOffset": 172582
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11631,9 +11536,9 @@
                 "to": {
                     "startLine": 2472,
                     "startColumn": 4,
-                    "startOffset": 173110,
-                    "endColumn": 130,
-                    "endOffset": 173236
+                    "startOffset": 172587,
+                    "endColumn": 101,
+                    "endOffset": 172684
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11643,9 +11548,9 @@
                 "to": {
                     "startLine": 2473,
                     "startColumn": 4,
-                    "startOffset": 173241,
-                    "endColumn": 130,
-                    "endOffset": 173367
+                    "startOffset": 172689,
+                    "endColumn": 101,
+                    "endOffset": 172786
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11655,9 +11560,9 @@
                 "to": {
                     "startLine": 2474,
                     "startColumn": 4,
-                    "startOffset": 173372,
-                    "endColumn": 97,
-                    "endOffset": 173465
+                    "startOffset": 172791,
+                    "endColumn": 101,
+                    "endOffset": 172888
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11667,9 +11572,9 @@
                 "to": {
                     "startLine": 2475,
                     "startColumn": 4,
-                    "startOffset": 173470,
-                    "endColumn": 113,
-                    "endOffset": 173579
+                    "startOffset": 172893,
+                    "endColumn": 101,
+                    "endOffset": 172990
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11679,9 +11584,9 @@
                 "to": {
                     "startLine": 2476,
                     "startColumn": 4,
-                    "startOffset": 173584,
-                    "endColumn": 93,
-                    "endOffset": 173673
+                    "startOffset": 172995,
+                    "endColumn": 99,
+                    "endOffset": 173090
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11691,10 +11596,45 @@
                 "to": {
                     "startLine": 2477,
                     "startColumn": 4,
-                    "startOffset": 173678,
-                    "endLine": 2480,
-                    "endColumn": 12,
-                    "endOffset": 173872
+                    "startOffset": 173095,
+                    "endColumn": 95,
+                    "endOffset": 173186
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2478,
+                    "startColumn": 4,
+                    "startOffset": 173191,
+                    "endColumn": 111,
+                    "endOffset": 173298
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2479,
+                    "startColumn": 4,
+                    "startOffset": 173303,
+                    "endColumn": 128,
+                    "endOffset": 173427
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2480,
+                    "startColumn": 4,
+                    "startOffset": 173432,
+                    "endColumn": 122,
+                    "endOffset": 173550
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11704,10 +11644,45 @@
                 "to": {
                     "startLine": 2481,
                     "startColumn": 4,
-                    "startOffset": 173877,
-                    "endLine": 2484,
-                    "endColumn": 12,
-                    "endOffset": 174076
+                    "startOffset": 173555,
+                    "endColumn": 130,
+                    "endOffset": 173681
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2482,
+                    "startColumn": 4,
+                    "startOffset": 173686,
+                    "endColumn": 130,
+                    "endOffset": 173812
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2483,
+                    "startColumn": 4,
+                    "startOffset": 173817,
+                    "endColumn": 97,
+                    "endOffset": 173910
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2484,
+                    "startColumn": 4,
+                    "startOffset": 173915,
+                    "endColumn": 113,
+                    "endOffset": 174024
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11717,9 +11692,9 @@
                 "to": {
                     "startLine": 2485,
                     "startColumn": 4,
-                    "startOffset": 174081,
-                    "endColumn": 68,
-                    "endOffset": 174145
+                    "startOffset": 174029,
+                    "endColumn": 93,
+                    "endOffset": 174118
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11729,46 +11704,10 @@
                 "to": {
                     "startLine": 2486,
                     "startColumn": 4,
-                    "startOffset": 174150,
-                    "endColumn": 115,
-                    "endOffset": 174261
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2487,
-                    "startColumn": 4,
-                    "startOffset": 174266,
-                    "endColumn": 127,
-                    "endOffset": 174389
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2488,
-                    "startColumn": 4,
-                    "startOffset": 174394,
-                    "endColumn": 63,
-                    "endOffset": 174453
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2489,
-                    "startColumn": 4,
-                    "startOffset": 174458,
-                    "endLine": 2492,
+                    "startOffset": 174123,
+                    "endLine": 2489,
                     "endColumn": 12,
-                    "endOffset": 174657
+                    "endOffset": 174317
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11776,11 +11715,12 @@
             },
             {
                 "to": {
-                    "startLine": 2493,
+                    "startLine": 2490,
                     "startColumn": 4,
-                    "startOffset": 174662,
-                    "endColumn": 68,
-                    "endOffset": 174726
+                    "startOffset": 174322,
+                    "endLine": 2493,
+                    "endColumn": 12,
+                    "endOffset": 174521
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11790,10 +11730,45 @@
                 "to": {
                     "startLine": 2494,
                     "startColumn": 4,
-                    "startOffset": 174731,
-                    "endLine": 2497,
-                    "endColumn": 12,
-                    "endOffset": 174929
+                    "startOffset": 174526,
+                    "endColumn": 68,
+                    "endOffset": 174590
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2495,
+                    "startColumn": 4,
+                    "startOffset": 174595,
+                    "endColumn": 115,
+                    "endOffset": 174706
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2496,
+                    "startColumn": 4,
+                    "startOffset": 174711,
+                    "endColumn": 127,
+                    "endOffset": 174834
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2497,
+                    "startColumn": 4,
+                    "startOffset": 174839,
+                    "endColumn": 63,
+                    "endOffset": 174898
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11803,9 +11778,10 @@
                 "to": {
                     "startLine": 2498,
                     "startColumn": 4,
-                    "startOffset": 174934,
-                    "endColumn": 69,
-                    "endOffset": 174999
+                    "startOffset": 174903,
+                    "endLine": 2501,
+                    "endColumn": 12,
+                    "endOffset": 175102
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11813,25 +11789,11 @@
             },
             {
                 "to": {
-                    "startLine": 2499,
+                    "startLine": 2502,
                     "startColumn": 4,
-                    "startOffset": 175004,
-                    "endLine": 2500,
-                    "endColumn": 12,
-                    "endOffset": 175139
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2501,
-                    "startColumn": 4,
-                    "startOffset": 175144,
-                    "endLine": 2502,
-                    "endColumn": 12,
-                    "endOffset": 175273
+                    "startOffset": 175107,
+                    "endColumn": 68,
+                    "endOffset": 175171
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11841,45 +11803,10 @@
                 "to": {
                     "startLine": 2503,
                     "startColumn": 4,
-                    "startOffset": 175278,
-                    "endColumn": 95,
-                    "endOffset": 175369
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2504,
-                    "startColumn": 4,
-                    "startOffset": 175374,
-                    "endColumn": 111,
-                    "endOffset": 175481
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2505,
-                    "startColumn": 4,
-                    "startOffset": 175486,
-                    "endColumn": 99,
-                    "endOffset": 175581
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2506,
-                    "startColumn": 4,
-                    "startOffset": 175586,
-                    "endColumn": 115,
-                    "endOffset": 175697
+                    "startOffset": 175176,
+                    "endLine": 2506,
+                    "endColumn": 12,
+                    "endOffset": 175374
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11889,9 +11816,9 @@
                 "to": {
                     "startLine": 2507,
                     "startColumn": 4,
-                    "startOffset": 175702,
-                    "endColumn": 95,
-                    "endOffset": 175793
+                    "startOffset": 175379,
+                    "endColumn": 69,
+                    "endOffset": 175444
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11901,22 +11828,10 @@
                 "to": {
                     "startLine": 2508,
                     "startColumn": 4,
-                    "startOffset": 175798,
-                    "endColumn": 111,
-                    "endOffset": 175905
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2509,
-                    "startColumn": 4,
-                    "startOffset": 175910,
-                    "endLine": 2510,
+                    "startOffset": 175449,
+                    "endLine": 2509,
                     "endColumn": 12,
-                    "endOffset": 176045
+                    "endOffset": 175584
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11924,11 +11839,12 @@
             },
             {
                 "to": {
-                    "startLine": 2511,
+                    "startLine": 2510,
                     "startColumn": 4,
-                    "startOffset": 176050,
-                    "endColumn": 135,
-                    "endOffset": 176181
+                    "startOffset": 175589,
+                    "endLine": 2511,
+                    "endColumn": 12,
+                    "endOffset": 175718
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11938,10 +11854,21 @@
                 "to": {
                     "startLine": 2512,
                     "startColumn": 4,
-                    "startOffset": 176186,
-                    "endLine": 2513,
-                    "endColumn": 12,
-                    "endOffset": 176345
+                    "startOffset": 175723,
+                    "endColumn": 95,
+                    "endOffset": 175814
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2513,
+                    "startColumn": 4,
+                    "startOffset": 175819,
+                    "endColumn": 111,
+                    "endOffset": 175926
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11951,9 +11878,9 @@
                 "to": {
                     "startLine": 2514,
                     "startColumn": 4,
-                    "startOffset": 176350,
-                    "endColumn": 129,
-                    "endOffset": 176475
+                    "startOffset": 175931,
+                    "endColumn": 99,
+                    "endOffset": 176026
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11963,10 +11890,21 @@
                 "to": {
                     "startLine": 2515,
                     "startColumn": 4,
-                    "startOffset": 176480,
-                    "endLine": 2516,
-                    "endColumn": 12,
-                    "endOffset": 176633
+                    "startOffset": 176031,
+                    "endColumn": 115,
+                    "endOffset": 176142
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2516,
+                    "startColumn": 4,
+                    "startOffset": 176147,
+                    "endColumn": 95,
+                    "endOffset": 176238
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11976,10 +11914,9 @@
                 "to": {
                     "startLine": 2517,
                     "startColumn": 4,
-                    "startOffset": 176638,
-                    "endLine": 2518,
-                    "endColumn": 12,
-                    "endOffset": 176783
+                    "startOffset": 176243,
+                    "endColumn": 111,
+                    "endOffset": 176350
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -11987,11 +11924,12 @@
             },
             {
                 "to": {
-                    "startLine": 2519,
+                    "startLine": 2518,
                     "startColumn": 4,
-                    "startOffset": 176788,
-                    "endColumn": 140,
-                    "endOffset": 176924
+                    "startOffset": 176355,
+                    "endLine": 2519,
+                    "endColumn": 12,
+                    "endOffset": 176490
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12001,10 +11939,9 @@
                 "to": {
                     "startLine": 2520,
                     "startColumn": 4,
-                    "startOffset": 176929,
-                    "endLine": 2521,
-                    "endColumn": 12,
-                    "endOffset": 177068
+                    "startOffset": 176495,
+                    "endColumn": 135,
+                    "endOffset": 176626
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12012,11 +11949,12 @@
             },
             {
                 "to": {
-                    "startLine": 2522,
+                    "startLine": 2521,
                     "startColumn": 4,
-                    "startOffset": 177073,
-                    "endColumn": 134,
-                    "endOffset": 177203
+                    "startOffset": 176631,
+                    "endLine": 2522,
+                    "endColumn": 12,
+                    "endOffset": 176790
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12026,9 +11964,9 @@
                 "to": {
                     "startLine": 2523,
                     "startColumn": 4,
-                    "startOffset": 177208,
-                    "endColumn": 111,
-                    "endOffset": 177315
+                    "startOffset": 176795,
+                    "endColumn": 129,
+                    "endOffset": 176920
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12038,21 +11976,10 @@
                 "to": {
                     "startLine": 2524,
                     "startColumn": 4,
-                    "startOffset": 177320,
-                    "endColumn": 149,
-                    "endOffset": 177465
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2525,
-                    "startColumn": 4,
-                    "startOffset": 177470,
-                    "endColumn": 127,
-                    "endOffset": 177593
+                    "startOffset": 176925,
+                    "endLine": 2525,
+                    "endColumn": 12,
+                    "endOffset": 177078
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12062,9 +11989,10 @@
                 "to": {
                     "startLine": 2526,
                     "startColumn": 4,
-                    "startOffset": 177598,
-                    "endColumn": 127,
-                    "endOffset": 177721
+                    "startOffset": 177083,
+                    "endLine": 2527,
+                    "endColumn": 12,
+                    "endOffset": 177228
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12072,12 +12000,11 @@
             },
             {
                 "to": {
-                    "startLine": 2527,
+                    "startLine": 2528,
                     "startColumn": 4,
-                    "startOffset": 177726,
-                    "endLine": 2528,
-                    "endColumn": 12,
-                    "endOffset": 177857
+                    "startOffset": 177233,
+                    "endColumn": 140,
+                    "endOffset": 177369
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12087,21 +12014,10 @@
                 "to": {
                     "startLine": 2529,
                     "startColumn": 4,
-                    "startOffset": 177862,
-                    "endColumn": 131,
-                    "endOffset": 177989
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2530,
-                    "startColumn": 4,
-                    "startOffset": 177994,
-                    "endColumn": 129,
-                    "endOffset": 178119
+                    "startOffset": 177374,
+                    "endLine": 2530,
+                    "endColumn": 12,
+                    "endOffset": 177513
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12111,9 +12027,9 @@
                 "to": {
                     "startLine": 2531,
                     "startColumn": 4,
-                    "startOffset": 178124,
-                    "endColumn": 129,
-                    "endOffset": 178249
+                    "startOffset": 177518,
+                    "endColumn": 134,
+                    "endOffset": 177648
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12123,9 +12039,9 @@
                 "to": {
                     "startLine": 2532,
                     "startColumn": 4,
-                    "startOffset": 178254,
+                    "startOffset": 177653,
                     "endColumn": 111,
-                    "endOffset": 178361
+                    "endOffset": 177760
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12135,9 +12051,9 @@
                 "to": {
                     "startLine": 2533,
                     "startColumn": 4,
-                    "startOffset": 178366,
-                    "endColumn": 139,
-                    "endOffset": 178501
+                    "startOffset": 177765,
+                    "endColumn": 149,
+                    "endOffset": 177910
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12147,48 +12063,107 @@
                 "to": {
                     "startLine": 2534,
                     "startColumn": 4,
-                    "startOffset": 178506,
-                    "endLine": 2536,
-                    "endColumn": 12,
-                    "endOffset": 178702
+                    "startOffset": 177915,
+                    "endColumn": 127,
+                    "endOffset": 178038
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
-                    "startLine": 2537,
+                    "startLine": 2535,
                     "startColumn": 4,
-                    "startOffset": 178707,
-                    "endColumn": 91,
-                    "endOffset": 178794
+                    "startOffset": 178043,
+                    "endColumn": 127,
+                    "endOffset": 178166
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2536,
+                    "startColumn": 4,
+                    "startOffset": 178171,
+                    "endLine": 2537,
+                    "endColumn": 12,
+                    "endOffset": 178302
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2538,
                     "startColumn": 4,
-                    "startOffset": 178799,
-                    "endLine": 2540,
-                    "endColumn": 12,
-                    "endOffset": 178973
+                    "startOffset": 178307,
+                    "endColumn": 131,
+                    "endOffset": 178434
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2539,
+                    "startColumn": 4,
+                    "startOffset": 178439,
+                    "endColumn": 129,
+                    "endOffset": 178564
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2540,
+                    "startColumn": 4,
+                    "startOffset": 178569,
+                    "endColumn": 129,
+                    "endOffset": 178694
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2541,
                     "startColumn": 4,
-                    "startOffset": 178978,
-                    "endLine": 2543,
+                    "startOffset": 178699,
+                    "endColumn": 111,
+                    "endOffset": 178806
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2542,
+                    "startColumn": 4,
+                    "startOffset": 178811,
+                    "endColumn": 139,
+                    "endOffset": 178946
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2543,
+                    "startColumn": 4,
+                    "startOffset": 178951,
+                    "endLine": 2545,
                     "endColumn": 12,
-                    "endOffset": 179141
+                    "endOffset": 179147
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12196,12 +12171,11 @@
             },
             {
                 "to": {
-                    "startLine": 2544,
+                    "startLine": 2546,
                     "startColumn": 4,
-                    "startOffset": 179146,
-                    "endLine": 2546,
-                    "endColumn": 12,
-                    "endOffset": 179316
+                    "startOffset": 179152,
+                    "endColumn": 91,
+                    "endOffset": 179239
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12211,10 +12185,10 @@
                 "to": {
                     "startLine": 2547,
                     "startColumn": 4,
-                    "startOffset": 179321,
-                    "endLine": 2550,
+                    "startOffset": 179244,
+                    "endLine": 2549,
                     "endColumn": 12,
-                    "endOffset": 179569
+                    "endOffset": 179418
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12222,12 +12196,25 @@
             },
             {
                 "to": {
-                    "startLine": 2551,
+                    "startLine": 2550,
                     "startColumn": 4,
-                    "startOffset": 179574,
+                    "startOffset": 179423,
+                    "endLine": 2552,
+                    "endColumn": 12,
+                    "endOffset": 179586
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2553,
+                    "startColumn": 4,
+                    "startOffset": 179591,
                     "endLine": 2555,
                     "endColumn": 12,
-                    "endOffset": 179860
+                    "endOffset": 179761
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12237,96 +12224,47 @@
                 "to": {
                     "startLine": 2556,
                     "startColumn": 4,
-                    "startOffset": 179865,
-                    "endColumn": 67,
-                    "endOffset": 179928
+                    "startOffset": 179766,
+                    "endLine": 2559,
+                    "endColumn": 12,
+                    "endOffset": 180014
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2557,
-                    "startColumn": 4,
-                    "startOffset": 179933,
-                    "endColumn": 72,
-                    "endOffset": 180001
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2558,
-                    "startColumn": 4,
-                    "startOffset": 180006,
-                    "endColumn": 73,
-                    "endOffset": 180075
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2559,
-                    "startColumn": 4,
-                    "startOffset": 180080,
-                    "endColumn": 72,
-                    "endOffset": 180148
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2560,
                     "startColumn": 4,
-                    "startOffset": 180153,
-                    "endColumn": 73,
-                    "endOffset": 180222
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2561,
-                    "startColumn": 4,
-                    "startOffset": 180227,
-                    "endLine": 2562,
-                    "endColumn": 12,
-                    "endOffset": 180368
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2563,
-                    "startColumn": 4,
-                    "startOffset": 180373,
+                    "startOffset": 180019,
                     "endLine": 2564,
                     "endColumn": 12,
-                    "endOffset": 180512
+                    "endOffset": 180305
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2565,
                     "startColumn": 4,
-                    "startOffset": 180517,
-                    "endLine": 2566,
-                    "endColumn": 12,
-                    "endOffset": 180650
+                    "startOffset": 180310,
+                    "endColumn": 67,
+                    "endOffset": 180373
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2566,
+                    "startColumn": 4,
+                    "startOffset": 180378,
+                    "endColumn": 72,
+                    "endOffset": 180446
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12336,9 +12274,9 @@
                 "to": {
                     "startLine": 2567,
                     "startColumn": 4,
-                    "startOffset": 180655,
-                    "endColumn": 65,
-                    "endOffset": 180716
+                    "startOffset": 180451,
+                    "endColumn": 73,
+                    "endOffset": 180520
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12348,9 +12286,9 @@
                 "to": {
                     "startLine": 2568,
                     "startColumn": 4,
-                    "startOffset": 180721,
-                    "endColumn": 89,
-                    "endOffset": 180806
+                    "startOffset": 180525,
+                    "endColumn": 72,
+                    "endOffset": 180593
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12360,9 +12298,9 @@
                 "to": {
                     "startLine": 2569,
                     "startColumn": 4,
-                    "startOffset": 180811,
-                    "endColumn": 75,
-                    "endOffset": 180882
+                    "startOffset": 180598,
+                    "endColumn": 73,
+                    "endOffset": 180667
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12372,21 +12310,10 @@
                 "to": {
                     "startLine": 2570,
                     "startColumn": 4,
-                    "startOffset": 180887,
-                    "endColumn": 103,
-                    "endOffset": 180986
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2571,
-                    "startColumn": 4,
-                    "startOffset": 180991,
-                    "endColumn": 89,
-                    "endOffset": 181076
+                    "startOffset": 180672,
+                    "endLine": 2571,
+                    "endColumn": 12,
+                    "endOffset": 180813
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12396,21 +12323,10 @@
                 "to": {
                     "startLine": 2572,
                     "startColumn": 4,
-                    "startOffset": 181081,
-                    "endColumn": 101,
-                    "endOffset": 181178
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2573,
-                    "startColumn": 4,
-                    "startOffset": 181183,
-                    "endColumn": 107,
-                    "endOffset": 181286
+                    "startOffset": 180818,
+                    "endLine": 2573,
+                    "endColumn": 12,
+                    "endOffset": 180957
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12420,21 +12336,10 @@
                 "to": {
                     "startLine": 2574,
                     "startColumn": 4,
-                    "startOffset": 181291,
-                    "endColumn": 107,
-                    "endOffset": 181394
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2575,
-                    "startColumn": 4,
-                    "startOffset": 181399,
-                    "endColumn": 99,
-                    "endOffset": 181494
+                    "startOffset": 180962,
+                    "endLine": 2575,
+                    "endColumn": 12,
+                    "endOffset": 181095
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12444,9 +12349,9 @@
                 "to": {
                     "startLine": 2576,
                     "startColumn": 4,
-                    "startOffset": 181499,
-                    "endColumn": 79,
-                    "endOffset": 181574
+                    "startOffset": 181100,
+                    "endColumn": 65,
+                    "endOffset": 181161
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12456,9 +12361,9 @@
                 "to": {
                     "startLine": 2577,
                     "startColumn": 4,
-                    "startOffset": 181579,
-                    "endColumn": 91,
-                    "endOffset": 181666
+                    "startOffset": 181166,
+                    "endColumn": 89,
+                    "endOffset": 181251
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12468,9 +12373,9 @@
                 "to": {
                     "startLine": 2578,
                     "startColumn": 4,
-                    "startOffset": 181671,
-                    "endColumn": 97,
-                    "endOffset": 181764
+                    "startOffset": 181256,
+                    "endColumn": 75,
+                    "endOffset": 181327
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12480,10 +12385,21 @@
                 "to": {
                     "startLine": 2579,
                     "startColumn": 4,
-                    "startOffset": 181769,
-                    "endLine": 2580,
-                    "endColumn": 12,
-                    "endOffset": 181874
+                    "startOffset": 181332,
+                    "endColumn": 103,
+                    "endOffset": 181431
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2580,
+                    "startColumn": 4,
+                    "startOffset": 181436,
+                    "endColumn": 89,
+                    "endOffset": 181521
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12493,9 +12409,9 @@
                 "to": {
                     "startLine": 2581,
                     "startColumn": 4,
-                    "startOffset": 181879,
-                    "endColumn": 77,
-                    "endOffset": 181952
+                    "startOffset": 181526,
+                    "endColumn": 101,
+                    "endOffset": 181623
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12505,9 +12421,9 @@
                 "to": {
                     "startLine": 2582,
                     "startColumn": 4,
-                    "startOffset": 181957,
-                    "endColumn": 105,
-                    "endOffset": 182058
+                    "startOffset": 181628,
+                    "endColumn": 107,
+                    "endOffset": 181731
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12517,9 +12433,9 @@
                 "to": {
                     "startLine": 2583,
                     "startColumn": 4,
-                    "startOffset": 182063,
-                    "endColumn": 91,
-                    "endOffset": 182150
+                    "startOffset": 181736,
+                    "endColumn": 107,
+                    "endOffset": 181839
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12529,9 +12445,9 @@
                 "to": {
                     "startLine": 2584,
                     "startColumn": 4,
-                    "startOffset": 182155,
-                    "endColumn": 103,
-                    "endOffset": 182254
+                    "startOffset": 181844,
+                    "endColumn": 99,
+                    "endOffset": 181939
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12541,9 +12457,9 @@
                 "to": {
                     "startLine": 2585,
                     "startColumn": 4,
-                    "startOffset": 182259,
-                    "endColumn": 109,
-                    "endOffset": 182364
+                    "startOffset": 181944,
+                    "endColumn": 79,
+                    "endOffset": 182019
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12553,10 +12469,21 @@
                 "to": {
                     "startLine": 2586,
                     "startColumn": 4,
-                    "startOffset": 182369,
-                    "endLine": 2587,
-                    "endColumn": 12,
-                    "endOffset": 182486
+                    "startOffset": 182024,
+                    "endColumn": 91,
+                    "endOffset": 182111
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2587,
+                    "startColumn": 4,
+                    "startOffset": 182116,
+                    "endColumn": 97,
+                    "endOffset": 182209
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12566,10 +12493,34 @@
                 "to": {
                     "startLine": 2588,
                     "startColumn": 4,
-                    "startOffset": 182491,
-                    "endLine": 2591,
+                    "startOffset": 182214,
+                    "endLine": 2589,
                     "endColumn": 12,
-                    "endOffset": 182649
+                    "endOffset": 182319
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2590,
+                    "startColumn": 4,
+                    "startOffset": 182324,
+                    "endColumn": 77,
+                    "endOffset": 182397
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2591,
+                    "startColumn": 4,
+                    "startOffset": 182402,
+                    "endColumn": 105,
+                    "endOffset": 182503
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12579,10 +12530,9 @@
                 "to": {
                     "startLine": 2592,
                     "startColumn": 4,
-                    "startOffset": 182654,
-                    "endLine": 2595,
-                    "endColumn": 12,
-                    "endOffset": 182806
+                    "startOffset": 182508,
+                    "endColumn": 91,
+                    "endOffset": 182595
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12590,12 +12540,75 @@
             },
             {
                 "to": {
-                    "startLine": 2596,
+                    "startLine": 2593,
                     "startColumn": 4,
-                    "startOffset": 182811,
-                    "endLine": 2598,
+                    "startOffset": 182600,
+                    "endColumn": 103,
+                    "endOffset": 182699
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2594,
+                    "startColumn": 4,
+                    "startOffset": 182704,
+                    "endColumn": 109,
+                    "endOffset": 182809
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2595,
+                    "startColumn": 4,
+                    "startOffset": 182814,
+                    "endLine": 2596,
                     "endColumn": 12,
-                    "endOffset": 182960
+                    "endOffset": 182931
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2597,
+                    "startColumn": 4,
+                    "startOffset": 182936,
+                    "endLine": 2600,
+                    "endColumn": 12,
+                    "endOffset": 183094
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2601,
+                    "startColumn": 4,
+                    "startOffset": 183099,
+                    "endLine": 2604,
+                    "endColumn": 12,
+                    "endOffset": 183251
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2605,
+                    "startColumn": 4,
+                    "startOffset": 183256,
+                    "endLine": 2607,
+                    "endColumn": 12,
+                    "endOffset": 183405
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12603,12 +12616,12 @@
             },
             {
                 "to": {
-                    "startLine": 2599,
+                    "startLine": 2608,
                     "startColumn": 4,
-                    "startOffset": 182965,
-                    "endLine": 2603,
+                    "startOffset": 183410,
+                    "endLine": 2612,
                     "endColumn": 12,
-                    "endOffset": 183318
+                    "endOffset": 183763
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12616,38 +12629,12 @@
             },
             {
                 "to": {
-                    "startLine": 2604,
+                    "startLine": 2613,
                     "startColumn": 4,
-                    "startOffset": 183323,
-                    "endLine": 2606,
-                    "endColumn": 12,
-                    "endOffset": 183485
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2607,
-                    "startColumn": 4,
-                    "startOffset": 183490,
-                    "endLine": 2611,
-                    "endColumn": 12,
-                    "endOffset": 183855
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2612,
-                    "startColumn": 4,
-                    "startOffset": 183860,
+                    "startOffset": 183768,
                     "endLine": 2615,
                     "endColumn": 12,
-                    "endOffset": 184015
+                    "endOffset": 183930
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12657,10 +12644,10 @@
                 "to": {
                     "startLine": 2616,
                     "startColumn": 4,
-                    "startOffset": 184020,
-                    "endLine": 2619,
+                    "startOffset": 183935,
+                    "endLine": 2620,
                     "endColumn": 12,
-                    "endOffset": 184169
+                    "endOffset": 184300
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -12668,109 +12655,49 @@
             },
             {
                 "to": {
-                    "startLine": 2620,
-                    "startColumn": 4,
-                    "startOffset": 184174,
-                    "endColumn": 79,
-                    "endOffset": 184249
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
                     "startLine": 2621,
                     "startColumn": 4,
-                    "startOffset": 184254,
-                    "endColumn": 99,
-                    "endOffset": 184349
+                    "startOffset": 184305,
+                    "endLine": 2624,
+                    "endColumn": 12,
+                    "endOffset": 184460
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2622,
-                    "startColumn": 4,
-                    "startOffset": 184354,
-                    "endColumn": 89,
-                    "endOffset": 184439
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2623,
-                    "startColumn": 4,
-                    "startOffset": 184444,
-                    "endColumn": 109,
-                    "endOffset": 184549
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2624,
-                    "startColumn": 4,
-                    "startOffset": 184554,
-                    "endColumn": 93,
-                    "endOffset": 184643
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2625,
                     "startColumn": 4,
-                    "startOffset": 184648,
-                    "endColumn": 105,
-                    "endOffset": 184749
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2626,
-                    "startColumn": 4,
-                    "startOffset": 184754,
-                    "endColumn": 91,
-                    "endOffset": 184841
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2627,
-                    "startColumn": 4,
-                    "startOffset": 184846,
+                    "startOffset": 184465,
                     "endLine": 2628,
                     "endColumn": 12,
-                    "endOffset": 184941
+                    "endOffset": 184614
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2629,
                     "startColumn": 4,
-                    "startOffset": 184946,
-                    "endLine": 2630,
-                    "endColumn": 12,
-                    "endOffset": 185053
+                    "startOffset": 184619,
+                    "endColumn": 79,
+                    "endOffset": 184694
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2630,
+                    "startColumn": 4,
+                    "startOffset": 184699,
+                    "endColumn": 99,
+                    "endOffset": 184794
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12780,10 +12707,21 @@
                 "to": {
                     "startLine": 2631,
                     "startColumn": 4,
-                    "startOffset": 185058,
-                    "endLine": 2632,
-                    "endColumn": 12,
-                    "endOffset": 185167
+                    "startOffset": 184799,
+                    "endColumn": 89,
+                    "endOffset": 184884
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2632,
+                    "startColumn": 4,
+                    "startOffset": 184889,
+                    "endColumn": 109,
+                    "endOffset": 184994
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12793,10 +12731,21 @@
                 "to": {
                     "startLine": 2633,
                     "startColumn": 4,
-                    "startOffset": 185172,
-                    "endLine": 2634,
-                    "endColumn": 12,
-                    "endOffset": 185283
+                    "startOffset": 184999,
+                    "endColumn": 93,
+                    "endOffset": 185088
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2634,
+                    "startColumn": 4,
+                    "startOffset": 185093,
+                    "endColumn": 105,
+                    "endOffset": 185194
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12806,10 +12755,9 @@
                 "to": {
                     "startLine": 2635,
                     "startColumn": 4,
-                    "startOffset": 185288,
-                    "endLine": 2636,
-                    "endColumn": 12,
-                    "endOffset": 185399
+                    "startOffset": 185199,
+                    "endColumn": 91,
+                    "endOffset": 185286
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12817,11 +12765,12 @@
             },
             {
                 "to": {
-                    "startLine": 2637,
+                    "startLine": 2636,
                     "startColumn": 4,
-                    "startOffset": 185404,
-                    "endColumn": 93,
-                    "endOffset": 185493
+                    "startOffset": 185291,
+                    "endLine": 2637,
+                    "endColumn": 12,
+                    "endOffset": 185386
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12831,21 +12780,10 @@
                 "to": {
                     "startLine": 2638,
                     "startColumn": 4,
-                    "startOffset": 185498,
-                    "endColumn": 113,
-                    "endOffset": 185607
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2639,
-                    "startColumn": 4,
-                    "startOffset": 185612,
-                    "endColumn": 111,
-                    "endOffset": 185719
+                    "startOffset": 185391,
+                    "endLine": 2639,
+                    "endColumn": 12,
+                    "endOffset": 185498
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12855,10 +12793,10 @@
                 "to": {
                     "startLine": 2640,
                     "startColumn": 4,
-                    "startOffset": 185724,
+                    "startOffset": 185503,
                     "endLine": 2641,
                     "endColumn": 12,
-                    "endOffset": 185821
+                    "endOffset": 185612
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12868,10 +12806,10 @@
                 "to": {
                     "startLine": 2642,
                     "startColumn": 4,
-                    "startOffset": 185826,
+                    "startOffset": 185617,
                     "endLine": 2643,
                     "endColumn": 12,
-                    "endOffset": 185941
+                    "endOffset": 185728
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12881,10 +12819,10 @@
                 "to": {
                     "startLine": 2644,
                     "startColumn": 4,
-                    "startOffset": 185946,
+                    "startOffset": 185733,
                     "endLine": 2645,
                     "endColumn": 12,
-                    "endOffset": 186063
+                    "endOffset": 185844
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12894,9 +12832,9 @@
                 "to": {
                     "startLine": 2646,
                     "startColumn": 4,
-                    "startOffset": 186068,
-                    "endColumn": 81,
-                    "endOffset": 186145
+                    "startOffset": 185849,
+                    "endColumn": 93,
+                    "endOffset": 185938
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12906,9 +12844,9 @@
                 "to": {
                     "startLine": 2647,
                     "startColumn": 4,
-                    "startOffset": 186150,
-                    "endColumn": 103,
-                    "endOffset": 186249
+                    "startOffset": 185943,
+                    "endColumn": 113,
+                    "endOffset": 186052
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12918,9 +12856,9 @@
                 "to": {
                     "startLine": 2648,
                     "startColumn": 4,
-                    "startOffset": 186254,
-                    "endColumn": 119,
-                    "endOffset": 186369
+                    "startOffset": 186057,
+                    "endColumn": 111,
+                    "endOffset": 186164
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12930,21 +12868,10 @@
                 "to": {
                     "startLine": 2649,
                     "startColumn": 4,
-                    "startOffset": 186374,
-                    "endColumn": 125,
-                    "endOffset": 186495
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2650,
-                    "startColumn": 4,
-                    "startOffset": 186500,
-                    "endColumn": 97,
-                    "endOffset": 186593
+                    "startOffset": 186169,
+                    "endLine": 2650,
+                    "endColumn": 12,
+                    "endOffset": 186266
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12954,21 +12881,10 @@
                 "to": {
                     "startLine": 2651,
                     "startColumn": 4,
-                    "startOffset": 186598,
-                    "endColumn": 93,
-                    "endOffset": 186687
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2652,
-                    "startColumn": 4,
-                    "startOffset": 186692,
-                    "endColumn": 87,
-                    "endOffset": 186775
+                    "startOffset": 186271,
+                    "endLine": 2652,
+                    "endColumn": 12,
+                    "endOffset": 186386
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -12978,21 +12894,10 @@
                 "to": {
                     "startLine": 2653,
                     "startColumn": 4,
-                    "startOffset": 186780,
-                    "endColumn": 111,
-                    "endOffset": 186887
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2654,
-                    "startColumn": 4,
-                    "startOffset": 186892,
-                    "endColumn": 115,
-                    "endOffset": 187003
+                    "startOffset": 186391,
+                    "endLine": 2654,
+                    "endColumn": 12,
+                    "endOffset": 186508
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13002,9 +12907,9 @@
                 "to": {
                     "startLine": 2655,
                     "startColumn": 4,
-                    "startOffset": 187008,
-                    "endColumn": 121,
-                    "endOffset": 187125
+                    "startOffset": 186513,
+                    "endColumn": 81,
+                    "endOffset": 186590
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13014,9 +12919,9 @@
                 "to": {
                     "startLine": 2656,
                     "startColumn": 4,
-                    "startOffset": 187130,
-                    "endColumn": 111,
-                    "endOffset": 187237
+                    "startOffset": 186595,
+                    "endColumn": 103,
+                    "endOffset": 186694
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13026,10 +12931,33 @@
                 "to": {
                     "startLine": 2657,
                     "startColumn": 4,
-                    "startOffset": 187242,
-                    "endLine": 2659,
-                    "endColumn": 12,
-                    "endOffset": 187412
+                    "startOffset": 186699,
+                    "endColumn": 119,
+                    "endOffset": 186814
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2658,
+                    "startColumn": 4,
+                    "startOffset": 186819,
+                    "endColumn": 125,
+                    "endOffset": 186940
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2659,
+                    "startColumn": 4,
+                    "startOffset": 186945,
+                    "endColumn": 97,
+                    "endOffset": 187038
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13039,9 +12967,9 @@
                 "to": {
                     "startLine": 2660,
                     "startColumn": 4,
-                    "startOffset": 187417,
-                    "endColumn": 115,
-                    "endOffset": 187528
+                    "startOffset": 187043,
+                    "endColumn": 93,
+                    "endOffset": 187132
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13051,9 +12979,9 @@
                 "to": {
                     "startLine": 2661,
                     "startColumn": 4,
-                    "startOffset": 187533,
-                    "endColumn": 85,
-                    "endOffset": 187614
+                    "startOffset": 187137,
+                    "endColumn": 87,
+                    "endOffset": 187220
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13063,9 +12991,9 @@
                 "to": {
                     "startLine": 2662,
                     "startColumn": 4,
-                    "startOffset": 187619,
-                    "endColumn": 91,
-                    "endOffset": 187706
+                    "startOffset": 187225,
+                    "endColumn": 111,
+                    "endOffset": 187332
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13075,10 +13003,21 @@
                 "to": {
                     "startLine": 2663,
                     "startColumn": 4,
-                    "startOffset": 187711,
-                    "endLine": 2664,
-                    "endColumn": 12,
-                    "endOffset": 187818
+                    "startOffset": 187337,
+                    "endColumn": 115,
+                    "endOffset": 187448
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2664,
+                    "startColumn": 4,
+                    "startOffset": 187453,
+                    "endColumn": 121,
+                    "endOffset": 187570
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13088,10 +13027,9 @@
                 "to": {
                     "startLine": 2665,
                     "startColumn": 4,
-                    "startOffset": 187823,
-                    "endLine": 2666,
-                    "endColumn": 12,
-                    "endOffset": 187942
+                    "startOffset": 187575,
+                    "endColumn": 111,
+                    "endOffset": 187682
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13099,11 +13037,12 @@
             },
             {
                 "to": {
-                    "startLine": 2667,
+                    "startLine": 2666,
                     "startColumn": 4,
-                    "startOffset": 187947,
-                    "endColumn": 66,
-                    "endOffset": 188009
+                    "startOffset": 187687,
+                    "endLine": 2668,
+                    "endColumn": 12,
+                    "endOffset": 187857
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13111,12 +13050,11 @@
             },
             {
                 "to": {
-                    "startLine": 2668,
+                    "startLine": 2669,
                     "startColumn": 4,
-                    "startOffset": 188014,
-                    "endLine": 2669,
-                    "endColumn": 12,
-                    "endOffset": 188135
+                    "startOffset": 187862,
+                    "endColumn": 115,
+                    "endOffset": 187973
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13126,9 +13064,9 @@
                 "to": {
                     "startLine": 2670,
                     "startColumn": 4,
-                    "startOffset": 188140,
-                    "endColumn": 67,
-                    "endOffset": 188203
+                    "startOffset": 187978,
+                    "endColumn": 85,
+                    "endOffset": 188059
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13138,10 +13076,9 @@
                 "to": {
                     "startLine": 2671,
                     "startColumn": 4,
-                    "startOffset": 188208,
-                    "endLine": 2672,
-                    "endColumn": 12,
-                    "endOffset": 188331
+                    "startOffset": 188064,
+                    "endColumn": 91,
+                    "endOffset": 188151
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13149,12 +13086,12 @@
             },
             {
                 "to": {
-                    "startLine": 2673,
+                    "startLine": 2672,
                     "startColumn": 4,
-                    "startOffset": 188336,
-                    "endLine": 2674,
+                    "startOffset": 188156,
+                    "endLine": 2673,
                     "endColumn": 12,
-                    "endOffset": 188475
+                    "endOffset": 188263
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13162,12 +13099,24 @@
             },
             {
                 "to": {
-                    "startLine": 2675,
+                    "startLine": 2674,
                     "startColumn": 4,
-                    "startOffset": 188480,
-                    "endLine": 2676,
+                    "startOffset": 188268,
+                    "endLine": 2675,
                     "endColumn": 12,
-                    "endOffset": 188603
+                    "endOffset": 188387
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2676,
+                    "startColumn": 4,
+                    "startOffset": 188392,
+                    "endColumn": 66,
+                    "endOffset": 188454
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13177,21 +13126,10 @@
                 "to": {
                     "startLine": 2677,
                     "startColumn": 4,
-                    "startOffset": 188608,
-                    "endColumn": 68,
-                    "endOffset": 188672
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2678,
-                    "startColumn": 4,
-                    "startOffset": 188677,
-                    "endColumn": 94,
-                    "endOffset": 188767
+                    "startOffset": 188459,
+                    "endLine": 2678,
+                    "endColumn": 12,
+                    "endOffset": 188580
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13201,9 +13139,9 @@
                 "to": {
                     "startLine": 2679,
                     "startColumn": 4,
-                    "startOffset": 188772,
-                    "endColumn": 114,
-                    "endOffset": 188882
+                    "startOffset": 188585,
+                    "endColumn": 67,
+                    "endOffset": 188648
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13213,21 +13151,10 @@
                 "to": {
                     "startLine": 2680,
                     "startColumn": 4,
-                    "startOffset": 188887,
-                    "endColumn": 112,
-                    "endOffset": 188995
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2681,
-                    "startColumn": 4,
-                    "startOffset": 189000,
-                    "endColumn": 98,
-                    "endOffset": 189094
+                    "startOffset": 188653,
+                    "endLine": 2681,
+                    "endColumn": 12,
+                    "endOffset": 188776
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13237,21 +13164,10 @@
                 "to": {
                     "startLine": 2682,
                     "startColumn": 4,
-                    "startOffset": 189099,
-                    "endColumn": 108,
-                    "endOffset": 189203
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2683,
-                    "startColumn": 4,
-                    "startOffset": 189208,
-                    "endColumn": 110,
-                    "endOffset": 189314
+                    "startOffset": 188781,
+                    "endLine": 2683,
+                    "endColumn": 12,
+                    "endOffset": 188920
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13261,21 +13177,10 @@
                 "to": {
                     "startLine": 2684,
                     "startColumn": 4,
-                    "startOffset": 189319,
-                    "endColumn": 110,
-                    "endOffset": 189425
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2685,
-                    "startColumn": 4,
-                    "startOffset": 189430,
-                    "endColumn": 100,
-                    "endOffset": 189526
+                    "startOffset": 188925,
+                    "endLine": 2685,
+                    "endColumn": 12,
+                    "endOffset": 189048
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13285,9 +13190,9 @@
                 "to": {
                     "startLine": 2686,
                     "startColumn": 4,
-                    "startOffset": 189531,
-                    "endColumn": 104,
-                    "endOffset": 189631
+                    "startOffset": 189053,
+                    "endColumn": 68,
+                    "endOffset": 189117
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13297,9 +13202,9 @@
                 "to": {
                     "startLine": 2687,
                     "startColumn": 4,
-                    "startOffset": 189636,
-                    "endColumn": 99,
-                    "endOffset": 189731
+                    "startOffset": 189122,
+                    "endColumn": 94,
+                    "endOffset": 189212
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13309,10 +13214,21 @@
                 "to": {
                     "startLine": 2688,
                     "startColumn": 4,
-                    "startOffset": 189736,
-                    "endLine": 2689,
-                    "endColumn": 12,
-                    "endOffset": 189861
+                    "startOffset": 189217,
+                    "endColumn": 114,
+                    "endOffset": 189327
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2689,
+                    "startColumn": 4,
+                    "startOffset": 189332,
+                    "endColumn": 112,
+                    "endOffset": 189440
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13322,9 +13238,9 @@
                 "to": {
                     "startLine": 2690,
                     "startColumn": 4,
-                    "startOffset": 189866,
-                    "endColumn": 90,
-                    "endOffset": 189952
+                    "startOffset": 189445,
+                    "endColumn": 98,
+                    "endOffset": 189539
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13334,9 +13250,9 @@
                 "to": {
                     "startLine": 2691,
                     "startColumn": 4,
-                    "startOffset": 189957,
-                    "endColumn": 122,
-                    "endOffset": 190075
+                    "startOffset": 189544,
+                    "endColumn": 108,
+                    "endOffset": 189648
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13346,9 +13262,9 @@
                 "to": {
                     "startLine": 2692,
                     "startColumn": 4,
-                    "startOffset": 190080,
-                    "endColumn": 93,
-                    "endOffset": 190169
+                    "startOffset": 189653,
+                    "endColumn": 110,
+                    "endOffset": 189759
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13358,10 +13274,21 @@
                 "to": {
                     "startLine": 2693,
                     "startColumn": 4,
-                    "startOffset": 190174,
-                    "endLine": 2694,
-                    "endColumn": 12,
-                    "endOffset": 190281
+                    "startOffset": 189764,
+                    "endColumn": 110,
+                    "endOffset": 189870
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2694,
+                    "startColumn": 4,
+                    "startOffset": 189875,
+                    "endColumn": 100,
+                    "endOffset": 189971
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13371,9 +13298,9 @@
                 "to": {
                     "startLine": 2695,
                     "startColumn": 4,
-                    "startOffset": 190286,
-                    "endColumn": 85,
-                    "endOffset": 190367
+                    "startOffset": 189976,
+                    "endColumn": 104,
+                    "endOffset": 190076
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13383,9 +13310,9 @@
                 "to": {
                     "startLine": 2696,
                     "startColumn": 4,
-                    "startOffset": 190372,
-                    "endColumn": 103,
-                    "endOffset": 190471
+                    "startOffset": 190081,
+                    "endColumn": 99,
+                    "endOffset": 190176
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13395,21 +13322,10 @@
                 "to": {
                     "startLine": 2697,
                     "startColumn": 4,
-                    "startOffset": 190476,
-                    "endColumn": 95,
-                    "endOffset": 190567
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2698,
-                    "startColumn": 4,
-                    "startOffset": 190572,
-                    "endColumn": 74,
-                    "endOffset": 190642
+                    "startOffset": 190181,
+                    "endLine": 2698,
+                    "endColumn": 12,
+                    "endOffset": 190306
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13419,9 +13335,9 @@
                 "to": {
                     "startLine": 2699,
                     "startColumn": 4,
-                    "startOffset": 190647,
-                    "endColumn": 69,
-                    "endOffset": 190712
+                    "startOffset": 190311,
+                    "endColumn": 90,
+                    "endOffset": 190397
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13431,9 +13347,9 @@
                 "to": {
                     "startLine": 2700,
                     "startColumn": 4,
-                    "startOffset": 190717,
-                    "endColumn": 87,
-                    "endOffset": 190800
+                    "startOffset": 190402,
+                    "endColumn": 122,
+                    "endOffset": 190520
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13443,10 +13359,9 @@
                 "to": {
                     "startLine": 2701,
                     "startColumn": 4,
-                    "startOffset": 190805,
-                    "endLine": 2702,
-                    "endColumn": 12,
-                    "endOffset": 190918
+                    "startOffset": 190525,
+                    "endColumn": 93,
+                    "endOffset": 190614
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13454,12 +13369,24 @@
             },
             {
                 "to": {
-                    "startLine": 2703,
+                    "startLine": 2702,
                     "startColumn": 4,
-                    "startOffset": 190923,
-                    "endLine": 2704,
+                    "startOffset": 190619,
+                    "endLine": 2703,
                     "endColumn": 12,
-                    "endOffset": 191022
+                    "endOffset": 190726
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2704,
+                    "startColumn": 4,
+                    "startOffset": 190731,
+                    "endColumn": 85,
+                    "endOffset": 190812
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13469,10 +13396,21 @@
                 "to": {
                     "startLine": 2705,
                     "startColumn": 4,
-                    "startOffset": 191027,
-                    "endLine": 2706,
-                    "endColumn": 12,
-                    "endOffset": 191126
+                    "startOffset": 190817,
+                    "endColumn": 103,
+                    "endOffset": 190916
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2706,
+                    "startColumn": 4,
+                    "startOffset": 190921,
+                    "endColumn": 95,
+                    "endOffset": 191012
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13482,10 +13420,21 @@
                 "to": {
                     "startLine": 2707,
                     "startColumn": 4,
-                    "startOffset": 191131,
-                    "endLine": 2708,
-                    "endColumn": 12,
-                    "endOffset": 191252
+                    "startOffset": 191017,
+                    "endColumn": 74,
+                    "endOffset": 191087
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2708,
+                    "startColumn": 4,
+                    "startOffset": 191092,
+                    "endColumn": 69,
+                    "endOffset": 191157
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13495,9 +13444,9 @@
                 "to": {
                     "startLine": 2709,
                     "startColumn": 4,
-                    "startOffset": 191257,
+                    "startOffset": 191162,
                     "endColumn": 87,
-                    "endOffset": 191340
+                    "endOffset": 191245
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13507,21 +13456,10 @@
                 "to": {
                     "startLine": 2710,
                     "startColumn": 4,
-                    "startOffset": 191345,
-                    "endColumn": 107,
-                    "endOffset": 191448
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2711,
-                    "startColumn": 4,
-                    "startOffset": 191453,
-                    "endColumn": 99,
-                    "endOffset": 191548
+                    "startOffset": 191250,
+                    "endLine": 2711,
+                    "endColumn": 12,
+                    "endOffset": 191363
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13531,21 +13469,10 @@
                 "to": {
                     "startLine": 2712,
                     "startColumn": 4,
-                    "startOffset": 191553,
-                    "endColumn": 89,
-                    "endOffset": 191638
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2713,
-                    "startColumn": 4,
-                    "startOffset": 191643,
-                    "endColumn": 109,
-                    "endOffset": 191748
+                    "startOffset": 191368,
+                    "endLine": 2713,
+                    "endColumn": 12,
+                    "endOffset": 191467
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13555,21 +13482,10 @@
                 "to": {
                     "startLine": 2714,
                     "startColumn": 4,
-                    "startOffset": 191753,
-                    "endColumn": 83,
-                    "endOffset": 191832
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2715,
-                    "startColumn": 4,
-                    "startOffset": 191837,
-                    "endColumn": 101,
-                    "endOffset": 191934
+                    "startOffset": 191472,
+                    "endLine": 2715,
+                    "endColumn": 12,
+                    "endOffset": 191571
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13579,21 +13495,10 @@
                 "to": {
                     "startLine": 2716,
                     "startColumn": 4,
-                    "startOffset": 191939,
-                    "endColumn": 83,
-                    "endOffset": 192018
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2717,
-                    "startColumn": 4,
-                    "startOffset": 192023,
-                    "endColumn": 53,
-                    "endOffset": 192072
+                    "startOffset": 191576,
+                    "endLine": 2717,
+                    "endColumn": 12,
+                    "endOffset": 191697
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13603,9 +13508,9 @@
                 "to": {
                     "startLine": 2718,
                     "startColumn": 4,
-                    "startOffset": 192077,
-                    "endColumn": 63,
-                    "endOffset": 192136
+                    "startOffset": 191702,
+                    "endColumn": 87,
+                    "endOffset": 191785
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13615,9 +13520,9 @@
                 "to": {
                     "startLine": 2719,
                     "startColumn": 4,
-                    "startOffset": 192141,
-                    "endColumn": 105,
-                    "endOffset": 192242
+                    "startOffset": 191790,
+                    "endColumn": 107,
+                    "endOffset": 191893
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13627,9 +13532,9 @@
                 "to": {
                     "startLine": 2720,
                     "startColumn": 4,
-                    "startOffset": 192247,
-                    "endColumn": 109,
-                    "endOffset": 192352
+                    "startOffset": 191898,
+                    "endColumn": 99,
+                    "endOffset": 191993
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13639,9 +13544,9 @@
                 "to": {
                     "startLine": 2721,
                     "startColumn": 4,
-                    "startOffset": 192357,
-                    "endColumn": 83,
-                    "endOffset": 192436
+                    "startOffset": 191998,
+                    "endColumn": 89,
+                    "endOffset": 192083
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13651,9 +13556,9 @@
                 "to": {
                     "startLine": 2722,
                     "startColumn": 4,
-                    "startOffset": 192441,
-                    "endColumn": 119,
-                    "endOffset": 192556
+                    "startOffset": 192088,
+                    "endColumn": 109,
+                    "endOffset": 192193
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
@@ -13663,36 +13568,118 @@
                 "to": {
                     "startLine": 2723,
                     "startColumn": 4,
-                    "startOffset": 192561,
-                    "endLine": 2724,
-                    "endColumn": 12,
-                    "endOffset": 192656
+                    "startOffset": 192198,
+                    "endColumn": 83,
+                    "endOffset": 192277
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2724,
+                    "startColumn": 4,
+                    "startOffset": 192282,
+                    "endColumn": 101,
+                    "endOffset": 192379
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2725,
                     "startColumn": 4,
-                    "startOffset": 192661,
-                    "endLine": 2728,
-                    "endColumn": 12,
-                    "endOffset": 192897
+                    "startOffset": 192384,
+                    "endColumn": 83,
+                    "endOffset": 192463
                 },
                 "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2726,
+                    "startColumn": 4,
+                    "startOffset": 192468,
+                    "endColumn": 53,
+                    "endOffset": 192517
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2727,
+                    "startColumn": 4,
+                    "startOffset": 192522,
+                    "endColumn": 63,
+                    "endOffset": 192581
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2728,
+                    "startColumn": 4,
+                    "startOffset": 192586,
+                    "endColumn": 105,
+                    "endOffset": 192687
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
                 }
             },
             {
                 "to": {
                     "startLine": 2729,
                     "startColumn": 4,
-                    "startOffset": 192902,
-                    "endLine": 2735,
+                    "startOffset": 192692,
+                    "endColumn": 109,
+                    "endOffset": 192797
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2730,
+                    "startColumn": 4,
+                    "startOffset": 192802,
+                    "endColumn": 83,
+                    "endOffset": 192881
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2731,
+                    "startColumn": 4,
+                    "startOffset": 192886,
+                    "endColumn": 119,
+                    "endOffset": 193001
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2732,
+                    "startColumn": 4,
+                    "startOffset": 193006,
+                    "endLine": 2733,
                     "endColumn": 12,
-                    "endOffset": 193332
+                    "endOffset": 193101
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13700,12 +13687,12 @@
             },
             {
                 "to": {
-                    "startLine": 2736,
+                    "startLine": 2734,
                     "startColumn": 4,
-                    "startOffset": 193337,
-                    "endLine": 2739,
+                    "startOffset": 193106,
+                    "endLine": 2737,
                     "endColumn": 12,
-                    "endOffset": 193539
+                    "endOffset": 193342
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13713,12 +13700,12 @@
             },
             {
                 "to": {
-                    "startLine": 2740,
+                    "startLine": 2738,
                     "startColumn": 4,
-                    "startOffset": 193544,
-                    "endLine": 2742,
+                    "startOffset": 193347,
+                    "endLine": 2744,
                     "endColumn": 12,
-                    "endOffset": 193698
+                    "endOffset": 193777
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13726,12 +13713,25 @@
             },
             {
                 "to": {
-                    "startLine": 2743,
+                    "startLine": 2745,
                     "startColumn": 4,
-                    "startOffset": 193703,
+                    "startOffset": 193782,
+                    "endLine": 2748,
+                    "endColumn": 12,
+                    "endOffset": 193984
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2749,
+                    "startColumn": 4,
+                    "startOffset": 193989,
                     "endLine": 2751,
                     "endColumn": 12,
-                    "endOffset": 194263
+                    "endOffset": 194143
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13741,23 +13741,10 @@
                 "to": {
                     "startLine": 2752,
                     "startColumn": 4,
-                    "startOffset": 194268,
-                    "endLine": 2757,
-                    "endColumn": 12,
-                    "endOffset": 194624
-                },
-                "from": {
-                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 2758,
-                    "startColumn": 4,
-                    "startOffset": 194629,
+                    "startOffset": 194148,
                     "endLine": 2760,
                     "endColumn": 12,
-                    "endOffset": 194753
+                    "endOffset": 194708
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13767,10 +13754,23 @@
                 "to": {
                     "startLine": 2761,
                     "startColumn": 4,
-                    "startOffset": 194758,
+                    "startOffset": 194713,
+                    "endLine": 2766,
+                    "endColumn": 12,
+                    "endOffset": 195069
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2767,
+                    "startColumn": 4,
+                    "startOffset": 195074,
                     "endLine": 2769,
                     "endColumn": 12,
-                    "endOffset": 195420
+                    "endOffset": 195198
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13780,10 +13780,10 @@
                 "to": {
                     "startLine": 2770,
                     "startColumn": 4,
-                    "startOffset": 195425,
-                    "endLine": 2773,
+                    "startOffset": 195203,
+                    "endLine": 2778,
                     "endColumn": 12,
-                    "endOffset": 195600
+                    "endOffset": 195865
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
@@ -13791,12 +13791,25 @@
             },
             {
                 "to": {
-                    "startLine": 2774,
+                    "startLine": 2779,
                     "startColumn": 4,
-                    "startOffset": 195605,
+                    "startOffset": 195870,
                     "endLine": 2782,
                     "endColumn": 12,
-                    "endOffset": 196309
+                    "endOffset": 196045
+                },
+                "from": {
+                    "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 2783,
+                    "startColumn": 4,
+                    "startOffset": 196050,
+                    "endLine": 2791,
+                    "endColumn": 12,
+                    "endOffset": 196754
                 },
                 "from": {
                     "file": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\values\\values.xml"
