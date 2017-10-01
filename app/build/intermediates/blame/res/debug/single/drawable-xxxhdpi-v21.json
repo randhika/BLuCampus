@@ -2,5 +2,9 @@
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v21\\ic_event_available_black_24dp.xml",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi-v21\\ic_event_available_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v21\\ic_https_24dp_black.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi-v21\\ic_https_24dp_black.xml"
     }
 ]

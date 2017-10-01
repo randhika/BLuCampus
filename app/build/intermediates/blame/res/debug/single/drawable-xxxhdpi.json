@@ -24,12 +24,12 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxxhdpi\\guest.png"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_whatshot_black_24dp.png",
-        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_whatshot_black_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\logout.png",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxxhdpi\\logout.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_whatshot_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_whatshot_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_email_24dp.png",
@@ -62,6 +62,10 @@
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_person_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_person_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_https_24dp_black.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_https_24dp_black.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi\\ic_event_available_24dp.png",

@@ -66,21 +66,23 @@ public class MainActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getWindow().clearFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
+
+        getSupportActionBar().hide();
 
         //Inisialisasi
         txtUsername = (EditText)findViewById(R.id.txtUsername);
         txtPassword = (EditText)findViewById(R.id.txtPassword);
         error       = (TextView)findViewById(R.id.failed_login);
         btnLogin = (Button)findViewById(R.id.btnLogin);
-        showPassword = (CheckBox)findViewById(R.id.cbShowPwd);
+        //showPassword = (CheckBox)findViewById(R.id.cbShowPwd);
         txtRegister = (TextView)findViewById(R.id.txtRegister);
         txtForgotPassword = (TextView)findViewById(R.id.forgotPassword);
         checkConnection = new CheckConnection(getApplicationContext());
 
 
         //Setting Custom Fonts dengan Typeface
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/droid/DroidSerif.ttf");
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
         //Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
         txtForgotPassword.setTypeface(custom_font);
         txtRegister.setTypeface(custom_font);
@@ -88,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         txtUsername.setTypeface(custom_font);
         btnLogin.setTypeface(custom_font);
         error.setTypeface(custom_font);
-        showPassword.setTypeface(custom_font);
+        //showPassword.setTypeface(custom_font);
 
 
         //Instansiasi Progress Dialog
@@ -113,18 +115,18 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Menampilkan ShowPassword saat button Show diklik
-        showPassword.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                if (!isChecked) {
-                    // show password
-                    txtPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                } else {
-                    // hide password
-                    txtPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                }
-            }
-        });
+//        showPassword.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+//                if (!isChecked) {
+//                    // show password
+//                    txtPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+//                } else {
+//                    // hide password
+//                    txtPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+//                }
+//            }
+//        });
 
         //Melakukan Login
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -167,14 +169,14 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //Instansiasi ActionBar untuk mengatur icon pada bagian atas
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayShowCustomEnabled(true);
-
-        //Membuat Custom Layout pada Action Bar
-        LayoutInflater inflator = (LayoutInflater) this .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View v = inflator.inflate(R.layout.logo_actionbar, null);
-        actionBar.setCustomView(v);
+//        //Instansiasi ActionBar untuk mengatur icon pada bagian atas
+//        ActionBar actionBar = getSupportActionBar();
+//        actionBar.setDisplayShowCustomEnabled(true);
+//
+//        //Membuat Custom Layout pada Action Bar
+//        LayoutInflater inflator = (LayoutInflater) this .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//        View v = inflator.inflate(R.layout.logo_actionbar, null);
+//        actionBar.setCustomView(v);
 
     }
 
@@ -281,9 +283,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         if (doubleBackToExitPressedOnce) {
-            //super.onBackPressed();
-            //finish();
-            //moveTaskToBack(true);
             android.os.Process.killProcess(android.os.Process.myPid());
         }
 
