@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -49,10 +50,6 @@ public class RegisterGuest extends AppCompatActivity {
     Button btnRegister;
     ScrollView scrollView;
 
-    EditText txtDate;
-    int year_x,month_x,day_x;
-    static final int DIALOG_ID = 0;
-
     boolean isConnected,valid;
 
     ProgressDialog pDialog;
@@ -67,12 +64,21 @@ public class RegisterGuest extends AppCompatActivity {
         //radioGender = (RadioGroup)findViewById(R.id.radioGender);
         txtEmail = (EditText)findViewById(R.id.txtEmail);
         txtPassword = (EditText)findViewById(R.id.txtPassword);
-        txtKonfirmasiPassword = (EditText)findViewById(R.id.txtKonfirmasiPassword);
+        //txtKonfirmasiPassword = (EditText)findViewById(R.id.txtKonfirmasiPassword);
         //txtAlamat = (EditText)findViewById(R.id.txtAlamat);
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         btnRegister = (Button)findViewById(R.id.btnDaftar);
         result = (TextView)findViewById(R.id.result);
-        scrollView = (ScrollView)findViewById(R.id.scrollGuest);
+        scrollView = (ScrollView)findViewById(R.id.scrollViewuser);
+
+        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        txtTelp.setTypeface(custom_font);
+        txtUsername.setTypeface(custom_font);
+        txtName.setTypeface(custom_font);
+        txtEmail.setTypeface(custom_font);
+        txtPassword.setTypeface(custom_font);
+        btnRegister.setTypeface(custom_font);
+        result.setTypeface(custom_font);
 
         pDialog = new ProgressDialog(RegisterGuest.this);
 
@@ -90,18 +96,18 @@ public class RegisterGuest extends AppCompatActivity {
             }
         });
 
+        getSupportActionBar().setTitle("Register Guest");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setElevation(0);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
     }
 
     public void doSignup(){
-
-//        int selectedId = radioGender.getCheckedRadioButtonId();
-//        radioGenderItem = (RadioButton)findViewById(selectedId);
-//        String gender  = "";
-//        if (radioGenderItem.getText().toString().trim().equalsIgnoreCase("Pria")){
-//            gender = "L";
-//        }else{
-//            gender = "P";
-//        }
 
         pDialog.setCancelable(false);
         pDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
@@ -192,7 +198,6 @@ public class RegisterGuest extends AppCompatActivity {
         txtPassword.setError(null);
         txtUsername.setError(null);
         txtTelp.setError(null);
-        txtKonfirmasiPassword.setError(null);
         txtEmail.setError(null);
         txtName.setError(null);
 
@@ -208,7 +213,7 @@ public class RegisterGuest extends AppCompatActivity {
         if (txtUsername.getText().toString().trim().length() < 6){
             Log.d("VALIDITY 5", "ISI");
             result.setVisibility(View.VISIBLE);
-            result.append("Username minimal 6 karakter\n");
+            result.append("*Username minimal 6 karakter\n");
             txtUsername.setError("Username minimal 6 karakter");
             scrollView.smoothScrollTo(0, 0);
             valid = false;
@@ -216,7 +221,7 @@ public class RegisterGuest extends AppCompatActivity {
 
         if (txtPassword.getText().toString().trim().length() < 8){
             result.setVisibility(View.VISIBLE);
-            result.append("Password minimal 8 karakter\n");
+            result.append("*Password minimal 8 karakter\n");
             txtPassword.setError("Password minimal 8 karakter");
             scrollView.smoothScrollTo(0, 0);
             valid = false;
@@ -226,14 +231,6 @@ public class RegisterGuest extends AppCompatActivity {
             result.setVisibility(View.VISIBLE);
             result.append("*Format Email Salah\n");
             txtEmail.setError("Format Email Salah");
-            scrollView.smoothScrollTo(0, 0);
-            valid = false;
-        }
-
-        if (!txtPassword.getText().toString().trim().equalsIgnoreCase(txtKonfirmasiPassword.getText().toString().trim())){
-            result.setVisibility(View.VISIBLE);
-            result.append("*Konfirmasi password tidak sesuai dengan password\n");
-            txtKonfirmasiPassword.setError("Konfirmasi password tidak sesuai dengan password");
             scrollView.smoothScrollTo(0, 0);
             valid = false;
         }

@@ -76,7 +76,7 @@ public class RegisterUser extends AppCompatActivity {
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         btnRegister = (Button)findViewById(R.id.btnDaftar);
         scrollView = (ScrollView)findViewById(R.id.scrollViewuser);
-        viewRegister = (TextView)findViewById(R.id.viewRegister);
+        //viewRegister = (TextView)findViewById(R.id.viewRegister);
         //test = (TextView)findViewById(R.id.test);
         result = (TextView)findViewById(R.id.result);
 
@@ -88,20 +88,15 @@ public class RegisterUser extends AppCompatActivity {
         txtEmail.setTypeface(custom_font);
         txtPassword.setTypeface(custom_font);
         btnRegister.setTypeface(custom_font);
-        viewRegister.setTypeface(custom_font);
+        //viewRegister.setTypeface(custom_font);
         result.setTypeface(custom_font);
 
 
-
-//        final Calendar calendar = Calendar.getInstance();
-//        year_x = calendar.get(Calendar.YEAR);
-//        month_x = calendar.get(Calendar.MONTH);
-//        day_x = calendar.get(Calendar.DAY_OF_MONTH);
-
-        //showDialogOnClick();
-
         pDialog = new ProgressDialog(RegisterUser.this);
 
+        getSupportActionBar().setTitle("Register Mahasiswa");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setElevation(0);
 
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -120,7 +115,11 @@ public class RegisterUser extends AppCompatActivity {
         });
     }
 
-
+    @Override
+    public boolean onSupportNavigateUp() {
+        finish();
+        return true;
+    }
 
     private void doRegisterUser(){
 //        int selectedId = radioGender.getCheckedRadioButtonId();

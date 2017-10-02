@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Activity.RegisterUser"
-    android:background="#fff"
+    android:background="@drawable/background_gradient"
     android:id="@+id/scrollViewuser">
 
     <LinearLayout
@@ -14,30 +14,38 @@
         android:layout_height="wrap_content"
         android:descendantFocusability="beforeDescendants"
         android:focusableInTouchMode="true">
-        <View
-            android:layout_width="200dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:layout_height="2dp"
-            android:background="#c0c0c0"/>
-        <TextView
-            android:id="@+id/viewRegister"
-            android:layout_gravity="center"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Daftar Mahasiswa"
-            android:layout_marginTop="10dp"
-            android:textSize="24dp"
-            android:typeface="serif"
-            android:textColor="#000"/>
-        <View
-            android:layout_width="200dp"
-            android:layout_marginTop="10dp"
-            android:layout_gravity="center"
-            android:layout_height="2dp"
-            android:background="#c0c0c0"/>
+        <!--<View-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:background="#c0c0c0"/>-->
+        <!--<TextView-->
+            <!--android:id="@+id/viewRegister"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Daftar Mahasiswa"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textSize="24dp"-->
+            <!--android:typeface="serif"-->
+            <!--android:textColor="#000"/>-->
+        <!--<View-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_height="2dp"-->
+            <!--android:background="#c0c0c0"/>-->
 
 
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/student"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="-30dp"
+            android:elevation="70dp"/>
 
         <android.support.v7.widget.CardView
             android:layout_width="match_parent"
