@@ -29,6 +29,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.LoginRequest;
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
     String mypref = "MYPREFRENCES";
 
     PrefHandler prefHandler;
+    FontHandler fontHandler;
 
     boolean isConnected,valid,doubleBackToExitPressedOnce = false;
 
@@ -82,14 +84,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         //Setting Custom Fonts dengan Typeface
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
-        //Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        fontHandler = new FontHandler(this);
+        Typeface custom_font        = fontHandler.getFont();
+        Typeface custom_font_bold   = fontHandler.getFontBold();
         txtForgotPassword.setTypeface(custom_font);
-        txtRegister.setTypeface(custom_font);
+        txtRegister.setTypeface(custom_font_bold);
         txtPassword.setTypeface(custom_font);
         txtUsername.setTypeface(custom_font);
         btnLogin.setTypeface(custom_font);
         error.setTypeface(custom_font);
+
         //showPassword.setTypeface(custom_font);
 
 

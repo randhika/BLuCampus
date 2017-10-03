@@ -77,7 +77,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name="com.mycampus.rontikeky.myacademic.Activity.EditProfil"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeProfile" />
         <activity
             android:name="com.mycampus.rontikeky.myacademic.Activity.SuccessRegister"
             android:screenOrientation="portrait" />

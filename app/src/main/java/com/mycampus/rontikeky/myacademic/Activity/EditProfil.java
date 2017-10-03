@@ -14,8 +14,10 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
@@ -64,17 +66,9 @@ public class EditProfil extends AppCompatActivity {
     TextView result;
     Button simpan;
     ImageView ivProfile;
-    ScrollView scrollView;
+    NestedScrollView scrollView;
 
-    SharedPreferences sharedPreferences, sharedPreferences2;
-    String token_key = "token";
-    String nama_key = "nama";
-    String email_key = "email";
-    String faculty_key = "faculty";
-    String mypref = "MYPREFRENCES";
     String token;
-    String nama_feed;
-    String email_feed;
 
     PrefHandler prefHandler;
 
@@ -101,7 +95,7 @@ public class EditProfil extends AppCompatActivity {
         ivProfile = (ImageView)findViewById(R.id.ivProfile);
         simpan = (Button)findViewById(R.id.btnSimpan);
 
-        scrollView = (ScrollView)findViewById(R.id.profileScrollView);
+        scrollView = (NestedScrollView)findViewById(R.id.profileScrollView);
 
         username.setFocusable(false);
         username.setClickable(false);
@@ -159,8 +153,11 @@ public class EditProfil extends AppCompatActivity {
         });
 
 
-        getSupportActionBar().setTitle("Edit Profil");
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Toolbar toolbar = (Toolbar)findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        if(getSupportActionBar() != null){
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
     }
 
     public void showDialogOnClick(){

@@ -23,6 +23,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.SignupGuestRequest;
 import com.mycampus.rontikeky.myacademic.Response.SignupGuestResponse;
@@ -52,6 +53,8 @@ public class RegisterGuest extends AppCompatActivity {
 
     boolean isConnected,valid;
 
+    FontHandler fontHandler;
+
     ProgressDialog pDialog;
 
     @Override
@@ -71,7 +74,8 @@ public class RegisterGuest extends AppCompatActivity {
         result = (TextView)findViewById(R.id.result);
         scrollView = (ScrollView)findViewById(R.id.scrollViewuser);
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        fontHandler = new FontHandler(this);
+        Typeface custom_font= fontHandler.getFont();
         txtTelp.setTypeface(custom_font);
         txtUsername.setTypeface(custom_font);
         txtName.setTypeface(custom_font);

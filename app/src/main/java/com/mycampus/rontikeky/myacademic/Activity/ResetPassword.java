@@ -16,6 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.ResetPasswordRequest;
 import com.mycampus.rontikeky.myacademic.Response.ResetPasswordResponse;
@@ -29,10 +30,13 @@ import retrofit2.Response;
 public class ResetPassword extends AppCompatActivity {
 
     EditText txtReset;
+    TextView viewHeader,viewMessage;
     Button btnReset;
     TextView result;
     ProgressDialog pDialog;
     boolean isConnected;
+
+    FontHandler fontHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,10 +45,17 @@ public class ResetPassword extends AppCompatActivity {
 
         txtReset = (EditText)findViewById(R.id.txtEmailReset);
         btnReset = (Button)findViewById(R.id.btnReset);
+        viewHeader = (TextView)findViewById(R.id.viewResetPassword);
+        viewMessage = (TextView)findViewById(R.id.viewResetMessage);
         result = (TextView)findViewById(R.id.resultReset);
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/droid/DroidSerif.ttf");
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
         txtReset.setTypeface(custom_font);
+        btnReset.setTypeface(custom_font);
+        viewHeader.setTypeface(custom_font_bold);
+        viewMessage.setTypeface(custom_font);
         btnReset.setTypeface(custom_font);
         result.setTypeface(custom_font);
 

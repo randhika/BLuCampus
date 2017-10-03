@@ -53,7 +53,7 @@ public interface AcademicClient {
     @POST("auth/signin")
     Call<LoginResponse> doLogin(@Body LoginRequest loginRequest);
 
-    @POST("forget")
+    @POST("auth/forget")
     Call<ResetPasswordResponse> doReset(@Body ResetPasswordRequest resetPasswordRequest);
 
     @GET("acara/tag/seminar")

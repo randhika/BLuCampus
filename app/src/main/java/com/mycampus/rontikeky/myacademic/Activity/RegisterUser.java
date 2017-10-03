@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.GsonBuilder;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.SignupUserRequest;
 import com.mycampus.rontikeky.myacademic.Response.SignupUserResponse;
@@ -56,6 +57,8 @@ public class RegisterUser extends AppCompatActivity {
     String gender;
     ProgressDialog pDialog;
 
+    FontHandler fontHandler;
+
     boolean isConnected;
     boolean valid;
 
@@ -80,7 +83,8 @@ public class RegisterUser extends AppCompatActivity {
         //test = (TextView)findViewById(R.id.test);
         result = (TextView)findViewById(R.id.result);
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        fontHandler = new FontHandler(this);
+        Typeface custom_font= fontHandler.getFont();
         txtNIM.setTypeface(custom_font);
         txtTelp.setTypeface(custom_font);
         txtUsername.setTypeface(custom_font);

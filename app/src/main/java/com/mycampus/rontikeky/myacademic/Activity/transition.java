@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Typeface;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.http.HttpResponseCache;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
@@ -49,17 +51,12 @@ public class transition extends AppCompatActivity {
     ImageView imgHot;
     Button btnSkip;
 
-    SharedPreferences sharedPreferences, sharedPreferences2;
-    String token_key = "token";
-    String nama_key = "nama";
-    String email_key = "email";
-    String faculty_key = "faculty";
-    String mypref = "MYPREFRENCES";
     String token;
     String nama_feed;
     String email_feed;
 
     PrefHandler prefHandler;
+    FontHandler fontHandler;
 
     ProgressBar progressBar;
 
@@ -76,10 +73,16 @@ public class transition extends AppCompatActivity {
         txtJudul = (TextView)findViewById(R.id.titleHot);
         txtWaktu = (TextView)findViewById(R.id.dateHot);
         imgHot = (ImageView)findViewById(R.id.imgHot);
-
         progressBar = (ProgressBar)findViewById(R.id.progressBar1);
-
         btnSkip.setVisibility(View.GONE);
+
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+        txtNama.setTypeface(custom_font);
+        txtJudul.setTypeface(custom_font_bold);
+        txtWaktu.setTypeface(custom_font);
+        btnSkip.setTypeface(custom_font_bold);
 
         prefHandler = new PrefHandler(this);
         token = prefHandler.getTOKEN_KEY();

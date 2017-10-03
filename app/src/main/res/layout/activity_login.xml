@@ -43,7 +43,8 @@
                 android:padding="10dp"
                 android:text="Kombinasi Username dan password salah"
                 android:textAlignment="center"
-                android:visibility="gone" />
+                android:visibility="gone"
+                android:textColor="#fff"/>
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"

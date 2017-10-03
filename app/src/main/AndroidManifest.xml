@@ -59,7 +59,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".Activity.EditProfil"
-            android:screenOrientation="portrait" />
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeProfile"/>
         <activity
             android:name=".Activity.SuccessRegister"
             android:screenOrientation="portrait" />

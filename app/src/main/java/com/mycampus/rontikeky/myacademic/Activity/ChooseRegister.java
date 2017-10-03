@@ -8,12 +8,15 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 
 public class ChooseRegister extends AppCompatActivity {
 
     ImageView student,guest;
     TextView student_view, guest_view, atau_view;
+
+    FontHandler fontHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +29,8 @@ public class ChooseRegister extends AppCompatActivity {
         guest_view = (TextView)findViewById(R.id.viewGuest);
         atau_view = (TextView)findViewById(R.id.viewAtau);
 
-        Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/Gotham Rounded Bold.otf");
+        fontHandler = new FontHandler(this);
+        Typeface custom_font= fontHandler.getFont();
         student_view.setTypeface(custom_font);
         guest_view.setTypeface(custom_font);
         atau_view.setTypeface(custom_font);
