@@ -18,7 +18,6 @@ import android.util.Log;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.google.gson.GsonBuilder;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.AndroidUpdateResponse;
@@ -102,7 +101,6 @@ public class splash_screen extends AppCompatActivity {
         call.enqueue(new Callback<AndroidUpdateResponse>() {
             @Override
             public void onResponse(Call<AndroidUpdateResponse> call, Response<AndroidUpdateResponse> response) {
-                Log.d("RESPONSE",new GsonBuilder().setPrettyPrinting().create().toJson(response));
 
                 if (versionCode < response.body().getVersionCode()){
                     Log.d("TAG","ada update!");

@@ -9,6 +9,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.mycampus.rontikeky.myacademic.R;
 
 import uk.co.senab.photoview.PhotoViewAttacher;
@@ -58,15 +59,6 @@ public class FullScreenImageActivity extends Activity {
             }
         });
 
-//        Intent callingActivityIntent = getIntent();
-//        if(callingActivityIntent != null) {
-//            Uri imageUri = callingActivityIntent.getData();
-//            if(imageUri != null && fullScreenImageView != null) {
-//                Glide.with(this)
-//                        .load(imageUri)
-//                        .into(fullScreenImageView);
-//            }
-//        }
 
         Intent result= getIntent();
         Bundle extrasResult = result.getExtras();
@@ -76,7 +68,7 @@ public class FullScreenImageActivity extends Activity {
             extrasUrl =(String) extrasResult.get("url");
         }
 
-        Glide.with(FullScreenImageActivity.this).load(extrasUrl).into(fullScreenImageView);
+        Glide.with(FullScreenImageActivity.this).load(extrasUrl).error(R.drawable.nopicture).diskCacheStrategy(DiskCacheStrategy.NONE).skipMemoryCache(true).into(fullScreenImageView);
 
         mAttacher = new PhotoViewAttacher(fullScreenImageView);
     }

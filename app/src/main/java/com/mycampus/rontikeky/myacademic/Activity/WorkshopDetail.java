@@ -144,7 +144,6 @@ public class WorkshopDetail extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(),"Event telah ditambahkan ke kalendar anda",Toast.LENGTH_SHORT).show();
                         showDialog();
                     }
-                    Log.d("TRY", new Gson().toJson(response));
                 } catch (Exception e) {
                     Log.d("TRY 2", e.toString());
                 }
@@ -178,7 +177,6 @@ public class WorkshopDetail extends AppCompatActivity {
                         btnDaftar.setVisibility(View.VISIBLE);
                         showDialogCancel();
                     }
-                    Log.d("TRY", new Gson().toJson(response));
                 } catch (Exception e) {
                     Log.d("TRY 2", e.toString());
                 }
@@ -218,7 +216,6 @@ public class WorkshopDetail extends AppCompatActivity {
                     content.setSpan(new UnderlineSpan(), 0, udata.length(), 0);//where first 0 shows the starting and udata.length() shows the ending span.if you want to span only part of it than you can change these values like 5,8 then it will underline part of it.
                     contact_person.setText(content);
 
-                    Log.d("RESPONSE : ", new Gson().toJson(response));
                     Glide.with(getApplicationContext()).load(response.body().getFotoAcara()).into(imgSeminar);
                     judul.setText(response.body().getJudulAcara());
                     isi.setText(response.body().getIsiAcara());

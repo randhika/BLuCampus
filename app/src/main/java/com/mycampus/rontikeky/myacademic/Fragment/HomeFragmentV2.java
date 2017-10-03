@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
@@ -30,6 +31,8 @@ import android.widget.TextView;
 
 import com.mycampus.rontikeky.myacademic.Activity.ChooseFaculty;
 import com.mycampus.rontikeky.myacademic.Adapter.CustomAdapter;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
@@ -95,6 +98,9 @@ public class HomeFragmentV2 extends Fragment{
     RadioButton rdSelected;
     TextView infoText;
 
+    PrefHandler prefHandler;
+    FontHandler fontHandler;
+
     //All About Refresh
     ProgressDialog pDialog;
     SwipeRefreshLayout swipeRefreshLayout;
@@ -122,6 +128,12 @@ public class HomeFragmentV2 extends Fragment{
         cvEmpty = (CardView)rootView.findViewById(R.id.cvEmpty);
         txtEmpty = (TextView)rootView.findViewById(R.id.textEmpty);
         //radioGroupFilter = (RadioGroup)rootView.findViewById(R.id.groupFilter);
+
+        fontHandler = new FontHandler(getActivity().getApplication().getApplicationContext());
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+
+        infoText.setTypeface(custom_font_bold);
 
         mRecyclerView.setItemAnimator(new SlideInLeftAnimator());
         mRecyclerView.setHasFixedSize(false);

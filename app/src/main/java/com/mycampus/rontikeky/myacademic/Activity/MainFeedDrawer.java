@@ -7,6 +7,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
@@ -34,6 +35,7 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragment;
@@ -54,6 +56,7 @@ public class MainFeedDrawer extends AppCompatActivity
     String email_feed;
 
     PrefHandler prefHandler;
+    FontHandler fontHandler;
 
     TextView tvNameHeader, tvEmailHeader;
     ImageView ivDisplayHeader;
@@ -69,6 +72,9 @@ public class MainFeedDrawer extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setTitle("BLuFeed");
+
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
 
 
         prefHandler = new PrefHandler(this);
@@ -87,7 +93,8 @@ public class MainFeedDrawer extends AppCompatActivity
         tvNameHeader = (TextView)view.findViewById(R.id.nameHeader);
         tvEmailHeader = (TextView)view.findViewById(R.id.emailHeader);
         ivDisplayHeader = (ImageView)view.findViewById(R.id.imageHeader);
-
+        tvNameHeader.setTypeface(custom_font);
+        tvEmailHeader.setTypeface(custom_font);
 
         navigationView.setCheckedItem(R.id.nav_info);
 
@@ -110,34 +117,12 @@ public class MainFeedDrawer extends AppCompatActivity
         ivDisplayHeader.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-//                Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
-//                photoPickerIntent.setType("image/*");
-//                startActivityForResult(photoPickerIntent, 0);
                 loadPhoto(ivDisplayHeader,50,50);
             }
         });
 
     }
 
-    //Hasil Select Image dari gallery dan foto(Not Fix Yet)
-//    @Override
-//    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-//        super.onActivityResult(requestCode, resultCode, data);
-//        if(resultCode == Activity.RESULT_OK)
-//            switch (requestCode){
-//                case 0:
-//                    Uri selectedImage = data.getData();
-//                    try {
-//                        Bitmap bitmap = MediaStore.Images.Media.getBitmap(getContentResolver(), selectedImage);
-//                        String pathImage = ImageFilePath.getPath(this,data.getData());
-//                        Log.d("xxx",pathImage);
-//                        ivDisplayHeader.setImageBitmap(bitmap);
-//                    } catch (IOException e) {
-//                        Log.i("TAG", "Some exception " + e);
-//                    }
-//                    break;
-//        }
-//    }
 
 
     @Override
@@ -238,6 +223,8 @@ public class MainFeedDrawer extends AppCompatActivity
 
         fragment = null;
 
+
+
         if (id == R.id.nav_info) {
             boolean b=!m.findItem(R.id.nav_baak).isVisible();
             m.findItem(R.id.nav_baak).setVisible(b);
@@ -250,6 +237,7 @@ public class MainFeedDrawer extends AppCompatActivity
             m.findItem(R.id.nav_executive).setVisible(b);
             m.findItem(R.id.nav_kemahasiswaan).setVisible(b);
             m.findItem(R.id.nav_pascasarjana).setVisible(b);
+
             return true;
         } else if (id == R.id.nav_seminar) {
             fragment = new SeminarFragment();

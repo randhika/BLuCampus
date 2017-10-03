@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Oct 03 15:45:02 ICT 2017
+#Tue Oct 03 21:59:35 ICT 2017
 20.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 143.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 439.set=ANDROID_RESOURCE
@@ -233,7 +233,7 @@
 45.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 168.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 237.set=ANDROID_RESOURCE
-194.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v21\\ic_person_24dp_black.xml
+194.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png
 365.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_wifi_tethering_black_24dp_white.png
 115.set=ANDROID_RESOURCE
 78.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
@@ -298,7 +298,7 @@
 223.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 353.set=ANDROID_RESOURCE
 420.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable\\nopicture.png
-282.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_template_custom_big.xml
+282.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png
 436.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 276.set=ANDROID_RESOURCE
 154.set=ANDROID_RESOURCE
@@ -794,7 +794,7 @@
 167.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 61.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\color\\abc_tint_default.xml
 227.set=ANDROID_RESOURCE
-193.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png
+193.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-hdpi-v21\\ic_person_24dp_black.xml
 364.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\activity_main_feed.xml
 105.set=ANDROID_RESOURCE
 77.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\assets\\debug
@@ -856,7 +856,7 @@
 92.set=ANDROID_RESOURCE
 222.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 343.set=ANDROID_RESOURCE
-281.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png
+281.file=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-v21\\notification_template_custom_big.xml
 435.base=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\resources-debug.ap_
 266.set=ANDROID_RESOURCE
 144.set=ANDROID_RESOURCE

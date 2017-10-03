@@ -1240,6 +1240,7 @@ int id btnSimpan 0x7f0e00aa
 int id btnStopNormal 0x7f0e00d8
 int id btn_filter_info 0x7f0e00f9
 int id buttonPanel 0x7f0e005a
+int id camera 0x7f0e009d
 int id cancel_action 0x7f0e0125
 int id cbShowPwd 0x7f0e00b8
 int id center 0x7f0e0032
@@ -1333,7 +1334,7 @@ int id isi_html_acara 0x7f0e0107
 int id isi_info 0x7f0e0104
 int id isi_workshop 0x7f0e014c
 int id item_touch_helper_previous_elevation 0x7f0e0005
-int id ivProfile 0x7f0e00a1
+int id ivProfile 0x7f0e009c
 int id jamDetail 0x7f0e00c7
 int id jam_acara 0x7f0e0141
 int id judul 0x7f0e013d
@@ -1350,8 +1351,6 @@ int id line3 0x7f0e0135
 int id listMode 0x7f0e001b
 int id list_item 0x7f0e0057
 int id logout 0x7f0e0166
-int id main_framelayout_title 0x7f0e009c
-int id main_linearlayout_title 0x7f0e009d
 int id masked 0x7f0e0151
 int id media_actions 0x7f0e0127
 int id middle 0x7f0e0043
@@ -1400,7 +1399,7 @@ int id pin 0x7f0e003c
 int id player_footer_bg 0x7f0e00d6
 int id player_header_bg 0x7f0e00d2
 int id profileIcon 0x7f0e0119
-int id profileScrollView 0x7f0e009f
+int id profileScrollView 0x7f0e00a0
 int id progressBar1 0x7f0e00e1
 int id progress_circular 0x7f0e0006
 int id progress_horizontal 0x7f0e0007
@@ -1410,7 +1409,7 @@ int id recyclerViewRegister 0x7f0e00bf
 int id recyclerViewSeminar 0x7f0e0100
 int id recyclerViewWorkshop 0x7f0e0102
 int id repeat 0x7f0e004d
-int id result 0x7f0e00a0
+int id result 0x7f0e00a1
 int id resultChange 0x7f0e0088
 int id resultReset 0x7f0e00e7
 int id right 0x7f0e0038
@@ -1502,7 +1501,7 @@ int id toDate 0x7f0e008f
 int id toLayout 0x7f0e008e
 int id toggle 0x7f0e011b
 int id token 0x7f0e0143
-int id toolbar 0x7f0e009e
+int id toolbar 0x7f0e009f
 int id toolbar2 0x7f0e00ae
 int id toolbar_logo 0x7f0e00ba
 int id top 0x7f0e003a
@@ -1530,6 +1529,7 @@ int id username 0x7f0e00b4
 int id versionAndroid 0x7f0e0084
 int id viewAtau 0x7f0e0093
 int id viewGuest 0x7f0e0095
+int id viewName 0x7f0e009e
 int id viewResetMessage 0x7f0e00e6
 int id viewResetPassword 0x7f0e00e5
 int id viewStudent 0x7f0e0092

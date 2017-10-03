@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -33,6 +34,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
@@ -63,14 +65,16 @@ import retrofit2.Response;
 
 public class EditProfil extends AppCompatActivity {
     EditText username, alamat, lahir, nama, email, password, txtTelp,nim;
-    TextView result;
+    TextView result,viewName;
     Button simpan;
-    ImageView ivProfile;
+    ImageView ivProfile,ivChange;
     NestedScrollView scrollView;
 
     String token;
+    String extrasSlug;
 
     PrefHandler prefHandler;
+    FontHandler fontHandler;
 
     int year_x,month_x,day_x;
     static final int DIALOG_ID = 0;
@@ -92,6 +96,8 @@ public class EditProfil extends AppCompatActivity {
         txtTelp = (EditText)findViewById(R.id.txtTelp);
         result = (TextView)findViewById(R.id.result);
         nim = (EditText)findViewById(R.id.txtNIM);
+        viewName = (TextView)findViewById(R.id.viewName);
+        ivChange = (ImageView)findViewById(R.id.camera);
         ivProfile = (ImageView)findViewById(R.id.ivProfile);
         simpan = (Button)findViewById(R.id.btnSimpan);
 
@@ -103,6 +109,19 @@ public class EditProfil extends AppCompatActivity {
         email.setClickable(false);
 
         prefHandler = new PrefHandler(this);
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+        viewName.setTypeface(custom_font);
+        username.setTypeface(custom_font);
+        email.setTypeface(custom_font);
+        nama.setTypeface(custom_font);
+        txtTelp.setTypeface(custom_font);
+        alamat.setTypeface(custom_font);
+        lahir.setTypeface(custom_font);
+        result.setTypeface(custom_font);
+        simpan.setTypeface(custom_font_bold);
+
         token = prefHandler.getTOKEN_KEY();
 
         pDialog = new ProgressDialog(EditProfil.this);
@@ -117,13 +136,20 @@ public class EditProfil extends AppCompatActivity {
         ivProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent fullscreen = new Intent(EditProfil.this,FullScreenImageActivity.class);
+                fullscreen.putExtra("url",prefHandler.getIMAGE_PROFILE_KEY());
+                startActivity(fullscreen);
+            }
+        });
+
+        ivChange.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
                 Intent photoPickerIntent = new Intent(Intent.ACTION_PICK);
                 photoPickerIntent.setType("image/*");
                 startActivityForResult(photoPickerIntent, 0);
             }
         });
-
-
 
         final Calendar calendar = Calendar.getInstance();
         year_x = calendar.get(Calendar.YEAR);
@@ -157,6 +183,7 @@ public class EditProfil extends AppCompatActivity {
         setSupportActionBar(toolbar);
         if(getSupportActionBar() != null){
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setTitle(null);
         }
     }
 
@@ -218,7 +245,7 @@ public class EditProfil extends AppCompatActivity {
         call.enqueue(new Callback<ChangeDisplayProfileResponse>() {
             @Override
             public void onResponse(Call<ChangeDisplayProfileResponse> call, Response<ChangeDisplayProfileResponse> response) {
-                Log.d("IMAGE",new GsonBuilder().setPrettyPrinting().create().toJson(response.body()));
+
             }
 
             @Override
@@ -262,6 +289,7 @@ public class EditProfil extends AppCompatActivity {
                     lahir.setText(response.body().getTanggalLahir());
                     email.setText(response.body().getEmail());
                     txtTelp.setText(response.body().getTelepon());
+                    viewName.setText(response.body().getNama());
 
                     prefHandler.setIMAGE_PROFILE_KEY(response.body().getFoto());
 

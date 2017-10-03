@@ -3964,6 +3964,7 @@ containing a value of this type.
         public static final int btnStopNormal=0x7f0e00d8;
         public static final int btn_filter_info=0x7f0e00f9;
         public static final int buttonPanel=0x7f0e005a;
+        public static final int camera=0x7f0e009d;
         public static final int cancel_action=0x7f0e0125;
         public static final int cbShowPwd=0x7f0e00b8;
         public static final int center=0x7f0e0032;
@@ -4057,7 +4058,7 @@ containing a value of this type.
         public static final int isi_info=0x7f0e0104;
         public static final int isi_workshop=0x7f0e014c;
         public static final int item_touch_helper_previous_elevation=0x7f0e0005;
-        public static final int ivProfile=0x7f0e00a1;
+        public static final int ivProfile=0x7f0e009c;
         public static final int jamDetail=0x7f0e00c7;
         public static final int jam_acara=0x7f0e0141;
         public static final int judul=0x7f0e013d;
@@ -4074,8 +4075,6 @@ containing a value of this type.
         public static final int listMode=0x7f0e001b;
         public static final int list_item=0x7f0e0057;
         public static final int logout=0x7f0e0166;
-        public static final int main_framelayout_title=0x7f0e009c;
-        public static final int main_linearlayout_title=0x7f0e009d;
         public static final int masked=0x7f0e0151;
         public static final int media_actions=0x7f0e0127;
         public static final int middle=0x7f0e0043;
@@ -4124,7 +4123,7 @@ containing a value of this type.
         public static final int player_footer_bg=0x7f0e00d6;
         public static final int player_header_bg=0x7f0e00d2;
         public static final int profileIcon=0x7f0e0119;
-        public static final int profileScrollView=0x7f0e009f;
+        public static final int profileScrollView=0x7f0e00a0;
         public static final int progressBar1=0x7f0e00e1;
         public static final int progress_circular=0x7f0e0006;
         public static final int progress_horizontal=0x7f0e0007;
@@ -4134,7 +4133,7 @@ containing a value of this type.
         public static final int recyclerViewSeminar=0x7f0e0100;
         public static final int recyclerViewWorkshop=0x7f0e0102;
         public static final int repeat=0x7f0e004d;
-        public static final int result=0x7f0e00a0;
+        public static final int result=0x7f0e00a1;
         public static final int resultChange=0x7f0e0088;
         public static final int resultReset=0x7f0e00e7;
         public static final int right=0x7f0e0038;
@@ -4226,7 +4225,7 @@ containing a value of this type.
         public static final int toLayout=0x7f0e008e;
         public static final int toggle=0x7f0e011b;
         public static final int token=0x7f0e0143;
-        public static final int toolbar=0x7f0e009e;
+        public static final int toolbar=0x7f0e009f;
         public static final int toolbar2=0x7f0e00ae;
         public static final int toolbar_logo=0x7f0e00ba;
         public static final int top=0x7f0e003a;
@@ -4254,6 +4253,7 @@ containing a value of this type.
         public static final int versionAndroid=0x7f0e0084;
         public static final int viewAtau=0x7f0e0093;
         public static final int viewGuest=0x7f0e0095;
+        public static final int viewName=0x7f0e009e;
         public static final int viewResetMessage=0x7f0e00e6;
         public static final int viewResetPassword=0x7f0e00e5;
         public static final int viewStudent=0x7f0e0092;
