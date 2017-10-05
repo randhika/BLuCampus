@@ -32,6 +32,10 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_event_registered.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\fragment_event_registered.xml"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\list_view.xml"
     },

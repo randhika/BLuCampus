@@ -27,9 +27,11 @@
         android:padding="5dp"
         app:cardCornerRadius="5dp"
         app:cardElevation="15dp">
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -46,32 +48,32 @@
                     android:padding="10dp"
                     android:text="Kombinasi Username dan password salah"
                     android:textAlignment="center"
-                    android:visibility="gone"
-                    android:textColor="#fff"/>
+                    android:textColor="#fff"
+                    android:visibility="gone" />
 
                 <android.support.design.widget.TextInputLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginLeft="20dp"
                     android:layout_marginRight="20dp"
-                    android:textColorHint="@color/colorPrimary"
-                    android:layout_marginTop="30dp">
+                    android:layout_marginTop="30dp"
+                    android:textColorHint="@color/colorPrimary">
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/txtUsername"
+                        style="@style/EditTextTheme"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColorHighlight="@color/colorPrimary"
                         android:drawableLeft="@drawable/ic_account_circle_24dp1"
                         android:drawablePadding="10dp"
                         android:hint="Username"
                         android:labelFor="@+id/username"
                         android:maxLines="1"
-                        android:textSize="14dp"
                         android:paddingBottom="17dp"
                         android:singleLine="true"
+                        android:textColorHighlight="@color/colorPrimary"
                         android:textColorHint="@color/colorPrimary"
-                        style="@style/EditTextTheme"/>
+                        android:textSize="16dp" />
                 </android.support.design.widget.TextInputLayout>
 
                 <android.support.design.widget.TextInputLayout
@@ -83,19 +85,20 @@
 
                     <android.support.design.widget.TextInputEditText
                         android:id="@+id/txtPassword"
+                        style="@style/EditTextTheme"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
-                        android:singleLine="true"
                         android:drawableLeft="@drawable/ic_https_24dp_black"
                         android:drawablePadding="10dp"
                         android:drawableStart="@drawable/ic_https_24dp_black"
                         android:hint="Password"
                         android:inputType="textPassword"
                         android:maxLines="1"
+                        android:textSize="16dp"
                         android:paddingBottom="17dp"
-                        style="@style/EditTextTheme"/>
+                        android:singleLine="true" />
                 </android.support.design.widget.TextInputLayout>
 
                 <TextView
@@ -135,9 +138,9 @@
                     android:layout_marginBottom="20dp"
                     android:layout_marginTop="20dp"
                     android:text="DAFTAR"
-                    android:textStyle="bold"
                     android:textAlignment="center"
-                    android:textSize="18dp" />
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
         </ScrollView>

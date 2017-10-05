@@ -15,6 +15,11 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
 import android.provider.MediaStore;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.NestedScrollView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -36,6 +41,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
+import com.mycampus.rontikeky.myacademic.Fragment.RegisteredEventFragment;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
@@ -57,7 +63,9 @@ import org.json.JSONObject;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -81,6 +89,9 @@ public class EditProfil extends AppCompatActivity {
 
     ProgressDialog pDialog;
     boolean isConnected,valid;
+
+    private TabLayout tabLayout;
+    private ViewPager viewPager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -185,6 +196,12 @@ public class EditProfil extends AppCompatActivity {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle(null);
         }
+
+//        viewPager = (ViewPager) findViewById(R.id.viewpager);
+//        setupViewPager(viewPager);
+//
+//        tabLayout = (TabLayout) findViewById(R.id.tabs);
+//        tabLayout.setupWithViewPager(viewPager);
     }
 
     public void showDialogOnClick(){
@@ -424,6 +441,41 @@ public class EditProfil extends AppCompatActivity {
             }
         });
     }
+
+//    private void setupViewPager(ViewPager viewPager) {
+//        ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
+//        adapter.addFragment(new RegisteredEventFragment(), "Event Terdaftar");
+//        viewPager.setAdapter(adapter);
+//    }
+//
+//    class ViewPagerAdapter extends FragmentPagerAdapter {
+//        private final List<Fragment> mFragmentList = new ArrayList<>();
+//        private final List<String> mFragmentTitleList = new ArrayList<>();
+//
+//        public ViewPagerAdapter(FragmentManager manager) {
+//            super(manager);
+//        }
+//
+//        @Override
+//        public Fragment getItem(int position) {
+//            return mFragmentList.get(position);
+//        }
+//
+//        @Override
+//        public int getCount() {
+//            return mFragmentList.size();
+//        }
+//
+//        public void addFragment(Fragment fragment, String title) {
+//            mFragmentList.add(fragment);
+//            mFragmentTitleList.add(title);
+//        }
+//
+//        @Override
+//        public CharSequence getPageTitle(int position) {
+//            return mFragmentTitleList.get(position);
+//        }
+//    }
 
     @Override
     public boolean onSupportNavigateUp() {

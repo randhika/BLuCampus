@@ -8,7 +8,7 @@ android {
         applicationId "com.mycampus.rontikeky.myacademic"
         minSdkVersion 17
         targetSdkVersion 22
-        versionCode 8
+        versionCode 9
         versionName "1.4"
     }
     buildTypes {

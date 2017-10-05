@@ -15,8 +15,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class ServiceGeneratorAuth {
     //private static final String BASE_URL = "http://anggitprayogo.com/public/api/";
-    //private static final String BASE_URL = "https://mycampus.rontikeky.com/api/";
-    private static final String BASE_URL = "https://testingmycampus.rontikeky.com/api/";
+    private static final String BASE_URL = "https://mycampus.rontikeky.com/api/";
+    //private static final String BASE_URL = "https://testingmycampus.rontikeky.com/api/";
 
     //Define BASE URL to Request and get Response Where its convert to JSON using Gson
     private static Retrofit.Builder builder =

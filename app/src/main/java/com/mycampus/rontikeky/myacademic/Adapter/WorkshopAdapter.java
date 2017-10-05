@@ -17,6 +17,8 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.mycampus.rontikeky.myacademic.Activity.WorkshopDetail;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.WorkshopResponse;
 
@@ -35,6 +37,9 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
     private int[] id,biaya_acara, jumlah_peserta_acara, jumlah_peserta_tersisa_acara;
     private List<WorkshopResponse.Datum> list;
     Context context;
+
+    FontHandler fontHandler;
+    PrefHandler prefHandler;
 
     // Allows to remember the last item shown on screen
     private int lastPosition = -1;
@@ -178,15 +183,17 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
         // with that element
         try {
 
-            Typeface custom_font = Typeface.createFromAsset(context.getAssets(), "fonts/droid/DroidSerif.ttf");
-            Typeface custom_font2 = Typeface.createFromAsset(context.getAssets(), "fonts/Asimov.otf");
+            fontHandler = new FontHandler(context);
+            Typeface custom_font = fontHandler.getFont();
+            Typeface custom_font_bold = fontHandler.getFontBold();
 
-            viewHolder.getTextView2().setTypeface(custom_font2);
+            viewHolder.getTextView2().setTypeface(custom_font_bold);
             viewHolder.getTextView3().setTypeface(custom_font);
             viewHolder.getTanggal1().setTypeface(custom_font);
             viewHolder.getJam_view2().setTypeface(custom_font);
             viewHolder.getTempat_view().setTypeface(custom_font);
             viewHolder.getBiaya_view().setTypeface(custom_font);
+            viewHolder.getTanggal_valid().setTypeface(custom_font);
             viewHolder.getJumlah_peserta_view().setTypeface(custom_font);
 
             String isi_single = model.isiAcara;
@@ -297,6 +304,8 @@ public class WorkshopAdapter extends RecyclerView.Adapter<WorkshopAdapter.ViewHo
                 viewHolder.getJumlah_peserta_view().setText(Integer.toString(kursi_tersisa) + " dari " + Integer.toString(model.jumlahPeserta));
                 viewHolder.getJumlah_peserta_view().setTextColor(Color.parseColor("#000000"));
             }
+
+
 
             viewHolder.getTextView().setText(Integer.toString(model.id));
             viewHolder.getTextView2().setText(model.judulAcara);

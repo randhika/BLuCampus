@@ -1,4 +1,4 @@
-#Fri Sep 29 14:26:56 ICT 2017
+#Wed Oct 04 23:36:35 ICT 2017
 file.9=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\glide-3.5.2_3bf00eb62570ca7cb87befcba2916d41187652e4\\classes.dex
 base.10=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2ec7cf13a97c83c1e5bd3d11dba98ab088d0ecdc
 file.8=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\okhttp-3.8.1_f46625f090c3f8102a84bc03d75c15c317bad21e\\classes.dex

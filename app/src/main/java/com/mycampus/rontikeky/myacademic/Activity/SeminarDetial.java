@@ -6,6 +6,7 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -25,11 +26,14 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.google.gson.Gson;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.DaftarAcaraResponse;
 import com.mycampus.rontikeky.myacademic.Response.DetailSeminarResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth;
+import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
 
 import java.text.DateFormatSymbols;
 import java.text.SimpleDateFormat;
@@ -46,8 +50,11 @@ public class SeminarDetial extends AppCompatActivity {
     Button btnDaftar,btnCancel;
     ImageView imgSeminar;
     String extrasSlug;
+    String token;
     ProgressDialog pDialog;
     boolean isImageFitToScreen;
+    FontHandler fontHandler;
+    PrefHandler prefHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,9 +75,24 @@ public class SeminarDetial extends AppCompatActivity {
         btnDaftar = (Button)findViewById(R.id.btnDaftar);
         btnCancel = (Button)findViewById(R.id.btnCancel);
 
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+
+        judul.setTypeface(custom_font_bold);
+        isi.setTypeface(custom_font);
+        tanggal.setTypeface(custom_font);
+        tanggal_valid.setTypeface(custom_font);
+        tempat.setTypeface(custom_font);
+        contact_person.setTypeface(custom_font);
+        biaya.setTypeface(custom_font);
+        available.setTypeface(custom_font);
+
+
         pDialog = new ProgressDialog(SeminarDetial.this);
 
-
+        prefHandler = new PrefHandler(this);
+        token = prefHandler.getTOKEN_KEY();
 
         Intent result= getIntent();
         Bundle extrasResult = result.getExtras();
@@ -189,7 +211,7 @@ public class SeminarDetial extends AppCompatActivity {
 
     private void loadSeminar(){
 
-        final AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        final AcademicClient client = ServiceGeneratorAuth2.createService(AcademicClient.class, token,SeminarDetial.this);
 
         Call<DetailSeminarResponse> call = client.getSemanarDetail(extrasSlug);
 
@@ -372,7 +394,7 @@ public class SeminarDetial extends AppCompatActivity {
         pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         pDialog.show();
 
-        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        AcademicClient client1 = ServiceGeneratorAuth2.createService(AcademicClient.class, token,SeminarDetial.this);
 
         Call<DaftarAcaraResponse> call1 = client1.doRegisterEvent(extrasSlug);
 
@@ -408,7 +430,7 @@ public class SeminarDetial extends AppCompatActivity {
         pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         pDialog.show();
 
-        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        AcademicClient client1 = ServiceGeneratorAuth2.createService(AcademicClient.class, token,SeminarDetial.this);
 
         Call<DaftarAcaraResponse> call1 = client1.doCancelEvent(extrasSlug);
 
@@ -422,7 +444,6 @@ public class SeminarDetial extends AppCompatActivity {
                         btnDaftar.setVisibility(View.VISIBLE);
                         showDialogCancel();
                     }
-
                 } catch (Exception e) {
                     Log.d("TRY 2", e.toString());
                 }

@@ -4,6 +4,7 @@ package com.mycampus.rontikeky.myacademic.Adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -16,6 +17,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.mycampus.rontikeky.myacademic.Activity.SeminarDetial;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 
 import java.text.SimpleDateFormat;
@@ -36,6 +38,8 @@ public class EventRegisteredUserAdapter extends RecyclerView.Adapter<EventRegist
 
     // Allows to remember the last item shown on screen
     private int lastPosition = -1;
+
+    FontHandler fontHandler;
 
     // BEGIN_INCLUDE(recyclerViewSampleViewHolder)
     /**
@@ -255,6 +259,22 @@ public class EventRegisteredUserAdapter extends RecyclerView.Adapter<EventRegist
                 viewHolder.getJumlah_peserta_view().setText(Integer.toString(kursi_tersisa) + " dari " + Integer.toString(jumlah_peserta_acara[position]));
                 viewHolder.getJumlah_peserta_view().setTextColor(Color.parseColor("#000000"));
             }
+
+            fontHandler = new FontHandler(context);
+            Typeface custom_font = fontHandler.getFont();
+            Typeface custom_font_bold = fontHandler.getFontBold();
+
+            viewHolder.getTextView().setTypeface(custom_font_bold);
+            viewHolder.getTextView2().setTypeface(custom_font);
+            viewHolder.getTempat().setTypeface(custom_font);
+            viewHolder.getSlug1().setTypeface(custom_font);
+            viewHolder.getTanggal1().setTypeface(custom_font);
+            viewHolder.getTangga_valid().setTypeface(custom_font);
+            viewHolder.getJam_view1().setTypeface(custom_font);
+            viewHolder.getBiaya_view().setTypeface(custom_font);
+            Glide.with(context).load(image[position]).into(viewHolder.imageUrl);
+            viewHolder.getDaftar_view().setText(daftar_acara[position]);
+
 
             viewHolder.getTextView().setText(Integer.toString(id[position]));
             viewHolder.getTextView2().setText(judul[position]);

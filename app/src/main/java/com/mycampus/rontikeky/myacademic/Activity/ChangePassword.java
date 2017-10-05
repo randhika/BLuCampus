@@ -4,6 +4,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -16,6 +17,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.ChangePasswordRequest;
 import com.mycampus.rontikeky.myacademic.Response.ChangePasswordResponse;
@@ -28,13 +30,15 @@ import retrofit2.Response;
 
 public class ChangePassword extends AppCompatActivity {
     EditText password, konfirmasi_password;
-    TextView result;
+    TextView result,viewHeader,viewMessage;
     Button btnChange;
 
     SharedPreferences sharedPreferences;
     String token_key = "token";
     String mypref = "MYPREFRENCES";
     String token;
+
+    FontHandler fontHandler;
 
     ProgressDialog pDialog;
 
@@ -48,6 +52,8 @@ public class ChangePassword extends AppCompatActivity {
         password = (EditText)findViewById(R.id.txtPassword);
         konfirmasi_password = (EditText)findViewById(R.id.txtPasswordKonfirmasi);
         btnChange = (Button)findViewById(R.id.btnChange);
+        viewHeader = (TextView)findViewById(R.id.viewHeader);
+        viewMessage = (TextView)findViewById(R.id.viewMessage);
         result = (TextView)findViewById(R.id.resultChange);
 
         sharedPreferences = getSharedPreferences(token_key, Context.MODE_PRIVATE);
@@ -55,6 +61,15 @@ public class ChangePassword extends AppCompatActivity {
 
         pDialog = new ProgressDialog(ChangePassword.this);
 
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+        password.setTypeface(custom_font);
+        konfirmasi_password.setTypeface(custom_font);
+        btnChange.setTypeface(custom_font_bold);
+        viewHeader.setTypeface(custom_font_bold);
+        viewMessage.setTypeface(custom_font);
+        result.setTypeface(custom_font);
 
         btnChange.setOnClickListener(new View.OnClickListener() {
             @Override

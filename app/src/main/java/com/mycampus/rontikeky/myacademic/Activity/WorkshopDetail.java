@@ -6,6 +6,7 @@ import android.content.ContentValues;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
@@ -23,12 +24,15 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.DaftarAcaraResponse;
 import com.mycampus.rontikeky.myacademic.Response.DetailSeminarResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth;
 import com.google.gson.Gson;
+import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -47,8 +51,12 @@ public class WorkshopDetail extends AppCompatActivity {
     Button btnDaftar,btnCancel;
     ImageView imgSeminar;
     String extrasSlug;
+    String token;
     public String terdaftar;
     ProgressDialog pDialog;
+
+    FontHandler fontHandler;
+    PrefHandler prefHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,6 +76,22 @@ public class WorkshopDetail extends AppCompatActivity {
         urlImage = (TextView)findViewById(R.id.urlImage);
         btnDaftar = (Button)findViewById(R.id.btnDaftar);
         btnCancel = (Button)findViewById(R.id.btnCancel);
+
+        fontHandler = new FontHandler(this);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
+
+        judul.setTypeface(custom_font_bold);
+        isi.setTypeface(custom_font);
+        tanggal.setTypeface(custom_font);
+        tanggalValid.setTypeface(custom_font);
+        tempat.setTypeface(custom_font);
+        contact_person.setTypeface(custom_font);
+        biaya.setTypeface(custom_font);
+        available.setTypeface(custom_font);
+
+        prefHandler = new PrefHandler(this);
+        token = prefHandler.getTOKEN_KEY();
 
         pDialog = new ProgressDialog(WorkshopDetail.this);
 
@@ -128,7 +152,7 @@ public class WorkshopDetail extends AppCompatActivity {
         pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         pDialog.show();
 
-        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        AcademicClient client1 = ServiceGeneratorAuth2.createService(AcademicClient.class, token,WorkshopDetail.this);
 
         Call<DaftarAcaraResponse> call1 = client1.doRegisterEvent(extrasSlug);
 
@@ -163,7 +187,7 @@ public class WorkshopDetail extends AppCompatActivity {
         pDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         pDialog.show();
 
-        AcademicClient client1 = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        AcademicClient client1 = ServiceGeneratorAuth2.createService(AcademicClient.class, token,WorkshopDetail.this);
 
         Call<DaftarAcaraResponse> call1 = client1.doCancelEvent(extrasSlug);
 
@@ -191,7 +215,7 @@ public class WorkshopDetail extends AppCompatActivity {
     }
 
     private void loadWorkshop(){
-        final AcademicClient client = ServiceGeneratorAuth.createService(AcademicClient.class, extrasSlug);
+        final AcademicClient client = ServiceGeneratorAuth2.createService(AcademicClient.class, token,WorkshopDetail.this);
 
         Call<DetailSeminarResponse> call = client.getSemanarDetail(extrasSlug);
 

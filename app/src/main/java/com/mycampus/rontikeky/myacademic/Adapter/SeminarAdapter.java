@@ -21,6 +21,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.mycampus.rontikeky.myacademic.Activity.SeminarDetial;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.SeminarResponse;
 
@@ -40,6 +41,8 @@ public class SeminarAdapter extends RecyclerView.Adapter<SeminarAdapter.ViewHold
     Context context;
     private List<SeminarResponse.Datum> list;
     public int currentSize;
+
+    FontHandler fontHandler;
 
     public int value = 0;
 
@@ -200,16 +203,18 @@ public class SeminarAdapter extends RecyclerView.Adapter<SeminarAdapter.ViewHold
 
 
 
-            Typeface custom_font = Typeface.createFromAsset(context.getAssets(), "fonts/droid/DroidSerif.ttf");
-            Typeface custom_font2 = Typeface.createFromAsset(context.getAssets(), "fonts/Asimov.otf");
+            fontHandler = new FontHandler(context);
+            Typeface custom_font = fontHandler.getFont();
+            Typeface custom_font_bold = fontHandler.getFontBold();
 
-            viewHolder.getTextView2().setTypeface(custom_font2);
+            viewHolder.getTextView2().setTypeface(custom_font);
             viewHolder.getTextView3().setTypeface(custom_font);
             viewHolder.getTanggal1().setTypeface(custom_font);
             viewHolder.getJam_view1().setTypeface(custom_font);
             viewHolder.getTempat().setTypeface(custom_font);
             viewHolder.getBiaya_view().setTypeface(custom_font);
             viewHolder.getJumlah_peserta_view().setTypeface(custom_font);
+            viewHolder.getTanggal_valid().setTypeface(custom_font);
 
             String isi_single = model.isiAcara;
             String s = String.format("%,d", model.biayaAcara);

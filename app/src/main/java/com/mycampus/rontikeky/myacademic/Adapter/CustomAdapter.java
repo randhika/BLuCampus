@@ -13,6 +13,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 import com.mycampus.rontikeky.myacademic.Activity.InfoDetail;
+import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 
@@ -32,6 +33,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     private List<InfoResponse.Datum> list;
 
     Context context;
+
+    FontHandler fontHandler;
 
     // Allows to remember the last item shown on screen
     private int lastPosition = -1;
@@ -159,11 +162,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
 
 
-        Typeface custom_font = Typeface.createFromAsset(context.getAssets(), "fonts/droid/DroidSerif.ttf");
-        Typeface custom_font2 = Typeface.createFromAsset(context.getAssets(), "fonts/Asimov.otf");
+        fontHandler = new FontHandler(context);
+        Typeface custom_font = fontHandler.getFont();
+        Typeface custom_font_bold = fontHandler.getFontBold();
 
         viewHolder.getIsiInfo().setTypeface(custom_font);
-        viewHolder.getJudulInfo().setTypeface(custom_font2);
+        viewHolder.getJudulInfo().setTypeface(custom_font_bold);
 
         viewHolder.judul_view.setText(model.getJudulInfo());
         viewHolder.isi_view.setText(model.isiInfoDepan);

@@ -3,16 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.mycampus.rontikeky.myacademic.Activity.SeminarDetial">
+    tools:context="com.mycampus.rontikeky.myacademic.Activity.WorkshopDetail">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="40dp"
-        android:id="@+id/scroll">
+        android:id="@+id/scroll"
+        android:layout_marginBottom="40dp">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:orientation="vertical">
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -27,7 +27,7 @@
                         android:scaleType="centerCrop"
                         android:id="@+id/imgSeminarDetail"
                         />
-                    <RelativeLayout
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical"
@@ -40,131 +40,158 @@
                             android:textStyle="bold"
                             style="@style/Base.TextAppearance.AppCompat.Large"
                             />
-
-                        <ImageView
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/icon_Date"
-                            android:layout_below="@id/judulDetail"
-                            android:layout_marginTop="2dp"
-                            android:layout_marginRight="10dp"
-                            android:background="@drawable/ic_event_available_black_24dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/tanggalDetail"
-                            android:text="TANGGAL"
-                            style="@style/Base.CardView"
-                            android:layout_marginTop="5dp"
-                            android:layout_below="@+id/judulDetail"
-                            android:layout_toRightOf="@id/icon_Date"
-                            android:layout_marginBottom="10dp"
-                            android:visibility="gone"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/tanggalDetailValid"
-                            android:text="TANGGAL"
-                            style="@style/Base.CardView"
-                            android:layout_marginTop="5dp"
-                            android:layout_below="@+id/judulDetail"
-                            android:layout_toRightOf="@id/icon_Date"
-                            android:layout_marginBottom="10dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/jamDetail"
-                            android:text="JAM"
-                            style="@style/Base.CardView"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_below="@+id/judulDetail"
-                            android:layout_toRightOf="@id/tanggalDetailValid"
-                            android:layout_marginBottom="10dp"/>
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/icon_location"
-                            android:layout_below="@id/icon_Date"
-                            android:layout_marginTop="5dp"
-                            android:layout_marginRight="10dp"
-                            android:background="@drawable/ic_place_24dp"/>
-
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/icon_contact"
-                            android:layout_below="@id/icon_location"
-                            android:layout_marginTop="9dp"
-                            android:layout_marginRight="5dp"
-                            android:background="@drawable/ic_phone_iphone_24dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/contact_person"
-                            android:text="0812133131"
-                            style="@style/Base.CardView"
-                            android:layout_marginTop="5dp"
-                            android:layout_below="@+id/tempat"
-                            android:layout_toRightOf="@id/icon_contact"
-                            android:layout_marginBottom="10dp"
-                            android:layout_marginLeft="5dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/tempat"
-                            android:text="Universitas Budi Luhur"
-                            style="@style/Base.CardView"
-                            android:layout_marginTop="1dp"
-                            android:layout_below="@+id/tanggalDetailValid"
-                            android:layout_toRightOf="@id/icon_location"
-                            android:layout_marginBottom="10dp"/>
-                        <ImageView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/icon_ticket"
                             android:layout_marginTop="10dp"
-                            android:layout_below="@id/icon_contact"
-                            android:background="@drawable/ic_receipt_24dp"/>
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/biaya"
-                            android:text="20.000"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginBottom="20dp"
-                            android:layout_marginTop="3dp"
-                            style="@style/AlertDialog.AppCompat"
-                            android:layout_below="@+id/contact_person"
-                            android:layout_toRightOf="@id/icon_ticket"/>
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icon_Date"
+                                android:layout_below="@id/judulDetail"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/ic_event_available_black_24dp"/>
 
-                        <ImageView
-                            android:layout_width="wrap_content"
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tanggalDetail"
+                                android:text="TANGGAL"
+                                style="@style/Base.CardView"
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@+id/judulDetail"
+                                android:layout_toRightOf="@id/icon_Date"
+                                android:layout_marginBottom="10dp"
+                                android:visibility="gone"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/tanggalDetailValid"
+                                android:text="TANGGAL"
+                                style="@style/Base.CardView"
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@+id/judulDetail"
+                                android:layout_toRightOf="@id/icon_Date"
+                                android:layout_marginBottom="10dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/jamDetail"
+                                android:text="JAM"
+                                style="@style/Base.CardView"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_below="@+id/judulDetail"
+                                android:layout_toRightOf="@id/tanggalDetailValid"
+                                android:layout_marginBottom="10dp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/icon_available"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginTop="10dp"
-                            android:layout_below="@id/icon_contact"
-                            android:layout_toRightOf="@+id/biaya"
-                            android:background="@drawable/ic_account_circle_24dp1"/>
-                        <TextView
-                            android:layout_width="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icon_location"
+                                android:layout_below="@id/icon_Date"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/ic_place_24dp"/>
+
+                            <TextView
+                                android:id="@+id/tempat"
+                                style="@style/Base.CardView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tanggalDetailValid"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_toRightOf="@id/icon_location"
+                                android:text="Universitas Budi Luhur" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:id="@+id/available"
-                            android:text="199 dari 200"
-                            android:layout_marginRight="10dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginBottom="20dp"
-                            android:layout_marginTop="3dp"
-                            style="@style/AlertDialog.AppCompat"
-                            android:layout_below="@+id/contact_person"
-                            android:layout_toRightOf="@id/icon_available"/>
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icon_contact"
+                                android:layout_below="@id/icon_location"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/ic_phone_iphone_24dp"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/contact_person"
+                                android:text="0812133131"
+                                style="@style/Base.CardView"
+                                android:layout_marginTop="10dp"
+                                android:layout_below="@+id/tempat"
+                                android:layout_toRightOf="@id/icon_contact"
+                                android:layout_marginBottom="10dp"
+                                android:layout_marginLeft="5dp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icon_ticket"
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@id/icon_contact"
+                                android:background="@drawable/ic_receipt_24dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/biaya"
+                                android:text="20.000"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_marginTop="10dp"
+                                style="@style/AlertDialog.AppCompat"
+                                android:layout_below="@+id/contact_person"
+                                android:layout_toRightOf="@id/icon_ticket"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/icon_available"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_below="@id/icon_contact"
+                                android:layout_toRightOf="@+id/biaya"
+                                android:background="@drawable/ic_account_circle_24dp1"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/available"
+                                android:text="199 dari 200"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_marginTop="10dp"
+                                style="@style/AlertDialog.AppCompat"
+                                android:layout_below="@+id/contact_person"
+                                android:layout_toRightOf="@id/icon_available"/>
+                        </LinearLayout>
+
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -180,7 +207,7 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/urlImage"
                             android:visibility="gone"/>
-                    </RelativeLayout>
+                    </LinearLayout>
 
                 </LinearLayout>
 
