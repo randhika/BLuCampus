@@ -8,8 +8,8 @@
     <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
     <uses-permission android:name="android.permission.READ_CALENDAR" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:name="android.support.multidex.MultiDexApplication"
@@ -60,7 +60,7 @@
         <activity
             android:name=".Activity.EditProfil"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeProfile"/>
+            android:theme="@style/AppThemeProfile" />
         <activity
             android:name=".Activity.SuccessRegister"
             android:screenOrientation="portrait" />
@@ -107,7 +107,12 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".Activity.StreamRadioActivity"></activity>
+        <activity android:name=".Activity.StreamRadioActivity" />
+        <!-- <activity android:name=".Activity.MainDashbaoard"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name=".Activity.PresenceActivity"></activity>
     </application>
 
 </manifest>

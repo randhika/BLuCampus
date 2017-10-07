@@ -126,6 +126,11 @@
         </service>
 
         <activity android:name="com.mycampus.rontikeky.myacademic.Activity.StreamRadioActivity" />
+        <!-- <activity android:name=".Activity.MainDashbaoard"> -->
+
+
+        <!-- </activity> -->
+        <activity android:name="com.mycampus.rontikeky.myacademic.Activity.PresenceActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

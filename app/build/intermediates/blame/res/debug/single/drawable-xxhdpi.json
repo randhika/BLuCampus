@@ -92,8 +92,16 @@
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_clear_24dp.png"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_lecture.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_lecture.png"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_black_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_wallet.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_wallet.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\share_button2.png",
@@ -120,11 +128,31 @@
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_settings_24dp.png"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_bus.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_bus.png"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_campus.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_campus.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_event.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_event.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_support.png",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_support.png"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_event_note_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_event_note_black_24dp.png"
     }
 ]

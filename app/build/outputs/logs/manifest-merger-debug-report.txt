@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:2:1-113:12
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:2:1-118:12
 	package
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:3:5-48
 		INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml
@@ -44,15 +44,15 @@ ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:10:5-72
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:10:22-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:11:5-79
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:11:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:12:5-80
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:12:22-78
 application
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:14:5-111:19
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:14:5-116:19
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\0f5dfbc4abb68ef89d086e99e7a8b214b2751b93\output\AndroidManifest.xml:26:5-20
@@ -164,7 +164,7 @@ ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:55:9-59:59
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:56:13-46
 activity#com.mycampus.rontikeky.myacademic.Activity.EditProfil
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:60:9-63:53
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:60:9-63:54
 	android:screenOrientation
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:62:13-49
 	android:theme
@@ -264,9 +264,13 @@ ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:106:17-80
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:106:25-77
 activity#com.mycampus.rontikeky.myacademic.Activity.StreamRadioActivity
-ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:110:9-75
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:110:9-66
 	android:name
 		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:110:19-63
+activity#com.mycampus.rontikeky.myacademic.Activity.PresenceActivity
+ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:115:9-72
+	android:name
+		ADDED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml:115:19-60
 uses-sdk
 INJECTED from E:\APK\BLuCampus\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\Anggit\.android\build-cache\58f3c95b61ac859d4697df4e030b23fa136bfe3a\output\AndroidManifest.xml:20:5-44

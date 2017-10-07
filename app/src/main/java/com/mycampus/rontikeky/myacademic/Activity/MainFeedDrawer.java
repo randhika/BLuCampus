@@ -37,6 +37,7 @@ import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
+import com.mycampus.rontikeky.myacademic.Fragment.EOFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.FtiFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragment;
 import com.mycampus.rontikeky.myacademic.Fragment.HomeFragmentV2;
@@ -243,6 +244,8 @@ public class MainFeedDrawer extends AppCompatActivity
             fragment = new SeminarFragment();
         } else if (id == R.id.nav_workshop) {
             fragment = new WorkshopFragment();
+        }else if(id == R.id.nav_eo){
+            fragment = new EOFragment();
         }
 //        else if (id == R.id.nav_radio) {
 //            Intent radioIntent = new Intent(this,StreamRadioActivity.class);

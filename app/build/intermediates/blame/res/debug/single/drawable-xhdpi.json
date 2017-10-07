@@ -72,6 +72,10 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xhdpi\\ic_face_black_24dp.png"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_event_note_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_event_note_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_arrow_drop_down_black_24dp.png"
     },

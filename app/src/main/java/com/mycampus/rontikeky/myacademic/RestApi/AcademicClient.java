@@ -18,6 +18,7 @@ import com.mycampus.rontikeky.myacademic.Response.EventRegisteredUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
 import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 import com.mycampus.rontikeky.myacademic.Response.LoginResponse;
+import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.ResetPasswordResponse;
 import com.mycampus.rontikeky.myacademic.Response.SeminarResponse;
@@ -127,6 +128,12 @@ public interface AcademicClient {
 
     @DELETE("acara/{slug}/daftar")
     Call<DaftarAcaraResponse> doCancelEvent(@Path("slug") String slug);
+
+    @GET("eo")
+    Call<SeminarResponse> getEoResponse();
+
+    @GET("eo/{slug}/user")
+    Call<PresenceResponse> getUserPresence(@Path("slug") String slug);
 
     @GET("android")
     Call<AndroidUpdateResponse> getAndroidVersion();
