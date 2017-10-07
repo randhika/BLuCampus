@@ -26,6 +26,8 @@ import com.mycampus.rontikeky.myacademic.Response.SignupGuestResponse;
 import com.mycampus.rontikeky.myacademic.Response.SignupUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.WorkshopResponse;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -133,7 +135,7 @@ public interface AcademicClient {
     Call<SeminarResponse> getEoResponse();
 
     @GET("eo/{slug}/user")
-    Call<PresenceResponse> getUserPresence(@Path("slug") String slug);
+    Call<List<PresenceResponse>> getUserPresence(@Path("slug") String slug);
 
     @GET("android")
     Call<AndroidUpdateResponse> getAndroidVersion();

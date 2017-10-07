@@ -54,6 +54,7 @@ public class PresenceActivity extends AppCompatActivity {
     public String next_page_url;
 
     String extrasSlug;
+    String extrasTitle;
 
     PrefHandler prefHandler;
     FontHandler fontHandler;
@@ -85,9 +86,10 @@ public class PresenceActivity extends AppCompatActivity {
         if(extrasResult!=null)
         {
             extrasSlug =(String) extrasResult.get("slug");
+            extrasTitle = (String)extrasResult.get("title");
         }
 
-
+        title.setText(extrasTitle);
 
         Log.d("TOKEN",token);
 
@@ -100,41 +102,41 @@ public class PresenceActivity extends AppCompatActivity {
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mRecyclerView.setItemAnimator(new DefaultItemAnimator());
-
+        adapter = new PresenceAdapter(PresenceActivity.this,presenceResponses);
+        mRecyclerView.setAdapter(adapter);
         loadUser();
     }
 
     private void loadUser(){
         presenceResponses.clear();
-        pivots.clear();
         AcademicClient client1= ServiceGeneratorAuth2.createService(AcademicClient.class,token,PresenceActivity.this);
         //Fetch list of Seminar
-        Call<PresenceResponse> call1 = client1.getUserPresence(extrasSlug);
+        Call<List<PresenceResponse>> call1 = client1.getUserPresence(extrasSlug);
 
-        call1.enqueue(new Callback<PresenceResponse>() {
+        call1.enqueue(new Callback<List<PresenceResponse>>() {
             @Override
-            public void onResponse(Call<PresenceResponse> call, Response<PresenceResponse> response) {
+            public void onResponse(Call<List<PresenceResponse>> call, Response<List<PresenceResponse>> response) {
                 try {
                     pDialog.dismiss();
                     int i = 0;
 
-                    Log.d("USER", response.body().toString());
-//                    while (i < response.body().) {
-//
-//
-//                        PresenceResponse presenceResponse = new PresenceResponse(response.body().)
-//                        i++;
-//                    }
-//
-//
-//                    try {
-//
-//                        Log.d("AHAY 4", String.valueOf(adapter.getValue()));
-//                    }catch (Exception e){
-//                        Log.d("AHAY 2",e.getMessage());
-//                    }
-//
-//                    adapter.notifyDataSetChanged();
+                    Log.d("USER", new GsonBuilder().setPrettyPrinting().create().toJson(response.body().get(0).pivot.getCreatedAt()));
+                    while (i < response.body().size()) {
+
+                        PresenceResponse presenceResponse = new PresenceResponse(response.body().get(i).getId(),response.body().get(i).getNama(),response.body().get(i).getUsername(),response.body().get(i).getTelepon(),response.body().get(i).pivot);
+                        presenceResponses.add(presenceResponse);
+                        i++;
+                    }
+
+                    i = 0;
+                    while (i < presenceResponses.size()){
+                        Log.d("test", String.valueOf(presenceResponses.get(i).getNama()));
+                        i++;
+                    }
+
+
+
+                    adapter.notifyDataSetChanged();
 
                     //checkItem();
                 } catch (Exception e) {
@@ -143,7 +145,7 @@ public class PresenceActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<PresenceResponse> call, Throwable t) {
+            public void onFailure(Call<List<PresenceResponse>> call, Throwable t) {
                 pDialog.dismiss();
                 //askLoadAgain();
                 Log.d("FAILURE", t.toString());

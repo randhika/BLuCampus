@@ -132,16 +132,16 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_bus.png"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png",
-        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_campus.png",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_campus.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_event.png",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-xxhdpi\\home_event.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_receipt_24dp.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_support.png",
