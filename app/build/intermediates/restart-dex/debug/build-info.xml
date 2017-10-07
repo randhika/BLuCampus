@@ -6,23 +6,26 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1507382433714"
+    timestamp="1507397380305"
     token="-1487480290322587790"
-    verifier="FIELD_ADDED" >
+    verifier="METHOD_DELETED" >
 
     <task
         name="javac"
-        duration="1436" />
+        duration="1805" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="55" />
+        duration="36" />
     <task
         name="verifier"
-        duration="42" />
+        duration="6" />
 
+    <artifact
+        location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+        type="SPLIT" />
     <artifact
         location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
         type="SPLIT" />
@@ -32,7 +35,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1507379508962"
+        timestamp="1507390452781"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
@@ -73,16 +76,38 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507381329996"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1507393849505"
+        verifier="CLASS_ADDED" >
         <artifact
             location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507382433714"
-        verifier="FIELD_ADDED" >
+        timestamp="1507394777616"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507397293282"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="E:\APK\BLuCampus\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507397380305"
+        verifier="METHOD_DELETED" >
+        <artifact
+            location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            type="SPLIT" />
         <artifact
             location="E:\APK\BLuCampus\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />

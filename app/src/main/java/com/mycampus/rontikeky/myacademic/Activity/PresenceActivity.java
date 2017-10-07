@@ -15,6 +15,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,13 +28,19 @@ import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.EventRegisteredUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
+import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.SeminarResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
+import com.mycampus.rontikeky.myacademic.RestApi.ServiceGenerator;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
 
+import org.json.JSONObject;
+
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
+import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -63,7 +70,13 @@ public class PresenceActivity extends AppCompatActivity {
     ProgressDialog pDialog;
     SwipeRefreshLayout swipeRefreshLayout;
     TextView title;
+    Button btnSave;
     RecyclerView mRecyclerView;
+
+    HashMap<String,HashMap<String,String>> parentMap;
+    HashMap<String,String> map;
+
+    JSONObject jsonObject;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +84,7 @@ public class PresenceActivity extends AppCompatActivity {
         setContentView(R.layout.activity_presence);
         mRecyclerView = (RecyclerView)findViewById(R.id.recyclerViewPresence);
         title = (TextView)findViewById(R.id.titleEvent);
+        btnSave = (Button)findViewById(R.id.btnSavePresence);
 
         prefHandler = new PrefHandler(this);
         fontHandler = new FontHandler(this);
@@ -105,6 +119,26 @@ public class PresenceActivity extends AppCompatActivity {
         adapter = new PresenceAdapter(PresenceActivity.this,presenceResponses);
         mRecyclerView.setAdapter(adapter);
         loadUser();
+        map = new HashMap<String, String>();
+        parentMap = new HashMap<>();
+        btnSave.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int i = 0;
+                while (i < adapter.getPresenceResponses().size()){
+                    Log.d("HASIL","USER "+adapter.getPresenceResponses().get(i).getNama()+"- Kehadiran : "+adapter.getPresenceResponses().get(i).pivot.getStatusUser()+ " - User ID :"+adapter.getPresenceResponses().get(i).getId());
+                    map.put(adapter.getPresenceResponses().get(i).getId()+"",adapter.getPresenceResponses().get(i).pivot.getStatusUser()+"");
+                    i++;
+                }
+
+                Log.d("MAP ", String.valueOf(map.size()));
+
+                parentMap.put("hadir",map);
+
+                jsonObject = new JSONObject(parentMap);
+                doSavePresence(jsonObject);
+            }
+        });
     }
 
     private void loadUser(){
@@ -149,6 +183,39 @@ public class PresenceActivity extends AppCompatActivity {
                 pDialog.dismiss();
                 //askLoadAgain();
                 Log.d("FAILURE", t.toString());
+            }
+        });
+    }
+
+    private void doSavePresence(JSONObject jsonObject){
+
+        RequestBody requestBody = null;
+        try{
+            requestBody = RequestBody.create(okhttp3.MediaType.parse("application/json; charset=utf-8"),jsonObject.toString());
+
+        }catch (Exception e){
+            Log.d("E S",e.toString());
+        }
+
+        AcademicClient client = ServiceGeneratorAuth2.createService(AcademicClient.class,token,PresenceActivity.this);
+        Call<PresenceUserResponse> call = client.doUserPresence(extrasSlug,requestBody);
+        call.enqueue(new Callback<PresenceUserResponse>() {
+            @Override
+            public void onResponse(Call<PresenceUserResponse> call, Response<PresenceUserResponse> response) {
+                try{
+                    if (response.isSuccessful()){
+                        Log.d("E",new GsonBuilder().setPrettyPrinting().create().toJson(response.body()));
+                    }else{
+                        Log.d("E","GAGAL");
+                    }
+                }catch (Exception e){
+                    Log.d("E",e.toString());
+                }
+            }
+
+            @Override
+            public void onFailure(Call<PresenceUserResponse> call, Throwable t) {
+                Log.d("E",t.toString());
             }
         });
     }

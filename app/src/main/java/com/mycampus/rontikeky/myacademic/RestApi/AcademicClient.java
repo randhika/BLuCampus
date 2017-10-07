@@ -1,9 +1,11 @@
 package com.mycampus.rontikeky.myacademic.RestApi;
 
+import com.google.gson.JsonObject;
 import com.mycampus.rontikeky.myacademic.Request.ChangePasswordRequest;
 import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
 import com.mycampus.rontikeky.myacademic.Request.LoginRequest;
+import com.mycampus.rontikeky.myacademic.Request.PresenceUserRequest;
 import com.mycampus.rontikeky.myacademic.Request.ResetPasswordRequest;
 import com.mycampus.rontikeky.myacademic.Request.SignupGuestRequest;
 import com.mycampus.rontikeky.myacademic.Request.SignupUserRequest;
@@ -19,6 +21,7 @@ import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
 import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 import com.mycampus.rontikeky.myacademic.Response.LoginResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
+import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.ResetPasswordResponse;
 import com.mycampus.rontikeky.myacademic.Response.SeminarResponse;
@@ -26,8 +29,11 @@ import com.mycampus.rontikeky.myacademic.Response.SignupGuestResponse;
 import com.mycampus.rontikeky.myacademic.Response.SignupUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.WorkshopResponse;
 
+import org.json.JSONObject;
+
 import java.util.List;
 
+import okhttp3.RequestBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -136,6 +142,9 @@ public interface AcademicClient {
 
     @GET("eo/{slug}/user")
     Call<List<PresenceResponse>> getUserPresence(@Path("slug") String slug);
+
+    @PATCH("eo/{slug}/user")
+    Call<PresenceUserResponse> doUserPresence(@Path("slug") String slug,@Body RequestBody requestBody);
 
     @GET("android")
     Call<AndroidUpdateResponse> getAndroidVersion();

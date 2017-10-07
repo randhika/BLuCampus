@@ -3,6 +3,7 @@ package com.mycampus.rontikeky.myacademic.Adapter;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
+import android.support.annotation.IdRes;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -56,8 +57,10 @@ public class PresenceAdapter extends RecyclerView.Adapter<PresenceAdapter.ViewHo
 //                    Intent i = new Intent(v.getContext(), SeminarDetial.class);
 //                    i.putExtra("slug",slug.getText().toString());
 //                    v.getContext().startActivity(i);
+
                 }
             });
+
 
             view_count = (TextView)v.findViewById(R.id.countNumber);
             view_username = (TextView)v.findViewById(R.id.usernamePresence);
@@ -79,7 +82,7 @@ public class PresenceAdapter extends RecyclerView.Adapter<PresenceAdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(PresenceAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(PresenceAdapter.ViewHolder holder, final int position) {
 
 
         try{
@@ -110,13 +113,32 @@ public class PresenceAdapter extends RecyclerView.Adapter<PresenceAdapter.ViewHo
                     break;
             }
 
+
+
             holder.view_count.setText(String.valueOf(++count));
             holder.view_username.setText(String.valueOf(model.getUsername()));
             holder.view_name.setText(model.getNama());
             holder.view_status.setText(String.valueOf(model.pivot.getStatusUser()));
             holder.view_id.setText(String.valueOf(model.pivot.getIdUser()));
 
-            Log.d("TEST", String.valueOf(model.getNama()));
+
+            holder.view_hadir.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Log.d("CLICK","HADIR "+position);
+                    presenceResponses.get(position).pivot.setStatusUser(1);
+                }
+            });
+
+
+            holder.view_tidak.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    Log.d("CLICK","HADIR TIDAK "+position);
+                    presenceResponses.get(position).pivot.setStatusUser(2);
+                }
+            });
+
         }catch (Exception e){
             Log.d("EXCEPTION", e.toString());
         }
@@ -125,6 +147,10 @@ public class PresenceAdapter extends RecyclerView.Adapter<PresenceAdapter.ViewHo
     @Override
     public int getItemCount() {
         return presenceResponses.size();
+    }
+
+    public List<PresenceResponse> getPresenceResponses(){
+        return this.presenceResponses;
     }
 
 }

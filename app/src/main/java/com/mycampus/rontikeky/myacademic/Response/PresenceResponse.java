@@ -76,6 +76,26 @@ public class PresenceResponse {
         public String getUpdatedAt() {
             return updatedAt;
         }
+
+        public void setIdAcara(Integer idAcara) {
+            this.idAcara = idAcara;
+        }
+
+        public void setIdUser(Integer idUser) {
+            this.idUser = idUser;
+        }
+
+        public void setStatusUser(Integer statusUser) {
+            this.statusUser = statusUser;
+        }
+
+        public void setCreatedAt(String createdAt) {
+            this.createdAt = createdAt;
+        }
+
+        public void setUpdatedAt(String updatedAt) {
+            this.updatedAt = updatedAt;
+        }
     }
 
     public Integer getId() {

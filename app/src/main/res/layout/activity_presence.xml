@@ -18,5 +18,12 @@
         android:id="@+id/recyclerViewPresence"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
-
+    <Button
+        android:id="@+id/btnSavePresence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button"
+        android:text="Simpan"
+        android:textColor="#fff"/>
 </LinearLayout>
