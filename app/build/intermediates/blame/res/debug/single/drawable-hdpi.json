@@ -8,12 +8,12 @@
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_email_24dp_black.png"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_check_24dp.png",
-        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_check_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_person_24dp_black.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_person_24dp_black.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_check_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_check_24dp.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_arrow_drop_down_black_24dp.png",
@@ -34,6 +34,10 @@
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_face_black_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\drawable-hdpi\\ic_face_black_24dp.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_print_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_print_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_settings_24dp.png",

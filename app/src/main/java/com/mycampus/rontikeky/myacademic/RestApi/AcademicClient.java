@@ -34,6 +34,7 @@ import org.json.JSONObject;
 import java.util.List;
 
 import okhttp3.RequestBody;
+import okhttp3.ResponseBody;
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
@@ -43,6 +44,7 @@ import retrofit2.http.PATCH;
 import retrofit2.http.POST;
 import retrofit2.http.Path;
 import retrofit2.http.Query;
+import retrofit2.http.Streaming;
 
 /**
  * Created by Anggit on 07/08/2017.
@@ -145,6 +147,10 @@ public interface AcademicClient {
 
     @PATCH("eo/{slug}/user")
     Call<PresenceUserResponse> doUserPresence(@Path("slug") String slug,@Body RequestBody requestBody);
+
+    @GET("eo/{slug}/user/status/cetak/{format}")
+    @Streaming
+    Call<ResponseBody> downloadPresenceUser(@Path("slug") String Slug,@Path("format") String Format);
 
     @GET("android")
     Call<AndroidUpdateResponse> getAndroidVersion();

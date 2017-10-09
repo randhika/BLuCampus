@@ -4,6 +4,10 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\menu\\main_menu.xml"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_print_option.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\menu\\menu_print_option.xml"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_feed_drawer_drawer.xml",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\menu\\activity_main_feed_drawer_drawer.xml"
     },

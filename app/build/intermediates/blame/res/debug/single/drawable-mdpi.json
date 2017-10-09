@@ -4,6 +4,10 @@
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_arrow_drop_down_black_24dp.png"
     },
     {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_print_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_print_black_24dp.png"
+    },
+    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_outline_black_24dp.png"
     },
@@ -12,12 +16,12 @@
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_home_black_24dp.png"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_share_black_24dp.png",
-        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_share_black_24dp.png"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_account_circle_24dp1.png",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_account_circle_24dp1.png"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_share_black_24dp.png",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_share_black_24dp.png"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_clear_all_24dp.png",

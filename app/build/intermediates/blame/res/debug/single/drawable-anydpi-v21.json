@@ -1,11 +1,11 @@
 [
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_event_note_black_24dp.xml",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_event_note_black_24dp.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_whatshot_black_24dp.xml",
@@ -58,6 +58,10 @@
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml",
         "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_share_black_24dp_white.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_print_black_24dp.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_print_black_24dp.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_email_24dp.xml",
