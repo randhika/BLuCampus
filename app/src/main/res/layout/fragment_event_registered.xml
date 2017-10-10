@@ -6,13 +6,6 @@
     android:id="@+id/swipeRefreshHome"
     tools:context=".Fragment.HomeFragment">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hallo"
-        android:textSize="54sp"
-        android:elevation="100dp"/>
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerViewRegister"
         android:layout_width="match_parent"

@@ -124,6 +124,9 @@ public interface AcademicClient {
     @GET("profile/acara")
     Call<EventRegisteredUserResponse> getResgisteredEvent();
 
+    @GET("profile/acara")
+    Call<SeminarResponse> getRegisteredEventProfile();
+
     @PATCH("profile")
     Call<EditProfileResponse> doEditProfile(@Body EditProfileRequest editProfileRequest);
 

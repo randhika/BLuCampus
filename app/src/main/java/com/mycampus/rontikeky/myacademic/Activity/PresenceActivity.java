@@ -15,15 +15,20 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,9 +38,11 @@ import com.mycampus.rontikeky.myacademic.Adapter.PresenceAdapter;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
+import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
+import com.mycampus.rontikeky.myacademic.RestApi.ErrorRegisterUtil;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
 import com.mycampus.rontikeky.myacademic.Service.DownloadService;
 import com.mycampus.rontikeky.myacademic.Util.Download;
@@ -81,8 +88,11 @@ public class PresenceActivity extends AppCompatActivity {
     //All About Progress and Loading
     ProgressDialog pDialog;
     SwipeRefreshLayout swipeRefreshLayout;
-    TextView title;
+    TextView title, emptyMessage;
     Button btnSave;
+    ImageView btnSearch;
+    EditText etSearch;
+    CardView cvEmpty;
     RecyclerView mRecyclerView;
 
     HashMap<String,HashMap<String,String>> parentMap;
@@ -102,12 +112,18 @@ public class PresenceActivity extends AppCompatActivity {
         title = (TextView)findViewById(R.id.titleEvent);
         btnSave = (Button)findViewById(R.id.btnSavePresence);
         mProgressBar = (ProgressBar)findViewById(R.id.progressBar);
+        cvEmpty = (CardView)findViewById(R.id.cvEmptyCard);
+        emptyMessage = (TextView)findViewById(R.id.emptyMessage);
+        //etSearch = (EditText)findViewById(R.id.searchUser);
+
+        cvEmpty.setVisibility(View.GONE);
 
         prefHandler = new PrefHandler(this);
         fontHandler = new FontHandler(this);
         Typeface custom_font = fontHandler.getFont();
         Typeface custom_font_bold = fontHandler.getFontBold();
         title.setTypeface(custom_font_bold);
+        emptyMessage.setTypeface(custom_font_bold);
 
         mProgressBar.setVisibility(View.GONE);
 
@@ -157,6 +173,28 @@ public class PresenceActivity extends AppCompatActivity {
                 doSavePresence(jsonObject);
             }
         });
+
+//        etSearch.addTextChangedListener(new TextWatcher() {
+//            @Override
+//            public void onTextChanged(CharSequence s, int start, int before, int count) {
+//
+//                // TODO Auto-generated method stub
+//            }
+//
+//            @Override
+//            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//
+//                // TODO Auto-generated method stub
+//            }
+//
+//            @Override
+//            public void afterTextChanged(Editable s) {
+//
+//                // filter your list from your input
+//                filter(s.toString());
+//                //you can use runnable postDelayed like 500 ms to delay search text
+//            }
+//        });
 
         getSupportActionBar().setTitle("Absensi");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -219,26 +257,35 @@ public class PresenceActivity extends AppCompatActivity {
             public void onResponse(Call<List<PresenceResponse>> call, Response<List<PresenceResponse>> response) {
                 try {
                     pDialog.dismiss();
-                    int i = 0;
 
-                    while (i < response.body().size()) {
+                    if (response.isSuccessful()){
+                        int i = 0;
 
-                        PresenceResponse presenceResponse = new PresenceResponse(response.body().get(i).getId(),response.body().get(i).getNama(),response.body().get(i).getUsername(),response.body().get(i).getTelepon(),response.body().get(i).pivot);
-                        presenceResponses.add(presenceResponse);
-                        i++;
+                        while (i < response.body().size()) {
+
+                            PresenceResponse presenceResponse = new PresenceResponse(response.body().get(i).getId(),response.body().get(i).getNama(),response.body().get(i).getUsername(),response.body().get(i).getTelepon(),response.body().get(i).pivot);
+                            presenceResponses.add(presenceResponse);
+                            i++;
+                        }
+
+                        i = 0;
+                        while (i < presenceResponses.size()){
+                            Log.d("test", String.valueOf(presenceResponses.get(i).getNama()));
+                            i++;
+                        }
+
+                        adapter.notifyDataSetChanged();
+                    }else{
+                        PresenceUserResponse errorResponse = ErrorRegisterUtil.parseErrorPresence(response);
+
+                        if (errorResponse.getStatus().equalsIgnoreCase("false")){
+                            cvEmpty.setVisibility(View.VISIBLE);
+                        }else{
+                            cvEmpty.setVisibility(View.GONE);
+                        }
+
                     }
 
-                    i = 0;
-                    while (i < presenceResponses.size()){
-                        Log.d("test", String.valueOf(presenceResponses.get(i).getNama()));
-                        i++;
-                    }
-
-
-
-                    adapter.notifyDataSetChanged();
-
-                    //checkItem();
                 } catch (Exception e) {
                     Log.d("CATCH : ", e.toString());
                 }
@@ -247,6 +294,8 @@ public class PresenceActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<List<PresenceResponse>> call, Throwable t) {
                 pDialog.dismiss();
+                cvEmpty.setVisibility(View.VISIBLE);
+                btnSave.setVisibility(View.GONE);
                 //askLoadAgain();
                 Log.d("FAILURE", t.toString());
             }
@@ -290,7 +339,9 @@ public class PresenceActivity extends AppCompatActivity {
             public void onFailure(Call<PresenceUserResponse> call, Throwable t) {
                 Toast.makeText(PresenceActivity.this,"Gagal memyimpan presensi..",Toast.LENGTH_SHORT).show();
                 mRecyclerView.setVisibility(View.VISIBLE);
-                btnSave.setVisibility(View.VISIBLE);
+                btnSave.setEnabled(false);
+                btnSave.setBackgroundColor(Color.RED);
+                btnSave.setTextColor(Color.WHITE);
                 mProgressBar.setVisibility(View.GONE);
                 Log.d("E",t.toString());
             }
@@ -313,6 +364,8 @@ public class PresenceActivity extends AppCompatActivity {
                         boolean writtenToDisk = writeResponseBodyToDisk(response.body(),extrasSlug,optionFormatPrint);
 
                         Log.d("DOWNLOAD IS SUCCESS", "file download was a success? " + writtenToDisk);
+
+                        Toast.makeText(PresenceActivity.this,"Download Selesai,File tersimpan di folder Download..",Toast.LENGTH_LONG).show();
                     }else{
                         Log.d("DOWNLOAD 1", "GAGAL ");
                     }
@@ -332,7 +385,7 @@ public class PresenceActivity extends AppCompatActivity {
     private boolean writeResponseBodyToDisk(ResponseBody body,String extrasSlug,String format) {
         try {
             // todo change the file location/name according to your needs
-            File futureStudioIconFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),extrasSlug+"."+format);
+            File futureStudioIconFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),"BluCampus-"+extrasSlug+"."+format);
 
             InputStream inputStream = null;
             OutputStream outputStream = null;
@@ -379,7 +432,28 @@ public class PresenceActivity extends AppCompatActivity {
         }
     }
 
+    void filter(String text){
+        List<PresenceResponse> temp = new ArrayList();
+        for(PresenceResponse d: presenceResponses){
+            //or use .equal(text) with you want equal match
+            //use .toLowerCase() for better matches
+            if(d.getNama().toLowerCase().contains(text.toLowerCase())){
+                temp.add(d);
+            }
+        }
+        //update recyclerview
+        adapter.updateList(temp);
+    }
 
+    private void checkItem(){
+        if (adapter.getItemCount() == 0){
+            Log.d("AHAY 1", String.valueOf(adapter.getItemCount()));
+            cvEmpty.setVisibility(View.VISIBLE);
+        }else {
+            Log.d("AHAY 3", String.valueOf(adapter.getItemCount()));
+            cvEmpty.setVisibility(View.GONE);
+        }
+    }
 
     /**********************************************************************************/
 

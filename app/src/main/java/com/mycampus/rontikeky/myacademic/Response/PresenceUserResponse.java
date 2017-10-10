@@ -15,6 +15,9 @@ public class PresenceUserResponse {
     @Expose
     public String message;
 
+    public PresenceUserResponse() {
+    }
+
     public String getStatus() {
         return status;
     }

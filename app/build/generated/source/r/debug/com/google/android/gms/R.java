@@ -17,13 +17,13 @@ public final class R {
         public static final int adjust_width = 0x7f0e0045;
         public static final int auto = 0x7f0e0030;
         public static final int center = 0x7f0e0032;
-        public static final int email = 0x7f0e00e1;
+        public static final int email = 0x7f0e00e3;
         public static final int none = 0x7f0e001a;
         public static final int normal = 0x7f0e001c;
-        public static final int progressBar = 0x7f0e00c1;
+        public static final int progressBar = 0x7f0e00c3;
         public static final int radio = 0x7f0e006c;
-        public static final int text = 0x7f0e0140;
-        public static final int text2 = 0x7f0e013e;
+        public static final int text = 0x7f0e0142;
+        public static final int text2 = 0x7f0e0140;
         public static final int wrap_content = 0x7f0e002f;
     }
     public static final class integer {

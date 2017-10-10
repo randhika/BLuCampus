@@ -167,23 +167,23 @@
                         />
 
                     <EditText
-                        android:drawableStart="@drawable/ic_email_24dp"
-                        android:drawableLeft="@drawable/ic_email_24dp"
+                        android:id="@+id/txtEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
-                        android:padding="10dp"
-                        android:hint=" Email"
+                        android:layout_marginTop="20dp"
                         android:background="@color/colorPrimary"
-                        android:textColorHint="#fff"
-                        android:textColor="#fff"
-                        android:typeface="serif"
+                        android:drawableLeft="@drawable/ic_email_24dp"
+                        android:drawableStart="@drawable/ic_email_24dp"
+                        android:hint=" Email"
                         android:inputType="textEmailAddress"
-                        android:id="@+id/txtEmail"
-                        android:singleLine="true"/>
+                        android:padding="10dp"
+                        android:singleLine="true"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff"
+                        android:typeface="serif" />
 
                     <EditText
                         android:drawableStart="@drawable/ic_person_24dp"
@@ -224,23 +224,23 @@
                         />
 
                     <EditText
-                        android:drawableStart="@drawable/ic_home_black_2_24dp"
-                        android:drawableLeft="@drawable/ic_home_black_2_24dp"
+                        android:id="@+id/txtAlamat"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="20dp"
                         android:layout_marginLeft="20dp"
                         android:layout_marginRight="20dp"
-                        android:padding="10dp"
-                        android:hint=" Alamat"
-                        android:singleLine="true"
+                        android:layout_marginTop="20dp"
                         android:background="@color/colorPrimary"
-                        android:textColorHint="#fff"
+                        android:drawableLeft="@drawable/ic_home_black_2_24dp"
+                        android:drawableStart="@drawable/ic_home_black_2_24dp"
+                        android:hint=" Alamat"
+                        android:padding="10dp"
+                        android:singleLine="true"
                         android:textColor="#fff"
-                        android:typeface="serif"
-                        android:id="@+id/txtAlamat"
-                        />
+                        android:textColorHint="#fff"
+                        android:typeface="serif" />
+
                     <EditText
                         android:drawableStart="@drawable/ic_event_available_24dp"
                         android:drawableLeft="@drawable/ic_event_available_24dp"

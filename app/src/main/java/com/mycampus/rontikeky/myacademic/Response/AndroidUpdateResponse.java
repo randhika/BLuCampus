@@ -17,6 +17,12 @@ public class AndroidUpdateResponse {
     @SerializedName("status_update")
     @Expose
     public Integer statusUpdate;
+    @SerializedName("date_mnt")
+    @Expose
+    public String dateMnt;
+    @SerializedName("mnt")
+    @Expose
+    public Integer mnt;
 
     public String getVersionName() {
         return versionName;
@@ -28,5 +34,13 @@ public class AndroidUpdateResponse {
 
     public Integer getStatusUpdate() {
         return statusUpdate;
+    }
+
+    public String getDateMnt() {
+        return dateMnt;
+    }
+
+    public Integer getMnt() {
+        return mnt;
     }
 }

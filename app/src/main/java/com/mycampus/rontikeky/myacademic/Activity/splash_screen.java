@@ -102,25 +102,32 @@ public class splash_screen extends AppCompatActivity {
             @Override
             public void onResponse(Call<AndroidUpdateResponse> call, Response<AndroidUpdateResponse> response) {
 
-                if (versionCode < response.body().getVersionCode()){
-                    Log.d("TAG","ada update!");
-                    if (response.body().getStatusUpdate() == 0){
-                        Log.d("TAG","Rekomendasi Update!");
-                        askRecommendedUpdate();
-                    }else{
-                        Log.d("TAG","Harus update!");
-                        askForceUpdate();
-                    }
+
+                if (response.body().getMnt() == 1) {
+                    askForMaintenance(response.body().getDateMnt());
                 }else{
-                    if (prefHandler.isToken_Key_Exist()){
-                        Intent intent = new Intent(splash_screen.this, transition.class);
-                        startActivity(intent);
+                    if (versionCode < response.body().getVersionCode()){
+                        Log.d("TAG","ada update!");
+                        if (response.body().getStatusUpdate() == 0){
+                            Log.d("TAG","Rekomendasi Update!");
+                            askRecommendedUpdate();
+                        }else{
+                            Log.d("TAG","Harus update!");
+                            askForceUpdate();
+                        }
                     }else{
-                        Intent intent = new Intent(splash_screen.this, MainActivity.class);
-                        startActivity(intent);
+                        if (prefHandler.isToken_Key_Exist()){
+                            Intent intent = new Intent(splash_screen.this, transition.class);
+                            startActivity(intent);
+                        }else{
+                            Intent intent = new Intent(splash_screen.this, MainActivity.class);
+                            startActivity(intent);
+                        }
+                        Log.d("TAG","No Update!");
                     }
-                    Log.d("TAG","No Update!");
                 }
+
+
 
             }
 
@@ -129,6 +136,24 @@ public class splash_screen extends AppCompatActivity {
                 Log.d("RESPONSE ERROR",t.getMessage());
             }
         });
+    }
+
+    private void askForMaintenance(String date){
+        AlertDialog.Builder builder;
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder = new AlertDialog.Builder(splash_screen.this, android.R.style.Theme_Material_Dialog_Alert);
+        } else {
+            builder = new AlertDialog.Builder(splash_screen.this);
+        }
+        builder.setTitle("Pemberitahuan!")
+                .setMessage("Maaf,aplikasi sedang dalam maintenance sampai "+date)
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int which) {
+                        // continue with delete
+                        finish();
+                    }
+                })
+                .show();
     }
 
     private void askRecommendedUpdate(){

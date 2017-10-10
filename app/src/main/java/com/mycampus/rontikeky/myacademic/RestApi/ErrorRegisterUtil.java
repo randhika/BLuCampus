@@ -1,5 +1,7 @@
 package com.mycampus.rontikeky.myacademic.RestApi;
 
+import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
+import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
 import com.mycampus.rontikeky.myacademic.ResponseError.RegisterUserErrorResponse;
 
 import java.io.IOException;
@@ -29,6 +31,23 @@ public class ErrorRegisterUtil {
             }
 
             return error;
+
+    }
+
+    public static PresenceUserResponse parseErrorPresence(Response<?> response) {
+        Converter<ResponseBody, PresenceUserResponse> converter =
+                ServiceGenerator.retrofit()
+                        .responseBodyConverter(PresenceUserResponse.class, new Annotation[0]);
+
+        PresenceUserResponse error;
+
+        try {
+            error = converter.convert(response.errorBody());
+        } catch (IOException e) {
+            return new PresenceUserResponse();
+        }
+
+        return error;
 
     }
 

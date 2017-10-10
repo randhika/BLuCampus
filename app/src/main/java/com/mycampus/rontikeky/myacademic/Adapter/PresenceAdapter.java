@@ -18,6 +18,7 @@ import com.mycampus.rontikeky.myacademic.Activity.SeminarDetial;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
+import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
 
 import java.util.List;
@@ -151,6 +152,11 @@ public class PresenceAdapter extends RecyclerView.Adapter<PresenceAdapter.ViewHo
 
     public List<PresenceResponse> getPresenceResponses(){
         return this.presenceResponses;
+    }
+
+    public void updateList(List<PresenceResponse> list){
+        this.presenceResponses = list;
+        notifyDataSetChanged();
     }
 
 }
