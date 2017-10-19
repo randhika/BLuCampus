@@ -4,6 +4,7 @@ import com.google.gson.JsonObject;
 import com.mycampus.rontikeky.myacademic.Request.ChangePasswordRequest;
 import com.mycampus.rontikeky.myacademic.Request.ChangeProfileDisplayRequest;
 import com.mycampus.rontikeky.myacademic.Request.EditProfileRequest;
+import com.mycampus.rontikeky.myacademic.Request.LoginGoogleRequest;
 import com.mycampus.rontikeky.myacademic.Request.LoginRequest;
 import com.mycampus.rontikeky.myacademic.Request.PresenceUserRequest;
 import com.mycampus.rontikeky.myacademic.Request.ResetPasswordRequest;
@@ -19,6 +20,7 @@ import com.mycampus.rontikeky.myacademic.Response.EditProfileResponse;
 import com.mycampus.rontikeky.myacademic.Response.EventRegisteredUserResponse;
 import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
 import com.mycampus.rontikeky.myacademic.Response.InfoResponse;
+import com.mycampus.rontikeky.myacademic.Response.LoginGoogleSucccesResponse;
 import com.mycampus.rontikeky.myacademic.Response.LoginResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
@@ -63,6 +65,10 @@ public interface AcademicClient {
     @Headers("Accept: application/json")
     @POST("auth/signin")
     Call<LoginResponse> doLogin(@Body LoginRequest loginRequest);
+
+    @Headers("Accept: application/json")
+    @POST("auth/google")
+    Call<LoginGoogleSucccesResponse> doGoogleLogin(@Body LoginGoogleRequest loginGoogleRequest);
 
     @POST("auth/forget")
     Call<ResetPasswordResponse> doReset(@Body ResetPasswordRequest resetPasswordRequest);
@@ -157,4 +163,6 @@ public interface AcademicClient {
 
     @GET("android")
     Call<AndroidUpdateResponse> getAndroidVersion();
+
+
 }

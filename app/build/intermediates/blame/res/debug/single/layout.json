@@ -40,12 +40,12 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\fragment_event_registered.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
-        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\list_view.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_view.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\list_view.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
@@ -72,12 +72,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_compact_header.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_compact_header.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_compact_header.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_transition.xml",
@@ -132,12 +132,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_header.xml",
@@ -180,12 +180,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact.xml",
-        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_contact.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_secondary.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_item_secondary.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contact.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_contact.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_workshop.xml",
@@ -240,20 +240,20 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_tab_text.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_feed_drawer.xml",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_main_feed_drawer.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\d26e7b1274f1ce229c2a1efafe5aa2ef47679f27\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_seminar.xml",
@@ -356,12 +356,12 @@
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\navigation_header.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_register.xml",
-        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_choose_register.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_reset_password.xml",
         "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\content_reset_password.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_register.xml",
+        "source": "E:\\APK\\BLuCampus\\app\\src\\main\\res\\layout\\activity_choose_register.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_workshop.xml",
@@ -416,12 +416,12 @@
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
-        "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_item_section.xml"
-    },
-    {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
         "source": "C:\\Users\\Anggit\\.android\\build-cache\\61e92c2d541202412fa9506afe2394a7dcfecedc\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\material_drawer_item_section.xml",
+        "source": "C:\\Users\\Anggit\\.android\\build-cache\\8bf9452d1b430edfe5b1e69f4275ff226d583ee9\\output\\res\\layout\\material_drawer_item_section.xml"
     },
     {
         "merged": "E:\\APK\\BLuCampus\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_presence.xml",

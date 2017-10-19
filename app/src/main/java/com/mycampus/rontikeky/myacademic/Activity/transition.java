@@ -24,11 +24,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.google.gson.GsonBuilder;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Response.HottestEventResponse;
 import com.mycampus.rontikeky.myacademic.Response.ProfileResponse;
+import com.mycampus.rontikeky.myacademic.Response.SeminarResponse;
 import com.mycampus.rontikeky.myacademic.RestApi.AcademicClient;
 import com.mycampus.rontikeky.myacademic.RestApi.ServiceGeneratorAuth2;
 import com.google.gson.Gson;
@@ -125,11 +127,16 @@ public class transition extends AppCompatActivity {
                     progressBar.setVisibility(View.GONE);
                     btnSkip.setVisibility(View.VISIBLE);
                     Log.d("NAMA : ", response.body().getNama());
-                    Log.d("EMAIL : ", response.body().getEmail());
+                    Log.d("ID AUTHOR : ", String.valueOf(response.body().getIdOtorisasi()));
 
                     txtNama.setText(response.body().getNama());
 
                     prefHandler.setIMAGE_PROFILE_KEY(response.body().getFoto());
+                    prefHandler.setAUTHORIZATION_EO_KEY(String.valueOf(response.body().getIdOtorisasi()));
+
+                    if (response.body().getIdOtorisasi() == 4){
+                        loadEO();
+                    }
 
                     nama_feed = response.body().getNama();
                     email_feed = response.body().getEmail();
@@ -233,6 +240,32 @@ public class transition extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Silahkan Buka Ulang Aplikasi.",Toast.LENGTH_SHORT).show();
                     System.exit(0);
                 }
+            }
+        });
+    }
+
+    private void loadEO(){
+        AcademicClient client1= ServiceGeneratorAuth2.createService(AcademicClient.class,token,transition.this);
+        //Fetch list of Seminar
+        Call<SeminarResponse> call1 = client1.getEoResponse();
+
+        call1.enqueue(new Callback<SeminarResponse>() {
+            @Override
+            public void onResponse(Call<SeminarResponse> call, Response<SeminarResponse> response) {
+
+                if(response.isSuccessful()){
+                    Log.d("EO",new GsonBuilder().setPrettyPrinting().create().toJson(response.body().total));
+                    prefHandler.setEO_COUNT_KEY(String.valueOf(response.body().total));
+                }else{
+                    Log.d("EO 2","GAGAL");
+                }
+
+            }
+
+            @Override
+            public void onFailure(Call<SeminarResponse> call, Throwable t) {
+
+                Log.d("FAILURE", t.toString());
             }
         });
     }

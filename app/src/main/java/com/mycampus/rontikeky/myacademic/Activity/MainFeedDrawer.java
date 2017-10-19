@@ -12,6 +12,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.MediaStore;
+import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -35,6 +36,12 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.google.android.gms.auth.api.Auth;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
 import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.Fragment.EOFragment;
@@ -50,11 +57,14 @@ import com.mycampus.rontikeky.myacademic.Util.ImageFilePath;
 import java.io.IOException;
 
 public class MainFeedDrawer extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        GoogleApiClient.OnConnectionFailedListener {
 
     String token;
     String nama_feed;
     String email_feed;
+    String auth_eo;
+    String count_eo;
 
     PrefHandler prefHandler;
     FontHandler fontHandler;
@@ -62,9 +72,11 @@ public class MainFeedDrawer extends AppCompatActivity
     TextView tvNameHeader, tvEmailHeader;
     ImageView ivDisplayHeader;
 
+    private GoogleApiClient mGoogleApiClient;
 
     Fragment fragment;
     boolean doubleBackToExitPressedOnce = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,6 +94,8 @@ public class MainFeedDrawer extends AppCompatActivity
         token = prefHandler.getTOKEN_KEY();
         nama_feed = prefHandler.getNAME_KEY();
         email_feed = prefHandler.getEMAIL_KEY();
+        auth_eo = prefHandler.getAUTHORIZATION_EO_KEY();
+        count_eo = prefHandler.getEO_COUNT_KEY();
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -91,6 +105,22 @@ public class MainFeedDrawer extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         View view = navigationView.getHeaderView(0);
+        Menu menu = navigationView.getMenu();
+        MenuItem target = menu.findItem(R.id.nav_eo);
+
+
+        /*Google Setup Initialization*/
+        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+                .requestIdToken(getString(R.string.default_web_client_id))
+                .requestEmail()
+                .build();
+
+        mGoogleApiClient = new GoogleApiClient.Builder(this)
+                .enableAutoManage(this, this)
+                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
+                .build();
+        /*End Google Setup Initialization*/
+
         tvNameHeader = (TextView)view.findViewById(R.id.nameHeader);
         tvEmailHeader = (TextView)view.findViewById(R.id.emailHeader);
         ivDisplayHeader = (ImageView)view.findViewById(R.id.imageHeader);
@@ -98,6 +128,16 @@ public class MainFeedDrawer extends AppCompatActivity
         tvEmailHeader.setTypeface(custom_font);
 
         navigationView.setCheckedItem(R.id.nav_info);
+
+
+
+        if (auth_eo.equalsIgnoreCase("4")){
+            if (!count_eo.equalsIgnoreCase("0")){
+                target.setVisible(true);
+            }
+        }else{
+            target.setVisible(false);
+        }
 
         Log.d("PROFILE : ",nama_feed + " : " + email_feed);
 
@@ -188,12 +228,7 @@ public class MainFeedDrawer extends AppCompatActivity
         }, 2000);
     }
 
-//    @Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//        getMenuInflater().inflate(R.menu.main_feed_drawer, menu);
-//        return true;
-//    }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -282,7 +317,7 @@ public class MainFeedDrawer extends AppCompatActivity
 
 
             prefHandler.setLogout();
-
+            signOut();
             Intent i=new Intent(MainFeedDrawer.this,splash_screen.class);
             i.setAction(Intent.ACTION_MAIN);
             i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -323,5 +358,20 @@ public class MainFeedDrawer extends AppCompatActivity
         prefHandler.setFACULTY_KEY(faculty);
 
         fragment = new HomeFragmentV2();
+    }
+
+    private void signOut() {
+        Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
+                new ResultCallback<Status>() {
+                    @Override
+                    public void onResult(Status status) {
+                        Log.d("Status", String.valueOf(status));
+                    }
+                });
+    }
+
+    @Override
+    public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
+        Log.d("Con", "onConnectionFailed:" + connectionResult);
     }
 }

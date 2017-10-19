@@ -47,6 +47,9 @@ public class ProfileResponse {
     @SerializedName("updated_at")
     @Expose
     public String updatedAt;
+    @SerializedName("id_otorisasi")
+    @Expose
+    public Integer idOtorisasi;
     @SerializedName("status")
     @Expose
     public Mahasiswa mahasiswa;
@@ -143,4 +146,10 @@ public class ProfileResponse {
     public Mahasiswa getMahasiswa() {
         return mahasiswa;
     }
+
+    public Integer getIdOtorisasi() {
+        return idOtorisasi;
+    }
+
+
 }

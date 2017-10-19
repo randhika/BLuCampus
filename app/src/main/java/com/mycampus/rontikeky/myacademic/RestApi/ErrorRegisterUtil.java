@@ -1,5 +1,6 @@
 package com.mycampus.rontikeky.myacademic.RestApi;
 
+import com.mycampus.rontikeky.myacademic.Response.LoginGoogleFailedResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceResponse;
 import com.mycampus.rontikeky.myacademic.Response.PresenceUserResponse;
 import com.mycampus.rontikeky.myacademic.ResponseError.RegisterUserErrorResponse;
@@ -51,4 +52,21 @@ public class ErrorRegisterUtil {
 
     }
 
+
+    public static LoginGoogleFailedResponse parseErrorGoogleLogin(Response<?> response) {
+        Converter<ResponseBody, LoginGoogleFailedResponse> converter =
+                ServiceGenerator.retrofit()
+                        .responseBodyConverter(LoginGoogleFailedResponse.class, new Annotation[0]);
+
+        LoginGoogleFailedResponse error;
+
+        try {
+            error = converter.convert(response.errorBody());
+        } catch (IOException e) {
+            return new LoginGoogleFailedResponse();
+        }
+
+        return error;
+
+    }
 }

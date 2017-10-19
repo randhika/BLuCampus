@@ -3,5 +3,6 @@
     <item android:id="@+id/pdf"
         android:title="PDF"></item>
     <item android:id="@+id/xls"
-        android:title="XLS"></item>
+        android:title="XLS"
+        android:visible="false"></item>
 </menu>

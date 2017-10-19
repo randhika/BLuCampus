@@ -2,6 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
       package="com.mycampus.rontikeky.myacademic"
       android:versionCode="10"
-      android:versionName="1.4"
+      android:versionName="1.7"
       split="lib_slice_4_apk">
 </manifest>

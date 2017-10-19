@@ -24,6 +24,10 @@ public class PrefHandler {
     public final String FROM_DATE_KEY = "fromDate";
     public final String TO_DATE_KEY = "toDate";
     public final String IMAGE_PROFILE_KEY = "imageprofile";
+    public final String AUTHORIZATION_EO_KEY = "eokeyauth";
+    public final String EO_COUNT_KEY = "eocountkey";
+
+    public final String AUTH_TOKEN_GOOGLE = "auth_token_google";
 
 
     public PrefHandler(Context context) {
@@ -116,6 +120,34 @@ public class PrefHandler {
 
     public String getIMAGE_PROFILE_KEY(){
         return sharedPreferences.getString(IMAGE_PROFILE_KEY,"");
+    }
+
+
+    public void setAUTHORIZATION_EO_KEY(String eo_auth){
+        editor.putString(AUTHORIZATION_EO_KEY,eo_auth);
+        editor.commit();
+    }
+
+    public String getAUTHORIZATION_EO_KEY() {
+        return sharedPreferences.getString(AUTHORIZATION_EO_KEY,"");
+    }
+
+    public String getAUTH_TOKEN_GOOGLE() {
+        return sharedPreferences.getString(AUTH_TOKEN_GOOGLE,"");
+    }
+
+    public void setAUTH_TOKEN_GOOGLE(String token){
+        editor.putString(AUTH_TOKEN_GOOGLE,token);
+        editor.commit();
+    }
+
+    public String getEO_COUNT_KEY(){
+        return sharedPreferences.getString(EO_COUNT_KEY,"");
+    }
+
+    public void  setEO_COUNT_KEY(String eo_count_key){
+        editor.putString(EO_COUNT_KEY,eo_count_key);
+        editor.commit();
     }
 
     public void setLogout(){

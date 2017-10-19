@@ -15,8 +15,8 @@ public class ServiceGenerator {
     //private static final String BASE_URL = "https://mycampus.rontikeky.com/api/auth/";
 
     //FIX
-    //private static final String BASE_URL = "https://mycampus.rontikeky.com/api/";
-    private static final String BASE_URL = "https://testingmycampus.rontikeky.com/api/";
+    private static final String BASE_URL = "https://mycampus.rontikeky.com/api/";
+    //private static final String BASE_URL = "https://testingmycampus.rontikeky.com/api/";
 
     //Define BASE URL to Request and get Response Where its convert to JSON using Gson
     private static Retrofit.Builder builder =

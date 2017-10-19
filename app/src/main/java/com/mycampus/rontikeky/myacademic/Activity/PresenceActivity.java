@@ -10,6 +10,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Environment;
 import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -359,13 +360,26 @@ public class PresenceActivity extends AppCompatActivity {
                     if (response.isSuccessful()){
                         Log.d("DOWNLOAD CONTACTING", "server contacted and has file");
 
-                        Log.d("DOWNLOAD FORM : ",new GsonBuilder().setPrettyPrinting().create().toJson(response.body()));
 
                         boolean writtenToDisk = writeResponseBodyToDisk(response.body(),extrasSlug,optionFormatPrint);
 
                         Log.d("DOWNLOAD IS SUCCESS", "file download was a success? " + writtenToDisk);
 
                         Toast.makeText(PresenceActivity.this,"Download Selesai,File tersimpan di folder Download..",Toast.LENGTH_LONG).show();
+
+                        Uri selectedUri = Uri.parse(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Download");
+                        Intent intent = new Intent(Intent.ACTION_VIEW);
+                        intent.setDataAndType(selectedUri, "resource/folder");
+
+                        if (intent.resolveActivityInfo(getPackageManager(), 0) != null)
+                        {
+                            startActivity(intent);
+                        }
+                        else
+                        {
+                            // if you reach this place, it means there is no any file
+                            // explorer app installed on your device
+                        }
                     }else{
                         Log.d("DOWNLOAD 1", "GAGAL ");
                     }
@@ -387,6 +401,11 @@ public class PresenceActivity extends AppCompatActivity {
             // todo change the file location/name according to your needs
             File futureStudioIconFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),"BluCampus-"+extrasSlug+"."+format);
 
+            if (futureStudioIconFile.exists()){
+                futureStudioIconFile = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS),"BluCampus-"+extrasSlug+"."+format);
+                Log.d("TEST","ADA");
+            }
+
             InputStream inputStream = null;
             OutputStream outputStream = null;
 
@@ -397,7 +416,11 @@ public class PresenceActivity extends AppCompatActivity {
                 long fileSizeDownloaded = 0;
 
                 inputStream = body.byteStream();
+
                 outputStream = new FileOutputStream(futureStudioIconFile);
+                Log.d("TEST","Tidak ADA");
+
+
 
                 while (true) {
                     int read = inputStream.read(fileReader);
@@ -453,6 +476,18 @@ public class PresenceActivity extends AppCompatActivity {
             Log.d("AHAY 3", String.valueOf(adapter.getItemCount()));
             cvEmpty.setVisibility(View.GONE);
         }
+    }
+
+    public static int getFilesCount(File file) {
+        File[] files = file.listFiles();
+        int count = 0;
+        for (File f : files)
+            if (f.isDirectory())
+                count += getFilesCount(f);
+            else
+                count++;
+
+        return count;
     }
 
     /**********************************************************************************/

@@ -8,6 +8,6 @@ package com.codesgood.views;
 
 public final class R {
     public static final class drawable {
-        public static final int ic_launcher = 0x7f02007b;
+        public static final int ic_launcher = 0x7f0200a5;
     }
 }
