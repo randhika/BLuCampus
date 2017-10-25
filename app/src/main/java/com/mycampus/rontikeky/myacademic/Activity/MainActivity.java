@@ -68,12 +68,12 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity  {
 
 //    implements
 //    View.OnClickListener,
 //    GoogleApiClient.OnConnectionFailedListener
-//
+
     Button btnLogin;
     EditText txtUsername, txtPassword;
     CheckBox showPassword;
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     private GoogleApiClient mGoogleApiClient;
     private ProgressDialog mProgressDialog;
 
-    private SignInButton btnSignIn;
+    //private SignInButton btnSignIn;
 
     boolean isConnected,valid,doubleBackToExitPressedOnce = false;
 
@@ -166,8 +166,8 @@ public class MainActivity extends AppCompatActivity {
 //                .enableAutoManage(this, this)
 //                .addApi(Auth.GOOGLE_SIGN_IN_API, gso)
 //                .build();
-
-        // Customizing G+ button
+//
+//        //Customizing G+ button
 //        btnSignIn.setSize(SignInButton.SIZE_STANDARD);
 //        btnSignIn.setScopes(gso.getScopeArray());
 
@@ -326,6 +326,7 @@ public class MainActivity extends AppCompatActivity {
 //        if (mGoogleApiClient.isConnected()){
 //            mGoogleApiClient.clearDefaultAccountAndReconnect();
 //        }
+//        //prefHandler.setLogout();
 //    }
 //
 //    @Override
@@ -334,6 +335,7 @@ public class MainActivity extends AppCompatActivity {
 //        if (mGoogleApiClient.isConnected()){
 //            mGoogleApiClient.clearDefaultAccountAndReconnect();
 //        }
+//        //prefHandler.setLogout();
 //    }
 //
 //    @Override
@@ -341,6 +343,7 @@ public class MainActivity extends AppCompatActivity {
 //        // An unresolvable error has occurred and Google APIs (including Sign-In) will not
 //        // be available.
 //        Log.d(TAG, "onConnectionFailed:" + connectionResult);
+//        Toast.makeText(MainActivity.this,"Koneksi Bermasalah!",Toast.LENGTH_SHORT).show();
 //    }
 //
 //    private void showProgressDialog() {
@@ -373,6 +376,11 @@ public class MainActivity extends AppCompatActivity {
 //                if (response.isSuccessful()){
 //                    //Log.d("RESPONSE",new GsonBuilder().setPrettyPrinting().create().toJson(response.body()));
 //                    if (response.body().getStatus().equalsIgnoreCase("false")){
+//
+//                        prefHandler.setEMAIL_GOOGLE_KEY(response.body().getEmail());
+//                        prefHandler.setNAME_GOOGLE_KEY(response.body().getNama());
+//                        prefHandler.setIS_LOGIN_WITH_GOOGLE(response.body().getToken());
+//
 //                        Intent toRegister = new Intent(MainActivity.this,ChooseRegister.class);
 //                        startActivity(toRegister);
 //                    }else{
@@ -491,7 +499,7 @@ public class MainActivity extends AppCompatActivity {
         valid = true;
 
         if (txtUsername.getText().toString().trim().isEmpty() || txtPassword.getText().toString().trim().isEmpty()
-                || txtUsername.getText().toString().trim().length() < 8 || txtPassword.getText().toString().trim().length() < 8){
+                || txtUsername.getText().toString().trim().length() < 6 || txtPassword.getText().toString().trim().length() < 6){
             Log.d("VALIDITY 1", "Username dan Password Salah");
             error.setVisibility(View.VISIBLE);
             error.setText("Username dan Password Salah!");

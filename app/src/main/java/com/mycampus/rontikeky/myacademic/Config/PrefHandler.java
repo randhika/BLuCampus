@@ -26,6 +26,9 @@ public class PrefHandler {
     public final String IMAGE_PROFILE_KEY = "imageprofile";
     public final String AUTHORIZATION_EO_KEY = "eokeyauth";
     public final String EO_COUNT_KEY = "eocountkey";
+    public final String EMAIL_GOOGLE_KEY = "emailgooglekey";
+    public final String NAME_GOOGLE_KEY = "namegooglekey";
+    public final String IS_LOGIN_WITH_GOOGLE = "isloginwithgoogle";
 
     public final String AUTH_TOKEN_GOOGLE = "auth_token_google";
 
@@ -150,8 +153,36 @@ public class PrefHandler {
         editor.commit();
     }
 
+    public void setEMAIL_GOOGLE_KEY(String email_google_key){
+        editor.putString(EMAIL_GOOGLE_KEY,email_google_key);
+        editor.commit();
+    }
+
+    public String getEMAIL_GOOGLE_KEY(){
+        return sharedPreferences.getString(EMAIL_GOOGLE_KEY,"");
+    }
+
+    public void setNAME_GOOGLE_KEY(String name_google_key){
+        editor.putString(NAME_GOOGLE_KEY,"");
+        editor.commit();
+    }
+
+    public String getNAME_GOOGLE_KEY(){
+        return sharedPreferences.getString(NAME_GOOGLE_KEY,"");
+    }
+
+    public boolean getIS_LOGIN_WITH_GOOGLE() {
+        return sharedPreferences.contains(IS_LOGIN_WITH_GOOGLE);
+    }
+
+    public void setIS_LOGIN_WITH_GOOGLE(String is_login_with_google){
+        editor.putString(IS_LOGIN_WITH_GOOGLE,is_login_with_google);
+        editor.commit();
+    }
+
     public void setLogout(){
         editor.clear();
         editor.commit();
     }
+
 }

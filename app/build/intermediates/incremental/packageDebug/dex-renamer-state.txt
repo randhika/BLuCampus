@@ -1,4 +1,4 @@
-#Thu Oct 19 22:10:54 ICT 2017
+#Wed Oct 25 13:08:57 ICT 2017
 base.0=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_088027ff8546fd7c4fd363eeb55baebff068371b
 renamed.1=classes.dex
 renamed.0=classes2.dex

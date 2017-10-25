@@ -1,4 +1,4 @@
-#Thu Oct 19 22:10:52 ICT 2017
+#Wed Oct 25 12:46:02 ICT 2017
 file.9=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_62125bfe07f74fa813553ca4e277bc8d31864bd8\\classes.dex
 base.10=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\okhttp-3.8.1_f46625f090c3f8102a84bc03d75c15c317bad21e
 file.8=E\:\\APK\\BLuCampus\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_b5df6cb5522c64ec1625bd483ec55e6505f20f4e\\classes.dex

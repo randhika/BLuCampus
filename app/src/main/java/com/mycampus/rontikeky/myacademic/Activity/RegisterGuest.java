@@ -24,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.mycampus.rontikeky.myacademic.Config.FontHandler;
+import com.mycampus.rontikeky.myacademic.Config.PrefHandler;
 import com.mycampus.rontikeky.myacademic.R;
 import com.mycampus.rontikeky.myacademic.Request.SignupGuestRequest;
 import com.mycampus.rontikeky.myacademic.Response.SignupGuestResponse;
@@ -54,6 +55,7 @@ public class RegisterGuest extends AppCompatActivity {
     boolean isConnected,valid;
 
     FontHandler fontHandler;
+    PrefHandler prefHandler;
 
     ProgressDialog pDialog;
 
@@ -83,6 +85,23 @@ public class RegisterGuest extends AppCompatActivity {
         txtPassword.setTypeface(custom_font);
         btnRegister.setTypeface(custom_font);
         result.setTypeface(custom_font);
+
+//        prefHandler = new PrefHandler(this);
+//        Log.d("AD", String.valueOf(prefHandler.getIS_LOGIN_WITH_GOOGLE()) + " - " + prefHandler.getEMAIL_GOOGLE_KEY() + "- "+ prefHandler.getNAME_GOOGLE_KEY());
+//
+//
+//        if (!prefHandler.getIS_LOGIN_WITH_GOOGLE()){
+//            Log.d("AD BER", String.valueOf(prefHandler.getIS_LOGIN_WITH_GOOGLE()) + " - " + prefHandler.getEMAIL_GOOGLE_KEY() + "- "+ prefHandler.getNAME_GOOGLE_KEY());
+//
+//            txtEmail.setEnabled(false);
+//            txtEmail.setText(prefHandler.getEMAIL_GOOGLE_KEY());
+//            txtName.setText(prefHandler.getNAME_GOOGLE_KEY());
+//        }else{
+//
+//            Log.d("AD GAG", String.valueOf(prefHandler.getIS_LOGIN_WITH_GOOGLE()) + " - " + prefHandler.getEMAIL_GOOGLE_KEY() + "- "+ prefHandler.getNAME_GOOGLE_KEY());
+//
+//            txtEmail.setEnabled(true);
+//        }
 
         pDialog = new ProgressDialog(RegisterGuest.this);
 
